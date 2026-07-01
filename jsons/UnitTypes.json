@@ -1,36 +1,52 @@
 [
     {
+        "name": "Person",
+        "movementType": "Land",
+        "uniques": ["Consumes [1] [Human Resourses]"]
+    },
+    {
         "name": "Civilian",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Unarmored","Person"]
     },
     {
         "name": "Sword",
+        "movementType": "Land",
+        "uniques": ["Unarmored","Person"]
+    },
+    {
+        "name": "Unarmored",
         "movementType": "Land"
     },
     {
         "name": "Gunpowder",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["[+20]% Strength <vs [Unarmored] units> <when attacking>","Person"]
     },
     {
         "name": "Paratrooping",
         "movementType": "Land",
-        "uniques":["Gunpowder"]
+        "uniques":["Gunpowder","Person"]
     },
     {
         "name": "Archery",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Unarmored","Person"]
     },
     {
         "name": "Ranged Gunpowder",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Person"]
     },
     {
         "name": "Scout",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Person","Unarmored"]
     },
     {
         "name": "Mounted",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Person","Unarmored"]
     },
     {
         "name": "Mounted Ranged",
@@ -39,32 +55,50 @@
     },
     {
         "name": "Armored",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Person"]
+    },
+    {
+        "name": "Armored Man",
+        "movementType": "Land",
+        "uniques": ["[+50]% Strength <vs [Sword] units> <when defending>", 
+        "[+50]% Strength <vs [Archery] units> <when defending>","Person"]
+    },
+    {
+        "name": "Armored Man Mounted",
+        "movementType": "Land",
+        "uniques": ["[+50]% Strength <vs [Sword] units> <when defending>", 
+        "[+50]% Strength <vs [Archery] units> <when defending>","Mounted","Person","Armored Man"]
     },
     {
         "name": "Siege",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Person"]
     },
     {
         "name": "Civilian Water",
-        "movementType": "Water"
+        "movementType": "Water",
+        "uniques": ["Person"]
     },
     {
         "name": "Melee Water",
-        "movementType": "Water"
+        "movementType": "Water",
+        "uniques": ["Person"]
     },
     {
         "name": "Ranged Water",
-        "movementType": "Water"
+        "movementType": "Water",
+        "uniques": ["Person"]
     },
     {
         "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles","Invisible to non-adjacent units","Can see invisible [Submarine] units"]
+        "uniques": ["Person","Can enter ice tiles","Invisible to non-adjacent units","Can see invisible [Submarine] units"]
     },
     {
         "name": "Aircraft Carrier",
-        "movementType": "Water"
+        "movementType": "Water",
+        "uniques": ["Person"]
     },
     {
         "name": "Fighter",
@@ -84,7 +118,7 @@
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking","Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking"]
     },
     {
         "name": "Helicopter",

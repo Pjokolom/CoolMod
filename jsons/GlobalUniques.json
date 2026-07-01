@@ -23,9 +23,16 @@
         // "[-25]% [Culture] [in pupetted cities]"
 
         // "[+20]% [Production] [in cities connected via railroad]"
-
+        "[+1 Gold] from every [Streets] <with [1] to [6] neighboring [Streets] tiles> <after discovering [Theology]>",
+        "[+1 Gold] from every [Streets] <with [2] to [6] neighboring [Streets] tiles> <after discovering [Theology]>",
+        "[+1 Gold] from every [Streets] <with [3] to [6] neighboring [Streets] tiles> <after discovering [Theology]>",
         // something something unit supply
-
+        "[+1 Food] from every [Mill] <with [1] to [6] neighboring [Farm] tiles>",
+        "[+1 Food] from every [Mill] <with [2] to [6] neighboring [Farm] tiles>",
+        "[+1 Food] from every [Mill] <with [3] to [6] neighboring [Farm] tiles>",
+        "[+1 Food] from every [Mill] <with [4] to [6] neighboring [Farm] tiles>",
+        "[+1 Food] from every [Mill] <with [5] to [6] neighboring [Farm] tiles>",
+        "[+1 Food] from every [Mill] <with [6] to [6] neighboring [Farm] tiles>",
         // Temporary "Needs actual support" uniques
         "[+1 Faith] from every [Quarry] <with [1] to [6] neighboring [Rock-hewn church] tiles>",
         "[+1 Faith] from every [Quarry] <with [2] to [6] neighboring [Rock-hewn church] tiles>",

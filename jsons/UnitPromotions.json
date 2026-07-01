@@ -58,7 +58,7 @@
     {
         "name": "Anti-Naval III",
         "prerequisites": ["Anti-Naval II"],
-        "uniques": ["[+33]% Strength <vs [Water] units>"],
+        "uniques": ["[+34]% Strength <vs [Water] units>"],
         "unitTypes": ["Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
     },
     {
@@ -134,10 +134,11 @@
     },
     {
         "name": "Woodsman",
-        "prerequisites": ["Shock III","Drill III","Ambush Formation III"],
+        "prerequisites": ["Shock II","Drill II","Ambush Formation II"],
         "uniques": [
             "Double movement in [Forest]",
-            "Double movement in [Jungle]"
+            "Double movement in [Jungle]",
+            "[+15]% Strength <when fighting in [Forest] tiles>"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping"]
     },
@@ -554,8 +555,8 @@
     {
         "name": "Ambush Formation I",
         "uniques": [
-            "[+15]% Strength <vs [Armored] units>",
-            "[+15]% Strength <vs [Mounted] units>"
+            "[+33]% Strength <vs [Armored] units>",
+            "[+33]% Strength <vs [Mounted] units>"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
@@ -563,8 +564,8 @@
         "name": "Ambush Formation II",
         "prerequisites": ["Ambush Formation I"],
         "uniques": [
-            "[+15]% Strength <vs [Armored] units>",
-            "[+15]% Strength <vs [Mounted] units>"
+            "[+33]% Strength <vs [Armored] units>",
+            "[+33]% Strength <vs [Mounted] units>"
         ],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
@@ -681,7 +682,7 @@
     {
         "name": "[Jaguar] ability",
         "uniques": [
-            "[+33]% Strength <when fighting in [Forest] tiles>",
+            "[+18]% Strength <when fighting in [Forest] tiles>", 
             "[+33]% Strength <when fighting in [Jungle] tiles>",
             "Heals [25] damage if it kills a unit"
         ]
@@ -709,6 +710,18 @@
         "name": "No movement cost to pillage",
         "uniques": [
             "No movement cost to pillage"
+        ]
+    },
+    {
+        "name": "[Heavy Chariot] ability",
+        "uniques": [
+            "[+20]% Strength <when defending>"
+        ]
+    },
+    {
+        "name": "[Swiss Guard] ability",
+        "uniques": [
+            "Earn [100]% of the damage done to [City] units as [Gold]"
         ]
     },
     {
@@ -741,16 +754,9 @@
         ]
     },
     {
-        "name": "[M-84] ability",
-        "uniques": [
-            "Ignores Zone of Control"
-        ]
-    },
-    {
         "name": "Leadership",
         "uniques": [
-            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
-            "Great Person - [War]"
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles"
         ]
     },
     {
@@ -821,8 +827,7 @@
     {
         "name": "Dharma",
         "uniques": [
-            "[-10]% Strength <when attacking>",
-            "[+10]% Strength <when defending>"
+            "[+20]% Strength <when defending>"
         ]
     },
     {
@@ -857,6 +862,12 @@
         ]
     },
     {
+        "name": "Georgia Golden Age from Victories",
+        "uniques": [
+            "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points] <vs [pre-[Industrial era]] units>"
+        ]
+    },
+    {
         "name": "Extra Sight",
         "uniques": ["[+1] Sight"]
     },
@@ -867,7 +878,7 @@
     {
         "name": "Forest Native",
         "uniques": [
-            "[+33]% Strength <when attacking>",
+            "[+25]% Strength <when attacking>",
             "[+50]% Strength <when fighting in [Forest] tiles>"]
     },
     {
@@ -1391,5 +1402,14 @@
         ],
         "prerequisites": ["Pünktlichkeit"],
         "unitTypes": ["Sword","Mounted","Scout","Siege","Archery","Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
+    },
+    // Pathfinder: Native Tongue
+    {
+        "name": "[Pathfinder] ability",
+        "uniques": [
+            "[This Unit] is destroyed",
+            "Free [Pathfinder] appears",
+            "Will not be displayed in Civilopedia"
+        ]
     }
 ]

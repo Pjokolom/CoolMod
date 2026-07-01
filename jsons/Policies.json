@@ -179,7 +179,7 @@
         "era": "Ancient era",
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+            "Earn [100]% of killed [Military] unit's [Strength] as [Culture] <before adopting [Iron Fist]>",
             "Comment [Unlocks [Temple of Artemis]]",
             "Provides [1] [Policies]"
         ],
@@ -188,7 +188,7 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[2] free [Warrior] units appear",
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold] <before adopting [Iron Fist]>",
                     "[4] units cost no maintenance",
                     "Provides [1] [Policies]"
                 ],
@@ -250,7 +250,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "[+10]% [Food] [in all cities]",
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Science] <before adopting [Iron Fist]>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -304,8 +304,9 @@
                 "name": "Reformation",
                 "uniques": [
                     "[-15]% Culture cost of natural border growth [in all cities]",
-                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
-                    "Gain a free [Enhancer] belief <after founding a religion>",
+					"Comment [Gain a free [Reformation] belief]",
+					"Triggers a [Reformation] event <after founding a religion> <hidden from users>",
+					"Triggers a [Reformation] event <upon founding a Religion> <hidden from users>",
                     "Provides [1] [Policies]"
                 ],
                 "requires": [
@@ -401,6 +402,8 @@
                 "uniques": [
                     "[+1 Culture] from every [Great Work]",
                     "[+1 Culture] from every [World Wonder]",
+                    "[+1 Gold] from every [Great Work]",
+                    "[+1 Gold] from every [World Wonder]",
                     "Empire enters golden age",
                     "Provides [1] [Policies]"
                 ],
@@ -454,7 +457,7 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
+                    "Allied City-States provide [Science] equal to [50]% of what they produce for themselves",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Merchant Confederacy"],
@@ -500,7 +503,9 @@
                     "[+50]% [Faith] from City-States",
                     "[+50]% [Food] from City-States",
                     "[+50]% [Happiness] from City-States",
-                    "Allied City-States will occasionally gift Great People"
+                    "Allied City-States will occasionally gift Great People",
+                    "Military Units gifted from City-States start with [30] XP",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ]
             }
         ]
@@ -530,7 +535,8 @@
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]",
+                    "[+2 Production] [in all coastal cities]",
+                    "[+1 Production] [in all cities]",
                     "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
                     "[+50]% Production when constructing [Harbor] buildings [in all cities]",
                     "[+50]% Production when constructing [Seaport] buildings [in all cities]",
@@ -554,7 +560,7 @@
             {
                 "name": "Navigation School",
                 "uniques": [
-                    "[+2 Science] [in all coastal cities]",
+                    "[+2 Science] [in all cities]",
                     "[+10]% Strength <for [Water] units>",
                     "Provides [1] [Policies]"
                 ],
@@ -775,10 +781,9 @@
                 "column": 3
             },
             {
-                "name": "Patriotic War",
+                "name": "Skyscrapers",
                 "uniques": [
-                    "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-                    "[+50]% XP gained from combat <for [non-[Air]] units>",
+                    "[Gold] cost of purchasing [All] buildings [-50]%",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -813,7 +818,7 @@
             {
                 "name": "Party Leadership",
                 "uniques": [
-                    "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
+                    "[+2 Food, +2 Gold, +2 Production, +2 Science] [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -836,9 +841,10 @@
                 "column": 13
             },
             {
-                "name": "Skyscrapers",
+                "name": "Patriotic War",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] buildings [-50]%",
+                    "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                    "[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -919,7 +925,12 @@
             {
                 "name": "Communism",
                 "uniques": [
-                    "Each city founded increases Science cost of Technologies [20]% less than normal",
+                    "[+3 Production, +3 Science, +1 Gold] from [Strategic resource] tiles [in all cities]",
+                    "Provides [4] [Oil]",
+                    "Provides [4] [Aluminum]",
+                    "Provides [4] [Coal]",
+                    "Provides [4] [Iron]",
+                    "Provides [2] [Uranium]",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -985,6 +996,7 @@
                 "name": "Creative Expression",
                 "uniques": [
                     "[+2 Culture] from every [Great Work]",
+                    "[+2 Gold] from every [Great Work]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -994,7 +1006,7 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]",
+                    "[-50]% Food consumption by [Specialists] [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1042,7 +1054,7 @@
                 "name": "Economic Union",
                 "uniques": [
                     "[+25]% [Gold] [in all cities]",
-                    "Provides [1] [Trade Route]",
+                    "Provides [2] [Trade Route]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1130,10 +1142,12 @@
             {
                 "name": "Universal Healthcare",
                 "uniques": [
-                    "[+100]% Production when constructing [Medical Lab] buildings [in all cities]",
-                    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
-                    "[+3 Science] from every [Medical Lab]",
-                    "[+3 Science] from every [Hospital]",
+                    "[+50]% Production when constructing [Medical Lab] buildings [in all cities]",
+                    "[+50]% Production when constructing [Hospital] buildings [in all cities]",
+                    "[+2 Science] from every [Medical Lab]",
+                    "[+2 Science] from every [Hospital]",
+                    "[+2 Happiness] from every [Medical Lab]",
+                    "[+2 Happiness] from every [Hospital]",
                     "[+5 Food] [in capital]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
@@ -1229,9 +1243,9 @@
                 "name": "Futurism",
                 "uniques": [
                     // Should be Tourism
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
+                    "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
+                    "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
+                    "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1276,7 +1290,8 @@
                     "[+1] Movement <for [Gunpowder] units>",
                     "[+1] Movement <for [Armored] units>",
                     "[+1] Movement <for [Great General] units>",
-                    "[+1] Movement <for [Worker] units>",
+                    "[+1] Movement <for [Civilian] units>",
+                    "[+1] Movement <for [Water] units>",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -1306,6 +1321,9 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+100]% XP gained from combat <for [All] units> <in [Friendly Land] tiles>",
+                    "[+5]% [Culture] <in cities with a [Barracks]>",
+                    "[+5]% [Culture] <in cities with a [Armory]>",
+                    "[+5]% [Culture] <in cities with a [Military Academy]>",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
