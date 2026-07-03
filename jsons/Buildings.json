@@ -758,7 +758,7 @@
             "[+1 Production] from [Obsidian] tiles [in this city]",
             "[+1 Production] from [Marble] tiles [in this city]"
         ],
-        "requiredTech": "Economics"
+        "requiredTech": "Stoneworking"
     },
     {
         "name": "Kyawwat",
@@ -798,7 +798,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"Great Engineer": 1},
-        "requiredTech": "Economics",
+        "requiredTech": "Stoneworking",
         "uniques": [
             "[-20]% Culture cost of natural border growth [in all cities]",
             "[-20]% Gold cost of acquiring tiles [in all cities]"
@@ -1228,7 +1228,7 @@
             "[+1 Production] from [Horses] tiles [in this city]",
             "[+1 Production] from [Sheep] tiles [in this city]"
         ],
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Writing"
     },
     {
         "name": "Ocupada Estable",
@@ -1354,7 +1354,7 @@
         "hurryCostModifier": 25,
         "requiredTech": "Gunpowder",
         "uniques": [
-            "[+3 Production, +2 Gold] <after discovering [Industrialization]>",
+            "[+3 Production, +2 Gold] <after discovering [Natural Resourses]>",
             "[-1] population [in this city]"
         ]
     },
@@ -2928,53 +2928,6 @@
         ]
     },
     {
-        "name": "Windmill",
-        "production": 2,
-        "specialistSlots": {"Engineer": 1},
-        "hurryCostModifier": 25,
-        "maintenance": 2,
-        "uniques": [
-            "[+10]% Production when constructing [All] buildings [in this city]",
-            "[+1 Production] from [Oasis] tiles [in this city]",
-            "[+1 Production] from [Lakes] tiles [in this city]"
-        ],
-        "requiredTech": "Economics"
-    },
-    {
-        "name": "Coffee House",
-        "replaces": "Windmill",
-        "uniqueTo": "Austria",
-        "cost": 150,
-        "production": 2,
-        "percentStatBonus": {"production": 5},
-        "specialistSlots": {"Engineer": 1},
-        "hurryCostModifier": 25,
-        "maintenance": 2,
-        "uniques": [
-            "[+20]% Great Person generation [in this city]",
-            "[+1 Production] from [Oasis] tiles [in this city]",
-            "[+1 Production] from [Lakes] tiles [in this city]"
-        ],
-        "requiredTech": "Printing Press"
-    },
-    {
-        "name": "Hacienda",
-        "replaces": "Windmill",
-        "uniqueTo": "Mexico",
-        "production": 2,
-        "specialistSlots": {"Engineer": 1},
-        "hurryCostModifier": 25,
-        "uniques": [
-            "[+10]% Production when constructing [All] buildings [in this city]",
-            "[+1 Production] from [Oasis] tiles [in this city]",
-            "[+1 Production] from [Lakes] tiles [in this city]",
-            "[+1 Gold] from [Bonus resource] tiles [in this city]",
-            "[+1 Food] from [Strategic resource] tiles [in this city]",
-            "[+1 Production] from [Luxury resource] tiles [in this city]"
-        ],
-        "requiredTech": "Economics"
-    },
-    {
         "name": "Textile Mill",
         "cost": 100,
         "production": 1,
@@ -3062,7 +3015,7 @@
         "greatPersonPoints": {"Great Artist": 2},
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "requiredTech": "Industrialization",
+        "requiredTech": "Natural Resourses",
         "uniques": [
             "Destroyed when the city is captured",
             "[+20]% Great Person generation [in this city]",
@@ -3193,7 +3146,7 @@
             "Adopt [Ideology] <when above [2] [Factories]>",
             "[+2 Gold] from [Rubber] tiles [in this city]"
         ],
-        "requiredTech": "Industrialization"
+        "requiredTech": "Natural Resourses"
     },
     {
         "name": "Fabrik",
@@ -3211,7 +3164,7 @@
             "Adopt [Ideology] <when above [2] [Factories]>",
             "[+2 Gold] from [Rubber] tiles [in this city]"
         ],
-        "requiredTech": "Industrialization"
+        "requiredTech": "Natural Resourses"
     },
     {
         "name": "Cooperative",
@@ -3230,7 +3183,7 @@
             "Adopt [Ideology]",
             "[+2 Gold] from [Rubber] tiles [in this city]"
         ],
-        "requiredTech": "Industrialization"
+        "requiredTech": "Natural Resourses"
     },
     {
         "name": "Center of Progress",
@@ -3242,7 +3195,7 @@
             "Automatically built in all cities where it is buildable",
             "Only available <in [Capital] cities>"
         ],
-        "requiredTech": "Industrialization"
+        "requiredTech": "Natural Resourses"
     },
     {
         "name": "Big Ben",
@@ -3254,7 +3207,7 @@
             "[Gold] cost of purchasing items in cities [-12]%",
             "Only available <after adopting [Commerce]>"
         ],
-        "requiredTech": "Industrialization",
+        "requiredTech": "Submarine",
         "quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
     },
     {
@@ -3309,7 +3262,7 @@
         "cost": 200,
         "hurryCostModifier": 25,
         "uniques": ["[+3 Production, +3 Gold] from [Oil] tiles [in this city]"],
-        "requiredTech": "Biology"
+        "requiredTech": "Oil Refining"
     },
     {
         "name": "BMPC Plant",

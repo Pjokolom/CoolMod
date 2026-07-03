@@ -53,7 +53,7 @@
         "hateHello": "I do not have time to speak.",
         "tradeRequest": "Trading it's a fine thing God has bring, don't you agree?",
         "outerColor": [7, 49, 106],
-        "innerColor": [255, 20, 26],
+        "innerColor": [255, 40, 46],
         "uniqueName": "Saint lesbian's Blessing",
         "uniques": [
             
@@ -68,11 +68,11 @@
         ]
     },
     {
-        "name": "America",
-        "leaderName": "George Washington",
-        "adjective": ["American"],
-        "startBias": ["Avoid [Coast]"],
-        "preferredVictoryType": "Scientific",
+        "name": "Novgorod",
+        "leaderName": "Svyatoslav Olgovich",
+        "adjective": ["Novgorodish"],
+        "startBias": ["Forest"],
+        "preferredVictoryType": "Domination",
         "startIntroPart1": "Welcome President Washington! You lead the industrious American civilization! Formed in the conflagration of revolution in the 18th century, within a hundred years, the young nation became embroiled in a terrible civil war that nearly tore the country apart, but it was just a few short years later in the 20th century that the United States reached the height of its power, emerging triumphant and mighty from the two terrible wars that destroyed so many other great nations. The United States is a nation of immigrants, filled with optimism and determination. They lack only a leader to help them fulfill their promise.",
         "startIntroPart2": "President Washington, can you lead the American people to greatness? Can you build a civilization that will stand the test of time?",
         "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
@@ -82,8 +82,8 @@
         "neutralHello": "Good day.",
         "hateHello": "Well?",
         "tradeRequest": "Is the following trade of interest to you?",
-        "outerColor": [ 28,51,119],
-        "innerColor": [255,255,255],
+        "outerColor": [0,80,160],
+        "innerColor": [255,230,40],
         "uniqueName": "Manifest Destiny",
         "uniques": [
             "[+1] Sight <for [{Military} {Land}] units>",
@@ -3046,42 +3046,6 @@
     //     ]
     // },
     // {
-    //     "name": "Tibet",
-    //     "leaderName": "Ngawang Lobsang Gyatso",
-    //     "adjective": ["Tibetan"],
-    //     "startBias": ["Avoid [Coast]"],
-    //     "preferredVictoryType": "Cultural",
-    //     "startIntroPart1": "Bow to the Great Fifth Dalai Lama, Ngawang Lobsang Gyatso, who united Tibet with both wisdom and might. Under your leadership, monasteries flourished and peace touched even the highest passes.",
-    //     "startIntroPart2": "Holy Leader, shall you again guide your people with balance and vision? Can you build a civilization that will stand the test of time?",
-    //     "declaringWar": "Karma finds all. Yours arrives now—by my hand.",
-    //     "attacked": "You act with violence where there could have been stillness. Regret will follow.",
-    //     "defeated": "I leave not in anger, but in sorrow. Even in loss, the Dharma continues.",
-    //     "introduction": "Welcome, mighty leader.",
-    //     "neutralHello": "Peace to you, traveler. May your words reflect clarity, not chaos.",
-    //     "hateHello": "I sense stormclouds beneath your voice. You bring more trouble than enlightenment.",
-    //     "tradeRequest": "Let our merchants walk the Path of Peace and bring wealth to both our mountain realms.",
-    //     "outerColor": [202,37,193],
-    //     "innerColor": [198,217,226],
-    //     "uniqueName": "Eightfold Path to Nirvana",
-    //     "uniques": [
-    //         "[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] [in capital] <after discovering [Drama and Poetry]>",
-    //         "Comment [[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] [for every era after [Classical era]]]",
-    //         "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Medieval era]> <hidden from users>",
-    //         "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Renaissance era]> <hidden from users>",
-    //         "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Industrial era]> <hidden from users>",
-    //         "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Modern era]> <hidden from users>",
-    //         "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Atomic era]> <hidden from users>",
-    //         "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Information era]> <hidden from users>"
-    //     ],
-    //     "cities": [
-    //         "Lhasa","Xigaze","Qamdo","Nagqu","Lhoka","Nyingchi","Ngari","Chengguan","Doilungdeqen","Lhunzhub",
-    //         "Damxung","Maizhokunggar","Quxu","Nyemo","Dagze","Samzhubze","Namling","Gyantse","Tengru","Xaitongmoin"
-    //     ],
-    //     "spyNames": [
-    //         "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
-    //     ]
-    // },
-    // {
     //     "name": "Timurids",
     //     "leaderName": "Timur",
     //     "adjective": ["Timurid"],
@@ -3411,12 +3375,12 @@
 
     // //City-States
     // {
-    //     "name": "Baku",
-    //     "adjective": ["Azerbaijani"],
+    //     "name": "Sentinells",
+    //     "adjective": ["Sentinellsh"],
     //     "cityStateType": "Cultured",
-    //     "declaringWar": "We have wanted this for a LONG time. War it shall be.",
-    //     "attacked": "Very well, we will kick you back to the ancient era!",
-    //     "defeated": "This isn't how it is supposed to be!",
+    //     "declaringWar": "AAAAAAAAAAAAH.",
+    //     "attacked": "AAAAAAAAAAAAAAAAAAAH!",
+    //     "defeated": "AAAAAAAH!",
     //     "outerColor": [0, 0, 0],
     //     "innerColor": [128, 179, 255],
     //     "uniques": [],

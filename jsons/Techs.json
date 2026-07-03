@@ -107,15 +107,9 @@
             {
                 "name": "Advanced Shipping",
                 "row": 2,
-                "prerequisites": ["Shipping"],
+                "prerequisites": ["Shipping","The Wheel"],
                 "uniques": ["Enables embarkation for land units"],
                 "quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
-            },
-            {
-                "name": "Mills",
-                "row": 4,
-                "prerequisites": ["The Wheel","Advanced Stoneworking"],
-                "quote": "'Don qihot!' - Shakespeare (Richard III)"
             },
             {
                 "name": "Bronze",
@@ -147,7 +141,7 @@
             {
                 "name": "Engineering",
                 "row": 6,
-                "prerequisites": ["Advanced Stoneworking","Archery","Mills"],
+                "prerequisites": ["Advanced Stoneworking","Archery"],
                 "quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci",
                 "uniques": [
                     "Roads connect tiles across rivers"
@@ -180,6 +174,12 @@
                 "row": 6,
                 "prerequisites": ["Engineering","Iron Working"],
                 "quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+            },
+            {
+                "name": "Mills",
+                "row": 7,
+                "prerequisites": ["Iron Working"],
+                "quote": "'Don qihot!' - Shakespeare (Richard III)"
             },
             {
                 "name": "Philosophy",
@@ -227,7 +227,7 @@
             {
                 "name": "Metal Casting",
                 "row": 7,
-                "prerequisites": ["Iron Working"],
+                "prerequisites": ["Mills"],
                 "quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
             }
         ]
@@ -375,7 +375,7 @@
         "techs": [
             {
                 "name": "Archaeology",
-                "row": 2,
+                "row": 1,
                 "prerequisites": ["Navigation"],
                 "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
             },
@@ -386,7 +386,7 @@
                 "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
             },
             {
-                "name": "Industrialization",
+                "name": "Natural Resourses",
                 "row": 6,
                 "prerequisites": ["Economics"],
                 "quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
@@ -418,23 +418,23 @@
         "buildingCost": 360,
         "wonderCost": 920,
         "techs": [
-            {
-                "name": "Biology",
-                "row": 2,
-                "prerequisites": ["Archaeology","Scientific Theory"],
-                "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson",
-                "uniques": ["Provides [1] [Trade Route]"]
-            },
+            
             {
                 "name": "Electricity",
-                "row": 3,
+                "row": 2,
                 "prerequisites": ["Scientific Theory"],
                 "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
             },
             {
+                "name": "Submarine",
+                "row": 3,
+                "prerequisites": ["Natural Resourses","Military Science"],
+                "quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+            },
+            {
                 "name": "Steam Power",
-                "row": 6,
-                "prerequisites": ["Industrialization","Rifling"],
+                "row": 7,
+                "prerequisites": ["Natural Resourses","Rifling"],
                 "quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
             },
             {
@@ -442,31 +442,38 @@
                 "row": 9,
                 "prerequisites": ["Fertilizer","Military Science"],
                 "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+            },
+            {
+                "name": "Oil Refining",
+                "row": 10,
+                "prerequisites": ["Natural Resourses","Fertilizer"],
+                "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
             }
         ]
     },
     {
         "columnNumber": 12,
-        "era": "Modern era",
-        "techCost": 3100,
-        "buildingCost": 500,
-        "wonderCost": 1060,
+        "era": "Industrial era",
+        "techCost": 2350,
+        "buildingCost": 360,
+        "wonderCost": 920,
         "techs": [
             {
-                "name": "Refrigeration",
-                "row": 2,
-                "prerequisites": ["Biology", "Electricity"],
-                "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+                "name": "Biology",
+                "row": 1,
+                "prerequisites": ["Archaeology","Electricity"],
+                "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson",
+                "uniques": ["Provides [1] [Trade Route]"]
             },
             {
                 "name": "Radio",
-                "row": 3,
-                "prerequisites": ["Electricity"],
+                "row": 4,
+                "prerequisites": ["Electricity","Submarine"],
                 "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
             },
             {
                 "name": "Replaceable Parts",
-                "row": 4,
+                "row": 5,
                 "prerequisites": ["Electricity","Steam Power"],
                 "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
             },
@@ -482,44 +489,75 @@
                 "prerequisites": ["Steam Power","Dynamite"],
                 "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson",
                 "uniques": ["Provides [1] [Trade Route]"]
+            },
+            {
+                "name": "Landships",
+                "row": 9,
+                "prerequisites": ["Oil Refining","Dynamite"],
+                "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson",
+                "uniques": ["Provides [1] [Trade Route]"]
             }
         ]
     },
     {
         "columnNumber": 13,
         "era": "Modern era",
-        "techCost": 4100,
+        "techCost": 3100,
         "buildingCost": 500,
-        "wonderCost": 1250,
+        "wonderCost": 1060,
         "techs": [
+            
             {
-                "name": "Plastics",
+                "name": "Momo",
                 "row": 3,
-                "prerequisites": ["Radio","Replaceable Parts"],
-                "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
-            },
-            {
-                "name": "Electronics",
-                "row": 5,
-                "prerequisites": ["Replaceable Parts", "Flight"],
-                "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
-            },
-            {
-                "name": "Ballistics",
-                "row": 6,
-                "prerequisites": ["Flight"],
-                "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
-            },
-            {
-                "name": "Combustion",
-                "row": 8,
                 "prerequisites": ["Railroads"],
-                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+                "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+        
             }
         ]
     },
     {
         "columnNumber": 14,
+        "era": "Modern era",
+        "techCost": 4100,
+        "buildingCost": 500,
+        "wonderCost": 1250,
+        "techs": [
+            {
+            
+                "name": "Refrigeration",
+                "row": 1,
+                "prerequisites": ["Biology", "Electricity","Submarine"],
+                "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+            },
+            {
+                "name": "Plastics",
+                "row": 3,
+                "prerequisites": ["Momo"],
+                "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+            },
+            {
+                "name": "Electronics",
+                "row": 5,
+                "prerequisites": ["Momo"],
+                "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+            },
+            {
+                "name": "Ballistics",
+                "row": 6,
+                "prerequisites": ["Momo"],
+                "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+            },
+            {
+                "name": "Combustion",
+                "row": 8,
+                "prerequisites": ["Momo"],
+                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+            }
+        ]
+    },
+    {
+        "columnNumber": 15,
         "era": "Atomic era",
         "techCost": 5100,
         "buildingCost": 500,
@@ -553,7 +591,7 @@
         ]
     },
     {
-        "columnNumber": 15,
+        "columnNumber": 16,
         "era": "Atomic era",
         "techCost": 6400,
         "buildingCost": 500,
@@ -586,7 +624,7 @@
         ]
     },
     {
-        "columnNumber": 16,
+        "columnNumber": 17,
         "era": "Information era",
         "techCost": 7700,
         "buildingCost": 750,
@@ -632,7 +670,7 @@
         ]
     },
     {
-        "columnNumber": 17,
+        "columnNumber": 18,
         "era": "Information era",
         "techCost": 8800,
         "buildingCost": 750,
@@ -671,7 +709,7 @@
         ]
     },
     {
-        "columnNumber": 18,
+        "columnNumber": 19,
         "era": "Information era",
         "techCost": 10500,
         "buildingCost": 750,

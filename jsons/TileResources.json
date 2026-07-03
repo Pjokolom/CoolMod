@@ -167,7 +167,7 @@
     {
         "name": "Coal",
         "resourceType": "Strategic",
-        "revealedBy": "Industrialization",
+        "revealedBy": "Natural Resourses",
         "terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
         "production": 1,
         "improvement": "Mine",
@@ -192,7 +192,7 @@
     {
         "name": "Oil",
         "resourceType": "Strategic",
-        "revealedBy": "Biology",
+        "revealedBy": "Natural Resourses",
         "terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
         "production": 1,
         "improvedBy": ["Oil well", "Offshore Platform"],
