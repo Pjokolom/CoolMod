@@ -73,8 +73,8 @@
         "adjective": ["Novgorodish"],
         "startBias": ["Forest"],
         "preferredVictoryType": "Domination",
-        "startIntroPart1": "Welcome President Washington! You lead the industrious American civilization! Formed in the conflagration of revolution in the 18th century, within a hundred years, the young nation became embroiled in a terrible civil war that nearly tore the country apart, but it was just a few short years later in the 20th century that the United States reached the height of its power, emerging triumphant and mighty from the two terrible wars that destroyed so many other great nations. The United States is a nation of immigrants, filled with optimism and determination. They lack only a leader to help them fulfill their promise.",
-        "startIntroPart2": "President Washington, can you lead the American people to greatness? Can you build a civilization that will stand the test of time?",
+        "startIntroPart1": "Miau.",
+        "startIntroPart2": "Miau2",
         "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
         "attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
         "defeated": "The day...is yours. I hope you will be merciful in your triumph.",
@@ -90,12 +90,38 @@
             "[-50]% Gold cost of acquiring tiles [in all cities]"
         ],
         "cities": [
-            "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-            "Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas",
-            "Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh","Oakland",
-            "Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia","Spokane",
-            "Jacksonville","Savannah","Charleston","San Antonio","Omaha","Honolulu","Anchorage","Sacramento","Salt Lake City","Reno",
-            "Boise","Milwaukee","Santa Cruz","Monterey","Santa Monica","Little Rock","Columbus","Le Bam"
+            "Novgorod","Pskov","Ladoga","Rusa","Viatka","Torzhok","Volok na Lamie","Vologa","Bezheck","Izborsk",
+            "Niebolczi","Opoczka","Vysznij Voloczok","Koporie"
+        ],
+        "spyNames": [
+            "Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
+        ]
+    },
+    {
+        "name": "Frankia",
+        "leaderName": "Svyatoslav Olgovich",
+        "adjective": ["Novgorodish"],
+        "startBias": ["Forest"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Miau.",
+        "startIntroPart2": "Miau2",
+        "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+        "attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+        "defeated": "The day...is yours. I hope you will be merciful in your triumph.",
+        "introduction": "The people of the United States of America welcome you.",
+        "neutralHello": "Good day.",
+        "hateHello": "Well?",
+        "tradeRequest": "Is the following trade of interest to you?",
+        "outerColor": [0,80,160],
+        "innerColor": [255,230,40],
+        "uniqueName": "Manifest Destiny",
+        "uniques": [
+            "[+1] Sight <for [{Military} {Land}] units>",
+            "[-50]% Gold cost of acquiring tiles [in all cities]"
+        ],
+        "cities": [
+            "Novgorod","Pskov","Ladoga","Rusa","Viatka","Torzhok","Volok na Lamie","Vologa","Bezheck","Izborsk",
+            "Niebolczi","Opoczka","Vysznij Voloczok","Koporie"
         ],
         "spyNames": [
             "Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
