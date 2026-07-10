@@ -593,7 +593,7 @@
         "cost": 40,
         "hurryCostModifier": 40,
         "maintenance": 1,
-        "uniques": ["Destroyed when the city is captured","Get the leader title of [Sovereign [leaderName] the Great]"]
+        "uniques": ["Destroyed when the city is captured"]
     },
     {
         "name": "Stele",
@@ -1161,7 +1161,7 @@
             "Gain a free [Lighthouse] [in this city]",
             "Free [Quinquereme] appears"
         ],
-        "requiredTech": "Gunpowder",
+        "requiredTech": "Optics",
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
     {
@@ -1173,7 +1173,7 @@
             "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "Provides [2] [Horses]"
         ],
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Archery"
     },
     {
         "name": "Yam Route",
@@ -1286,7 +1286,7 @@
             "Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
         ],
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Siege"
     },
     {
         "name": "Courthouse",
@@ -1296,7 +1296,7 @@
             "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Archery"
     },
     {
         "name": "Outremer",
@@ -1319,7 +1319,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"Great Engineer": 1},
-        "requiredTech": "Gunpowder",
+        "requiredTech": "Philosophy",
         "uniques": [
             "Gain a free [Garden] [in this city]",
             "Only available <after adopting [Tradition]>"
@@ -1332,7 +1332,7 @@
         "happiness": 2,
         "cost": 100,
         "hurryCostModifier": 25,
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Gold working"
     },
     {
         "name": "Mead Hall",
@@ -1362,7 +1362,7 @@
         "name": "Terracotta Army",
         "culture": 1,
         "isWonder": true,
-        "requiredTech": "Gunpowder",
+        "requiredTech": "Writing",
         "uniques": [
             "Free [Warrior] appears",
             "Free [Archer] appears",
@@ -1488,7 +1488,7 @@
         "uniques": [
             "Free Social Policy"
         ],
-        "requiredTech": "Gunpowder",
+        "requiredTech": "Library",
         "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
     },
     {
@@ -1503,7 +1503,7 @@
             "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
             "Only available <after adopting [Piety]>"
         ],
-        "requiredTech": "Gunpowder",
+        "requiredTech": "Theology",
         "quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
     },
     {
@@ -1514,10 +1514,9 @@
         "hurryCostModifier": 25,
         "uniques": [
             "Destroyed when the city is captured",
-            "Comment [Has 1 Great Work of Writing Slot]",
-            "Get the leader title of [Sovereign [leaderName] the Great]"
+            "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Philosophy"
     },
     {
         "name": "Amphitheater Great Writing Slot",
@@ -1534,7 +1533,7 @@
     {
         "name": "Hippodrome",
         "replaces": "Amphitheater",
-        "uniqueTo": "Byzantium",
+        "uniqueTo": "Ellada",
         "cost": 95,
         "culture": 2,
         "faith": 2,
@@ -1549,22 +1548,6 @@
         "requiredTech": "Gunpowder"
     },
     {
-        "name": "Odeon",
-        "replaces": "Amphitheater",
-        "uniqueTo": "Greece",
-        "culture": 4,
-        "gold": 1,
-        "specialistSlots": {"Writer": 1},
-        "requiredBuilding": "Monument",
-        "cost": 100,
-        "hurryCostModifier": 25,
-        "uniques": [
-            "Destroyed when the city is captured",
-            "Comment [Has 1 Great Work of Writing Slot]"
-        ],
-        "requiredTech": "Economics"
-    },
-    {
         "name": "Garden",
         "uniques": [
             "[+20]% Great Person generation [in this city]",
@@ -1573,7 +1556,7 @@
         "cost": 120,
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Philosophy"
     },
     {
         "name": "Candi",
@@ -1623,7 +1606,7 @@
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Theology"
     },
     {
         "name": "National Epic Great Writing Slot",
@@ -1661,13 +1644,13 @@
         "greatPersonPoints": {"Great Writer": 1},
         "specialistSlots": {"Writer": 2},
         "isNationalWonder": true,
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Library"
     },
     {
         "name": "Parthenon",
         "culture": 4,
         "isWonder": true,
-        "requiredTech": "Gunpowder",
+        "requiredTech": "Advanced Stoneworking",
         "uniques": [
             "Instantly provides [1] [Great Work of Writing]",
             "Comment [Has 1 Great Work of Writing Slot]"
@@ -1789,7 +1772,7 @@
             "Gain a free [Walls] [in this city]",
             "Gain a free [Watch Tower] [in all cities]"
         ],
-        "requiredTech": "Gunpowder",
+        "requiredTech": "Bronze",
         "quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
     },
     {
@@ -2742,18 +2725,6 @@
             "Instantly consumes [1] [Great Work of Writing]",
             "[+1 Culture] <in cities with a [Globe Theatre Great Writing Slot 1]>"
         ]
-    },
-    {
-        "name": "Himeji Castle",
-        "culture": 3,
-        "isWonder": true,
-        "greatPersonPoints": {"Great Engineer": 2},
-        "uniques": [
-            "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-            "Gain a free [Castle] [in this city]"
-        ],
-        "requiredTech": "Gunpowder",
-        "quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
     },
     // Column 8
     {

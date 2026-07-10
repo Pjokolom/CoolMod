@@ -59,7 +59,7 @@
             
         ],
         "cities": [
-            "Prague","Brno","Ostrava","Plzen","Liberec","Olomouc","Czeske Budejovice","Zeila","Usti nad Labem","Hradec Kralove",
+            "Prague","Brno","Ostrava","Plzen","Liberec","Olomouc","Czeske Budejovice","Usti nad Labem","Hradec Kralove",
             "Pardubice","Zlin","Havirzov","Kladno","Most","Opava","Frydek-Mistek","Karvina","Jihlava","Teplice",
             "Decin","Karlovy Vary","Chomutov","Jablonec nad Jizerou","Mlada Boleslav","Cheb","Znojmo","Trzinec","Pisek","Orlova"
         ],
@@ -71,35 +71,36 @@
         "name": "Novgorod",
         "leaderName": "Svyatoslav Olgovich",
         "adjective": ["Novgorodish"],
-        "startBias": ["Forest"],
+        "startBias": ["Tundra"],
         "preferredVictoryType": "Domination",
         "startIntroPart1": "Miau.",
         "startIntroPart2": "Miau2",
         "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
         "attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
         "defeated": "The day...is yours. I hope you will be merciful in your triumph.",
-        "introduction": "The people of the United States of America welcome you.",
+        "introduction": "The people of the Novgorod welcome you.",
         "neutralHello": "Good day.",
         "hateHello": "Well?",
         "tradeRequest": "Is the following trade of interest to you?",
-        "outerColor": [0,80,160],
-        "innerColor": [255,230,40],
-        "uniqueName": "Manifest Destiny",
+        "outerColor": [240,240,240],
+        "innerColor": [142,4,1],
+        "uniqueName": "Vieczies Bell",
         "uniques": [
-            "[+1] Sight <for [{Military} {Land}] units>",
-            "[-50]% Gold cost of acquiring tiles [in all cities]"
+            "[+3 Faith, +2 Culture] [in all cities connected to capital]",
+            "Free [Cargo Ship] appears <upon discovering [Compass] technology>",
+            "[+1 Food, +1 Gold] from every [Tundra]"
         ],
         "cities": [
             "Novgorod","Pskov","Ladoga","Rusa","Viatka","Torzhok","Volok na Lamie","Vologa","Bezheck","Izborsk",
             "Niebolczi","Opoczka","Vysznij Voloczok","Koporie"
         ],
         "spyNames": [
-            "Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
+            "Ploskol","Jasmine","Oucil","Petuch","Reigen Arataka","PowerPlex","Vlad Savel'jev","Volodimier Ul'janov","Pocliel'","Petro"
         ]
     },
     {
-        "name": "Frankia",
-        "leaderName": "Svyatoslav Olgovich",
+        "name": "Ellada",
+        "leaderName": "Basil II Porphyrogenitus",
         "adjective": ["Novgorodish"],
         "startBias": ["Forest"],
         "preferredVictoryType": "Domination",
@@ -112,17 +113,20 @@
         "neutralHello": "Good day.",
         "hateHello": "Well?",
         "tradeRequest": "Is the following trade of interest to you?",
-        "outerColor": [0,80,160],
-        "innerColor": [255,230,40],
-        "uniqueName": "Manifest Destiny",
+        "outerColor": [255,255,255],
+        "innerColor": [20, 20, 230],
+        "uniqueName": "Hellenic League",
         "uniques": [
             "[+1] Sight <for [{Military} {Land}] units>",
             "[-50]% Gold cost of acquiring tiles [in all cities]"
         ],
         "cities": [
-            "Novgorod","Pskov","Ladoga","Rusa","Viatka","Torzhok","Volok na Lamie","Vologa","Bezheck","Izborsk",
-            "Niebolczi","Opoczka","Vysznij Voloczok","Koporie"
-        ],
+             "Byzantium","Sparta","Corinth","Antioch","Athens","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+             "Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+             "Paros","Tegea","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+             "Sicyon","Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis","Patras",
+             "Lamia","Nafplion","Apolyton"
+         ],
         "spyNames": [
             "Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
         ]

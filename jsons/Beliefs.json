@@ -12,21 +12,37 @@
         // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in cities following this religion] <during the [Ancient era]>"
     },
     {
-        "name": "Ancestor Worship",
+        "name": "Secret Cult",
+        "type": "Pantheon",
+        "uniques": ["Comment [Secret worship of dark entities]","[+2 Culture] from every [Camp]"]
+    },
+    {
+        "name": "God of Thunder",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Culture] from every [Shrine]"
+            "Comment [Worship of war, victory and poethry]",
+            "[+1 Faith] from every [Shrine]",
+            "[+2 Faith] from every [Barracks]",
+            "[+2 Faith] from every [Courthouse]"
         ]
     },
     {
-        "name": "Dance of the Aurora",
+        "name": "Ancestors Worship",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Tundra]"]
+        "uniques": [
+            "Comment [Worship of Ancestors]",
+            "[+1 Faith] from every [Forest] [in capital]",
+            "[+1 Food] from every [Fish] [in capital]",
+            "[+1 Food, +1 Culture] from every [Wheat] [in capital]"
+    ]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
+        "uniques": [
+            "Comment [Desert Religion]",
+            "[+1 Faith] from every [Desert]"
+        ]
     },
     {
         "name": "Divine Judgement",

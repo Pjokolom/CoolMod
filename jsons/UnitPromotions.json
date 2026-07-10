@@ -1411,5 +1411,14 @@
             "Free [Pathfinder] appears",
             "Will not be displayed in Civilopedia"
         ]
+    },
+    // DEBUFFFFSSSS
+    {
+        "name": "Burning",
+        "uniques": [
+            "[This Unit] takes [10] damage <upon turn end>"
+        ]
+        
+    
     }
 ]

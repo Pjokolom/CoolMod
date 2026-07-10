@@ -29,6 +29,22 @@
         "shortcutKey": "F"
     },
     {
+        "name": "Turk Streets",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains","Hill","Tundra"],
+        "food": 1,
+        "replaces": "Streets",
+        "uniqueTo": "Turkestan",
+        "turnsToBuild": 7,
+        "techRequired": "Woodworking",
+        "uniques": [
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
+            "[+1 Gold] from [Fresh water] tiles <after discovering [Civil Service]>",
+            "Pillaging this improvement yields approximately [+30 Gold]",
+            "Provides [2] [Human Resourses]"
+        ],
+        "shortcutKey": "F"
+    },
+    {
         "name": "Mill",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
         "turnsToBuild": 7,
@@ -336,7 +352,7 @@
         "name": "Fort",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
         "turnsToBuild": 6,
-        "techRequired": "Gunpowder",
+        "techRequired": "Engineering",
         "uniques": [
             "Can be built outside your borders",
             "Gives a defensive bonus of [50]%"

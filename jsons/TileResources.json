@@ -127,12 +127,12 @@
         "improvementStats": {"production": 1},
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
-            "Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
-            "Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
-            "Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-            "Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-            "Minor deposits generated with weight [100] <in [{Featureless} {Grassland} {Fresh Water}] tiles>",
-            "Minor deposits generated with weight [20] <in [{Featureless} {Grassland} {non-[Fresh Water]}] tiles>",
+            "Generated with weight [80] <in [{Featureless} {Grassland}] tiles>",
+            "Generated with weight [120] <in [{Featureless} {Plains}] tiles>",
+            "Minor deposits generated with weight [8] <in [{Grassland} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+            "Minor deposits generated with weight [12] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+            "Minor deposits generated with weight [100] <in [{Featureless} {Plains} {Fresh Water}] tiles>",
+            "Minor deposits generated with weight [20] <in [{Featureless} {Plains} {non-[Fresh Water]}] tiles>",
             "Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
         ],
         "majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 4},
@@ -161,8 +161,8 @@
             "Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {"sparse": 5, "default": 5, "abundant": 5},
-        "minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
+        "majorDepositAmount": {"sparse": 7, "default": 10, "abundant": 16},
+        "minorDepositAmount": {"sparse": 4, "default": 10, "abundant": 8}
     },
     {
         "name": "Coal",

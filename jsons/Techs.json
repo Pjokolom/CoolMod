@@ -212,6 +212,12 @@
                 "quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
             },
             {
+                "name": "Siege-Ship",
+                "row": 1,
+                "prerequisites": ["Optics","Siege"],
+                "quote": "'Oh shit this man just added early game frigates.' - Sri Guru Granth Sahib"
+            },
+            {
                 "name": "Civil Service",
                 "row": 5,
                 "prerequisites": ["Siege"],
@@ -243,7 +249,7 @@
                 "name": "Compass",
                 "cost": 375,
                 "row": 1,
-                "prerequisites": ["Optics"],
+                "prerequisites": ["Siege-Ship","Theology","Metal Casting"],
                 "quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes",
                 "uniques": [
                     "Provides [1] [Trade Route]",
@@ -466,12 +472,6 @@
                 "uniques": ["Provides [1] [Trade Route]"]
             },
             {
-                "name": "Radio",
-                "row": 4,
-                "prerequisites": ["Electricity","Submarine"],
-                "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
-            },
-            {
                 "name": "Replaceable Parts",
                 "row": 5,
                 "prerequisites": ["Electricity","Steam Power"],
@@ -482,6 +482,12 @@
                 "row": 6,
                 "prerequisites": ["Steam Power"],
                 "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+            },
+            {
+                "name": "Trench Mortars",
+                "row": 7,
+                "prerequisites": ["Dynamite"],
+                "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
             },
             {
                 "name": "Railroads",
@@ -496,6 +502,13 @@
                 "prerequisites": ["Oil Refining","Dynamite"],
                 "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson",
                 "uniques": ["Provides [1] [Trade Route]"]
+            },
+            {
+                "name": "Combat vehicles",
+                "row": 10,
+                "prerequisites": ["Oil Refining"],
+                "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+                
             }
         ]
     },
@@ -506,13 +519,41 @@
         "buildingCost": 500,
         "wonderCost": 1060,
         "techs": [
-            
             {
-                "name": "Momo",
+                "name": "Plastics",
+                "row": 2,
+                "prerequisites": ["Electricity","Biology"],
+                "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+            },
+            {
+                "name": "Radio",
                 "row": 3,
-                "prerequisites": ["Railroads"],
-                "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
-        
+                "prerequisites": ["Electricity","Railroads"],
+                "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+            },
+            {
+                "name": "Combustion",
+                "row": 4,
+                "prerequisites": ["Electricity","Submarine"],
+                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+            },
+            {
+                "name": "Optical sight",
+                "row": 5,
+                "prerequisites": ["Replaceable Parts"],
+                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+            },
+            {
+                "name": "Ballistics",
+                "row": 7,
+                "prerequisites": ["Flight"],
+                "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+            },
+            {
+                "name": "Flamethrowers",
+                "row": 9,
+                "prerequisites": ["Trench Mortars"],
+                "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
             }
         ]
     },
@@ -531,33 +572,33 @@
                 "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
             },
             {
-                "name": "Plastics",
-                "row": 3,
-                "prerequisites": ["Momo"],
-                "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
-            },
-            {
                 "name": "Electronics",
                 "row": 5,
-                "prerequisites": ["Momo"],
+                "prerequisites": ["Ballistics","Plastics"],
                 "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
-            },
-            {
-                "name": "Ballistics",
-                "row": 6,
-                "prerequisites": ["Momo"],
-                "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
-            },
-            {
-                "name": "Combustion",
-                "row": 8,
-                "prerequisites": ["Momo"],
-                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
             }
+            
         ]
     },
     {
         "columnNumber": 15,
+        "era": "Modern era",
+        "techCost": 3100,
+        "buildingCost": 500,
+        "wonderCost": 1060,
+        "techs": [
+            
+            {
+                "name": "Momo",
+                "row": 3,
+                "prerequisites": ["Railroads"],
+                "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+        
+            }
+        ]
+    },
+    {
+        "columnNumber": 16,
         "era": "Atomic era",
         "techCost": 5100,
         "buildingCost": 500,
@@ -591,7 +632,7 @@
         ]
     },
     {
-        "columnNumber": 16,
+        "columnNumber": 17,
         "era": "Atomic era",
         "techCost": 6400,
         "buildingCost": 500,
@@ -624,7 +665,7 @@
         ]
     },
     {
-        "columnNumber": 17,
+        "columnNumber": 18,
         "era": "Information era",
         "techCost": 7700,
         "buildingCost": 750,
@@ -670,7 +711,7 @@
         ]
     },
     {
-        "columnNumber": 18,
+        "columnNumber": 19,
         "era": "Information era",
         "techCost": 8800,
         "buildingCost": 750,
@@ -709,7 +750,7 @@
         ]
     },
     {
-        "columnNumber": 19,
+        "columnNumber": 20,
         "era": "Information era",
         "techCost": 10500,
         "buildingCost": 750,

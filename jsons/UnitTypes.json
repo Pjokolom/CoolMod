@@ -126,7 +126,10 @@
         "uniques": [
             "May travel on Water tiles without embarking",
             "All tiles cost 1 movement",
-            "Can pass through impassable tiles"
+            "Can pass through impassable tiles",
+            "[+100]% Strength <vs [Sword] units> <when defending>",
+            "[+100]% Strength <vs [Gunpowder] units> <when defending>",
+            "[+100]% Strength <vs [Archery] units> <when defending>"
         ]
     },
 
