@@ -101,7 +101,7 @@
     {
         "name": "Ellada",
         "leaderName": "Basil II Porphyrogenitus",
-        "adjective": ["Novgorodish"],
+        "adjective": ["Elladish"],
         "startBias": ["Forest"],
         "preferredVictoryType": "Domination",
         "startIntroPart1": "Miau.",
@@ -109,7 +109,7 @@
         "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
         "attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
         "defeated": "The day...is yours. I hope you will be merciful in your triumph.",
-        "introduction": "The people of the United States of America welcome you.",
+        "introduction": "The people of the Ellada welcome you.",
         "neutralHello": "Good day.",
         "hateHello": "Well?",
         "tradeRequest": "Is the following trade of interest to you?",
@@ -129,6 +129,67 @@
          ],
         "spyNames": [
             "Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
+        ]
+    },
+    {
+        "name": "Czornoliessie",
+        "leaderName": "Aliexander Semionovicz",
+        "adjective": ["Czornoliesh"],
+        "startBias": ["Avoid [Coast]","Forest"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Greetings upon thee, Aliexander Semionovicz",
+        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+        "attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+        "defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+        "introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+        "neutralHello": "Hello!",
+        "hateHello": "What do you need?!",
+        "tradeRequest": "How would you like it if I propose this kind of exchange?",
+        "outerColor": [254, 198, 65],
+        "innerColor": [50,107,50],
+        "uniqueName": "Endless Forest",
+        "uniques": [
+            "[+1 Production] from every [Forest]",
+            "Can build [Lumber mill] improvements at a [+500]% rate <in [Forest] tiles>"
+        ],
+        "cities": [
+            "Mcensk","Kursk","Belharad","Livny","Briansk","Varoniezh","Staryj Askou","Hubkin","Smalensk","Barisohliebsk",
+            "Rossosh","Novazybkau"
+        ],
+        "spyNames": [
+            "Lobiakov","Hamieel","Pyk-Myk","Nastiusha","Tomatoa","Mr.Crubs","Doktor Sinij","Pasha","Kolia","Had"
+        ]
+    },
+    {
+        "name": "Finokarelia",
+        "leaderName": "Mannerheim",
+        "adjective": ["Finokarelian"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "Honor and glory be yours, Baron Carl Gustaf Emil Mannerheim, Marshal of Finokarelland. Your nation lies in the vast, cold North, surrounded by the great wilderness of forests and thousands of lakes. After being under the rule first of the Swedish and then of the Russians, Finland declared its independence in 1917 but was soon embroiled in a bloody civil war. Two decades later you united your war-torn nation to protect its independence against overwhelming Soviet attack. Despite all the odds, Finland remained independent in the torments of World War II by its stalwart united spirit, and from ashes of war your small agrarian country developed into a modern industrious welfare state the quality of life of which now stands on the top of the world.",
+        "startIntroPart2": "Honoured marshal Mannerheim, your people calls for you once more time! You are called to unite Finokarelland once again standing strong against her enemies! Will you lead your nation to greatness? Will you build a civilization to stand the test of time?",
+        "declaringWar": "I am no stranger to war. What am I going to do is for the greater good.",
+        "attacked": "Fine. You will regret this.",
+        "defeated": "Finland has fallen, but our heritage will shine forever.",
+        "introduction": "I am Carl Gustaf Emil Mannerheim, President Of Finland. What brings you here to this snowy land?",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "The night is beautiful and solemn, and the stars seem smiling upon this deal.",
+        "outerColor": [185, 201, 223],
+        "innerColor": [0, 53, 128],
+        "uniqueName": "Finnish Mobility",
+        "uniques": [
+            "[+1 Culture] from every [Forest] <in tiles without [Improvement]>",
+            "[+50]% to Flank Attack bonuses"
+        ],
+        "cities": [
+            "Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa",
+            "Uusukaipunki","Kakisalmi","Taipale","Kokkola","Uusikaarlepyy","Tornio","Tammisaari","Sortavala","Hämeenlinna","Savonlinna",
+            "Lappeenranta","Kristiinankaupunki","Kajaani","Lieksa","Kuopio","Pietarsaari","Hamina","Loviisa","Kaskinen","Jyväskylä",
+            "Mikkeli","Heinola","Joensuu","Maarianhamina","Kemi","Hanko","Kotka","Iisalmi","Lahti"
+        ],
+        "spyNames": [
+            "Ahti","Vilho","Väinö","Gösta","Rudolf","Antti","Maria","Aino","Jenny","Kristiina"
         ]
     },
     // {
@@ -1007,37 +1068,7 @@
     //     ]
     // },
     // {
-    //     "name": "Finland",
-    //     "leaderName": "Mannerheim",
-    //     "adjective": ["Finnish"],
-    //     "startBias": ["Avoid [Coast]"],
-    //     "preferredVictoryType": "Diplomatic",
-    //     "startIntroPart1": "Honor and glory be yours, Baron Carl Gustaf Emil Mannerheim, Marshal of Finland. Your nation lies in the vast, cold North, surrounded by the great wilderness of forests and thousands of lakes. After being under the rule first of the Swedish and then of the Russians, Finland declared its independence in 1917 but was soon embroiled in a bloody civil war. Two decades later you united your war-torn nation to protect its independence against overwhelming Soviet attack. Despite all the odds, Finland remained independent in the torments of World War II by its stalwart united spirit, and from ashes of war your small agrarian country developed into a modern industrious welfare state the quality of life of which now stands on the top of the world.",
-    //     "startIntroPart2": "Honoured marshal Mannerheim, your people calls for you once more time! You are called to unite Finland once again standing strong against her enemies! Will you lead your nation to greatness? Will you build a civilization to stand the test of time?",
-    //     "declaringWar": "I am no stranger to war. What am I going to do is for the greater good.",
-    //     "attacked": "Fine. You will regret this.",
-    //     "defeated": "Finland has fallen, but our heritage will shine forever.",
-    //     "introduction": "I am Carl Gustaf Emil Mannerheim, President Of Finland. What brings you here to this snowy land?",
-    //     "neutralHello": "Greetings.",
-    //     "hateHello": "What do you want?",
-    //     "tradeRequest": "The night is beautiful and solemn, and the stars seem smiling upon this deal.",
-    //     "outerColor": [185, 201, 223],
-    //     "innerColor": [0, 53, 128],
-    //     "uniqueName": "Finnish Mobility",
-    //     "uniques": [
-    //         "[+1 Culture] from every [Forest] <in tiles without [Improvement]>",
-    //         "[+50]% to Flank Attack bonuses"
-    //     ],
-    //     "cities": [
-    //         "Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa",
-    //         "Uusukaipunki","Kakisalmi","Taipale","Kokkola","Uusikaarlepyy","Tornio","Tammisaari","Sortavala","Hämeenlinna","Savonlinna",
-    //         "Lappeenranta","Kristiinankaupunki","Kajaani","Lieksa","Kuopio","Pietarsaari","Hamina","Loviisa","Kaskinen","Jyväskylä",
-    //         "Mikkeli","Heinola","Joensuu","Maarianhamina","Kemi","Hanko","Kotka","Iisalmi","Lahti"
-    //     ],
-    //     "spyNames": [
-    //         "Ahti","Vilho","Väinö","Gösta","Rudolf","Antti","Maria","Aino","Jenny","Kristiina"
-    //     ]
-    // },
+
     // {
     //     "name": "France",
     //     "leaderName": "Napoleon",
@@ -2744,53 +2775,7 @@
     //         "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
     //     ]
     // },
-    // {
-    //     "name": "Russia",
-    //     "leaderName": "Catherine",
-    //     "adjective": ["Russian"],
-    //     "startBias": ["Avoid [Coast]","Tundra"],
-    //     "preferredVictoryType": "Scientific",
-    //     "startIntroPart1": "Greetings upon thee, Your Imperial Majesty Catherine, wondrous Empress of all the Russias. At your command lies the largest country in the world. Mighty Russia stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic Russian people survive and prosper, their artists and scientists among the best in the world. The Empire today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.",
-    //     "startIntroPart2": "Catherine, your people look to you to bring forth glorious days for Russia and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once more into greatness? Can you build a civilization that will stand the test of time?",
-    //     "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
-    //     "attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
-    //     "defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
-    //     "introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
-    //     "neutralHello": "Hello!",
-    //     "hateHello": "What do you need?!",
-    //     "tradeRequest": "How would you like it if I propose this kind of exchange?",
-    //     "outerColor": [ 236, 178, 0],
-    //     "innerColor": [0,0,0],
-    //     "uniqueName": "Siberian Riches",
-    //     "uniques": [
-    //         "[+1 Production] from every [Iron]",
-    //         "[+1 Production] from every [Coal]",
-    //         "[+1 Production] from every [Aluminum]",
-    //         "[+1 Production] from every [Uranium]",
-    //         "[+100]% [Horses] resource production",
-    //         "[+100]% [Iron] resource production",
-    //         "[+100]% [Coal] resource production",
-    //         "[+100]% [Aluminum] resource production",
-    //         "[+100]% [Uranium] resource production",
-    //         "Comment [All Strategic resources may be improved in 1 turn]",
-    //         "Can build [Mine] improvements at a [+500]% rate <in [Iron] tiles> <hidden from users>",
-    //         "Can build [Pasture] improvements at a [+500]% rate <in [Horses] tiles> <hidden from users>",
-    //         "Can build [Mine] improvements at a [+500]% rate <in [Aluminum] tiles> <hidden from users>",
-    //         "Can build [Oil well] improvements at a [+500]% rate <in [Oil] tiles> <hidden from users>",
-    //         "Can build [Offshore Platform] improvements at a [+500]% rate <in [Oil] tiles> <hidden from users>",
-    //         "Can build [Mine] improvements at a [+500]% rate <in [Coal] tiles> <hidden from users>",
-    //         "Can build [Mine] improvements at a [+500]% rate <in [Uranium] tiles> <hidden from users>"
-    //     ],
-    //     "cities": [
-    //         "Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
-    //         "Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
-    //         "Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
-    //         "Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"
-    //     ],
-    //     "spyNames": [
-    //         "Alexei","Lena","Dmitry","Anastasia","Tatiana","Boris","Doktor Seriy","Mikhail","Natacha","Zmeya"
-    //     ]
-    // },
+
     // {
     //     "name": "Scotland",
     //     "leaderName": "Robert the Bruce",

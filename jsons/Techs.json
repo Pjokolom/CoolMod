@@ -550,9 +550,23 @@
                 "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
             },
             {
+                "name": "Armoured trains",
+                "row": 8,
+                "prerequisites": ["Railroads","Combat vehicles"],
+                "quote": "'Armoured train.' - Pasha",
+                "uniques": ["Provides [1] [Trade Route]"]
+            },
+            {
                 "name": "Flamethrowers",
                 "row": 9,
                 "prerequisites": ["Trench Mortars"],
+                "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+            },
+            {
+                "name": "Tank Modifications",
+                "row": 11,
+                "prerequisites": ["Landships"],
+                "uniques": ["Comment [Unlocks [Explosive Shells] promotion for [Armored]]","Comment [Unlocks [Flamethrower] promotion for [Armored]]"],
                 "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
             }
         ]
@@ -574,10 +588,27 @@
             {
                 "name": "Electronics",
                 "row": 5,
-                "prerequisites": ["Ballistics","Plastics"],
-                "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+                "prerequisites": ["Combustion","Plastics"],
+                "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Mickle Slive"
+            },
+            {
+                "name": "Early Light Tanks",
+                "row": 8,
+                "prerequisites": ["Tank Modifications"],
+                "quote": "'My tank 's ridinn 20 km/s. Soft attack 2.' - Trip Hawkins"
+            },
+            {
+                "name": "Early Medium Tanks",
+                "row": 9,
+                "prerequisites": ["Tank Modifications"],
+                "quote": "'I'm gonn brown. I'm shitsing??' - Brownman"
+            },
+            {
+                "name": "Early Heavy Tanks",
+                "row": 10,
+                "prerequisites": ["Tank Modifications"],
+                "quote": "'Heavy as your mom.' - Your dad"
             }
-            
         ]
     },
     {
@@ -591,7 +622,7 @@
             {
                 "name": "Momo",
                 "row": 3,
-                "prerequisites": ["Railroads"],
+                "prerequisites": ["Electronics"],
                 "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
         
             }

@@ -55,8 +55,39 @@
     },
     {
         "name": "Armored",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Tank",
         "movementType": "Land",
-        "uniques": ["Person"]
+        "uniques": [
+            "Armored",
+            "[+50]% Strength <vs [Person] units> <when defending>",
+            "[+20]% Strength <vs [Light Tank] units> <when atacking>",
+        ]
+    },
+    {
+        "name": "Medium Tank",
+        "movementType": "Land",
+        "uniques": [
+            "Armored",
+            "[+70]% Strength <vs [Person] units> <when defending>",
+            "[+45]% Strength <vs [Light Tank] units> <when atacking>",
+            "[+30]% Strength <vs [Siege] units> <when atacking>",
+            "[+20]% Strength <vs [Medium Tank] units> <when atacking>"
+    ]
+    },
+    {
+        "name": "Heavy Tank",
+        "movementType": "Land",
+        "uniques": [
+            "Armored",
+            "[+110]% Strength <vs [Person] units> <when defending>",
+            "[+90]% Strength <vs [Light Tank] units> <when atacking>",
+            "[+60]% Strength <vs [Medium Tank] units> <when atacking>",
+            "[+60]% Strength <vs [Siege] units> <when atacking>",
+            "[+25]% Strength <vs [Medium Tank] units> <when atacking>"
+    ]
     },
     {
         "name": "Armored Man",

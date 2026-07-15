@@ -266,7 +266,7 @@
         "rangedStrength": 7,
         "cost": 40,
         "requiredTech": "Archery",
-        "obsoleteTech": "Compass",
+        "obsoleteTech": "Engineering",
         "uniques": ["Consumes [1] [Human Resourses]"],
         "upgradesTo": "Composite Bowman",
         "attackSound": "arrow"
@@ -293,7 +293,7 @@
         "rangedStrength": 6,
         "cost": 40,
         "requiredTech": "Advanced Stoneworking",
-        "obsoleteTech": "Compass",
+        "obsoleteTech": "Engineering",
         "upgradesTo": "Composite Bowman",
         "uniques": ["Consumes [1] [Human Resourses]"],
         "promotions": ["Slinger Withdraw"],
@@ -462,7 +462,7 @@
         ],
         "upgradesTo": "Privateer",
         "attackSound": "nonmetalhit",
-        "obsoleteTech": "Astronomy"
+        "obsoleteTech": "Navigation"
     },
     {
         "name": "Chariot Archer",
@@ -604,25 +604,10 @@
         "movement": 2,
         "strength": 13,
         "cost": 56,
-        "requiredTech": "Economics",
+        "requiredTech": "Bronze",
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
         "uniques": ["[+50]% Strength <vs [Mounted] units>"],
-        "attackSound": "metalhit"
-    },
-    {
-        "name": "Persian Immortal",
-        "unitType": "Sword",
-        "replaces": "Spearman",
-        "uniqueTo": "Persia",
-        "movement": 2,
-        "strength": 12,
-        "cost": 56,
-        "requiredTech": "Economics",
-        "obsoleteTech": "Civil Service",
-        "upgradesTo": "Pikeman",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>"],
-        "promotions": ["[Persian Immortal] ability"],
         "attackSound": "metalhit"
     },
     {
@@ -1168,7 +1153,6 @@
             "Invisible to non-adjacent units <in [Streets] tiles>",
             "Double movement in [Forest]",
             "No movement cost to pillage",
-            "Unbuildable",
             "Can be purchased with [Faith] [in all cities]"
         ],
         "attackSound": "metalhit"
@@ -1212,12 +1196,30 @@
         "upgradesTo": "Cavalry",
         "requiredResource": "Horses",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "horse"
+    },
+    {
+        "name": "Priest",
+        "unitType": "Civilian",
+        "movement": 3,
+        "requiredTech": "Theology",
+        "promotions": ["Medic","Medic II"],
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Only available <in cities with a [Secret Cult] religion>",
+            "Only available <in cities with a [Divine Judgement] religion>",
+            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit"
+        ],
+        "cost": 48
     },
     {
         "name": "Camel Archer",
@@ -1316,6 +1318,7 @@
         "upgradesTo": "Cavalry",
         "obsoleteTech": "Military Science",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Can move after attacking",
             "No defensive terrain bonus"
         ],
@@ -1406,6 +1409,9 @@
         "cost": 120,
         "requiredTech": "Machinery",
         "upgradesTo": "Gatling Gun",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "obsoleteTech": "Natural Resourses",
         "attackSound": "crossbow"
     },
@@ -1466,6 +1472,7 @@
         "upgradesTo": "Cannon",
         "promotions": ["Indirect Fire"],
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
@@ -1542,7 +1549,28 @@
         "requiredTech": "Steel",
         "upgradesTo": "Musketman",
         "obsoleteTech": "Gunpowder",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "requiredResource": "Iron",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Vigilante",
+        "replaces": "Longswordsman",
+        "uniqueTo": "Czornoliessie",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Steel",
+        "promotions": ["Forest Native"],
+        "upgradesTo": "Rifleman",
+        "uniques": [
+            "Consumess [1] [Human Resourses]",
+            "[+50]% Strength <when fighting in [Forest] tiles>"
+        ],
+        "obsoleteTech": "Rifling",
         "attackSound": "metalhit"
     },
     {
@@ -1574,20 +1602,6 @@
         "upgradesTo": "Musketman",
         "obsoleteTech": "Gunpowder",
         "requiredResource": "Iron",
-        "attackSound": "metalhit"
-    },
-    {
-        "name": "Noble Swordsman",
-        "replaces": "Longswordsman",
-        "uniqueTo": "Gaul",
-        "unitType": "Sword",
-        "movement": 2,
-        "strength": 20,
-        "cost": 120,
-        "requiredTech": "Steel",
-        "promotions": ["Forest Native"],
-        "upgradesTo": "Rifleman",
-        "obsoleteTech": "Rifling",
         "attackSound": "metalhit"
     },
     {
@@ -1674,7 +1688,7 @@
         "name": "Galleon",
         "unitType": "Melee Water",
         "movement": 5,
-        "strength": 24,
+        "strength": 27,
         "cost": 120,
         "requiredTech": "Astronomy",
         "upgradesTo": "Ironclad",
@@ -1858,13 +1872,13 @@
         "name": "Privateer",
         "unitType": "Melee Water",
         "movement": 5,
-        "strength": 27,
+        "strength": 25,
         "cost": 150,
         "requiredTech": "Navigation",
         "upgradesTo": "Destroyer",
         "promotions": ["Coastal Raider I"],
         "uniques": [
-            //"[-33]% Strength <vs cities> <when attacking>",
+            "Consumes [2] [Human Resourses]",
             "Can move after attacking"
         ],
         "attackSound": "cannon"
@@ -2064,6 +2078,9 @@
         "cost": 225,
         "requiredTech": "Rifling",
         "upgradesTo": "Machine Gun",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "obsoleteTech": "Ballistics",
         "attackSound": "machinegun"
     },
@@ -2107,6 +2124,9 @@
         "cost": 225,
         "requiredTech": "Rifling",
         "obsoleteTech": "Replaceable Parts",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "upgradesTo": "Great War Infantry",
         "attackSound": "shot"
     },
@@ -2197,6 +2217,7 @@
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
@@ -2277,6 +2298,7 @@
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>"
@@ -2344,6 +2366,8 @@
         "upgradesTo": "Destroyer",
         "obsoleteTech": "Combustion",
         "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [2] [Iron]",
             "Can move after attacking",
             "[+33]% Strength <vs cities> <when attacking>",
             "Double movement in [Coast]",
@@ -2377,11 +2401,15 @@
         "rangedStrength": 28,
         "range": 1,
         "strength": 15,
-        "cost": 150,
+        "cost": 210,
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Steam Power",
         "uniques": [
+            "Consumes [1] [Aluminum]",
             "No defensive terrain bonus",
+            "[+110]% Strength <vs cities> <when attacking>",
+            "[+80]% Strength <vs [Person] units> <when attacking>",
+            "[-40]% Strength <vs [Armored] units> <when attacking>",
             "Can move after attacking",
             "Unable to capture cities",
             "Unable to pillage tiles",
@@ -2536,6 +2564,24 @@
         "upgradesTo": "Infantry",
         "uniques": [
             "Consumes [1] [Human Resourses]"
+        ],
+        "obsoleteTech": "Electronics",
+        "attackSound": "shot"
+    },
+    {
+        "name": "Chosen",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "cost": 200,
+        "requiredTech": "Replaceable Parts",
+        "upgradesTo": "Infantry",
+        "uniques": [
+
+            "Consumes [1] [Human Resourses]",
+            "[-18]% Strength for enemy [Land] units in adjacent [All] tiles",
+            "Only available <in cities with a [Secret Cult] religion>",
+            "Can be purchased with [Faith] [in all cities]"
+
         ],
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2778,7 +2824,7 @@
     {
         "name": "Sissi",
         "replaces": "Machine Gun",
-        "uniqueTo": "Finland",
+        "uniqueTo": "Finokarelia",
         "unitType": "Ranged Gunpowder",
         "range": 2,
         "movement": 2,
@@ -2788,6 +2834,7 @@
         "requiredTech": "Ballistics",
         "promotions": ["Ignore terrain cost", "Extra Movement", "No movement cost to pillage"],
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "[+25]% Strength <vs [Armored] units>"
         ],
         "upgradesTo": "Bazooka",
@@ -2813,6 +2860,29 @@
         "attackSound": "machinegun"
     },
     {
+        "name": "Mobile Sanctuary",
+        "unitType": "Armored",
+        "movement": 3,
+        "strength": 50,
+        "cost": 200,
+        "requiredTech": "Combat vehicles",
+        "requiredResource": "Iron",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+
+            "Provides [3] [Faith] <upon turn end>",
+            "All adjacent units heal [+5] HP when healing",
+            "Unable to capture cities",
+            "Unable to pillage tiles",
+            "Cannot attack",
+            "No defensive terrain bonus",
+            "Never appears as a Barbarian unit",
+            "Only available <in cities with a [Divine Judgement] religion>",
+            "Can be purchased with [Faith] [in all cities]"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
         "name": "Landship",
         "unitType": "Armored",
         "movement": 2,
@@ -2822,15 +2892,41 @@
         "requiredResource": "Oil",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-
             "Consumes [3] [Iron]",
-            "Can move after attacking",
             "No defensive terrain bonus",
             "[+60]% Strength <vs [Land] units> <when defending>",
             "[+50]% Strength <vs [Armored] units> <when atacking>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
+    },
+    {
+        "name": "Armoured Train",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 70,
+        "rangedStrength": 28,
+        "range": 3,
+        "cost": 380,
+        "requiredTech": "Dynamite",
+        "upgradesTo": "Rocket Artillery",
+        "obsoleteTech": "Rocketry",
+        "uniques": [
+            "[This Unit] loses [3] movement <upon entering a [non-[Railroad]] tile>",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "[-100]% Strength <when fighting in [non-[Railroad]] tiles>",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "[+50]% Strength <vs [Land] units> <when defending>",
+            "[+150]% Strength <vs [Person] units> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "Can move after attacking",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions": ["Indirect Fire"],
+        "attackSound": "artillery"
     },
     {
         "name": "Mendeleev Tank",
@@ -2846,7 +2942,6 @@
         "uniques": [
 
             "Consumes [3] [Iron]",
-            "Can move after attacking",
             "No defensive terrain bonus",
             "[+50]% Strength <vs [Land] units> <when defending>",
             "[+50]% Strength <vs [Armored] units> <when atacking>",
@@ -2939,6 +3034,73 @@
             "[-50]% Damage when intercepting"
         ],
         "attackSound": "shipguns"
+    },
+    {
+        "name": "Early Light Tank",
+        "unitType": "Light Tank",
+        "movement": 5,
+        "strength": 70,
+        "cost": 450,
+        "requiredTech": "Early Light Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    //RASIARASIA
+    {
+        "name": "T-60",
+        "unitType": "Light Tank",
+        "movement": 4,
+        "uniqueTo": "Novgorod",
+        "replaces": "Early Light Tank",
+        "strength": 60,
+        "cost": 450,
+        "requiredTech": "Early Light Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+100]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Early Medium Tank",
+        "unitType": "Medium Tank",
+        "movement": 4,
+        "strength": 85,
+        "cost": 450,
+        "requiredTech": "Early Medium Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Iron]",
+            "Can move after attacking",
+            "[+35]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Early Heavy Tank",
+        "unitType": "Medium Tank",
+        "movement": 5,
+        "strength": 95,
+        "cost": 450,
+        "requiredTech": "Early Heavy Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [4] [Iron]",
+            "Can move after attacking",
+            "[+20]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
     },
 
     // Atomic Era

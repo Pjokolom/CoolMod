@@ -709,7 +709,7 @@
     {
         "name": "Sauna",
         "replaces": "Shrine",
-        "uniqueTo": "Finland",
+        "uniqueTo": "Finokarelia",
         "faith": 1,
         "cost": 30,
         "requiredTech": "Pottery",

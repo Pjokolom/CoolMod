@@ -1412,6 +1412,23 @@
             "Will not be displayed in Civilopedia"
         ]
     },
+    {
+        "name": "Flamethrower",
+        "uniques": [
+            "[Target Unit] gains the [Burning] status for [3] turn(s) <upon damaging a [All] unit>",
+            "Only available <after discovering [Tank Modifications]>",
+            "Only available <after discovering [Flamethrowers]>"
+        ],
+        "unitTypes": ["Armored"]
+    },
+    {
+        "name": "Explosive Shells",
+        "uniques": [
+             "[+70]% Strength <vs [Person] units>",
+            "Only available <after discovering [Tank Modifications]>"
+        ],
+        "unitTypes": ["Armored"]
+    },
     // DEBUFFFFSSSS
     {
         "name": "Burning",
