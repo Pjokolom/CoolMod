@@ -175,8 +175,8 @@
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
         "tradeRequest": "The night is beautiful and solemn, and the stars seem smiling upon this deal.",
-        "outerColor": [185, 201, 223],
-        "innerColor": [0, 53, 128],
+        "outerColor": [185, 241, 213],
+        "innerColor": [0, 93, 100],
         "uniqueName": "Finnish Mobility",
         "uniques": [
             "[+1 Culture] from every [Forest] <in tiles without [Improvement]>",
@@ -184,13 +184,62 @@
             "[+50]% to Flank Attack bonuses"
         ],
         "cities": [
-            "Helsinki","Turku","Porvoo","Tampere","Rauma","Naantali","Viipuri","Pori","Ulvila","Oulu","Vaasa",
+            "Helsinki","Petroskoi","Turku","Sortavala","Porvoo","Kondupohju","Tampere","Koštamuš","Rauma","Aunus","Naantali","Šuomua","Viipuri","Pori","Ulvila","Oulu","Vaasa",
             "Uusukaipunki","Kakisalmi","Taipale","Kokkola","Uusikaarlepyy","Tornio","Tammisaari","Sortavala","Hämeenlinna","Savonlinna",
             "Lappeenranta","Kristiinankaupunki","Kajaani","Lieksa","Kuopio","Pietarsaari","Hamina","Loviisa","Kaskinen","Jyväskylä",
-            "Mikkeli","Heinola","Joensuu","Maarianhamina","Kemi","Hanko","Kotka","Iisalmi","Lahti"
+            "Mikkeli"
         ],
         "spyNames": [
             "Ahti","Vilho","Väinö","Gösta","Rudolf","Antti","Maria","Aino","Jenny","Kristiina"
+        ]
+    },
+    {
+        "name": "Italy",
+        "leaderName": "Vittorio Emanuele III",
+        "adjective": ["Italian"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Cultural",
+        "startIntroPart1": "Grim days await you, Victor Emmanuel III, King of Italy. Coming to the throne upon the assassination of your father, Italy would soon be plunged into the calamity of the First World War. Heeding to the popular will, you rallied the Italian forces against the forward march of Vienna, taking to the front with your queen to dispense both moral and medical support. But though victorious, Italy's losses would be too great, and the road would for paved for the country's next great threat: Benito Mussolini and his fascism. Luckily, his shadow that loomed upon you and your beautiful nation would not last forever, and soon you indirectly paved the way for a new Italy, one that would seek cooperation with its neighbours instead of competition driven by the culture of the Rinascimento of many centuries ago.",
+        "startIntroPart2": "Tireless monarch, the frontlines of Italy once more lay bare and unprotected. Can you rally both soldier and ship to the defense of her borders, ensuring that Italy remains unassailable? Will your nation bring a new Rinascimento to bring new prosperity for her people? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "Although unwanted, war is a constant of this world, and it is regrettable that it must fall on us both.",
+        "attacked": "Italy is far from a stranger of war! I will show you that we are far from pushovers!",
+        "defeated": "It is sad that my forces were not enough to defend this nation... Addio, amico mio.",
+        "introduction": "Saluti, you walk upon the land of the former Roman Empire. I am Victor Emmanuel II, King Of Italy. Do you rule with benevolence, or absolute tyranny?",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Our cultures have much to share, and this deal proves it.",
+        "outerColor": [50, 20, 0],
+        "innerColor": [180, 205, 170],
+        "uniqueName": "Rinascimento",
+        "uniques": [
+            "[+1 Culture] from every specialist [in all cities]",
+            "Comment [Receive a burst of Golden Age points upon completion of a Policy Tree, and if already in a Golden Age, extend it instead.]",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
+        ],
+        "cities": [
+            "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
+            "Brescia","Messina","Bologna","Pisa","Verona","Taranto","Trieste","Rimini","Modena","Pescara",
+            "Vicenza","Ancona","Perugia","Lecce","Reggio","Parma"
+        ],
+        "spyNames": [
+            "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
         ]
     },
     // {
@@ -1619,55 +1668,6 @@
     //     ],
     //     "spyNames": [
     //         "Josue","Esther","Judas","Rut","Shammua","Shaphat","Caleb","Joshua","Ammiel","Geuel"
-    //     ]
-    // },
-    // {
-    //     "name": "Italy",
-    //     "leaderName": "Vittorio Emanuele III",
-    //     "adjective": ["Italian"],
-    //     "startBias": ["Avoid [Coast]"],
-    //     "preferredVictoryType": "Cultural",
-    //     "startIntroPart1": "Grim days await you, Victor Emmanuel III, King of Italy. Coming to the throne upon the assassination of your father, Italy would soon be plunged into the calamity of the First World War. Heeding to the popular will, you rallied the Italian forces against the forward march of Vienna, taking to the front with your queen to dispense both moral and medical support. But though victorious, Italy's losses would be too great, and the road would for paved for the country's next great threat: Benito Mussolini and his fascism. Luckily, his shadow that loomed upon you and your beautiful nation would not last forever, and soon you indirectly paved the way for a new Italy, one that would seek cooperation with its neighbours instead of competition driven by the culture of the Rinascimento of many centuries ago.",
-    //     "startIntroPart2": "Tireless monarch, the frontlines of Italy once more lay bare and unprotected. Can you rally both soldier and ship to the defense of her borders, ensuring that Italy remains unassailable? Will your nation bring a new Rinascimento to bring new prosperity for her people? Can you build a civilization that will stand the test of time?",
-    //     "declaringWar": "Although unwanted, war is a constant of this world, and it is regrettable that it must fall on us both.",
-    //     "attacked": "Italy is far from a stranger of war! I will show you that we are far from pushovers!",
-    //     "defeated": "It is sad that my forces were not enough to defend this nation... Addio, amico mio.",
-    //     "introduction": "Saluti, you walk upon the land of the former Roman Empire. I am Victor Emmanuel II, King Of Italy. Do you rule with benevolence, or absolute tyranny?",
-    //     "neutralHello": "Greetings.",
-    //     "hateHello": "What do you want?",
-    //     "tradeRequest": "Our cultures have much to share, and this deal proves it.",
-    //     "outerColor": [41, 87, 0],
-    //     "innerColor": [205, 205, 205],
-    //     "uniqueName": "Rinascimento",
-    //     "uniques": [
-    //         "[+1 Culture] from every specialist [in all cities]",
-    //         "Comment [Receive a burst of Golden Age points upon completion of a Policy Tree, and if already in a Golden Age, extend it instead.]",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
-    //         "Empire enters a [5]-turn Golden Age <(modified by game speed)> <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
-    //         "Instantly gain [375] [Golden Age points] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
-    //     ],
-    //     "cities": [
-    //         "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
-    //         "Brescia","Messina","Bologna","Pisa","Verona","Taranto","Trieste","Rimini","Modena","Pescara",
-    //         "Vicenza","Ancona","Perugia","Lecce","Reggio","Parma"
-    //     ],
-    //     "spyNames": [
-    //         "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
     //     ]
     // },
     // {

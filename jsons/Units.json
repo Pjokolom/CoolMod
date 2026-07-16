@@ -916,7 +916,7 @@
     {
         "name": "Legion",
         "unitType": "Sword",
-        "uniqueTo": "Rome",
+        "uniqueTo": "Italy",
         "replaces": "Swordsman",
         "movement": 2,
         "strength": 16,
@@ -1568,7 +1568,7 @@
         "promotions": ["Forest Native"],
         "upgradesTo": "Rifleman",
         "uniques": [
-            "Consumess [1] [Human Resourses]",
+            "Consumes [1] [Human Resourses]",
             "[+50]% Strength <when fighting in [Forest] tiles>"
         ],
         "obsoleteTech": "Rifling",
@@ -2605,6 +2605,23 @@
         "attackSound": "shot"
     },
     {
+        "name": "Legie",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "uniqueTo": "Czechia",
+        "replaces": "Great War Infantry",
+        "strength": 50,
+        "cost": 330,
+        "requiredTech": "Replaceable Parts",
+        "upgradesTo": "Infantry",
+        "uniques": [
+            "May heal outside of friendly territory",
+            "Consumes [1] [Human Resourses]"
+        ],
+        "obsoleteTech": "Electronics",
+        "attackSound": "shot"
+    },
+    {
         "name": "Chosen",
         "unitType": "Gunpowder",
         "movement": 2,
@@ -3272,44 +3289,44 @@
         ],
         "attackSound": "machinegun"
     },
-    {
-        "name": "Panzer",
-        "unitType": "Armored",
-        "uniqueTo": "Germany",
-        "replaces": "Tank",
-        "movement": 6,
-        "strength": 80,
-        "cost": 450,
-        "requiredTech": "Combined Arms",
-        "requiredResource": "Oil",
-        "upgradesTo": "Modern Armor",
-        "uniques": [
-            "Can move after attacking",
-            "No defensive terrain bonus",
-            "[+50]% Strength <vs [Land] units>"
-        ],
-        "attackSound": "tankshot"
-    },
-    {
-        "name": "M-84",
-        "uniqueTo": "Yugoslavia",
-        "replaces": "Tank",
-        "unitType": "Armored",
-        "movement": 5,
-        "strength": 70,
-        "cost": 450,
-        "requiredTech": "Combined Arms",
-        "requiredResource": "Oil",
-        "upgradesTo": "Modern Armor",
-        "uniques": [
-            "Can move after attacking",
-            "No defensive terrain bonus",
-            "[+50]% Strength <vs [Land] units>",
-            "Never appears as a Barbarian unit",
-            "Ignores Zone of Control"
-        ],
-        "attackSound": "tankshot"
-    },
+    // {
+    //     "name": "Panzer",
+    //     "unitType": "Armored",
+    //     "uniqueTo": "Germany",
+    //     "replaces": "Tank",
+    //     "movement": 6,
+    //     "strength": 80,
+    //     "cost": 450,
+    //     "requiredTech": "Combined Arms",
+    //     "requiredResource": "Oil",
+    //     "upgradesTo": "Modern Armor",
+    //     "uniques": [
+    //         "Can move after attacking",
+    //         "No defensive terrain bonus",
+    //         "[+50]% Strength <vs [Land] units>"
+    //     ],
+    //     "attackSound": "tankshot"
+    // },
+    // {
+    //     "name": "M-84",
+    //     "uniqueTo": "Yugoslavia",
+    //     "replaces": "Tank",
+    //     "unitType": "Armored",
+    //     "movement": 5,
+    //     "strength": 70,
+    //     "cost": 450,
+    //     "requiredTech": "Combined Arms",
+    //     "requiredResource": "Oil",
+    //     "upgradesTo": "Modern Armor",
+    //     "uniques": [
+    //         "Can move after attacking",
+    //         "No defensive terrain bonus",
+    //         "[+50]% Strength <vs [Land] units>",
+    //         "Never appears as a Barbarian unit",
+    //         "Ignores Zone of Control"
+    //     ],
+    //     "attackSound": "tankshot"
+    // },
     {
         "name": "Rocket Artillery",
         "unitType": "Siege",
