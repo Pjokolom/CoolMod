@@ -527,7 +527,7 @@
     },
     {
         "name": "Wine",
-        "resourceType": "Luxury",
+        "resourceType": "Bonus",
         "terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
         "gold": 2,
         "improvementStats": {"food": 1,"gold": 1},
@@ -909,6 +909,36 @@
     },
     {
         "name": "Pepper", 
+        "gold": 2,
+        "resourceType": "Luxury",
+        "uniques": ["Doesn't generate naturally"]
+    },
+    {
+        "name": "Beer", 
+        "gold": 2,
+        "resourceType": "Luxury",
+        "uniques": ["Doesn't generate naturally"]
+    },
+    {
+        "name": "Berezovica", 
+        "gold": 2,
+        "resourceType": "Luxury",
+        "uniques": ["Doesn't generate naturally"]
+    },
+    {
+        "name": "Winebrew", 
+        "gold": 2,
+        "resourceType": "Luxury",
+        "uniques": ["Doesn't generate naturally"]
+    },
+    {
+        "name": "Becherovka", 
+        "gold": 2,
+        "resourceType": "Luxury",
+        "uniques": ["Doesn't generate naturally"]
+    },
+    {
+        "name": "Arkhi", 
         "gold": 2,
         "resourceType": "Luxury",
         "uniques": ["Doesn't generate naturally"]

@@ -1011,7 +1011,7 @@
         "strength": 16,
         "cost": 90,
         "requiredTech": "Civil Service",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+        "uniques": ["[+50]% Strength <vs [Mounted] units>","Consumes [1] [Human Resourses]"],
         "upgradesTo": "Lancer",
         "obsoleteTech": "Metallurgy",
         "attackSound": "metalhit"
@@ -1041,6 +1041,7 @@
         "requiredTech": "Civil Service",
         "requiredResource": "Horses",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "[+50]% Strength <vs [Mounted] units>",
             "[+40]% Strength <vs [Siege] units>",
             "Can move after attacking",

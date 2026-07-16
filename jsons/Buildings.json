@@ -1944,16 +1944,83 @@
     {
         "name": "Brewery",
         "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Tea","Salt","Wine","Sugar","Coffee"],
+        "requiredNearbyImprovedResources": ["Wheat","Corn"],
         "cost": 100,
         "gold": 2,
         "hurryCostModifier": 25,
         "uniques": [
+            "Provides [1] [Beer]",
             "[+2 Gold] from [Sugar] tiles [in this city]",
-            "[+2 Gold] from [Coffee] tiles [in this city]",
-            "[+2 Gold] from [Wine] tiles [in this city]",
-            "[+2 Gold] from [Salt] tiles [in this city]",
-            "[+2 Gold] from [Tea] tiles [in this city]"
+            "[+2 Production] from [Wheat] tiles [in this city]",
+            "[+2 Production] from [Corn] tiles [in this city]",
+            "[+2 Gold] from [Salt] tiles [in this city]"
+        ],
+        "requiredTech": "Guilds"
+    },
+    {
+        "name": "Novgorodish Brewery",
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Hardwood"],
+        "cost": 100,
+        "gold": 2,
+        "uniqueTo": "Novgorod",
+        "replaces": "Brewery",
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Provides [1] [Berezovica]",
+            "[+2 Gold] from [Sugar] tiles [in this city]",
+            "[+3 Production] from [Hardwood] tiles [in this city]",
+            "[+2 Gold] from [Salt] tiles [in this city]"
+        ],
+        "requiredTech": "Guilds"
+    },
+    {
+        "name": "Winery",
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Wine"],
+        "cost": 100,
+        "uniqueTo": "Ellada",
+        "replaces": "Brewery",
+        "gold": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Provides [1] [Winebrew]",
+            "[+2 Gold] from [Sugar] tiles [in this city]",
+            "[+3 Production] from [Wine] tiles [in this city]",
+            "[+2 Gold] from [Salt] tiles [in this city]"
+        ],
+        "requiredTech": "Guilds"
+    },
+    {
+        "name": "Distillery",
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Spices","Citrus","Tea"],
+        "cost": 100,
+        "uniqueTo": "Czechia",
+        "gold": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Provides [1] [Becherovka]",
+            "[+2 Gold] from [Sugar] tiles [in this city]",
+            "[+3 Production] from [Wine] tiles [in this city]",
+            "[+2 Gold] from [Salt] tiles [in this city]"
+        ],
+        "requiredTech": "Guilds"
+    },
+    {
+        "name": "Turk Distillery",
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Cattle"],
+        "cost": 100,
+        "uniqueTo": "Turkestan",
+        "replaces": "Brewery",
+        "gold": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Provides [1] [Arkhi]",
+            "[+2 Gold] from [Sugar] tiles [in this city]",
+            "[+3 Production] from [Wine] tiles [in this city]",
+            "[+2 Gold] from [Salt] tiles [in this city]"
         ],
         "requiredTech": "Guilds"
     },
