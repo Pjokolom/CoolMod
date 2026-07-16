@@ -340,6 +340,12 @@
         "wonderCost": 625,
         "techs": [
             {
+                "name": "Galleons",
+                "row": 1,
+                "prerequisites": ["Astronomy"],
+                "quote": "'With theese ships you can conquer anything.' - Edwin (that made a mimic)"
+            },
+            {
                 "name": "Navigation",
                 "row": 2,
                 "prerequisites": ["Astronomy"],
@@ -586,6 +592,12 @@
                 "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
             },
             {
+                "name": "Combined Arms",
+                "row": 6,
+                "prerequisites": ["Ballistics"],
+                "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+            }
+            {
                 "name": "Electronics",
                 "row": 5,
                 "prerequisites": ["Combustion","Plastics"],
@@ -618,7 +630,24 @@
         "buildingCost": 500,
         "wonderCost": 1060,
         "techs": [
-            
+            {
+                "name": "Light Tanks",
+                "row": 8,
+                "prerequisites": ["Early Light Tanks"],
+                "quote": "'My tank 's ridinn 30 km/s. Soft attack 1,6.' - Mickle Slivengstone"
+            },
+            {
+                "name": "Medium Tanks",
+                "row": 9,
+                "prerequisites": ["Early Medium Tanks"],
+                "quote": "'I'm gonn brown. I'm shitsing??' - Brownman"
+            },
+            {
+                "name": "Heavy Tanks",
+                "row": 10,
+                "prerequisites": ["Early Heavy Tanks"],
+                "quote": "'Heavy as your mom.' - Your dad"
+            },
             {
                 "name": "Momo",
                 "row": 3,
@@ -651,15 +680,10 @@
             {
                 "name": "Radar",
                 "row": 6,
-                "prerequisites": ["Ballistics","Electronics"],
+                "prerequisites": ["Electronics"],
                 "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
             },
-            {
-                "name": "Combined Arms",
-                "row": 8,
-                "prerequisites": ["Ballistics","Combustion"],
-                "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
-            }
+            
         ]
     },
     {

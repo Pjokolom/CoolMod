@@ -162,16 +162,16 @@
     },
     {
         "name": "Finokarelia",
-        "leaderName": "Mannerheim",
+        "leaderName": "Ukki Väinämöinen",
         "adjective": ["Finokarelian"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Diplomatic",
-        "startIntroPart1": "Honor and glory be yours, Baron Carl Gustaf Emil Mannerheim, Marshal of Finokarelland. Your nation lies in the vast, cold North, surrounded by the great wilderness of forests and thousands of lakes. After being under the rule first of the Swedish and then of the Russians, Finland declared its independence in 1917 but was soon embroiled in a bloody civil war. Two decades later you united your war-torn nation to protect its independence against overwhelming Soviet attack. Despite all the odds, Finland remained independent in the torments of World War II by its stalwart united spirit, and from ashes of war your small agrarian country developed into a modern industrious welfare state the quality of life of which now stands on the top of the world.",
+        "startIntroPart1": "Honor and glory be yours, Vaseli Levonen, Marshal of Finokarelland. Your nation lies in the vast, cold North, surrounded by the great wilderness of forests and thousands of lakes. After being under the rule first of the Swedish and then of the Russians, Finland declared its independence in 1917 but was soon embroiled in a bloody civil war. Two decades later you united your war-torn nation to protect its independence against overwhelming Soviet attack. Despite all the odds, Finland remained independent in the torments of World War II by its stalwart united spirit, and from ashes of war your small agrarian country developed into a modern industrious welfare state the quality of life of which now stands on the top of the world.",
         "startIntroPart2": "Honoured marshal Mannerheim, your people calls for you once more time! You are called to unite Finokarelland once again standing strong against her enemies! Will you lead your nation to greatness? Will you build a civilization to stand the test of time?",
         "declaringWar": "I am no stranger to war. What am I going to do is for the greater good.",
         "attacked": "Fine. You will regret this.",
-        "defeated": "Finland has fallen, but our heritage will shine forever.",
-        "introduction": "I am Carl Gustaf Emil Mannerheim, President Of Finland. What brings you here to this snowy land?",
+        "defeated": "Curses! I will never understand those of false faiths. You've tarnished my homelands, now leave me be.",
+        "introduction": "Hello there, my name is Vaseli Levonen.",
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
         "tradeRequest": "The night is beautiful and solemn, and the stars seem smiling upon this deal.",
@@ -180,6 +180,7 @@
         "uniqueName": "Finnish Mobility",
         "uniques": [
             "[+1 Culture] from every [Forest] <in tiles without [Improvement]>",
+            "[+1 Food] from every [Deer] <in tiles without [Improvement]>",
             "[+50]% to Flank Attack bonuses"
         ],
         "cities": [

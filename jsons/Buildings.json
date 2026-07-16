@@ -2769,6 +2769,15 @@
         "requiredTech": "Architecture"
     },
     {
+        "name": "Hire The Black Pearl",
+        "cost": 125,
+        "isWonder": true,
+        "uniques": [
+            "Free [The Black Pearl] appears","Unsellable"
+        ],
+        "requiredTech": "Galleons"
+    },
+    {
         "name": "Hermitage Great Art Slot 1",
         "culture": 2,
         "cost": 0,

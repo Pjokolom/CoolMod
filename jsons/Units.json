@@ -1685,9 +1685,9 @@
 
     // Rennaisance Era
     {
-        "name": "Galleon",
+        "name": "Caravel",
         "unitType": "Melee Water",
-        "movement": 5,
+        "movement": 6,
         "strength": 27,
         "cost": 120,
         "requiredTech": "Astronomy",
@@ -1701,6 +1701,41 @@
             "Consumes [1] [Iron]"
         ],
         "hurryCostModifier": 30,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Galleon",
+        "unitType": "Melee Water",
+        "movement": 5,
+        "strength": 35,
+        "cost": 120,
+        "requiredTech": "Galleons",
+        "upgradesTo": "Ironclad",
+        "obsoleteTech": "Combustion",
+        "uniques": [
+            "[+2] Sight",
+            "Withdraws before melee combat <with [30]% chance>",
+            "Can move after attacking",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [1] [Iron]"
+        ],
+        "hurryCostModifier": 30,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "The Black Pearl",
+        "unitType": "Melee Water",
+        "movement": 7,
+        "strength": 35,
+        "uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "Unbuildable",
+            "[+2] Sight",
+            "Withdraws before melee combat <with [100]% chance>",
+            "Can move after attacking",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [1] [Iron]"
+        ],
         "attackSound": "cannon"
     },
     {
@@ -2822,7 +2857,7 @@
         "attackSound": "machinegun"
     },
     {
-        "name": "Sissi",
+        "name": "Metsäsissi",
         "replaces": "Machine Gun",
         "uniqueTo": "Finokarelia",
         "unitType": "Ranged Gunpowder",
@@ -2832,10 +2867,12 @@
         "rangedStrength": 60,
         "cost": 350,
         "requiredTech": "Ballistics",
-        "promotions": ["Ignore terrain cost", "Extra Movement", "No movement cost to pillage"],
+        "promotions": ["Extra Movement", "No movement cost to pillage"],
         "uniques": [
             "Consumes [1] [Human Resourses]",
-            "[+25]% Strength <vs [Armored] units>"
+            "[+25]% Strength <vs [Armored] units>",
+            "[+30]% Strength <when fighting in [Forest] tiles>",
+            "[+15]% Strength <when fighting in [Jungle] tiles>"
         ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
@@ -2908,7 +2945,7 @@
         "rangedStrength": 28,
         "range": 3,
         "cost": 380,
-        "requiredTech": "Dynamite",
+        "requiredTech": "Armoured trains",
         "upgradesTo": "Rocket Artillery",
         "obsoleteTech": "Rocketry",
         "uniques": [
@@ -3071,6 +3108,24 @@
         "attackSound": "tankshot"
     },
     {
+        "name": "Kolohousenka",
+        "unitType": "Light Tank",
+        "movement": 5,
+        "uniqueTo": "Czechia",
+        "replaces": "Early Light Tank",
+        "strength": 65,
+        "cost": 300,
+        "requiredTech": "Early Light Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [1] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
         "name": "Early Medium Tank",
         "unitType": "Medium Tank",
         "movement": 4,
@@ -3088,8 +3143,8 @@
     },
     {
         "name": "Early Heavy Tank",
-        "unitType": "Medium Tank",
-        "movement": 5,
+        "unitType": "Heavy Tank",
+        "movement": 2,
         "strength": 95,
         "cost": 450,
         "requiredTech": "Early Heavy Tanks",
@@ -3098,6 +3153,41 @@
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+20]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+
+    {
+        "name": "Medium Tank",
+        "unitType": "Medium Tank",
+        "movement": 4,
+        "strength": 100,
+        "cost": 450,
+        "requiredTech": "Medium Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Iron]",
+            "Can move after attacking",
+            "[+35]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Heavy Tank",
+        "unitType": "Heavy Tank",
+        "movement": 3,
+        "strength": 120,
+        "cost": 450,
+        "requiredTech": "Heavy Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [4] [Iron]",
+            "Can move after attacking",
+            "[+20]% Strength <vs [Person] units>",
+            "[+70]% Strength <vs [Light Tank] units>",
+            "[+80]% Strength <vs [Medium Tank] units>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
@@ -3180,23 +3270,6 @@
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "machinegun"
-    },
-    {
-        "name": "Tank",
-        "unitType": "Armored",
-        "movement": 5,
-        "strength": 70,
-        "cost": 450,
-        "requiredTech": "Combined Arms",
-        "requiredResource": "Oil",
-        "upgradesTo": "Modern Armor",
-        "uniques": [
-            "Can move after attacking",
-            "No defensive terrain bonus",
-            "[+50]% Strength <vs [Land] units>",
-            "Never appears as a Barbarian unit"
-        ],
-        "attackSound": "tankshot"
     },
     {
         "name": "Panzer",
