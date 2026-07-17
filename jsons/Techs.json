@@ -610,6 +610,12 @@
                 "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Mickle Slive"
             },
             {
+                "name": "Early Tank destroyers",
+                "row": 7,
+                "prerequisites": ["Tank Modifications","Ballistics"],
+                "quote": "'Eeeh, Mickle are you goin to add Tank Destroyers?.' - Shithead Kola_JT"
+            },
+            {
                 "name": "Early Light Tanks",
                 "row": 8,
                 "prerequisites": ["Tank Modifications"],

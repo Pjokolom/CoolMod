@@ -3197,7 +3197,41 @@
         ],
         "attackSound": "tankshot"
     },
-
+    {
+        "name": "Light Tank",
+        "unitType": "Light Tank",
+        "movement": 6,
+        "strength": 72,
+        "cost": 450,
+        "requiredTech": "Light Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "T-III",
+        "unitType": "Light Tank",
+        "movement": 5,
+        "uniqueTo": "Czechia",
+        "replaces": "Light Tank",
+        "strength": 75,
+        "cost": 450,
+        "requiredTech": "Light Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+45]% Strength <vs [Person] units>",
+            "[+15]% Strength <vs [Light Tank] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
     {
         "name": "Medium Tank",
         "unitType": "Medium Tank",
