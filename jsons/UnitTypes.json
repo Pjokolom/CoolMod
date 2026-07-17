@@ -63,7 +63,7 @@
         "uniques": [
             "Armored",
             "[+50]% Strength <vs [Person] units> <when defending>",
-            "[+20]% Strength <vs [Light Tank] units> <when atacking>",
+            "[+20]% Strength <vs [Light Tank] units> <when attacking>"
         ]
     },
     {
@@ -72,9 +72,9 @@
         "uniques": [
             "Armored",
             "[+70]% Strength <vs [Person] units> <when defending>",
-            "[+45]% Strength <vs [Light Tank] units> <when atacking>",
-            "[+30]% Strength <vs [Siege] units> <when atacking>",
-            "[+20]% Strength <vs [Medium Tank] units> <when atacking>"
+            "[+45]% Strength <vs [Light Tank] units> <when attacking>",
+            "[+30]% Strength <vs [Siege] units> <when attacking>",
+            "[+20]% Strength <vs [Medium Tank] units> <when attacking>"
     ]
     },
     {
@@ -83,10 +83,10 @@
         "uniques": [
             "Armored",
             "[+110]% Strength <vs [Person] units> <when defending>",
-            "[+90]% Strength <vs [Light Tank] units> <when atacking>",
-            "[+60]% Strength <vs [Medium Tank] units> <when atacking>",
-            "[+60]% Strength <vs [Siege] units> <when atacking>",
-            "[+25]% Strength <vs [Medium Tank] units> <when atacking>"
+            "[+90]% Strength <vs [Light Tank] units> <when attacking>",
+            "[+60]% Strength <vs [Medium Tank] units> <when attacking>",
+            "[+60]% Strength <vs [Siege] units> <when attacking>",
+            "[+25]% Strength <vs [Medium Tank] units> <when attacking>"
     ]
     },
     {

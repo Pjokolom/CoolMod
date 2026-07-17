@@ -314,23 +314,6 @@
         "attackSound": "arrow"
     },
     {
-        "name": "Matato'a",
-        "replaces": "Archer",
-        "uniqueTo": "Tonga",
-        "unitType": "Archery",
-        "movement": 3,
-        "strength": 5,
-        "rangedStrength": 7,
-        "cost": 30,
-        "uniques": [
-            "[+1] Sight",
-            "Does not upgrade from ruins-like effects"
-        ],
-        "obsoleteTech": "Machinery",
-        "upgradesTo": "Composite Bowman",
-        "attackSound": "arrow"
-    },
-    {
         "name": "Caravan",
         "unitType": "Civilian",
         "movement": 2,
@@ -390,7 +373,7 @@
             "Consumes [1] [Human Resourses]"
         ],
         "upgradesTo": "Galleon",
-        "obsoleteTech": "Astronomy",
+        "obsoleteTech": "Galleons",
         "attackSound": "nonmetalhit"
     },
     {
@@ -408,7 +391,7 @@
             "[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Galleon",
-        "obsoleteTech": "Astronomy",
+        "obsoleteTech": "Galleons",
         "attackSound": "nonmetalhit"
     },
     {
@@ -426,7 +409,7 @@
             "[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Galleon",
-        "obsoleteTech": "Astronomy",
+        "obsoleteTech": "Galleons",
         "attackSound": "nonmetalhit"
     },
     {
@@ -745,7 +728,7 @@
         "rangedStrength": 7,
         "cost": 75,
         "requiredTech": "Siege",
-        "obsoleteTech": "Compass",
+        "obsoleteTech": "Physics",
         "upgradesTo": "Trebuchet",
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
@@ -758,24 +741,46 @@
         "hurryCostModifier": 20,
         "attackSound": "throw"
     },
-    // {
-    //     "name": "Siege Tower",
-    //     "unitType": "Siege",
-    //     "movement": 2,
-    //     "strength": 12,
-    //     "cost": 75,
-    //     "requiredTech": "Compass",
-    //     "obsoleteTech": "Compass",
-    //     "upgradesTo": "Trebuchet",
-    //     "promotions": ["Cover I", "Extra Sight"],
-    //     "uniques": [
-    //         "[+200]% Strength <vs cities> <when attacking>",
-    //         "No defensive terrain bonus",
-    //         "Can only attack [City] units"
-    //     ],
-    //     "hurryCostModifier": 20,
-    //     "attackSound": "metalhit"
-    // },
+    {
+        "name": "Siege Tower",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 12,
+        "cost": 75,
+        "requiredTech": "Siege Towers",
+        "promotions": ["Cover I", "Extra Sight"],
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
+            "[+260]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs cities> <when defending>",
+            "No defensive terrain bonus",
+            "Can only attack [City] units"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Helepolis",
+        "unitType": "Siege",
+        "movement": 1,
+        "uniqueTo": "Ellada",
+        "replaces": "Siege Tower",
+        "strength": 35,
+        "cost": 130,
+        "requiredTech": "Siege Towers",
+        "promotions": ["Cover I", "Extra Sight"],
+        "uniques": [
+            "Consumes [7] [Human Resourses]",
+            "Consumes [6] [Iron]",
+            "[+100]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs cities> <when defending>",
+            "No defensive terrain bonus",
+            "Can only attack [City] units"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit"
+    },
     {
         "name": "Composite Bowman",
         "unitType": "Archery",
@@ -789,6 +794,23 @@
         "upgradesTo": "Crossbowman",
         "attackSound": "arrow"
     },
+    	{
+		"name": "Militiaman",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 10,
+		"cost": 20,
+		"uniques": [ "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>",
+            "Requires at least [2] population","[-1] population [in this city]",
+            "[1] population in a random city <for all movement> <by consuming this unit> <when above [70] HP>"
+        ],
+		"requiredTech": "Currency",
+		"obsoleteTech": "Civil Service",
+		"attackSound": "nonmetalhit"
+	},
     {
         "name": "Sulicznik",
         "uniqueTo": "Novgorod",
@@ -1413,7 +1435,7 @@
         "uniques": [
             "Consumes [1] [Human Resourses]"
         ],
-        "obsoleteTech": "Natural Resourses",
+        "obsoleteTech": "Rifling",
         "attackSound": "crossbow"
     },
     {
@@ -1427,7 +1449,7 @@
         "cost": 120,
         "requiredTech": "Machinery",
         "upgradesTo": "Gatling Gun",
-        "obsoleteTech": "Natural Resourses",
+        "obsoleteTech": "Rifling",
         "promotions": ["[Chu-Ko-Nu] ability"],
         "attackSound": "crossbow"
     },
@@ -1443,7 +1465,7 @@
         "cost": 120,
         "requiredTech": "Machinery",
         "upgradesTo": "Gatling Gun",
-        "obsoleteTech": "Natural Resourses",
+        "obsoleteTech": "Rifling",
         "promotions": ["Extended Range"],
         "attackSound": "arrow"
     },
@@ -1458,7 +1480,7 @@
         "cost": 120,
         "requiredTech": "Machinery",
         "upgradesTo": "Gatling Gun",
-        "obsoleteTech": "Natural Resourses",
+        "obsoleteTech": "Rifling",
         "attackSound": "crossbow"
     },
     {
@@ -1693,7 +1715,7 @@
         "cost": 120,
         "requiredTech": "Astronomy",
         "upgradesTo": "Ironclad",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Steam Power",
         "uniques": [
             "[+1] Sight",
             "Withdraws before melee combat <with [80]% chance>",
@@ -1712,7 +1734,7 @@
         "cost": 120,
         "requiredTech": "Galleons",
         "upgradesTo": "Ironclad",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Steam Power",
         "uniques": [
             "[+2] Sight",
             "Withdraws before melee combat <with [30]% chance>",
@@ -1749,7 +1771,7 @@
         "cost": 105,
         "requiredTech": "Compass",
         "upgradesTo": "Ironclad",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Steam Power",
         "promotions": ["Boarding Party I"],
         "uniques": [
             "[+1] Sight",
@@ -1769,7 +1791,7 @@
         "cost": 120,
         "requiredTech": "Astronomy",
         "upgradesTo": "Ironclad",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Steam Power",
         "uniques": [
             "Cannot enter ocean tiles",
             "Can move after attacking"
@@ -1787,7 +1809,7 @@
         "cost": 120,
         "requiredTech": "Astronomy",
         "upgradesTo": "Ironclad",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Steam Power",
         "promotions": ["Boarding Party I"],
         "uniques": [
             "[+1] Sight",
@@ -2249,7 +2271,7 @@
         "strength": 34,
         "cost": 225,
         "requiredTech": "Military Science",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Landships",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
         "uniques": [
@@ -2270,7 +2292,7 @@
         "strength": 34,
         "cost": 225,
         "requiredTech": "Military Science",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Landships",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
         "uniques": [
@@ -2290,7 +2312,7 @@
         "strength": 36,
         "cost": 225,
         "requiredTech": "Military Science",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Landships",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
         "promotions": ["Great Generals I"],
@@ -2310,7 +2332,7 @@
         "strength": 34,
         "cost": 225,
         "requiredTech": "Military Science",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Landships",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
         "promotions": ["Homeland Guardian","Desert Warrior"],
@@ -2330,7 +2352,7 @@
         "strength": 34,
         "cost": 225,
         "requiredTech": "Military Science",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Landships",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
         "uniques": [
@@ -2351,7 +2373,7 @@
         "strength": 34,
         "cost": 198,
         "requiredTech": "Military Science",
-        "obsoleteTech": "Combustion",
+        "obsoleteTech": "Landships",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
         "promotions": ["Extra Movement"],
@@ -2950,7 +2972,7 @@
             "Consumes [3] [Iron]",
             "No defensive terrain bonus",
             "[+60]% Strength <vs [Land] units> <when defending>",
-            "[+50]% Strength <vs [Armored] units> <when atacking>",
+            "[+50]% Strength <vs [Armored] units> <when attacking>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
@@ -2999,8 +3021,8 @@
             "Consumes [3] [Iron]",
             "No defensive terrain bonus",
             "[+50]% Strength <vs [Land] units> <when defending>",
-            "[+50]% Strength <vs [Armored] units> <when atacking>",
-            "[-20]% Strength <when atacking>",
+            "[+50]% Strength <vs [Armored] units> <when attacking>",
+            "[-20]% Strength <when attacking>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"

@@ -208,8 +208,8 @@
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
         "tradeRequest": "Our cultures have much to share, and this deal proves it.",
-        "outerColor": [50, 20, 0],
-        "innerColor": [180, 205, 170],
+        "outerColor": [35, 0, 0],
+        "innerColor": [140, 230, 0],
         "uniqueName": "Rinascimento",
         "uniques": [
             "[+1 Culture] from every specialist [in all cities]",
@@ -4090,8 +4090,8 @@
     //Barbarian
     {
         "name": "Barbarians",
-        "outerColor": [0,0,0],
-        "innerColor": [184,0,0],
+        "outerColor": [6,0,0],
+        "innerColor": [174,10,0],
         "uniques": ["Can only heal by pillaging"]
     }
 ]

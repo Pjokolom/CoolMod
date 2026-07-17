@@ -218,6 +218,12 @@
                 "quote": "'Oh shit this man just added early game frigates.' - Sri Guru Granth Sahib"
             },
             {
+                "name": "Siege Towers",
+                "row": 4,
+                "prerequisites": ["Siege"],
+                "quote": "'Theese things existed in the Classical era but I have no space heree soo.' - Mickle Slivengstone"
+            },
+            {
                 "name": "Civil Service",
                 "row": 5,
                 "prerequisites": ["Siege"],

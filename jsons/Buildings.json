@@ -1944,7 +1944,7 @@
     {
         "name": "Brewery",
         "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Wheat","Corn"],
+        "requiredNearbyImprovedResources": ["Wheat","Maize"],
         "cost": 100,
         "gold": 2,
         "hurryCostModifier": 25,
@@ -1952,7 +1952,7 @@
             "Provides [1] [Beer]",
             "[+2 Gold] from [Sugar] tiles [in this city]",
             "[+2 Production] from [Wheat] tiles [in this city]",
-            "[+2 Production] from [Corn] tiles [in this city]",
+            "[+2 Production] from [Maize] tiles [in this city]",
             "[+2 Gold] from [Salt] tiles [in this city]"
         ],
         "requiredTech": "Guilds"
