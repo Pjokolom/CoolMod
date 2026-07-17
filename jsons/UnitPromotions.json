@@ -5,7 +5,7 @@
             "[This Unit] heals [50] HP",
             "Doing so will consume this opportunity to choose a Promotion"
         ],
-        "unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Mounted Ranged","Paratrooping"],
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Mounted Ranged","Paratrooping"],
         "row": 0,
         "column": 0
     },
@@ -83,42 +83,42 @@
     {
         "name": "Shock I",
         "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored"]
     },
     {
         "name": "Shock II",
         "prerequisites": ["Shock I"],
         "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored"]
     },
     {
         "name": "Shock III",
         "prerequisites": ["Shock II"],
         "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored"]
     },
     {
         "name": "Drill I",
         "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored"]
     },
     {
         "name": "Drill II",
         "prerequisites": ["Drill I"],
         "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored"]
     },
     {
         "name": "Drill III",
         "prerequisites": ["Drill II"],
         "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored"]
     },
     {
         "name": "Charge",
         "prerequisites": ["Shock II","Drill II","Ambush Formation II"],
         "uniques": ["[+33]% Strength <vs [Wounded] units>"],
-        "unitTypes": ["Mounted","Armored"]
+        "unitTypes": ["Armored Man Mounted","Mounted","Armored"]
     },
     {
         "name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
@@ -130,7 +130,7 @@
         "name": "Blitz",
         "prerequisites": ["Shock III","Drill III","Ambush Formation III"],
         "uniques": ["[1] additional attacks per turn"],
-        "unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Mounted","Armored"]
     },
     {
         "name": "Woodsman",
@@ -157,7 +157,7 @@
         "uniques": [
             "All adjacent units heal [+5] HP when healing"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Scout"]
     },
     {
         "name": "Medic II",
@@ -166,7 +166,7 @@
             "[+5] HP when healing <in [Foreign Land] tiles>",
             "All adjacent units heal [+5] HP when healing"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Scout"]
     },
     // Scout
     {
@@ -527,20 +527,20 @@
         "uniques": [
             "Unit will heal every turn, even if it performs an action"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Mounted"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Mounted"]
     },
     {
         "name": "Mobility",
         "prerequisites": ["Shock III","Drill III","Ambush Formation III","Targeting I",
             "Bombardment I","Boarding Party I","Naval Interception I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
         "uniques": ["[+1] Movement"],
-        "unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
+        "unitTypes": ["Armored Man Mounted","Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
     },
     {
         "name": "Sentry",
         "prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Ambush Formation II","Bombardment I","Targeting I","Boarding Party I","Naval Interception I","Coastal Raider I"],
         "uniques": ["[+1] Sight"],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
     },
     {
         "name": "Logistics",
@@ -558,7 +558,7 @@
             "[+33]% Strength <vs [Armored] units>",
             "[+33]% Strength <vs [Mounted] units>"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
     {
         "name": "Ambush Formation II",
@@ -567,7 +567,7 @@
             "[+33]% Strength <vs [Armored] units>",
             "[+33]% Strength <vs [Mounted] units>"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
     {
         "name": "Ambush Formation III",
@@ -576,7 +576,7 @@
             "[+30]% Strength <vs [Armored] units>",
             "[+30]% Strength <vs [Mounted] units>"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
+        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
     // Water ranged and air units
     {
@@ -1434,6 +1434,14 @@
         "name": "Burning",
         "uniques": [
             "[This Unit] takes [10] damage <upon turn end>"
+        ]
+        
+    
+    },
+    {
+        "name": "Burning II",
+        "uniques": [
+            "[This Unit] takes [25] damage <upon turn end>"
         ]
         
     
