@@ -23,7 +23,12 @@
         // "[-25]% [Culture] [in pupetted cities]"
 
         // "[+20]% [Production] [in cities connected via railroad]"
-        "[+1 Gold] from every [Streets] <with [1] to [6] neighboring [Streets] tiles> <after discovering [Theology]>",
+        "[+1 Gold] from every [City center] <with [1] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
+        "[+1 Gold] from every [City center] <with [2] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
+        "[+1 Gold] from every [City center] <with [3] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
+        "[+1 Gold] from every [City center] <with [4] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
+        "[+1 Gold] from every [City center] <with [5] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
+        "[+1 Gold] from every [City center] <with [6] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
         // something something unit supply
         "[+1 Food] from every [Mill] <with [1] to [6] neighboring [Farm] tiles>",
         "[+1 Food] from every [Mill] <with [2] to [6] neighboring [Farm] tiles>",

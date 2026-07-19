@@ -23,7 +23,7 @@
             "[+1 Food] [in all cities]"
         ],
         "color": [56,255,112]
-    },
+    }, 
     {
         "name": "Mercantile",
         "friendBonusUniques": [
@@ -36,6 +36,14 @@
             "Provides a unique luxury"
         ],
         "color": [255,216,0]
+    },
+    {
+        "name": "Sentinelese",
+        "friendBonusUniques": [
+        ],
+        "allyBonusUniques": [
+        ],
+        "color": [255,20,20]
     },
     {
         "name": "Militaristic",

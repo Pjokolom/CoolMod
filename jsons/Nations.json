@@ -118,7 +118,14 @@
         "uniqueName": "Hellenic League",
         "uniques": [
             "[+1] Sight <for [{Military} {Land}] units>",
-            "[-50]% Gold cost of acquiring tiles [in all cities]"
+            "[-50]% Gold cost of acquiring tiles [in all cities]",
+            "Comment [+2 [Culture] from every coast adjusted to city center]",
+            "[+2 Culture] from every [City center] <with [1] to [6] neighboring [Coast] tiles> <hidden from users>",
+            "[+2 Culture] from every [City center] <with [2] to [6] neighboring [Coast] tiles> <hidden from users>",
+            "[+2 Culture] from every [City center] <with [3] to [6] neighboring [Coast] tiles> <hidden from users>",
+            "[+2 Culture] from every [City center] <with [4] to [6] neighboring [Coast] tiles> <hidden from users>",
+            "[+2 Culture] from every [City center] <with [5] to [6] neighboring [Coast] tiles> <hidden from users>",
+            "[+2 Culture] from every [City center] <with [6] to [6] neighboring [Coast] tiles> <hidden from users>"
         ],
         "cities": [
              "Byzantium","Sparta","Corinth","Antioch","Athens","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
@@ -166,8 +173,7 @@
         "adjective": ["Finokarelian"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Diplomatic",
-        "startIntroPart1": "Honor and glory be yours, Vaseli Levonen, Marshal of Finokarelland. Your nation lies in the vast, cold North, surrounded by the great wilderness of forests and thousands of lakes. After being under the rule first of the Swedish and then of the Russians, Finland declared its independence in 1917 but was soon embroiled in a bloody civil war. Two decades later you united your war-torn nation to protect its independence against overwhelming Soviet attack. Despite all the odds, Finland remained independent in the torments of World War II by its stalwart united spirit, and from ashes of war your small agrarian country developed into a modern industrious welfare state the quality of life of which now stands on the top of the world.",
-        "startIntroPart2": "Honoured marshal Mannerheim, your people calls for you once more time! You are called to unite Finokarelland once again standing strong against her enemies! Will you lead your nation to greatness? Will you build a civilization to stand the test of time?",
+        "startIntroPart1": "Honor and glory be yours, Vaseli Levonen, Marshal of Finokarelland. Your nation lies in the vast, cold North and it's cool.",
         "declaringWar": "I am no stranger to war. What am I going to do is for the greater good.",
         "attacked": "Fine. You will regret this.",
         "defeated": "Curses! I will never understand those of false faiths. You've tarnished my homelands, now leave me be.",
@@ -194,6 +200,41 @@
         ]
     },
     {
+        "name": "Sapmi",
+        "leaderName": "Isak Mikal Saba",
+        "adjective": ["Saami"],
+        "startBias": ["Snow","Coast"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "We'll fougt if't needen",
+        "declaringWar": "I am no stranger to war. What am I going to do is for the greater good.",
+        "attacked": "Fine. You will regret this.",
+        "defeated": "Curses! I will never understand those of false faiths. You've tarnished my homelands, now leave me be.",
+        "introduction": "Hello there, my name is Vaseli Levonen.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "The night is beautiful and solemn, and the stars seem smiling upon this deal.",
+        "outerColor": [15, 20, 70],
+        "innerColor": [255, 60, 60],
+        "uniqueName": "Far North",
+        "uniques": [
+
+            "Comment [All Land Units may enter ice tiles]",
+            "[Person] units gain the [Saami] promotion <hidden from users>",
+            "May not annex cities <before the [Industrial era]>",
+            "[+1 Food] from every [Fish]",
+            "[+1 Food] from every [Deer]",
+            "[+3 Food] from every [Ice Fish]",
+            "[+2 Food] from every [Furs]"
+            
+        ],
+        "cities": [
+            "Guovdageaidnu","Kaaraashjohka","Alta","Tromsio","Johkomohkke","Gällivare","Lujavwr","Kiruna","Ohcejohka","Aanaar"
+        ],
+        "spyNames": [
+            "Pujkiamitaar","Pelovnijool","Variacze","Regen Arataaka","Elf","Pisok","Sniegostup","John Titor","Venkketarpuvwsstos","Ertertertekartusstoltagehktel"
+        ]
+    },
+    {
         "name": "Italy",
         "leaderName": "Vittorio Emanuele III",
         "adjective": ["Italian"],
@@ -209,7 +250,7 @@
         "hateHello": "What do you want?",
         "tradeRequest": "Our cultures have much to share, and this deal proves it.",
         "outerColor": [35, 0, 0],
-        "innerColor": [140, 230, 0],
+        "innerColor": [170, 210, 0],
         "uniqueName": "Rinascimento",
         "uniques": [
             "[+1 Culture] from every specialist [in all cities]",
@@ -241,6 +282,129 @@
         "spyNames": [
             "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
         ]
+    },
+    {
+        "name": "Poland",
+        "leaderName": "Casimir Casimirovicz Zalupenko",
+        "adjective": ["Polish"],
+        "startBias": ["Avoid [Coast]","Plains"],
+        "preferredVictoryType": "Cultural",
+        "startIntroPart1": "All hail noble King Casimir the Great, protector and sovereign of the Kingdom of Poland. You ascended to the throne during a time of great turmoil, with the nation's economy in shambles and its people demoralized by the wars of your predecessor. And yet, your reign marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
+        "startIntroPart2": "Honored king Casimir, the people have long admired the steady hand of governance you wield. Can you return your kingdom and its subjects to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "I have decided to end you!",
+        "attacked": "My armies will grind you to dust!",
+        "defeated": "Celebrate your victory well...it might be your last one.",
+        "introduction": "I, Casimir the Great, welcome you to the lands of the Great Kingdom of Poland.",
+        "neutralHello": "I salute you.",
+        "hateHello": "What are you looking for here?",
+        "tradeRequest": "How do you like my offer?",
+        "outerColor": [241,3,0],
+        "innerColor": [80,11,14],
+        "uniqueName": "Solidarity",
+        "uniques": [
+            "Comment [Free Policy every era.]",
+            "Free Social Policy <upon entering the [Classical era]> <hidden from users>",
+            "Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
+            "Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
+            "Free Social Policy <upon entering the [Industrial era]> <hidden from users>",
+            "Free Social Policy <upon entering the [Modern era]> <hidden from users>",
+            "Free Social Policy <upon entering the [Atomic era]> <hidden from users>"
+        ],
+        "cities": [
+            "Warsaw","Krakow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
+            "Katowice","Bialystok","Gdynia","Schweidnitz","Czestochowa","Radom","Torun","Kielce","Gliwice","Klaipeda",
+            "Bytom","Olsztyn","Rzeszow","Bielsko-Biala","Ruda Slaska","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
+            "Siauliai","Walbrzych","Zielona Gora","Wloclawek"
+        ],
+        "spyNames": [
+            "Wincenty","Roman","Benita","Jan","Kazimierz","Josef","Krystyna Skarbek","Tarnowski","Marian","Alenka"
+        ]
+    },
+    {
+        "name": "Denmark",
+        "leaderName": "Harald Bluetooth",
+        "adjective": ["Danish"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Honor and glory be yours, Harald Bluetooth Gormsson, mighty heir of King Gorm of the Old and Thryra Dannebod. Not only were you victorious on the battlefield against the armies of Norway, you also completed massive construction project across the land - numerous Ring Fortresses to protect the populace from invasion and internal strife. You successfully drove off waves of German settlers in 983 AD and sheltered your kingdom from unwanted foreign influence.",
+        "startIntroPart2": "Stalwart Viking, the time for greatness is upon you once more. You are called to rise up and lead your people to renewed power and trumph! Will you make the world shudder once more at the very thought of your great armies of the Northsmen? Will you let the Viking battle cry ring out across the crashing waved? Will you build a civilization to stand the test of time?",
+        "declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
+        "attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",
+        "defeated": "Loki must have stood by you, for a common man alone could not have defeated me... Oh well! I will join the einherjar in Valhalla and feast, while you toil away here.",
+        "introduction": "Harad Bluetooth bids you welcome to his lands, a Viking unlike any the seas and lands have ever known! Hah, are you afraid?",
+        "neutralHello": "Hail to you.",
+        "hateHello": "Oh, it's you.",
+        "tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+        "outerColor": [109,43,21],
+        "innerColor": [240,231,180],
+        "uniqueName": "Viking Fury",
+        "uniques": [
+            "[+1 Production] from every [Fish]",
+            "[+1] Movement <for [Embarked] units>",
+            "[1] Movement point cost to disembark <for [All] units>",
+            "No movement cost to pillage <for [Melee] units>"
+        ],
+        "cities": [
+            "Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling",
+            "Truso","Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
+            "Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad",
+            "Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen","Hillerod",
+            "Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"
+        ],
+        "spyNames": [
+            "Jørgen","Mette","Henrik","Niels","Helle","Frederik","Ida","Thea","Freja","Morten"
+        ]
+    },
+    {
+        "name": "Gaul",
+        "leaderName": "Vercingetorix",
+        "adjective": ["Gaul"],
+        "startBias": ["Avoid [Coast]","Forest"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Stand before Vercingetorix, High Chieftain of Gaul, who united fierce tribes to defy the Roman tide. Your courage forged legends, and your defiance echoed through conquered halls.",
+        "startIntroPart2": "Warchief, will you rally the clans once more? Can your strength and pride raise a civilization that will outlast even the Empire that crushed you?",
+        "declaringWar": "What a worthless country, you're just like the other weak tribes!",
+        "attacked": "Hah! So you finally had enough with me? Well then, let us meet our blade in the battlefield!",
+        "defeated": "No... NOOOOOO! *dies*", 
+        "introduction": "I am Chief Vercingetorix, I hail from the Arveni tribe. Carry on with your life so you may avoid bloodshed.",
+        "neutralHello": "What is your business with me?",
+        "hateHello": "Step forward, worthy enemy!",
+        "tradeRequest": "Let us trade.",
+        "outerColor": [65, 58, 21],
+        "innerColor": [157, 201, 107],
+        "uniqueName": "Oppidum of Bibracte",
+        "uniqueName": "Druidic Lore",
+        "uniques": [
+            "[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
+            "[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>",
+            "[+1 Food, +1 Gold] from every [Sheep] <after discovering [Animal Husbandry]>"
+        ],
+        "cities": [
+            "Bibracte","Gergovia","Tolosa","Lugdunum","Durocortorum","Bagacum","Nemetocenna","Luteria","Samarobriva","Entremont",
+            "Burdigala","Nemausus","Vienne","Brixia","Sinigaglia","Numantia","Termantia","Alesia","Genevensis","Tricassium",
+            "Gesoriacum","Namnetum","Rotomagus","Avennio","Cularo","Lemonum","Nanterre","Turones","Cenabum","Argantorate",
+            "Catumagos","Coriovallon","Uxellodunum","Vesontio","Agendincum","Cavillonum","Decetia","Gorgobina","Metlosedum","Narbo"
+        ],
+        "spyNames": [
+            "Asterix","Obelix","Panaramix","Deficamix","Devilomix","Mixer","Anton","Dunohorix","Novantico","Auctiona"
+        ]
+    },
+    {
+        "name": "Sentinelese",
+        "adjective": ["Sentinelese"],
+        "cityStateType": "Sentinelese",
+        "declaringWar": "...",
+        "attacked": "...",
+        "defeated": "...",
+        "outerColor": [0, 0, 0],
+        "innerColor": [179, 179, 179],
+        "uniques": [
+            "[-300]% [Production] [in all cities]",
+            "[-300]% [Science]",
+            "[-300]% [Gold] [in all cities]",
+            "Will not be displayed in Civilopedia"
+        ],
+        "cities": ["Nort-Sentinell"]
     },
     // {
     //     "name": "Arabia",
@@ -1181,34 +1345,7 @@
     //     ]
     // },
     // {
-    //     "name": "Gaul",
-    //     "leaderName": "Vercingetorix",
-    //     "adjective": ["Gaul"],
-    //     "startBias": ["Avoid [Coast]","Forest"],
-    //     "preferredVictoryType": "Domination",
-    //     "startIntroPart1": "Stand before Vercingetorix, High Chieftain of Gaul, who united fierce tribes to defy the Roman tide. Your courage forged legends, and your defiance echoed through conquered halls.",
-    //     "startIntroPart2": "Warchief, will you rally the clans once more? Can your strength and pride raise a civilization that will outlast even the Empire that crushed you?",
-    //     "declaringWar": "What a worthless country, you're just like the other weak tribes!",
-    //     "attacked": "Hah! So you finally had enough with me? Well then, let us meet our blade in the battlefield!",
-    //     "defeated": "No... NOOOOOO! *dies*", // Cry about it
-    //     "introduction": "I am Chief Vercingetorix, I hail from the Arveni tribe. Carry on with your life so you may avoid bloodshed.",
-    //     "neutralHello": "What is your business with me?",
-    //     "hateHello": "Step forward, worthy enemy!",
-    //     "tradeRequest": "Let us trade.",
-    //     "outerColor": [65, 58, 21],
-    //     "innerColor": [157, 201, 107],
-    //     "uniqueName": "Oppidum of Bibracte",
-    //     "uniques": ["Gain a free [Murus Gallicus] [in capital] <upon discovering [Mining] technology>"],
-    //     "cities": [
-    //         "Bibracte","Gergovia","Tolosa","Lugdunum","Durocortorum","Bagacum","Nemetocenna","Luteria","Samarobriva","Entremont",
-    //         "Burdigala","Nemausus","Vienne","Brixia","Sinigaglia","Numantia","Termantia","Alesia","Genevensis","Tricassium",
-    //         "Gesoriacum","Namnetum","Rotomagus","Avennio","Cularo","Lemonum","Nanterre","Turones","Cenabum","Argantorate",
-    //         "Catumagos","Coriovallon","Uxellodunum","Vesontio","Agendincum","Cavillonum","Decetia","Gorgobina","Metlosedum","Narbo"
-    //     ],
-    //     "spyNames": [
-    //         "Caturix","Ioimaros","Malorix","Pixtilos","Andala","Orcetirix","Vidiacos","Dunohorix","Novantico","Auctiona"
-    //     ]
-    // },
+
     // {
     //     "name": "Germany",
     //     "leaderName": "Otto von Bismarck",
@@ -2577,35 +2714,6 @@
     //     ]
     // },
     // {
-    //     "name": "Poland",
-    //     "leaderName": "Casimir III",
-    //     "adjective": ["Polish"],
-    //     "startBias": ["Avoid [Coast]","Plains"],
-    //     "preferredVictoryType": "Cultural",
-    //     "startIntroPart1": "All hail noble King Casimir the Great, protector and sovereign of the Kingdom of Poland. You ascended to the throne during a time of great turmoil, with the nation's economy in shambles and its people demoralized by the wars of your predecessor. And yet, your reign marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
-    //     "startIntroPart2": "Honored king Casimir, the people have long admired the steady hand of governance you wield. Can you return your kingdom and its subjects to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
-    //     "declaringWar": "I have decided to end you!",
-    //     "attacked": "My armies will grind you to dust!",
-    //     "defeated": "Celebrate your victory well...it might be your last one.",
-    //     "introduction": "I, Casimir the Great, welcome you to the lands of the Great Kingdom of Poland.",
-    //     "neutralHello": "I salute you.",
-    //     "hateHello": "What are you looking for here?",
-    //     "tradeRequest": "How do you like my offer?",
-    //     "outerColor": [241,3,0],
-    //     "innerColor": [80,11,14],
-    //     "uniqueName": "Solidarity",
-    //     "uniques": ["[-10]% Culture cost of adopting new Policies"],
-    //     "cities": [
-    //         "Warsaw","Krakow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
-    //         "Katowice","Bialystok","Gdynia","Schweidnitz","Czestochowa","Radom","Torun","Kielce","Gliwice","Klaipeda",
-    //         "Bytom","Olsztyn","Rzeszow","Bielsko-Biala","Ruda Slaska","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
-    //         "Siauliai","Walbrzych","Zielona Gora","Wloclawek"
-    //     ],
-    //     "spyNames": [
-    //         "Wincenty","Roman","Benita","Jan","Kazimierz","Josef","Krystyna Skarbek","Tarnowski","Marian","Alenka"
-    //     ]
-    // },
-    // {
     //     "name": "Polynesia",
     //     "leaderName": "Kamehameha I",
     //     "adjective": ["Polynesia"],
@@ -3641,18 +3749,6 @@
     //     "innerColor": [128, 179, 255],
     //     "uniques": [],
     //     "cities": ["Mogadishu"]
-    // },
-    // {
-    //     "name": "Ormus",
-    //     "adjective": ["Ormus"],
-    //     "cityStateType": "Maritime",
-    //     "declaringWar": "We have wanted this for a LONG time. War it shall be.",
-    //     "attacked": "Very well, we will kick you back to the ancient era!",
-    //     "defeated": "This isn't how it is supposed to be!",
-    //     "outerColor": [0, 0, 0],
-    //     "innerColor": [179, 179, 179],
-    //     "uniques": [],
-    //     "cities": ["Ormus"]
     // },
     // {
     //     "name": "Panama City",

@@ -10,6 +10,11 @@
         "column": 0
     },
     // Ranged+Siege
+
+    {
+        "name": "Saami",
+        "uniques": ["Can enter ice tiles"]
+    },
     {
         "name": "Accuracy I",
         "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],

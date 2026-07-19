@@ -63,6 +63,33 @@
         "hurryCostModifier": 20
     },
     {
+        "name": "Oikistes",
+        "unitType": "Civilian",
+        "uniqueTo": "Ellada",
+        "movement": 2,
+        "cost": 106,
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Founds a new puppet city <by consuming this unit>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population"
+        ],
+        "hurryCostModifier": 20
+    },
+    {
+        "name": "Sentinelese Settler",
+        "unitType": "Civilian",
+        "movement": 2,
+        "uniqueTo": "Sentinelese",
+        "replaces": "Settler",
+        "cost": 106,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Will not be displayed in Civilopedia"
+        ],
+        "hurryCostModifier": 20
+    },
+    {
         "name": "Pioneer",
         "uniqueTo": "America",
         "replaces": "Settler",
@@ -212,6 +239,45 @@
                 "text": "This is your basic, spear-swinging fighter."
             }
         ]
+    },
+    {
+		"name": "Sentinelese Warrior",
+		"unitType": "Sword",
+        "uniqueTo": "Sentinelese",
+        "replaces": "Warrior",
+		"movement": 3,
+		"strength": 10,
+		"cost": 0,
+		"uniques": [ 
+            "Never appears as a Barbarian unit", 
+            "Can build [Sentinelese Houses] improvements on tiles",
+            "[-75]% maintenance costs",
+            "Requires at least [2] population",
+            "[-1] population [in this city]",
+            "[1] population in a random city <for all movement> <by consuming this unit> <when above [70] HP>",
+            "Will not be displayed in Civilopedia"
+        ],
+		"attackSound": "nonmetalhit"
+	},
+    {
+        "name": "Sentinelese Archer",
+        "unitType": "Archery",
+        "uniqueTo": "Sentinelese",
+        "replaces": "Archer",
+        "movement": 2,
+        "strength": 5,
+        "rangedStrength": 7,
+        "cost": 0,
+        "uniques": [
+            "Never appears as a Barbarian unit", 
+            "Can build [Sentinelese Houses] improvements on tiles",
+            "[-75]% maintenance costs",
+            "Requires at least [2] population",
+            "[-1] population [in this city]",
+            "[1] population in a random city <for all movement> <by consuming this unit> <when above [70] HP>",
+            "Will not be displayed in Civilopedia"
+        ],
+        "attackSound": "arrow"
     },
     {
         "name": "Jaguar",
@@ -565,7 +631,7 @@
         "name": "Pictish Warrior",
         "unitType": "Sword",
         "replaces": "Spearman",
-        "uniqueTo": "Celts",
+        "uniqueTo": "Gaul",
         "movement": 2,
         "strength": 11,
         "cost": 56,
@@ -573,6 +639,7 @@
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "[+50]% Strength <vs [Mounted] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
         ],
@@ -1039,6 +1106,32 @@
         "attackSound": "metalhit"
     },
     {
+        "name": "Mantelet",
+        "unitType": "Sword",
+        "movement": 1,
+        "strength": 16,
+        "cost": 90,
+        "requiredTech": "Civil Service",
+        "uniques": ["[+70]% Strength <vs cities> <when defending>","[+60]% Strength <vs [Archery] units> <when defending>","Consumes [1] [Human Resourses]"],
+        "obsoleteTech": "Metallurgy",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Wheeled Mantelet",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 16,
+        "cost": 90,
+        "requiredTech": "Civil Service",
+        "uniques": [
+            "[+80]% Strength <vs cities> <when defending>",
+            "[+60]% Strength <vs [Archery] units> <when defending>",
+            "Consumes [1] [Human Resourses]"
+        ],
+        "obsoleteTech": "Metallurgy",
+        "attackSound": "metalhit"
+    },
+    {
         "name": "Kropach",
         "unitType": "Sword",
         "uniqueTo": "Czechia",
@@ -1470,7 +1563,7 @@
     },
     {
         "name": "Saethwyr",
-        "uniqueTo": "Wales",
+        "uniqueTo": "Gaul",
         "replaces": "Crossbowman",
         "unitType": "Archery",
         "movement": 2,
@@ -1478,6 +1571,9 @@
         "rangedStrength": 18,
         "cost": 120,
         "requiredTech": "Machinery",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "upgradesTo": "Gatling Gun",
         "obsoleteTech": "Rifling",
         "attackSound": "crossbow"
@@ -2224,12 +2320,15 @@
     {
         "name": "Fenian",
         "replaces": "Rifleman",
-        "uniqueTo": "Ireland",
+        "uniqueTo": "Gaul",
         "unitType": "Gunpowder",
         "movement": 2,
         "strength": 40,
         "cost": 165,
         "requiredTech": "Rifling",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Great War Infantry",
         "attackSound": "shot"
@@ -3150,6 +3249,7 @@
         ],
         "attackSound": "tankshot"
     },
+    //CZECHLAND
     {
         "name": "Kolohousenka",
         "unitType": "Light Tank",
@@ -3170,6 +3270,27 @@
         "attackSound": "tankshot"
     },
     {
+        "name": "Mattila Assault Wagon",
+        "unitType": "Light Tank",
+        "movement": 4,
+        "uniqueTo": "Finokarelia",
+        "replaces": "Early Light Tank",
+        "strength": 68,
+        "cost": 360,
+        "requiredTech": "Early Light Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+70]% Strength <vs [Person] units>",
+            "[+15]% Strength <when fighting in [Forest] tiles>",
+            "[+20]% Strength <when fighting in [Swamp] tiles>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
         "name": "Early Medium Tank",
         "unitType": "Medium Tank",
         "movement": 4,
@@ -3178,7 +3299,7 @@
         "requiredTech": "Early Medium Tanks",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [3] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [3] [Iron]",
             "Can move after attacking",
             "[+35]% Strength <vs [Person] units>",
@@ -3195,7 +3316,7 @@
         "requiredTech": "Early Heavy Tanks",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [3] [Human Resourses]",
+            "Consumes [5] [Human Resourses]",
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+20]% Strength <vs [Person] units>",

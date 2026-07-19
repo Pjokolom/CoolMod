@@ -21,9 +21,26 @@
         "turnsToBuild": 7,
         "techRequired": "Woodworking",
         "uniques": [
+            "Comment [[+1 Gold] to [City center] when adjusted]",
             "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Gold] from [Fresh water] tiles <after discovering [Civil Service]>",
             "Pillaging this improvement yields approximately [+30 Gold]",
+            "Provides [2] [Human Resourses]"
+        ],
+        "shortcutKey": "F"
+    },
+    {
+        "name": "Czornoliesh Streets",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains","Hill","Forest"],
+        "food": 1,
+        "replaces": "Streets",
+        "uniqueTo": "Czornoliessie",
+        "turnsToBuild": 7,
+        "techRequired": "Woodworking",
+        "uniques": [
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
+            "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
             "Provides [2] [Human Resourses]"
         ],
         "shortcutKey": "F"
@@ -41,6 +58,19 @@
             "[+1 Gold] from [Fresh water] tiles <after discovering [Civil Service]>",
             "Pillaging this improvement yields approximately [+30 Gold]",
             "Provides [2] [Human Resourses]"
+        ],
+        "shortcutKey": "F"
+    },
+    {
+        "name": "Sentinelese Houses",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland"],
+        "food": 1,
+        "replaces": "Streets",
+        "uniqueTo": "Turkestan",
+        "turnsToBuild": 7,
+        "techRequired": "Woodworking",
+        "uniques": [
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>"
         ],
         "shortcutKey": "F"
     },
@@ -69,6 +99,20 @@
         "techRequired": "Bronze",
         "uniques": [
             "[+1 Production] <after discovering [Steel]>",
+            "Can only be built to improve a resource <in [resource] tiles>",
+            "Pillaging this improvement yields approximately [+10 Gold]"
+        ],
+        "shortcutKey": "L"
+    },
+    {
+        "name": "Avanto",
+        "uniqueTo": "Sapmi",
+        "terrainsCanBeBuiltOn": ["Snow","Ice"],
+        "food": 1,
+        "turnsToBuild": 7,
+        "techRequired": "Bronze",
+        "uniques": [
+            "[+1 Food] <after discovering [Steel]>",
             "Can only be built to improve a resource <in [resource] tiles>",
             "Pillaging this improvement yields approximately [+10 Gold]"
         ],
@@ -109,18 +153,7 @@
         ],
         "shortcutKey": "M"
     },
-    {
-        "name": "Trading post",
-        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh"],
-        "gold": 1,
-        "turnsToBuild": 7,
-        "techRequired": "Guilds",
-        "uniques": [
-            "[+1 Gold] <after discovering [Economics]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
-        ],
-        "shortcutKey": "T"
-    },
+
 
     // Resource-specific
     {
@@ -881,6 +914,28 @@
             "Unpillagable",
             "Irremovable",
             "Unbuildable"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Marks the center of a city"
+            },
+            {
+                "text": "Appearance changes with the technological era of the owning civilization"
+            }
+        ]
+    },
+    {
+        "name": "Sentinelese Houses Center",
+        "uniqueTo": "Sentinelese",
+        "replaces": "City center",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "uniques": [
+            "Ensures a minimum tile yield of [+2 Food, +2 Production] <in [Hill] tiles>",
+            "Ensures a minimum tile yield of [+3 Food, +1 Production] <in tiles without [Hill]>",
+            "Unpillagable",
+            "Irremovable",
+            "Unbuildable",
+            "Will not be displayed in Civilopedia"
         ],
         "civilopediaText": [
             {

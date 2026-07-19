@@ -2,7 +2,7 @@
     {
         "name": "Person",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Human Resourses]"]
+        "uniques": ["Consumes [1] [Human Resourses]","Unavailable <for [Sentinelese]> <hidden from users>"]
     },
     {
         "name": "Civilian",
@@ -74,7 +74,9 @@
             "[+70]% Strength <vs [Person] units> <when defending>",
             "[+45]% Strength <vs [Light Tank] units> <when attacking>",
             "[+30]% Strength <vs [Siege] units> <when attacking>",
-            "[+20]% Strength <vs [Medium Tank] units> <when attacking>"
+            "[+20]% Strength <vs [Medium Tank] units> <when attacking>",
+            "[-15]% Strength <when fighting in [Forest] tiles>",
+            "[-10]% Strength <when fighting in [Hill] tiles>"
     ]
     },
     {
@@ -86,7 +88,8 @@
             "[+90]% Strength <vs [Light Tank] units> <when attacking>",
             "[+60]% Strength <vs [Medium Tank] units> <when attacking>",
             "[+60]% Strength <vs [Siege] units> <when attacking>",
-            "[+25]% Strength <vs [Medium Tank] units> <when attacking>"
+            "[+25]% Strength <vs [Medium Tank] units> <when attacking>",
+            "[-30]% Strength <when fighting in [Forest] tiles>"
     ]
     },
     {

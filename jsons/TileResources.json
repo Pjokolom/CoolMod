@@ -100,6 +100,15 @@
         "uniques": ["Generated on every [6] tiles <in [{Featureless} {Coast}] tiles>"]
     },
     {
+        "name": "Ice Fish",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Ice","Snow"],
+        "food": 1,
+        "improvementStats": {"food": 1},
+        "improvement": "Avanto",
+        "uniques": ["Generated on every [10] tiles <in [{Featureless} {Ice}] tiles>","Generated on every [7] tiles <in [{Featureless} {Snow}] tiles>"]
+    },
+    {
       "name": "Hardwood",
       "resourceType": "Bonus",
       "terrainsCanBeFoundOn": ["Forest"],

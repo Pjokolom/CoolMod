@@ -556,6 +556,18 @@
         ]
     },
     {
+        "name": "Village Center",
+        "isNationalWonder": true,
+        "cost": 0,
+        "cityStrength": -3,
+		"cityHealth": -3,
+        "uniqueTo": "Sentinelese",
+        "replaces": "Palace",
+        "uniques": [
+            "Indicates the capital city"
+        ]
+    },
+    {
         "name": "Palace Great Writing Slot",
         "culture": 2,
         "cost": 0,
@@ -1728,7 +1740,7 @@
     },
     {
         "name": "Silversmith",
-        "uniqueTo": "Celts",
+        "uniqueTo": "Gaul",
         "replaces": "Mint",
         "cost": 75,
         "production": 2,
@@ -1988,6 +2000,23 @@
             "[+2 Gold] from [Sugar] tiles [in this city]",
             "[+3 Production] from [Wine] tiles [in this city]",
             "[+2 Gold] from [Salt] tiles [in this city]"
+        ],
+        "requiredTech": "Guilds"
+    },
+        {
+        "name": "Gallish Pub",
+        "replaces": "Brewery",
+        "uniqueTo": "Gaul",
+        "cost": 100,
+        "happiness": 2,
+        "food": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Provides [2] [Beer]",
+            "[+1 Production] from [Coffee] tiles [in this city]",
+            "[+1 Production] from [Wine] tiles [in this city]",
+            "[+1 Production] from [Tea] tiles [in this city]",
+            "[+1 Production] from [Tobacco] tiles [in this city]"
         ],
         "requiredTech": "Guilds"
     },
@@ -2730,23 +2759,7 @@
         "hurryCostModifier": 10,
         "requiredTech": "Printing Press"
     },
-    {
-        "name": "Irish Pub",
-        "replaces": "Zoo",
-        "uniqueTo": "Ireland",
-        "cost": 180,
-        "happiness": 2,
-        "food": 3,
-        "hurryCostModifier": 10,
-        "requiredBuilding": "Colosseum",
-        "uniques": [
-            "[+1 Production] from [Coffee] tiles [in this city]",
-            "[+1 Production] from [Wine] tiles [in this city]",
-            "[+1 Production] from [Tea] tiles [in this city]",
-            "[+1 Production] from [Tobacco] tiles [in this city]"
-        ],
-        "requiredTech": "Printing Press"
-    },
+
     {
         "name": "Leaning Tower of Pisa",
         "culture": 1,
