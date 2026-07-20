@@ -46,6 +46,21 @@
         "shortcutKey": "F"
     },
     {
+        "name": "Saami Kyedte",
+        "terrainsCanBeBuiltOn": ["Snow","Ice"],
+        "food": 1,
+        "replaces": "Streets",
+        "uniqueTo": "Sapmi",
+        "turnsToBuild": 5,
+        "techRequired": "Woodworking",
+        "uniques": [
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
+            "Pillaging this improvement yields approximately [+3 Gold]",
+            "Provides [1] [Human Resourses]"
+        ],
+        "shortcutKey": "F"
+    },
+    {
         "name": "Turk Streets",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains","Hill","Tundra"],
         "food": 1,
@@ -70,9 +85,20 @@
         "turnsToBuild": 7,
         "techRequired": "Woodworking",
         "uniques": [
-            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>"
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
+            "Will not be displayed in Civilopedia"
         ],
         "shortcutKey": "F"
+    },
+    {
+        "name": "Abyss Gates",
+        "terrainsCanBeBuiltOn": ["Plains"],
+        "turnsToBuild": 7,
+        "techRequired": "Woodworking",
+        "uniques": [
+            "Great Improvement",
+            "Will not be displayed in Civilopedia"
+        ]
     },
     {
         "name": "Mill",

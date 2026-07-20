@@ -1689,6 +1689,7 @@
             "[+50]% Strength <when fighting in [Forest] tiles>"
         ],
         "obsoleteTech": "Rifling",
+        "requiredResource": "Iron",
         "attackSound": "metalhit"
     },
     {
@@ -2749,12 +2750,10 @@
         "requiredTech": "Replaceable Parts",
         "upgradesTo": "Infantry",
         "uniques": [
-
             "Consumes [1] [Human Resourses]",
             "[-18]% Strength for enemy [Land] units in adjacent [All] tiles",
             "Only available <in cities with a [Secret Cult] religion>",
             "Can be purchased with [Faith] [in all cities]"
-
         ],
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2931,6 +2930,18 @@
         "attackSound": "shot"
     },
     {
+        "name": "Behemoth",
+        "unitType": "Armored",
+        "movement": 2,
+        "strength": 150,
+        "cost": 700,
+        "uniques": [
+            "Can Move After Attacking",
+            "Only available <if [Abyss Gates] is constructed>"
+        ],
+        "attackSound": "nonmetalhit"
+    },
+    {
         "name": "Viet Cong",
         "replaces": "Infantry",
         "uniqueTo": "Vietnam",
@@ -3067,6 +3078,7 @@
         "requiredResource": "Oil",
         "obsoleteTech": "Combined Arms",
         "uniques": [
+            "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]",
             "No defensive terrain bonus",
             "[+60]% Strength <vs [Land] units> <when defending>",
@@ -3115,12 +3127,33 @@
         "requiredResource": "Oil",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-
+            "Consumes [5] [Human Resourses]",
             "Consumes [3] [Iron]",
             "No defensive terrain bonus",
             "[+50]% Strength <vs [Land] units> <when defending>",
             "[+50]% Strength <vs [Armored] units> <when attacking>",
             "[-20]% Strength <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Tank 'Zhutkij'",
+        "unitType": "Armored",
+        "movement": 2,
+        "strength": 70,
+        "cost": 400,
+        "uniqueTo": "Czornoliessie",
+        "replaces": "Landship",
+        "requiredTech": "Landships",
+        "requiredResource": "Oil",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "No defensive terrain bonus",
+            "[+100]% Strength <vs [Land] units> <when defending>",
+            "[+20]% Strength <vs [Armored] units> <when attacking>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
@@ -3135,7 +3168,7 @@
         "requiredResource": "Oil",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-
+            "Consumes [2] [Human Resourses]",
             "Consumes [1] [Iron]",
             "Can move after attacking",
             "No defensive terrain bonus",

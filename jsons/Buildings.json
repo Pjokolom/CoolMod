@@ -3083,6 +3083,17 @@
         ]
     },
     {
+        "name": "Abyss Gates",
+        "culture": 2,
+        "maintenance": 3,
+        "cost": 1000,
+        "requiredTech": "Natural Resourses",
+        "uniques": [
+            "Creates a [Abyss Gates] improvement on a specific tile",
+            "Only available <in cities with a [Secret Cult] religion>",
+        ]
+    },
+    {
         "name": "Spomenik",
         "replaces": "Museum",
         "uniqueTo": "Yugoslavia",

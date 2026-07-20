@@ -2,7 +2,12 @@
     {
         "name": "Person",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Human Resourses]","Unavailable <for [Sentinelese]> <hidden from users>"]
+        "uniques": 
+        [
+            "Consumes [1] [Human Resourses]",
+            "Unavailable <for [Sentinelese]> <hidden from users>",
+            "[This Unit] takes [25] damage <upon turn end> <when adjacent to a [Behemoth] unit>"
+        ],
     },
     {
         "name": "Civilian",
