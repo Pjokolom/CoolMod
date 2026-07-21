@@ -537,8 +537,8 @@
             {
                 "name": "Advanced Drilling",
                 "row": 11,
-                "prerequisites": ["Natural Resourses","Fertilizer"],
-                "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+                "prerequisites": ["Oil Refining"],
+                "quote": "'Rock 'n balls!.' - Carl"
             }
         ]
     },
@@ -614,6 +614,12 @@
                 "row": 1,
                 "prerequisites": ["Biology", "Electricity","Submarine"],
                 "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+            },
+            {
+                "name": "Battle cruisers",
+                "row": 3,
+                "prerequisites": ["Heavy fleet","Plastics"],
+                "quote": "'*.*' - Albert Einstein"
             },
             {
                 "name": "Combined Arms",

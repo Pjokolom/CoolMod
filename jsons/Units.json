@@ -2221,6 +2221,28 @@
         ],
         "attackSound": "cannon"
     },
+        {
+        "name": "Da Vinci tank",
+        "unitType": "Siege",
+        "uniqueTo": "Italy",
+        "replaces": "Cannon",
+        "movement": 2,
+        "strength": 35,
+        "rangedStrength": 18,
+        "cost": 185,
+        "requiredTech": "Chemistry",
+        "obsoleteTech": "Dynamite",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [4] [Iron]",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "[1] additional attacks per turn",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "cannon"
+    },
     
     // Industrial Era
     {
@@ -2552,13 +2574,37 @@
         ],
         "attackSound": "machinegun"
     },
+        {
+        "name": "Skybarge",
+        "unitType": "Helicopter",
+        "movement": 4,
+        "strength": 15,
+        "uniqueTo": "Sapmi",
+        "rangedStrength": 17,
+        "range": 1,
+        "cost": 150,
+        "upgradesTo": "Helicopter Gunship",
+        "requiredTech": "Chemistry",
+        "uniques": [
+            "No defensive terrain bonus",
+            "Can move after attacking",
+            "Unable to capture cities",
+            "Unable to pillage tiles",
+            "Can see over obstacles",
+            "[+80]% Strength <vs cities> <when attacking>",
+            "[+80]% Strength <vs [Person] units> <when attacking>",
+            "[-100]% Strength <vs [Armored] units> <when attacking>",
+            "[+3] Sight"
+        ],
+        "attackSound": "machinegun"
+    },
     {
         "name": "Combat Airship",
         "unitType": "Helicopter",
         "movement": 6,
-        "rangedStrength": 28,
+        "rangedStrength": 30,
         "range": 1,
-        "strength": 15,
+        "strength": 25,
         "cost": 210,
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Steam Power",
@@ -3283,7 +3329,7 @@
         "rangedStrength": 65,
         "interceptRange": 3,
         "cost": 420,
-        "requiredTech": "Combustion",
+        "requiredTech": "Battle cruisers",
         "obsoleteTech": "Lasers",
         "upgradesTo": "Heavy Cruiser",
         "uniques": [

@@ -3539,6 +3539,16 @@
         "uniques": ["Destroyed when the city is captured"]
     },
     {
+        "name": "Deep Mines",
+        "hurryCostModifier": 25,
+        "requiredNearbyImprovedResources": ["Iron"],
+        "requiredTech": "Advanced Drilling",
+        "uniques": [
+            "Provides [5] [Iron]",
+            "[+1 Production] from [Iron] tiles [in this city]"
+        ]
+    },
+    {
         "name": "Statue of Liberty",
         "culture": 1,
         "happiness": 6,
