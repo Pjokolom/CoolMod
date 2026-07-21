@@ -5,8 +5,7 @@
         "uniques": 
         [
             "Consumes [1] [Human Resourses]",
-            "Unavailable <for [Sentinelese]> <hidden from users>",
-            "[This Unit] takes [25] damage <upon turn end> <when adjacent to a [Behemoth] unit>"
+            "[This Unit] takes [25] damage <upon turn end> <when adjacent to a [Behemoth] unit> <hidden from users>"
         ],
     },
     {
@@ -18,6 +17,11 @@
         "name": "Sword",
         "movementType": "Land",
         "uniques": ["Unarmored","Person"]
+    },
+    {
+        "name": "Abyssborn",
+        "movementType": "Land",
+        "uniques": ["Will not be displayed in Civilopedia"]
     },
     {
         "name": "Unarmored",

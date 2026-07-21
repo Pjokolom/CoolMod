@@ -91,12 +91,15 @@
         "shortcutKey": "F"
     },
     {
-        "name": "Abyss Gates",
+        "name": "Abyss GatesB",
         "terrainsCanBeBuiltOn": ["Plains"],
         "turnsToBuild": 7,
         "techRequired": "Woodworking",
         "uniques": [
             "Great Improvement",
+            "Turn this tile into a [Abyss GatesT] tile",
+            "Removes removable features when built",
+            "Excluded from map editor",
             "Will not be displayed in Civilopedia"
         ]
     },

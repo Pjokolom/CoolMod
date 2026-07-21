@@ -2506,8 +2506,7 @@
         "hurryCostModifier": 15,
         "requiredBuilding": "Library",
         "uniques": [
-            "[+5 Science] from [Mountain] tiles [in this city]",
-            "[+1 Science] from [Tundra] tiles [in this city]"
+            "[+5 Science] from [Mountain] tiles [in this city]"
         ],
         "requiredTech": "Astronomy"
     },
@@ -3086,11 +3085,12 @@
         "name": "Abyss Gates",
         "culture": 2,
         "maintenance": 3,
+        "isWonder": true,
         "cost": 1000,
         "requiredTech": "Natural Resourses",
         "uniques": [
-            "Creates a [Abyss Gates] improvement on a specific tile",
-            "Only available <in cities with a [Secret Cult] religion>",
+            "Creates a [Abyss GatesB] improvement on a specific tile",
+            "Only available <in cities with a [Secret Cult] religion>"
         ]
     },
     {

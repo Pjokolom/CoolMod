@@ -393,7 +393,7 @@
     {
         "columnNumber": 10,
         "era": "Industrial era",
-        "techCost": 1600,
+        "techCost": 1540,
         "buildingCost": 300,
         "wonderCost": 750,
         "techs": [
@@ -438,7 +438,7 @@
     {
         "columnNumber": 11,
         "era": "Industrial era",
-        "techCost": 2350,
+        "techCost": 1800,
         "buildingCost": 360,
         "wonderCost": 920,
         "techs": [
@@ -478,7 +478,7 @@
     {
         "columnNumber": 12,
         "era": "Industrial era",
-        "techCost": 2350,
+        "techCost": 2000,
         "buildingCost": 360,
         "wonderCost": 920,
         "techs": [
@@ -494,6 +494,12 @@
                 "row": 5,
                 "prerequisites": ["Electricity","Steam Power"],
                 "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+            },
+            {
+                "name": "Combustion",
+                "row": 4,
+                "prerequisites": ["Electricity","Submarine"],
+                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
             },
             {
                 "name": "Flight",
@@ -527,13 +533,19 @@
                 "prerequisites": ["Oil Refining"],
                 "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
                 
+            },
+            {
+                "name": "Advanced Drilling",
+                "row": 11,
+                "prerequisites": ["Natural Resourses","Fertilizer"],
+                "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
             }
         ]
     },
     {
         "columnNumber": 13,
         "era": "Modern era",
-        "techCost": 3100,
+        "techCost": 2800,
         "buildingCost": 500,
         "wonderCost": 1060,
         "techs": [
@@ -550,14 +562,14 @@
                 "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
             },
             {
-                "name": "Combustion",
+                "name": "Heavy fleet",
                 "row": 4,
-                "prerequisites": ["Electricity","Submarine"],
+                "prerequisites": ["Combustion"],
                 "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
             },
             {
                 "name": "Optical sight",
-                "row": 5,
+                "row": 6,
                 "prerequisites": ["Replaceable Parts"],
                 "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
             },
@@ -592,7 +604,7 @@
     {
         "columnNumber": 14,
         "era": "Modern era",
-        "techCost": 4100,
+        "techCost": 3300,
         "buildingCost": 500,
         "wonderCost": 1250,
         "techs": [
@@ -608,11 +620,11 @@
                 "row": 6,
                 "prerequisites": ["Ballistics"],
                 "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
-            }
+            },
             {
                 "name": "Electronics",
                 "row": 5,
-                "prerequisites": ["Combustion","Plastics"],
+                "prerequisites": ["Optical sight"],
                 "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Mickle Slive"
             },
             {
@@ -644,7 +656,7 @@
     {
         "columnNumber": 15,
         "era": "Modern era",
-        "techCost": 3100,
+        "techCost": 3800,
         "buildingCost": 500,
         "wonderCost": 1060,
         "techs": [

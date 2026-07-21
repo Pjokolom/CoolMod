@@ -176,7 +176,7 @@
     {
         "name": "Coal",
         "resourceType": "Strategic",
-        "revealedBy": "Natural Resourses",
+        "revealedBy": "Machinery",
         "terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
         "production": 1,
         "improvement": "Mine",

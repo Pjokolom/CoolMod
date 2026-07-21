@@ -822,7 +822,8 @@
             "[+260]% Strength <vs cities> <when attacking>",
             "[+100]% Strength <vs cities> <when defending>",
             "No defensive terrain bonus",
-            "Can only attack [City] units"
+            "Can only attack [City] units",
+            "Never appears as a Barbarian unit"
         ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
@@ -1505,6 +1506,7 @@
         "requiredTech": "Chivalry",
         "requiredResource": "Horses",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Only available <after adopting [Exploration]>",
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -1677,12 +1679,11 @@
         "name": "Vigilante",
         "replaces": "Longswordsman",
         "uniqueTo": "Czornoliessie",
-        "unitType": "Sword",
+        "unitType": "Armored Man",
         "movement": 2,
         "strength": 20,
         "cost": 120,
         "requiredTech": "Steel",
-        "promotions": ["Forest Native"],
         "upgradesTo": "Rifleman",
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -2539,7 +2540,7 @@
         "strength": 15,
         "cost": 150,
         "upgradesTo": "Helicopter Gunship",
-        "requiredTech": "Steam Power",
+        "requiredTech": "Chemistry",
         "uniques": [
             "No defensive terrain bonus",
             "Can move after attacking",
@@ -2931,13 +2932,15 @@
     },
     {
         "name": "Behemoth",
-        "unitType": "Armored",
+        "unitType": "Abyssborn",
         "movement": 2,
         "strength": 150,
-        "cost": 700,
+        "requiredTech": "Biology",
+        "cost": 900,
         "uniques": [
             "Can Move After Attacking",
-            "Only available <if [Abyss Gates] is constructed>"
+            "Only available <if [Abyss Gates] is constructed>",
+            "Will not be displayed in Civilopedia"
         ],
         "attackSound": "nonmetalhit"
     },
@@ -2976,14 +2979,19 @@
         "name": "Battleship",
         "unitType": "Ranged Water",
         "movement": 5,
-        "strength": 55,
-        "rangedStrength": 55,
+        "strength": 110,
+        "rangedStrength": 70,
         "range": 3,
         "cost": 410,
         "requiredResource": "Oil",
         "requiredTech": "Electronics",
         "upgradesTo": "Missile Cruiser",
-        "uniques": ["Never appears as a Barbarian unit"],
+        "uniques": 
+        [
+            "Consumes [5] [Human Resourses]",
+            "Consumes [7] [Iron]",
+            "Never appears as a Barbarian unit"
+        ],
         "promotions": ["Indirect Fire"],
         "attackSound": "shipguns"
     },
@@ -3237,12 +3245,55 @@
             "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]",
             "Can see invisible [Submarine] units",
-            "[100]% chance to intercept air attacks",
+            "[50]% chance to intercept air attacks",
             "Can move after attacking",
             "Withdraws before melee combat <with [80]% chance>",
-            "[+100]% Strength <vs [Submarine] units>",
+            "[+120]% Strength <vs [Submarine] units>",
             "[-50]% Damage when intercepting"
         ],
+        "attackSound": "shipguns"
+    },
+    {
+        "name": "Cruiser",
+        "unitType": "Melee Water",
+        "movement": 7,
+        "strength": 75,
+        "interceptRange": 2,
+        "cost": 420,
+        "requiredTech": "Heavy fleet",
+        "obsoleteTech": "Lasers",
+        "upgradesTo": "Heavy Cruiser",
+        "uniques": [
+            "Consumes [4] [Human Resourses]",
+            "Consumes [5] [Iron]",
+            "Can see invisible [Submarine] units",
+            "[90]% chance to intercept air attacks",
+            "Can move after attacking",
+            "Withdraws before melee combat <with [30]% chance>",
+            "[+80]% Strength <vs [Submarine] units> <when attacking>",
+            "[-50]% Damage when intercepting"
+        ],
+        "attackSound": "shipguns"
+    },
+        {
+        "name": "Battle cruiser",
+        "unitType": "Melee Water",
+        "movement": 7,
+        "strength": 75,
+        "rangedStrength": 65,
+        "interceptRange": 3,
+        "cost": 420,
+        "requiredTech": "Combustion",
+        "obsoleteTech": "Lasers",
+        "upgradesTo": "Heavy Cruiser",
+        "uniques": [
+            "Consumes [4] [Human Resourses]",
+            "Consumes [5] [Iron]",
+            "[100]% chance to intercept air attacks",
+            "Can move after attacking",
+            "[+120]% Strength <vs [Submarine] units>"
+        ],
+        "promotions": ["Indirect Fire"],
         "attackSound": "shipguns"
     },
     {
