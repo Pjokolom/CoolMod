@@ -1448,5 +1448,22 @@
         "uniques": [
             "[This Unit] takes [25] damage <upon turn end>"
         ]
+    },
+    //CRUTCH FOR SAAMI
+        {
+        "name": "Saami Scout",
+        "uniques": [
+            "[This Unit] gains the [Saami Scout Cargo] promotion <upon entering a [{Unowned} {unimproved} {Deer}] tile>"
+            
+        ]
+    },
+        {
+        "name": "Saami Scout Cargo",
+        "uniques": [
+            "Gain a free [Deer stall] [in this city] <by consuming this unit>",
+            "[This Unit] loses the [Saami Scout] promotion"
+        ]  
     }
 ]
+
+

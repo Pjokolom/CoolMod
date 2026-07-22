@@ -141,7 +141,7 @@
         "movement": 2,
         "strength": 5,
         "cost": 25,
-        "obsoleteTech": "Steam Power",
+        "obsoleteTech": "Chemistry",
         "upgradesTo": "Airship",
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -152,13 +152,35 @@
         "promotions": ["Ignore terrain cost"],
         "attackSound": "nonmetalhit"
     },
+        {
+        "name": "Boazovaazzi",
+        "unitType": "Scout",
+        "movement": 2,
+        "replaces": "Scout",
+        "uniqueTo": "Sapmi",
+        "strength": 5,
+        "cost": 25,
+        "obsoleteTech": "Chemistry",
+        "upgradesTo": "Airship",
+        "uniques": [
+            "Unbuildable",
+            "[This Unit] heals [17] HP <upon ending a turn in a [Deer] tile>",
+            "Consumes [1] [Human Resourses]",
+            "May upgrade to [Archer] through ruins-like effects",
+            "Never appears as a Barbarian unit",
+            "Invisible to non-adjacent units"
+        ],
+        "promotions": ["Ignore terrain cost","Saami Scout"],
+        "attackSound": "nonmetalhit"
+    },
+    
     {
         "name": "Explorer",
         "unitType": "Scout",
         "movement": 3,
         "strength": 5,
         "cost": 25,
-        "obsoleteTech": "Steam Power",
+        "obsoleteTech": "Chemistry",
         "requiredTech": "Advanced Shipping",
         "upgradesTo": "Airship",
         "uniques": [
@@ -180,7 +202,7 @@
         "movement": 3,
         "strength": 5,
         "cost": 25,
-        "obsoleteTech": "Steam Power",
+        "obsoleteTech": "Chemistry",
         "upgradesTo": "Airship",
         "uniques": [
 			"Cannot attack",

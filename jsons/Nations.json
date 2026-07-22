@@ -205,9 +205,9 @@
         "startIntroPart1": "We'll fougt if't needen",
         "declaringWar": "I am no stranger to war. What am I going to do is for the greater good.",
         "attacked": "Fine. You will regret this.",
-        "defeated": "Curses! I will never understand those of false faiths. You've tarnished my homelands, now leave me be.",
-        "introduction": "Hello there, my name is Vaseli Levonen.",
-        "neutralHello": "Greetings.",
+        "defeated": "You have destroyed a peaceful people. Have you gained what you sought? Are you satisfied?",
+        "introduction": "I welcome you on behalf of my people! Please, stay for a while, that you may rest and tell us your story.",
+        "neutralHello": "Welcome, please sit; your journey here must have been long and treacherous.",
         "hateHello": "What do you want?",
         "tradeRequest": "The night is beautiful and solemn, and the stars seem smiling upon this deal.",
         "outerColor": [15, 20, 70],
@@ -216,6 +216,9 @@
         "uniques": [
 
             "Comment [All Land Units may enter ice tiles]",
+            "Free [Boazovaazzi] appears <upon entering the [Classical era]> <hidden from users>",
+            "[2] Free [Boazovaazzi] appears <upon entering the [Medieval era]> <hidden from users>",
+            "[3] Free [Boazovaazzi] appears <upon entering the [Renaissance era]> <hidden from users>",
             "[Person] units gain the [Saami] promotion <hidden from users>",
             "May not annex cities <before the [Industrial era]>",
             "[+1 Food] from every [Fish]",

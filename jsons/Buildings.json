@@ -826,6 +826,16 @@
         ],
         "requiredTech": "Library"
     },
+        {
+        "name": "Deer stall",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Instantly gain [10] [Production] <starting from the [Classical era]>",
+            "Instantly gain [10] [Production] <starting from the [Medieval era]>",
+            "Instantly gain [5] [Food]",
+            "Remove [Deer stall] [in this city] <hidden from users>"
+        ]
+    },
     {
         "name": "Akkadian Library",
         "replaces": "Library",

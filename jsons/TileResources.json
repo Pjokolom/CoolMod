@@ -47,6 +47,10 @@
         ]
     },
     {
+        "name": "No Deer",
+        "resourceType": "Bonus"
+    },
+    {
         "name": "Bananas",
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": ["Jungle"],

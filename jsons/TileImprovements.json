@@ -96,6 +96,7 @@
         "turnsToBuild": 7,
         "techRequired": "Woodworking",
         "uniques": [
+            "Unbuildable",
             "Great Improvement",
             "Turn this tile into a [Abyss GatesT] tile",
             "Removes removable features when built",
