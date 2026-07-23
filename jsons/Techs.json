@@ -683,13 +683,6 @@
                 "row": 10,
                 "prerequisites": ["Early Heavy Tanks"],
                 "quote": "'Heavy as your mom.' - Your dad"
-            },
-            {
-                "name": "Momo",
-                "row": 3,
-                "prerequisites": ["Electronics"],
-                "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
-        
             }
         ]
     },

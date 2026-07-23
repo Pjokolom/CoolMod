@@ -516,7 +516,7 @@
         "uniques": [
             "[+33]% Strength <vs [Ranged] units> <when defending>"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"]
+        "unitTypes": ["Light Tank","Medium Tank","Heavy Tank","Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"]
     },
     {
         "name": "Cover II",
@@ -524,7 +524,7 @@
         "uniques": [
             "[+33]% Strength <vs [Ranged] units> <when defending>"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"]
+        "unitTypes": ["Light Tank","Medium Tank","Heavy Tank","Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"]
     },
     {
         "name": "March",
@@ -561,27 +561,36 @@
         "name": "Ambush Formation I",
         "uniques": [
             "[+33]% Strength <vs [Armored] units>",
+            "[+30]% Strength <vs [Light Tank] units>",
+            "[+20]% Strength <vs [Medium Tank] units>",
+            "[+10]% Strength <vs [Heavy Tank] units>",
             "[+33]% Strength <vs [Mounted] units>"
         ],
-        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
+        "unitTypes": ["Light Tank","Medium Tank","Heavy Tank","Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
     {
         "name": "Ambush Formation II",
         "prerequisites": ["Ambush Formation I"],
         "uniques": [
             "[+33]% Strength <vs [Armored] units>",
+            "[+30]% Strength <vs [Light Tank] units>",
+            "[+20]% Strength <vs [Medium Tank] units>",
+            "[+10]% Strength <vs [Heavy Tank] units>",
             "[+33]% Strength <vs [Mounted] units>"
         ],
-        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
+        "unitTypes": ["Light Tank","Medium Tank","Heavy Tank","Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
     {
         "name": "Ambush Formation III",
         "prerequisites": ["Ambush Formation II"],
         "uniques": [
             "[+30]% Strength <vs [Armored] units>",
+            "[+30]% Strength <vs [Light Tank] units>",
+            "[+20]% Strength <vs [Medium Tank] units>",
+            "[+10]% Strength <vs [Heavy Tank] units>",
             "[+30]% Strength <vs [Mounted] units>"
         ],
-        "unitTypes": ["Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
+        "unitTypes": ["Light Tank","Medium Tank","Heavy Tank","Armored Man Mounted","Sword","Gunpowder","Paratrooping","Mounted","Armored","Fighter","Bomber","Helicopter"]
     },
     // Water ranged and air units
     {
@@ -1424,15 +1433,15 @@
             "Only available <after discovering [Tank Modifications]>",
             "Only available <after discovering [Flamethrowers]>"
         ],
-        "unitTypes": ["Armored"]
+        "unitTypes": ["Armored","Light Tank"]
     },
     {
         "name": "Explosive Shells",
         "uniques": [
-             "[+70]% Strength <vs [Person] units>",
+            "[+70]% Strength <vs [Person] units>",
             "Only available <after discovering [Tank Modifications]>"
         ],
-        "unitTypes": ["Armored"]
+        "unitTypes": ["Armored","Light Tank","Medium Tank","Heavy Tank"]
     },
     // DEBUFFFFSSSS
     {

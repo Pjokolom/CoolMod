@@ -1252,6 +1252,19 @@
         ],
         "requiredTech": "Writing"
     },
+        {
+        "name": "Reindeer Pasture",
+        "maintenance": 1,
+        "replaces": "Stable",
+        "uniqueTo": "Sapmi",
+        "requiredNearbyImprovedResources": ["Deer"],
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+15]% Production when constructing [Mounted] units [in this city]",
+            "[+2 Production] from [Deer] tiles [in this city]"
+        ],
+        "requiredTech": "Writing"
+    },
     {
         "name": "Ocupada Estable",
         "replaces": "Stable",

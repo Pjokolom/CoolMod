@@ -720,6 +720,25 @@
         "hurryCostModifier": 20,
         "attackSound": "horse"
     },
+        {
+        "name": "Vuoddji",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 12,
+        "cost": 75,
+        "requiredTech": "Trapping",
+        "upgradesTo": "Knight",
+        "obsoleteTech": "Chivalry",
+        "uniques": [
+            "Only available <in cities with a [Reindeer Pasture]>",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Consumes [1] [Human Resourses]"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "horse"
+    },
     {
         "name": "Sparapet",
         "replaces": "Horseman",
@@ -1038,6 +1057,7 @@
         "obsoleteTech": "Gunpowder",
         "requiredResource": "Iron",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Can build [Road] improvements on tiles",
             "Can build [Fort] improvements on tiles"
         ],
@@ -1143,6 +1163,8 @@
         "name": "Wheeled Mantelet",
         "unitType": "Sword",
         "movement": 2,
+        "uniqueTo": "Ellada",
+        "replaces": "Mantelet",
         "strength": 16,
         "cost": 90,
         "requiredTech": "Civil Service",
@@ -2247,7 +2269,6 @@
         "name": "Da Vinci tank",
         "unitType": "Siege",
         "uniqueTo": "Italy",
-        "replaces": "Cannon",
         "movement": 2,
         "strength": 35,
         "rangedStrength": 18,
@@ -2557,7 +2578,7 @@
     ],
     "attackSound": "shot"
   },
-    {
+      {
         "name": "Ironclad",
         "unitType": "Melee Water",
         "movement": 3,
@@ -2573,6 +2594,26 @@
             "Can move after attacking",
             "[+33]% Strength <vs cities> <when attacking>",
             "Double movement in [Coast]",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shipguns"
+    },
+    {
+        "name": "Steam Landship",
+        "unitType": "Light Tank",
+        "movement": 1,
+        "uniqueTo": "Poland",
+        "strength": 45,
+        "cost": 250,
+        "requiredTech": "Steam Power",
+        "requiredResource": "Coal",
+        "upgradesTo": "Landship",
+        "obsoleteTech": "Landships",
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+15]% Strength <vs cities> <when attacking>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shipguns"
@@ -2608,6 +2649,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Chemistry",
         "uniques": [
+            "Consumes [1] [Coal]",
             "No defensive terrain bonus",
             "Can move after attacking",
             "Unable to capture cities",
@@ -3159,6 +3201,26 @@
             "No defensive terrain bonus",
             "[+60]% Strength <vs [Land] units> <when defending>",
             "[+50]% Strength <vs [Armored] units> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Sztitonoska",
+        "unitType": "Armored",
+        "movement": 3,
+        "uniqueTo": "Czornoliessie",
+        "strength": 50,
+        "rangedStrength": 50,
+        "cost": 385,
+        "requiredTech": "Landships",
+        "requiredResource": "Oil",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "No defensive terrain bonus",
+            "[+60]% Strength <vs [Land] units> <when defending>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
