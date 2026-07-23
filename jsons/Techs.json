@@ -66,24 +66,36 @@
                 "name": "The Wheel",
                 "row": 4,
                 "prerequisites": ["Woodworking"],
+                "uniques": [
+                    "Unavailable <for [Sentinelese] Civilizations>"
+                ],
                 "quote": "'He who destroys a good book kills reason itself.' - John Milton"
             },
             {
                 "name": "Trapping",
                 "row": 3,
                 "prerequisites": ["Woodworking"],
+                "uniques": [
+                    "Unavailable <for [Sentinelese] Civilizations>"
+                ],
                 "quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
             },
             {
                 "name": "Shipping",
                 "row": 2,
                 "prerequisites": ["Woodworking"],
+                "uniques": [
+                    "Unavailable <for [Sentinelese] Civilizations>"
+                ],
                 "quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
             },
             {
                 "name": "Advanced Stoneworking",
                 "row": 8,
                 "prerequisites": ["Stoneworking"],
+                "uniques": [
+                    "Unavailable <for [Sentinelese] Civilizations>"
+                ],
                 "quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
             }
             

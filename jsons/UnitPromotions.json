@@ -13,7 +13,11 @@
 
     {
         "name": "Saami",
-        "uniques": ["Can enter ice tiles"]
+        "uniques": [
+            "Can enter ice tiles", 
+            "Double movement in [Snow]",
+            "[+15]% Strength <when fighting in [Snow] tiles>"
+        ]
     },
     {
         "name": "Accuracy I",

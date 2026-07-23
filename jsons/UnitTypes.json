@@ -11,10 +11,19 @@
     {
         "name": "Civilian",
         "movementType": "Land",
-        "uniques": ["Unarmored","Person"]
+        "uniques": [
+            "Unarmored",
+            "Person",
+            "[This Unit] takes [150] damage <when stacked with a [Beast] unit> <hidden from users>"
+    ]
     },
     {
         "name": "Sword",
+        "movementType": "Land",
+        "uniques": ["Unarmored","Person"]
+    },
+    {
+        "name": "Beast",
         "movementType": "Land",
         "uniques": ["Unarmored","Person"]
     },

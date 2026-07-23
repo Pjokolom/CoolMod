@@ -166,12 +166,17 @@
             "Unbuildable",
             "[This Unit] heals [17] HP <upon ending a turn in a [Deer] tile>",
             "Consumes [1] [Human Resourses]",
-            "May upgrade to [Archer] through ruins-like effects",
             "Never appears as a Barbarian unit",
             "Invisible to non-adjacent units"
         ],
+        
         "promotions": ["Ignore terrain cost","Saami Scout"],
-        "attackSound": "nonmetalhit"
+        "attackSound": "nonmetalhit",
+        "civilopediaText": [
+            {
+                "text": "Collects resourses on [Deer] tiles and converts them to [Production] by returning to the city."
+            }
+        ]
     },
     
     {
@@ -262,6 +267,20 @@
             }
         ]
     },
+        {
+        "name": "Hunter",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 8,
+        "cost": 40,
+        "obsoleteTech": "Iron Working",
+        "upgradesTo": "Swordsman",
+        "uniques": [
+            "May upgrade to [Spearman] through ruins-like effects","Consumes [1] [Human Resourses]",
+            "[+50]% Strength <vs [Beast] units>"
+    ],
+        "attackSound": "nonmetalhit"
+    },
     {
 		"name": "Sentinelese Warrior",
 		"unitType": "Sword",
@@ -344,6 +363,22 @@
         "cost": 20,
         "obsoleteTech": "Iron Working",
         "upgradesTo": "Swordsman",
+        "attackSound": "nonmetalhit"
+    },
+        {
+        "name": "Wolf",
+        "unitType": "Beast",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 7,
+        "cost": 20,
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Unable to pillage tiles",
+            "Unable to capture cities",
+            "[+15]% Strength bonus for [Wolf] units within [1] tiles",
+            "Does not appear in the Civilopedia"
+        ],
         "attackSound": "nonmetalhit"
     },
     {
@@ -900,6 +935,25 @@
         "requiredTech": "Engineering",
         "obsoleteTech": "Machinery",
         "uniques": ["Consumes [1] [Human Resourses]"],
+        "upgradesTo": "Crossbowman",
+        "attackSound": "arrow"
+    },
+    {
+        "name": "Skier Spearthrower",
+        "unitType": "Archery",
+        "movement": 3,
+        "uniqueTo": "Sapmi",
+        "replaces": "Composite Bowmans",
+        "strength": 13,
+        "rangedStrength": 11,
+        "range": 1,
+        "cost": 75,
+        "requiredTech": "Engineering",
+        "obsoleteTech": "Machinery",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[+35]% Strength <when fighting in [Snow] tiles>"
+    ],
         "upgradesTo": "Crossbowman",
         "attackSound": "arrow"
     },
@@ -2627,6 +2681,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Chemistry",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "No defensive terrain bonus",
             "Can move after attacking",
             "Unable to capture cities",
@@ -2649,6 +2704,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Chemistry",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Consumes [1] [Coal]",
             "No defensive terrain bonus",
             "Can move after attacking",
@@ -2673,6 +2729,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Steam Power",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Consumes [1] [Aluminum]",
             "No defensive terrain bonus",
             "[+110]% Strength <vs cities> <when attacking>",
@@ -3205,6 +3262,27 @@
         ],
         "attackSound": "tankshot"
     },
+        {
+        "name": "Sarvvis",
+        "unitType": "Armored",
+        "movement": 3,
+        "uniqueTo": "Sapmi",
+        "replaces": "Landship",
+        "strength": 60,
+        "cost": 250,
+        "requiredTech": "Steam Power",
+        "requiredResource": "Oil",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+45]% Strength <vs [Land] units> <when defending>",
+            "[+50]% Strength <vs [Land] units> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shipguns"
+    },
     {
         "name": "Sztitonoska",
         "unitType": "Armored",
@@ -3483,6 +3561,7 @@
         ],
         "attackSound": "tankshot"
     },
+    //FUMELAND
     {
         "name": "Mattila Assault Wagon",
         "unitType": "Light Tank",
@@ -3500,6 +3579,23 @@
             "[+70]% Strength <vs [Person] units>",
             "[+15]% Strength <when fighting in [Forest] tiles>",
             "[+20]% Strength <when fighting in [Swamp] tiles>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+        {
+        "name": "Early Light Tank",
+        "unitType": "Light Tank",
+        "movement": 5,
+        "strength": 70,
+        "cost": 380,
+        "requiredTech": "Early Light Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
