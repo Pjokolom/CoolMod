@@ -943,7 +943,7 @@
         "unitType": "Archery",
         "movement": 3,
         "uniqueTo": "Sapmi",
-        "replaces": "Composite Bowmans",
+        "replaces": "Composite Bowman",
         "strength": 13,
         "rangedStrength": 11,
         "range": 1,
