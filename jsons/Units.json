@@ -3295,8 +3295,8 @@
         "requiredResource": "Oil",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-            "Consumes [3] [Human Resourses]",
-            "Consumes [3] [Iron]",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
             "No defensive terrain bonus",
             "[+60]% Strength <vs [Land] units> <when defending>",
             "Never appears as a Barbarian unit"
