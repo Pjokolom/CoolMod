@@ -95,6 +95,36 @@
         ]
     },
     {
+    "name": "Frankia",
+        "leaderName": "Hlotar I",
+        "adjective": ["Frankish"],
+        "startBias": ["Forest"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "König Lothar begrüßt dichiau.",
+        "startIntroPart2": "Das braune Abenteuer beginntiau",
+        "declaringWar": "Eure Braunenheit ist für uns nicht akzeptabel, bereitet euch auf ein Klopfen vor!",
+        "attacked": "Homie, dein Colonel Clayton ist in das falsche Viertel geraten!",
+        "defeated": "Ich habe verloren....",
+        "introduction": "Die Leute aus Frankreich grüßen euch",
+        "neutralHello": "Guten Morgen",
+        "hateHello": "Halo?",
+        "tradeRequest": "Ist der folgende Handel für dich interessant?",
+        "outerColor": [0,80,160],
+        "innerColor": [255,230,40],
+        "uniqueName": "Idle king",
+        "uniques": [
+            "[-50]% Gold cost of acquiring tiles [in all cities]",
+
+        ],
+        "cities": [
+            "Metz","Paris","Aachena","Worms","Trier","Quierzy-sur-Oise","Soissons","Cologne","Herstal","Compiègne",
+
+        ],
+        "spyNames": [
+            "Chlodwig","Chlotar","Dennis","Edward","Christchildis"
+        ]
+    },
+    {
         "name": "Ellada",
         "leaderName": "Basil II Porphyrogenitus",
         "adjective": ["Elladish"],
