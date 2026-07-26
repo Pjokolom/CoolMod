@@ -2450,6 +2450,8 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
+            "[+1 Production] from [Mine] tiles [in this city]",
+            "[+1 Production] from [Streets] tiles [in this city]",
             "Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
         ],
@@ -3229,13 +3231,15 @@
         "name": "Factory",
         "cost": 360,
         "production": 4,
-        "percentStatBonus": {"production": 10},
+        "percentStatBonus": {"production": 6},
         "specialistSlots": {"Engineer": 2},
         "requiredBuilding": "Workshop",
         "maintenance": 3,
         "hurryCostModifier": 0,
         "requiredResource": "Coal",
         "uniques": [
+            "[+2 Production] from [Streets] tiles [in this city]",
+            "[+2 Production] from [Mine] tiles [in this city]",
             "Provides [1] [Factories]",
             "Adopt [Ideology] <when above [2] [Factories]>",
             "[+2 Gold] from [Rubber] tiles [in this city]"

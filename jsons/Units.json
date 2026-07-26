@@ -271,6 +271,8 @@
         "name": "Hunter",
         "unitType": "Sword",
         "movement": 2,
+        "uniqueTo": "Sapmi",
+        "replaces": "Warrior",
         "strength": 8,
         "cost": 40,
         "obsoleteTech": "Iron Working",
@@ -971,7 +973,7 @@
             "[1] population in a random city <for all movement> <by consuming this unit> <when above [70] HP>"
         ],
 		"requiredTech": "Currency",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Gunpowder",
 		"attackSound": "nonmetalhit"
 	},
     {
@@ -2856,6 +2858,8 @@
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
         "uniques": [
+            "Consumes [1] [Iron]",
+            "Consumes [1] [Human Resourses]",
             "[+200]% Strength <vs [Armored] units>",
             "Never appears as a Barbarian unit"
         ],
@@ -3584,9 +3588,11 @@
         "attackSound": "tankshot"
     },
         {
-        "name": "Early Light Tank",
+        "name": "Jieknga",
         "unitType": "Light Tank",
         "movement": 5,
+        "uniqueTo": "Sapmi",
+        "replaces": "Early Light Tank",
         "strength": 70,
         "cost": 380,
         "requiredTech": "Early Light Tanks",
@@ -3594,6 +3600,7 @@
         "uniques": [
             "Consumes [3] [Human Resourses]",
             "Consumes [2] [Iron]",
+            "[+35]% Strength <when fighting in [Snow] tiles>",
             "Can move after attacking",
             "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
@@ -3630,6 +3637,26 @@
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+20]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+        {
+        "name": "Tank destroyer",
+        "unitType": "Light Tank",
+        "movement": 5,
+        "strength": 58,
+        "rangedStrength": 60,
+        "cost": 380,
+        "requiredTech": "Early Tank destroyers",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Light Tank] units>",
+            "[+120]% Strength <vs [Medium Tank] units>",
+            "[+50]% Strength <vs [Heavy Tank] units>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
