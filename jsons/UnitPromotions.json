@@ -1453,8 +1453,18 @@
         "uniques": [
             "[This Unit] takes [10] damage <upon turn end>"
         ]
-        
-    
+    },
+        {
+        "name": "RqInaccuracy",
+        "uniques": [
+            "[+110]% Strength <vs [Ribadequin] units> <when defending>"
+        ]
+    },
+    {
+        "name": "DVTInaccuracy",
+        "uniques": [
+            "[+110]% Strength <vs [Da Vinci tank] units> <when defending>"
+        ]
     },
     {
         "name": "Burning II",

@@ -3328,6 +3328,7 @@
         "maintenance": 1,
         "requiredBuilding": "Armory",
         "uniques": [
+            "Provides [2] [Human Resourses]",
             "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],

@@ -81,7 +81,19 @@
         "uniques": [
             "Armored",
             "[+50]% Strength <vs [Person] units> <when defending>",
-            "[+20]% Strength <vs [Light Tank] units> <when attacking>"
+            "[+20]% Strength <vs [Light Tank] units> <when attacking>",
+            "[-40]% Strength <when fighting in [Hill] tiles>"
+        ]
+    },
+    {
+        "name": "Duopod Unit",
+        "movementType": "Land",
+        "uniques": [
+            "Armored",
+            "[+40]% Strength <vs [Person] units> <when defending>",
+            "[+120]% Strength <vs [Person] units> <when attacking>",
+            "[+20]% Strength <vs [Light Tank] units> <when attacking>",
+            "[+17]% Strength <when fighting in [Streets] tiles>"
         ]
     },
     {
@@ -93,22 +105,54 @@
             "[+45]% Strength <vs [Light Tank] units> <when attacking>",
             "[+30]% Strength <vs [Siege] units> <when attacking>",
             "[+20]% Strength <vs [Medium Tank] units> <when attacking>",
-            "[-15]% Strength <when fighting in [Forest] tiles>",
-            "[-10]% Strength <when fighting in [Hill] tiles>"
+            "[+170]% Strength <vs [Armored] units> <when attacking>",
+            "[-40]% Strength <when fighting in [Forest] tiles>",
+            "[-10]% Strength <when fighting in [Hill] tiles>",
+            "[+15]% Strength <vs [Duopod Unit] units> <when defending>",
     ]
+    },
+    {
+        "name": "Tripod Unit",
+        "movementType": "Land",
+        "uniques": [
+            "Armored",
+            "[+55]% Strength <vs [Person] units> <when defending>",
+            "[+60]% Strength <vs [Person] units> <when attacking>",
+            "[+170]% Strength <vs [Armored] units> <when attacking>",
+            "[+110]% Strength <vs [Light Tank] units> <when attacking>",
+            "[+40]% Strength <vs [Medium Tank] units> <when attacking>",
+            "[+67]% Strength <vs [Duopod Unit] units> <when attacking>",
+            "[+35]% Strength <when fighting in [Streets] tiles>"
+        ]
     },
     {
         "name": "Heavy Tank",
         "movementType": "Land",
         "uniques": [
             "Armored",
-            "[+110]% Strength <vs [Person] units> <when defending>",
+            "[+140]% Strength <vs [Person] units> <when defending>",
+            "[+75]% Strength <vs [Light Tank] units> <when defending>",
             "[+90]% Strength <vs [Light Tank] units> <when attacking>",
+            "[+300]% Strength <vs [Armored] units> <when attacking>",
             "[+60]% Strength <vs [Medium Tank] units> <when attacking>",
             "[+60]% Strength <vs [Siege] units> <when attacking>",
             "[+25]% Strength <vs [Medium Tank] units> <when attacking>",
-            "[-30]% Strength <when fighting in [Forest] tiles>"
+            "[-80]% Strength <when fighting in [Forest] tiles>"
     ]
+    },
+    {
+        "name": "Tetropod Unit",
+        "movementType": "Land",
+        "uniques": [
+            "Armored",
+            "[+100]% Strength <vs [Person] units> <when defending>",
+            "[+100]% Strength <vs [Person] units> <when attacking>",
+            "[+110]% Strength <vs [Light Tank] units> <when attacking>",
+            "[+110]% Strength <vs [Medium Tank] units> <when attacking>",
+            "[+300]% Strength <vs [Armored] units> <when attacking>",
+            "[+110]% Strength <vs [Duopod Unit] units> <when attacking>",
+            "[+110]% Strength <vs [Tripod Unit] units> <when attacking>"
+        ]
     },
     {
         "name": "Armored Man",

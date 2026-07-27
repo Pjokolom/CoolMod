@@ -2321,22 +2321,79 @@
         ],
         "attackSound": "cannon"
     },
-        {
+    {
+        "name": "Ribadequin",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 14,
+        "rangedStrength": 20,
+        "cost": 185,
+        "requiredTech": "Advansed Cannons",
+        "promotions": ["Indirect Fire"],
+        "upgradesTo": "Artillery",
+        "obsoleteTech": "Dynamite",
+        "uniques": [
+            "Comment [Very inaccurate so will obtain damage penalty by attacking same unit twice]",
+            "[Target Unit] gains the [RqInaccuracy] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
+            "[1] additional attacks per turn",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "[+50]% Strength <vs [Person] units> <when attacking>",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Organ Cannon",
+        "unitType": "Siege",
+        "movement": 2,
+        "uniqueTo": "Finokarelia",
+        "replaces": "Ribadequin",
+        "strength": 14,
+        "rangedStrength": 20,
+        "cost": 185,
+        "requiredTech": "Advansed Cannons",
+        "promotions": ["Indirect Fire"],
+        "upgradesTo": "Artillery",
+        "obsoleteTech": "Dynamite",
+        "uniques": [
+            "Comment [Very inaccurate so will obtain damage penalty by attacking same unit twice]",
+            "[Target Unit] gains the [RqInaccuracy] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
+            "[1] additional attacks per turn",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "[+50]% Strength <vs [Person] units> <when attacking>",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "cannon"
+    },
+    {
         "name": "Da Vinci tank",
         "unitType": "Siege",
         "uniqueTo": "Italy",
-        "movement": 2,
+        "replaces": "Ribadequin",
+        "movement": 3,
         "strength": 35,
         "rangedStrength": 18,
         "cost": 185,
-        "requiredTech": "Chemistry",
+        "requiredTech": "Advansed Cannons",
         "obsoleteTech": "Dynamite",
         "uniques": [
             "Consumes [3] [Human Resourses]",
+            "Comment [Very inaccurate so will obtain damage penalty by attacking same unit twice]",
+            "[Target Unit] gains the [DVTInaccuracy] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
             "Consumes [4] [Iron]",
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "[1] additional attacks per turn",
+            "[2] additional attacks per turn",
             "[-1] Sight",
             "Never appears as a Barbarian unit"
         ],
@@ -2681,7 +2738,7 @@
         "strength": 15,
         "cost": 150,
         "upgradesTo": "Helicopter Gunship",
-        "requiredTech": "Chemistry",
+        "requiredTech": "Metallurgy",
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "No defensive terrain bonus",
@@ -2731,7 +2788,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Steam Power",
         "uniques": [
-            "Consumes [1] [Human Resourses]",
+            "Consumes [3] [Human Resourses]",
             "Consumes [1] [Aluminum]",
             "No defensive terrain bonus",
             "[+110]% Strength <vs cities> <when attacking>",
@@ -2773,7 +2830,7 @@
         "unitType": "Siege",
         "movement": 2,
         "strength": 20,
-        "rangedStrength": 28,
+        "rangedStrength": 21,
         "range": 3,
         "cost": 270,
         "requiredTech": "Trench Mortars",
@@ -2782,7 +2839,8 @@
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "Consumes [1] [Iron]",
-            "[+50]% Strength <vs [Person] units> <when attacking>",
+            "[+100]% Strength <vs [Person] units> <when attacking>",
+            "[+20]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-1] Sight",
@@ -2940,8 +2998,7 @@
         "range": 3,
         "requiredTech": "Optical sight",
         "uniques": [
-            "Consumes [1] [Human Resourses]",
-            "[-20]% Strength bonus for [Sniper] units within [1] tiles"
+            "Consumes [1] [Human Resourses]"
         ],
         "attackSound": "shot"
     },
@@ -3084,6 +3141,9 @@
         "cost": 410,
         "requiredTech": "Electronics",
         "upgradesTo": "Mechanized Infantry",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
     },
@@ -3139,7 +3199,7 @@
         "movement": 5,
         "strength": 70,
         "cost": 410,
-        "requiredTech": "Electronics",
+        "requiredTech": "Very Heavy fleet",
         "uniques": [
             "Cannot attack",
             "Can carry [3] [Aircraft] units",
@@ -3155,7 +3215,7 @@
         "range": 3,
         "cost": 410,
         "requiredResource": "Oil",
-        "requiredTech": "Electronics",
+        "requiredTech": "Very Heavy fleet",
         "upgradesTo": "Missile Cruiser",
         "uniques": 
         [
@@ -3217,6 +3277,8 @@
         "upgradesTo": "Mobile SAM",
         "obsoleteTech": "Rocketry",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Air] units>",
             "[+150]% Strength <vs [Helicopter] units>",
@@ -3699,28 +3761,68 @@
         "attackSound": "tankshot"
     },
     {
+        "name": "Duopod",
+        "unitType": "Duopod Unit",
+        "movement": 4,
+        "range": 1,
+        "strength": 65,
+        "rangedStrength": 60,
+        "cost": 400,
+        "requiredTech": "Duopods I",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot",
+        "promotions": ["Ignore terrain cost"]
+    },
+    {
         "name": "Medium Tank",
         "unitType": "Medium Tank",
         "movement": 4,
         "strength": 100,
-        "cost": 520,
+        "cost": 575,
         "requiredTech": "Medium Tanks",
         "requiredResource": "Oil",
         "uniques": [
             "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]",
             "Can move after attacking",
-            "[+35]% Strength <vs [Person] units>",
+            "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "tankshot"
+    },
+        {
+        "name": "Tripod",
+        "unitType": "Tripod Unit",
+        "movement": 3,
+        "range": 1,
+        "strength": 85,
+        "rangedStrength": 88,
+        "cost": 475,
+        "requiredTech": "Tripods I",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot",
+        "promotions": ["Ignore terrain cost"]
     },
     {
         "name": "Heavy Tank",
         "unitType": "Heavy Tank",
         "movement": 3,
         "strength": 120,
-        "cost": 600,
+        "cost": 625,
         "requiredTech": "Heavy Tanks",
         "requiredResource": "Oil",
         "uniques": [
