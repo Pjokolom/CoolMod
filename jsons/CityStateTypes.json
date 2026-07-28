@@ -14,6 +14,20 @@
         "color": [139,96,255]
     },
     {
+        "name": "Monaco",
+        "friendBonusUniques": [
+            "[+3 Culture, +2 Faith] <before the [Medieval era]>",
+            "[+5 Culture, +4 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+10 Culture, +6 Faith] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture, +4 Faith] <before the [Medieval era]>",
+            "[+10 Culture, +5 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+20 Culture, +10 Faith] <starting from the [Industrial era]>"
+        ],
+        "color": [139,96,255]
+    },
+    {
         "name": "Maritime",
         "friendBonusUniques": [
             "[+2 Food] [in capital]"

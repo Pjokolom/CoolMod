@@ -91,7 +91,7 @@
         "uniques": [
             "Armored",
             "[+40]% Strength <vs [Person] units> <when defending>",
-            "[+120]% Strength <vs [Person] units> <when attacking>",
+            "[+145]% Strength <vs [Person] units> <when attacking>",
             "[+20]% Strength <vs [Light Tank] units> <when attacking>",
             "[+17]% Strength <when fighting in [Streets] tiles>"
         ]
@@ -117,7 +117,7 @@
         "uniques": [
             "Armored",
             "[+55]% Strength <vs [Person] units> <when defending>",
-            "[+60]% Strength <vs [Person] units> <when attacking>",
+            "[+90]% Strength <vs [Person] units> <when attacking>",
             "[+170]% Strength <vs [Armored] units> <when attacking>",
             "[+110]% Strength <vs [Light Tank] units> <when attacking>",
             "[+40]% Strength <vs [Medium Tank] units> <when attacking>",
@@ -145,8 +145,9 @@
         "movementType": "Land",
         "uniques": [
             "Armored",
-            "[+100]% Strength <vs [Person] units> <when defending>",
-            "[+100]% Strength <vs [Person] units> <when attacking>",
+            "[+125]% Strength <vs [Person] units> <when defending>",
+            "[+75]% Strength <vs [Light Tank] units> <when defending>",
+            "[+30]% Strength <vs [Person] units> <when attacking>",
             "[+110]% Strength <vs [Light Tank] units> <when attacking>",
             "[+110]% Strength <vs [Medium Tank] units> <when attacking>",
             "[+300]% Strength <vs [Armored] units> <when attacking>",

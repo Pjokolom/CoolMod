@@ -226,8 +226,8 @@
             "Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {"sparse": 6, "default": 6, "abundant": 6},
-        "minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
+        "majorDepositAmount": {"sparse": 5, "default": 10, "abundant": 15},
+        "minorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7}
     },
     {
         "name": "Aluminum",

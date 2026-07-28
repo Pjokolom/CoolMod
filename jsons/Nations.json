@@ -49,8 +49,8 @@
         "neutralHello": "May God bless your soul.",
         "hateHello": "I do not have time to speak.",
         "tradeRequest": "Trading it's a fine thing God has bring, don't you agree?",
-        "outerColor": [7, 49, 106],
-        "innerColor": [255, 40, 46],
+        "outerColor": [0, 0, 0],
+        "innerColor": [15, 12, 212],
         "uniqueName": "Saint lesbian's Blessing",
         "uniques": [
             
@@ -95,7 +95,7 @@
         ]
     },
     {
-    "name": "Frankia",
+        "name": "Frankia",
         "leaderName": "Hlotar I",
         "adjective": ["Frankish"],
         "startBias": ["Forest"],
@@ -435,6 +435,20 @@
             "Will not be displayed in Civilopedia"
         ],
         "cities": ["Nort-Sentinell"]
+    },
+        {
+        "name": "Monaco",
+        "adjective": ["Monaco"],
+        "cityStateType": "Cultured",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [255, 255, 255],
+        "innerColor": [196, 87, 10],
+        "uniques": [
+            "[+1 Production] from every [Streets]"
+        ],
+        "cities": ["Monaco"]
     },
     // {
     //     "name": "Arabia",
@@ -3623,18 +3637,6 @@
     //     "innerColor": [54, 102, 255],
     //     "uniques": [],
     //     "cities": ["Luxembourg"]
-    // },
-    // {
-    //     "name": "Monaco",
-    //     "adjective": ["Monaco"],
-    //     "cityStateType": "Cultured",
-    //     "declaringWar": "We have wanted this for a LONG time. War it shall be.",
-    //     "attacked": "Very well, we will kick you back to the ancient era!",
-    //     "defeated": "This isn't how it is supposed to be!",
-    //     "outerColor": [0, 0, 0],
-    //     "innerColor": [196, 87, 255],
-    //     "uniques": [],
-    //     "cities": ["Monaco"]
     // },
     // {
     //     "name": "Montevideo",

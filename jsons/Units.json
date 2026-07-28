@@ -2885,7 +2885,9 @@
             "Can move after attacking",
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]"
         ],
         "attackSound": "torpedo"
     },
@@ -2902,7 +2904,9 @@
             "Can move after attacking",
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]"
         ],
         "attackSound": "torpedo"
     },
@@ -3115,7 +3119,10 @@
             "[+150]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Helicopter] units>",
             "[+4] Sight",
-            "Can see over obstacles"
+            "Can see over obstacles",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]"
+            
         ],
         "attackSound": "machinegun"
     },
@@ -3130,6 +3137,10 @@
         "requiredTech": "Flight",
         "requiredResource": "Oil",
         "upgradesTo": "Bomber",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]"
+            ],
         "obsoleteTech": "Radar",
         "attackSound": "bombing"
     },
@@ -3197,12 +3208,15 @@
         "name": "Carrier",
         "unitType": "Aircraft Carrier",
         "movement": 5,
-        "strength": 70,
+        "strength": 145,
         "cost": 410,
+        "requiredResource": "Oil",
         "requiredTech": "Very Heavy fleet",
         "uniques": [
             "Cannot attack",
-            "Can carry [3] [Aircraft] units",
+            "Consumes [5] [Human Resourses]",
+            "Consumes [7] [Iron]",
+            "Can carry [5] [Aircraft] units",
             "[+2] Sight"
         ]
     },
@@ -3836,6 +3850,26 @@
         ],
         "attackSound": "tankshot"
     },
+    {
+        "name": "Tetropod",
+        "unitType": "Tetropod Unit",
+        "movement": 4,
+        "range": 1,
+        "strength": 85,
+        "rangedStrength": 120,
+        "cost": 475,
+        "requiredTech": "Tetropods I",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot",
+        "promotions": ["Ignore terrain cost"]
+    },
 
     // Atomic Era
     {
@@ -3910,7 +3944,12 @@
         "requiredTech": "Combined Arms",
         "upgradesTo": "Helicopter Gunship",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
             "[+200]% Strength <vs [Armored] units>",
+            "[+200]% Strength <vs [Light Tank] units>",
+            "[+200]% Strength <vs [Medium Tank] units>",
+            "[+165]% Strength <vs [Heavy Tank] units>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "machinegun"
