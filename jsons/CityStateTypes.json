@@ -39,6 +39,17 @@
         "color": [56,255,112]
     }, 
     {
+        "name": "Seaside City",
+        "friendBonusUniques": [
+            "[+50]% Production when constructing [Water] units [in capital]"
+        ],
+        "allyBonusUniques": [
+            "[+110]% Production when constructing [Water] units [in capital]",
+            "[+50]% Production when constructing [Water] units [in all cities]"
+        ],
+        "color": [56,255,112]
+    }, 
+    {
         "name": "Mercantile",
         "friendBonusUniques": [
             "[+2 Happiness] <before the [Medieval era]>",

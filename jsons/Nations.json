@@ -436,19 +436,34 @@
         ],
         "cities": ["Nort-Sentinell"]
     },
-        {
+    {
         "name": "Monaco",
         "adjective": ["Monaco"],
-        "cityStateType": "Cultured",
+        "cityStateType": "Monaco",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [255, 255, 255],
         "innerColor": [196, 87, 10],
         "uniques": [
-            "[+1 Production] from every [Streets]"
+            "[+3 Production] from every [Streets]"
         ],
         "cities": ["Monaco"]
+    },
+    {
+        "name": "Courland",
+        "adjective": ["Courland"],
+        "cityStateType": "Seaside City",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [255, 255, 255],
+        "innerColor": [196, 87, 10],
+        "uniques": [
+            "[+1 Production] from every [Coast]",
+            "[+300]% Production when constructing [Water] units [in all cities]"
+        ],
+        "cities": ["Mitau"]
     },
     // {
     //     "name": "Arabia",

@@ -49,7 +49,6 @@
         "name": "Saami Kyedte",
         "terrainsCanBeBuiltOn": ["Snow","Ice"],
         "food": 1,
-        "replaces": "Streets",
         "uniqueTo": "Sapmi",
         "turnsToBuild": 5,
         "techRequired": "Woodworking",
