@@ -692,6 +692,12 @@
         "wonderCost": 1060,
         "techs": [
             {
+                "name": "Materials Science",
+                "row": 3,
+                "prerequisites": ["Refrigeration","Electronics"],
+                "quote": "'Trees.' - Troos"
+            },
+            {
                 "name": "Light Tanks",
                 "row": 8,
                 "prerequisites": ["Early Light Tanks"],
@@ -739,7 +745,7 @@
             {
                 "name": "Pharmaceuticals",
                 "row": 2,
-                "prerequisites": ["Plastics","Refrigeration"],
+                "prerequisites": ["Materials Science"],
                 "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero",
                 "uniques": ["Provides [1] [Trade Route]"]
             },

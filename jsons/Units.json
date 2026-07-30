@@ -1020,6 +1020,29 @@
         "upgradesTo": "Longswordsman",
         "obsoleteTech": "Steel",
         "requiredResource": "Iron",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Hridien",
+        "unitType": "Sword",
+        "replaces": "Swordsman",
+        "uniqueTo": "Czornoliessie",
+        "movement": 2,
+        "strength": 13,
+        "cost": 75,
+        "requiredTech": "Iron Working",
+        "upgradesTo": "Vigilante",
+        "obsoleteTech": "Steel",
+        "requiredResource": "Iron",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[+15]% Strength <when fighting in [Forest] tiles>",
+            "Double movement in [Forest]"
+        ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
     },
@@ -1035,7 +1058,10 @@
         "upgradesTo": "Longswordsman",
         "obsoleteTech": "Steel",
         "requiredResource": "Iron",
-        "uniques": ["[+15]% Strength <when fighting in [Plains] tiles> <when attacking>"],
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[+15]% Strength <when fighting in [Plains] tiles> <when attacking>"
+        ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
     },
@@ -1421,6 +1447,27 @@
         ],
         "attackSound": "horse"
     },
+    {
+		"name": "Ritterbruder",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Teutonic Order",
+		"movement": 4,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Lancer",
+		"requiredResource": "Horses",
+		"uniques": [
+            "Earn [100]% of the damage done to [City] units as [Faith]",
+            "Can move after attacking","No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "Never appears as a Barbarian unit",
+            "Can be purchased with [Faith] [in all cities]"
+        ],
+		"attackSound": "horse"
+	},
     {
         "name": "Priest",
         "unitType": "Civilian",
@@ -2159,12 +2206,13 @@
         "name": "Frigate",
         "unitType": "Ranged Water",
         "movement": 6,
-        "strength": 25,
+        "strength": 28,
         "rangedStrength": 27,
         "cost": 185,
         "requiredResource": "Iron",
         "requiredTech": "Navigation",
         "uniques": [
+            "[+85]% Strength <vs cities> <when attacking>",
             "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]"
 
@@ -3173,6 +3221,28 @@
         "attackSound": "shot"
     },
     {
+        "name": "Vurdalak",
+        "unitType": "Abyssborn",
+        "movement": 4,
+        "strength": 12,
+        "rangedStrength": 20,
+        "requiredTech": "Natural Resourses",
+        "cost": 520,
+        "uniques": [
+            "May travel on Water tiles without embarking",
+            "All tiles cost 1 movement",
+            "Can pass through impassable tiles",
+            "Self-destructs when attacking",
+            "[+400]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs [Water] units> <when attacking>",
+            "Consumes [2] [Human Resourses]",
+            "Can Move After Attacking",
+            "Only available <if [Abyss Gates] is constructed>",
+            "Will not be displayed in Civilopedia"
+        ],
+        "attackSound": "nonmetalhit"
+    },
+    {
         "name": "Behemoth",
         "unitType": "Abyssborn",
         "movement": 2,
@@ -3180,6 +3250,7 @@
         "requiredTech": "Biology",
         "cost": 900,
         "uniques": [
+            "Consumes [5] [Human Resourses]",
             "Can Move After Attacking",
             "Only available <if [Abyss Gates] is constructed>",
             "Will not be displayed in Civilopedia"
@@ -3599,6 +3670,7 @@
             "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
+        "obsoleteTech": "Light Tanks",
         "attackSound": "tankshot"
     },
     //RASIARASIA
@@ -3619,6 +3691,7 @@
             "[+100]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
+        "obsoleteTech": "Light Tanks",
         "attackSound": "tankshot"
     },
     //CZECHLAND
@@ -3639,6 +3712,7 @@
             "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
+        "obsoleteTech": "Light Tanks",
         "attackSound": "tankshot"
     },
     //FUMELAND
@@ -3661,6 +3735,7 @@
             "[+20]% Strength <when fighting in [Swamp] tiles>",
             "Never appears as a Barbarian unit"
         ],
+        "obsoleteTech": "Light Tanks",
         "attackSound": "tankshot"
     },
         {
@@ -3681,6 +3756,7 @@
             "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
+        "obsoleteTech": "Light Tanks",
         "attackSound": "tankshot"
     },
     {
@@ -3698,6 +3774,7 @@
             "[+35]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
+        "obsoleteTech": "Medium Tanks",
         "attackSound": "tankshot"
     },
     {
@@ -3715,6 +3792,7 @@
             "[+20]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
+        "obsoleteTech": "Heavy Tanks",
         "attackSound": "tankshot"
     },
         {
@@ -3862,7 +3940,7 @@
         "requiredResource": "Oil",
         "uniques": [
             "Consumes [2] [Human Resourses]",
-            "Consumes [3] [Iron]",
+            "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"

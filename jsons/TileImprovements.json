@@ -128,6 +128,7 @@
         "techRequired": "Bronze",
         "uniques": [
             "[+1 Production] <after discovering [Steel]>",
+            "[+3 Science] <after discovering [Materials Science]>",
             "Can only be built to improve a resource <in [resource] tiles>",
             "Pillaging this improvement yields approximately [+10 Gold]"
         ],
@@ -194,6 +195,7 @@
             "Does not need removal of [Jungle]",
             "[+1 Gold] <after discovering [Economics]>",
             "Can only be built to improve a resource",
+            "[+3 Science] <after discovering [Materials Science]>",
             "Pillaging this improvement yields approximately [+10 Gold]"
         ],
         "shortcutKey": "C"

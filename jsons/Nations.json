@@ -50,7 +50,7 @@
         "hateHello": "I do not have time to speak.",
         "tradeRequest": "Trading it's a fine thing God has bring, don't you agree?",
         "outerColor": [0, 0, 0],
-        "innerColor": [15, 12, 212],
+        "innerColor": [50, 50, 212],
         "uniqueName": "Saint lesbian's Blessing",
         "uniques": [
             
@@ -125,9 +125,41 @@
         ]
     },
     {
+		"name": "Teutonic Order",
+		"leaderName": "Hermann von Salza",
+		"adjective": ["Teutonic"],
+		"startBias":["Forest"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "May God protect both you and your crusaders, o great Hochmeister Von Salza. You lead the Monastic State of the Teutonic Order, a crusading force dedicated to purging paganism from eastern Europe and spreading the word of Christ. As Grand Master of the Order, you oversaw their transformation into an elite religious military organization. As a staunch ally and personal friend of Holy Roman Emperor Frederick II, you were able to obtain a promotion, equating the Teutons with established crusading orders such as the Knights of St. John, and also launched the Prussian Crusade. With your success in that campaign, you were able to set the Teutonic Order onto a path of progress and ambition, ultimately becoming one of the greatest military orders ever seen.",
+		"startIntroPart2": "O great devout warrior, the heathens of the world have once again risen up and must be quelled and converted. Can you illuminate the dark, pagan lands with the light of God? Can you and your knights bring glory and conquest to the Christian world? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "The time for diplomacy has passed. By the cross we bear and the swords we wield, we march to war.",
+		"attacked": "You dare strike at the vanguard of faith? A grave error that my knights shall soon rectify.",
+		"defeated": "How could God allow such tragedy to occur?",
+		"denounced": "Your words are as empty as your faith. The Order stands resolute against such slander.",
+		"introduction": "Hail traveler. I am Hermann Von Salza, Hochmeister of the Teutonic Order. I don't expect any problems as long as you recognize Christ as your savior.",
+		"neutralHello": "What news do you bring?",
+		"hateHello": "Do not test my patience today. Speak swiftly.",
+		"tradeRequest": "A proposal for our mutual benefit. I trust you will see its wisdom.",
+		"outerColor": [250, 250, 250],
+		"innerColor": [5, 5, 5],
+		"favoredReligion": "Catholicism",
+		"uniqueName": "Helfen, Wehren, Heilen",
+		"uniques": [
+            "May buy [Armored Man Mounted] units with [Faith] [in cities following our religion]",
+             "May buy [Military Building] buildings with [Faith] [in cities following our religion]",
+            "[+1 Faith] from all [Barracks] buildings","[+2 Faith] from all [Stable] buildings",
+            "[+2 Faith] from all [Armory] buildings"
+        ],
+		"cities": ["Marienburg","Konigsberg","Danzig","Memel","Heilsberg","Kulm","Tuchel","Soldin","Ortelsburg","Osterode",
+			"Allenstein","Angerburg","Neidenburg","Rosenberck","Thorn","Kruschwitz","Johannisburg","Hasenpoth","Schwanenburg","Dondangen",
+			"Ass","Borkholm","Taplaken","Wolmar","Kokenhusen","Reval","Riga","Lennewarden"],
+        "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
+    },
+    {
         "name": "Ellada",
         "leaderName": "Basil II Porphyrogenitus",
         "adjective": ["Elladish"],
+        "personality": "Alexander",
         "startBias": ["Forest"],
         "preferredVictoryType": "Domination",
         "startIntroPart1": "Miau.",
@@ -402,7 +434,6 @@
         "tradeRequest": "Let us trade.",
         "outerColor": [65, 58, 21],
         "innerColor": [157, 201, 107],
-        "uniqueName": "Oppidum of Bibracte",
         "uniqueName": "Druidic Lore",
         "uniques": [
             "[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
@@ -426,6 +457,7 @@
         "declaringWar": "...",
         "attacked": "...",
         "defeated": "...",
+        "personality": "Hostile",
         "outerColor": [0, 0, 0],
         "innerColor": [179, 179, 179],
         "uniques": [
@@ -458,10 +490,12 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [255, 255, 255],
-        "innerColor": [196, 87, 10],
+        "innerColor": [255, 0, 0],
         "uniques": [
             "[+1 Production] from every [Coast]",
-            "[+300]% Production when constructing [Water] units [in all cities]"
+            "[+300]% Production when constructing [Water] units [in all cities]",
+            "Provides [10] [Iron] <hidden from users>",
+            "Provides [10] [Human Resourses] <hidden from users>"
         ],
         "cities": ["Mitau"]
     },

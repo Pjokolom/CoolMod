@@ -1077,7 +1077,8 @@
         "maintenance": 1,
         "uniques": [
             "New [Military] units start with [15] XP [in this city]",
-            "Destroyed when the city is captured"
+            "Destroyed when the city is captured",
+            "Military Building"
         ],
         "requiredTech": "Bronze"
     },
@@ -2489,7 +2490,8 @@
         "requiredBuilding": "Barracks",
         "uniques": [
             "New [Military] units start with [15] XP [in this city]",
-            "Destroyed when the city is captured"
+            "Destroyed when the city is captured",
+            "Military Building"
         ],
         "requiredTech": "Steel"
     },
@@ -3330,7 +3332,8 @@
         "uniques": [
             "Provides [2] [Human Resourses]",
             "New [Military] units start with [15] XP [in this city]",
-            "Destroyed when the city is captured"
+            "Destroyed when the city is captured",
+            "Military Building"
         ],
         "requiredTech": "Military Science"
     },
