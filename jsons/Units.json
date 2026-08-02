@@ -2370,6 +2370,31 @@
         "attackSound": "cannon"
     },
     {
+        "name": "Nartov's Battery",
+        "unitType": "Siege",
+        "movement": 3,
+        "strength": 13,
+        "range": 1,
+        "uniqueTo": "Czornoliessie",
+        "replaces": "Ribadequin",
+        "rangedStrength": 20,
+        "cost": 500,
+        "requiredTech": "Advansed Cannons",
+        "promotions": ["Indirect Fire"],
+        "upgradesTo": "Artillery",
+        "obsoleteTech": "Dynamite",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[1] additional attacks per turn",
+            "Consumes [4] [Iron]",
+            "[+200]% Strength <vs [Person] units> <when attacking>",
+            "No defensive terrain bonus",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "cannon"
+    },
+    {
         "name": "Ribadequin",
         "unitType": "Siege",
         "movement": 2,
@@ -3889,6 +3914,28 @@
         ],
         "attackSound": "tankshot"
     },
+    {
+        "name": "Retribution",
+        "unitType": "Medium Tank",
+        "movement": 4,
+        "strength": 90,
+        "cost": 575,
+        "requiredTech": "Medium Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "Only available <in cities with a [Divine Judgement] religion>",
+            "Can be purchased for [1200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit",
+            "Can move after attacking",
+            "[-25]% Strength for enemy [Military] units in adjacent [All] tiles",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
         {
         "name": "Tripod",
         "unitType": "Tripod Unit",
@@ -3923,6 +3970,27 @@
             "Can move after attacking",
             "[+20]% Strength <vs [Person] units>",
             "[+70]% Strength <vs [Light Tank] units>",
+            "[+80]% Strength <vs [Medium Tank] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Tulvar T-45",
+        "unitType": "Heavy Tank",
+        "movement": 3,
+        "strength": 135,
+        "uniqueTo": "Finokarelia",
+        "replaces": "Heavy Tank",
+        "cost": 670,
+        "requiredTech": "Heavy Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [5] [Iron]",
+            "Can move after attacking",
+            "[+35]% Strength <vs [Person] units>",
+            "[+110]% Strength <vs [Light Tank] units>",
             "[+80]% Strength <vs [Medium Tank] units>",
             "Never appears as a Barbarian unit"
         ],
