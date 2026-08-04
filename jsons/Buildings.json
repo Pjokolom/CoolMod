@@ -1099,7 +1099,7 @@
     {
         "name": "Krepost",
         "replaces": "Barracks",
-        "uniqueTo": "Russia",
+        "uniqueTo": "Novgorod",
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
@@ -1738,7 +1738,7 @@
     {
         "name": "Knyaz Court",
         "replaces": "Market",
-        "uniqueTo": "Ukraine",
+        "uniqueTo": "Czornoliessie",
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 25,
