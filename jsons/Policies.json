@@ -257,6 +257,43 @@
         ]
     },
     {
+        "name": "Centralization",
+        "era": "Medieval era",
+        "uniques": [
+            "Comment [[+1 Gold] from [City center] with neighboring [Streets] tiles (up to six)]",
+            "Provides [1] [Policies]"
+        ],
+        "policies": [
+            {
+                "name": "Centralization II",
+                "uniques": [
+                    "Comment [[+1 Food] from [Streets] with neighboring [Streets] tiles (up to two)]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Centralization III",
+                "uniques": [
+                    "Comment [[+1 Production] from [Streets] with neighboring [Streets] tiles (up to six)]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": [
+                    "Centralization II"
+                ]
+            },
+            {
+                "name": "Centralization Complete",
+                "uniques": [
+                    
+                ]
+            }
+        ]
+    },
+    {
         "name": "Piety",
         "era": "Ancient era",
         "uniques": [

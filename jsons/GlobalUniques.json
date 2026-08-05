@@ -31,6 +31,26 @@
         "[+1 Gold] from every [City center] <with [4] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
         "[+1 Gold] from every [City center] <with [5] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
         "[+1 Gold] from every [City center] <with [6] to [6] neighboring [Streets] tiles> <after discovering [Currency]>",
+
+        //ЬЩЬЩ
+        "[+1 Gold] from every [City center] <with [1] to [6] neighboring [Streets] tiles> <after adopting [Centralization]>",
+        "[+1 Gold] from every [City center] <with [2] to [6] neighboring [Streets] tiles> <after adopting [Centralization]>",
+        "[+1 Gold] from every [City center] <with [3] to [6] neighboring [Streets] tiles> <after adopting [Centralization]>",
+        "[+1 Gold] from every [City center] <with [4] to [6] neighboring [Streets] tiles> <after adopting [Centralization]>",
+        "[+1 Gold] from every [City center] <with [5] to [6] neighboring [Streets] tiles> <after adopting [Centralization]>",
+        "[+1 Gold] from every [City center] <with [6] to [6] neighboring [Streets] tiles> <after adopting [Centralization]>",
+
+        "[+1 Food] from every [Streets] <with [1] to [6] neighboring [Streets] tiles> <after adopting [Centralization II]>",
+        "[+1 Food] from every [Streets] <with [2] to [6] neighboring [Streets] tiles> <after adopting [Centralization II]>",
+        "[+1 Culture] from every [Streets] <with [3] to [6] neighboring [Streets] tiles> <after adopting [Centralization II]>",
+
+        "[+1 Production] from every [Streets] <with [1] to [6] neighboring [Streets] tiles> <after adopting [Centralization III]>",
+        "[+1 Production] from every [Streets] <with [2] to [6] neighboring [Streets] tiles> <after adopting [Centralization III]>",
+        "[+1 Production] from every [Streets] <with [3] to [6] neighboring [Streets] tiles> <after adopting [Centralization III]>",
+        "[+1 Production] from every [Streets] <with [4] to [6] neighboring [Streets] tiles> <after adopting [Centralization III]>",
+        "[+1 Production] from every [Streets] <with [5] to [6] neighboring [Streets] tiles> <after adopting [Centralization III]>",
+        "[+1 Production] from every [Streets] <with [6] to [6] neighboring [Streets] tiles> <after adopting [Centralization III]>",
+
         // something something unit supply
         "[+1 Food] from every [Mill] <with [1] to [6] neighboring [Farm] tiles>",
         "[+1 Food] from every [Mill] <with [2] to [6] neighboring [Farm] tiles>",

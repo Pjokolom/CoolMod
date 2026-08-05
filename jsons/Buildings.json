@@ -1581,7 +1581,7 @@
             "Destroyed when the city is captured",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Philosophy"
     },
     {
         "name": "Garden",

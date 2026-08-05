@@ -23,8 +23,8 @@
         "innerColor": [255, 255, 255],
         "uniqueName": "The Great Unification",
         "uniques": [
-            "[+2 Happiness, +3 Culture, +1 Production] [in annexed cities]",
-            "[+2 Happiness, +3 Culture, +1 Production] [in puppeted cities]"
+            "[+2 Happiness, +3 Culture, +1 Production] [in puppeted cities]",
+            "[+100]% Yield from pillaging tiles"
             
         ],
         "cities": [
@@ -49,8 +49,8 @@
         "neutralHello": "May God bless your soul.",
         "hateHello": "I do not have time to speak.",
         "tradeRequest": "Trading it's a fine thing God has bring, don't you agree?",
-        "outerColor": [0, 0, 0],
-        "innerColor": [50, 50, 212],
+        "outerColor": [255, 220, 220],
+        "innerColor": [100, 0, 0],
         "uniqueName": "Saint lesbian's Blessing",
         "uniques": [
             
@@ -219,10 +219,41 @@
         ],
         "cities": [
             "Mcensk","Kursk","Belharad","Livny","Briansk","Varoniezh","Staryj Askou","Hubkin","Smalensk","Barisohliebsk",
-            "Rossosh","Novazybkau"
+            "Rossosh","Novazybkau","Kharkau"
         ],
         "spyNames": [
             "Lobiakov","Hamieel","Pyk-Myk","Nastiusha","Tomatoa","Mr.Crubs","Doktor Sinij","Pasha","Kolia","Had"
+        ]
+    },
+    {
+        "name": "Hetmanate",
+        "leaderName": "Bohdan Khmelnytsky",
+        "adjective": ["Ukrainian"],
+        "startBias": ["Avoid [Coast]", "Avoid [Hills]"],
+        "preferredVictoryType": "Cultural",
+        "startIntroPart1": "Honor Yaroslav the Wise, Prince of Kyiv, lawgiver, builder of cathedrals, and diplomat of the Rus. Under your hand, Kyiv reached its cultural and political zenith, shining across Eastern Europe.",
+        "startIntroPart2": "Wise prince, will your justice once more light the path of your people? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "I did not seek this path—but now, I shall finish what you started.",
+        "attacked": "You turn sword against Kyiv? A grave mistake.",
+        "defeated": "My city may fall—but wisdom outlasts stone and steel.",
+        "introduction": "Welcome to Kyiv, the heart of Rus. I am Yaroslav I, your guide to a new age.",
+        "neutralHello": "The golden domes shine brightly today. I hope your words do too.",
+        "hateHello": "You speak of peace, yet walk in shadow. Kyiv is no fool to false friends.",
+        "tradeRequest": "Trade nourishes the roots of peace. Come, let us prosper through wisdom, not war.",
+        "outerColor": [32,34,80],
+        "innerColor": [255,200,170],
+        "uniqueName": "Cossack host",
+        "uniques": [
+            "[+1 Food] from every [Maize] <after discovering [The Wheel]>",
+            "[+1 Food] from every [Wheat] <after discovering [The Wheel]>",
+            "[+1 Food] from every [Salt] <after discovering [The Wheel]>",
+            "[+100]% Yield from pillaging tiles"
+        ],
+        "cities": [
+            "Kiev","Chernihiv","Poltava","Niezhin","Starodub","Czihirin","Baturin","Braclau","Hluchou","Krasnodar","Jejsk","Taman","Kropotkin"
+        ],
+        "spyNames": [
+            "Alexei","Lena","Dmitry","Anastasia","Tatiana","Boris","Doktor Seriy","Mikhail","Natacha","Zmeya"
         ]
     },
     {
@@ -485,6 +516,7 @@
     {
         "name": "Courland",
         "adjective": ["Courland"],
+        "startBias": ["Coast"],
         "cityStateType": "Seaside City",
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
