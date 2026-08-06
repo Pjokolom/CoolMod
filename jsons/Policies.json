@@ -652,6 +652,8 @@
                 "uniques": [
                     "Comment [Allows purchasing [Landsknecht] at [Civil Service]]",
                     "Comment [Allows purchasing [Foreign Legion] at [Replaceable Parts]]",
+                    "[+100]% Production when constructing [Privateer] units [in this city]",
+                    "[+100]% Production when constructing [Uszkuj] units [in this city] <hidden from users>",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,

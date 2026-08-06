@@ -63,6 +63,21 @@
         "hurryCostModifier": 20
     },
     {
+        "name": "Northern seafarers",
+        "unitType": "Civilian",
+        "uniqueTo": "Denmark",
+        "movement": 2,
+        "techRequired": "Advanced Shipping",
+        "cost": 106,
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Founds a new puppet city <by consuming this unit>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population"
+        ],
+        "hurryCostModifier": 20
+    },
+    {
         "name": "Oikistes",
         "unitType": "Civilian",
         "uniqueTo": "Ellada",
@@ -837,19 +852,23 @@
         "attackSound": "elephant"
     },
     {
-        "name": "Timurid Rider",
+        "name": "Turk Rider",
         "replaces": "Horseman",
-        "uniqueTo": "Timurids",
-        "unitType": "Bomber",
-        "movement": 1,
-        "strength": 19,
-        "rangedStrength": 19,
-        "range": 5,
-        "cost": 120,
-        "requiredTech": "Chivalry",
+        "uniqueTo": "Turkestan",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 14,
+        "cost": 75,
+        "requiredTech": "Trapping",
         "requiredResource": "Horses",
-        "upgradesTo": "Great War Bomber",
-        "obsoleteTech": "Flight",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Consumes [1] [Human Resourses]"
+        ],
+        "upgradesTo": "Knight",
+        "obsoleteTech": "Chivalry",
         "attackSound": "horse"
     },
     {
@@ -2889,7 +2908,8 @@
             "Unable to capture cities",
             "Unable to pillage tiles",
             "Can see over obstacles",
-            "[+3] Sight"
+            "[+3] Sight",
+            "Never appears as a Barbarian unit"
         ],
         "attackSound": "machinegun"
     },

@@ -1228,7 +1228,7 @@
     },
     {
         "name": "Serai",
-        "uniqueTo": "Timurids",
+        "uniqueTo": "Turkestan",
         "replaces": "Caravansary",
         "cost": 100,
         "hurryCostModifier": 25,
@@ -1238,7 +1238,7 @@
             "Can carry [1] extra [air] units",
 			"Provides [2] [Horses]"
         ],
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Archery"
     },
     {
         "name": "Stable",
@@ -2223,7 +2223,24 @@
             "Connects trade routes over water",
             "Must be next to [Coast]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
-        ],
+        ], 
+        "requiredTech": "Compass"
+    },
+    {
+        "name": "Shipyard",
+        "cost": 120,
+        "uniqueTo": "Denmark",
+        "replaces": "Harbor",
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Connects trade routes over water",
+            "Must be next to [Coast]",
+            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
+            "[+2 Production] from [Sea Trade Route (Production)] tiles [in this city]",
+            "[Great Admiral] is earned [+20]% faster",
+            "New [Water] units start with [15] XP [in this city]"
+        ], 
         "requiredTech": "Compass"
     },
     {
@@ -3208,7 +3225,7 @@
         "hurryCostModifier": 0,
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
-            "[+1 Science] from [Forest] tiles [in this city]"
+            "[+1 Science] from [Streets] tiles [in this city]"
         ],
         "requiredTech": "Scientific Theory"
     },

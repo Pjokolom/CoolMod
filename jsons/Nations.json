@@ -49,8 +49,8 @@
         "neutralHello": "How are you today?",
         "hateHello": "Oh. It's you?",
         "tradeRequest": "My friend, do you think you can accept this request?",
-        "outerColor": [9, 112, 84],
-        "innerColor": [255,255,255],
+        "outerColor": [255, 140, 0],
+        "innerColor": [22,30,46],
         "uniqueName": "Art of War",
         "uniques": [
             "Great General provides double combat bonus",
@@ -249,10 +249,10 @@
         "uniqueName": "Endless Forest",
         "uniques": [
             "[+1 Production] from every [Forest]",
-            "Can build [Lumber mill] improvements at a [+500]% rate <in [Forest] tiles>"
+            "Can build [Lumber mill] improvements at a [+200]% rate <in [Forest] tiles>"
         ],
         "cities": [
-            "Mcensk","Kursk","Belharad","Livny","Briansk","Varoniezh","Staryj Askou","Hubkin","Smalensk","Barisohliebsk",
+            "Mcensk","Kursk","Belharad","Chernihiv","Briansk","Varoniezh","Staryj Askou","Hubkin","Smalensk","Barisohliebsk",
             "Rossosh","Novazybkau","Kharkau"
         ],
         "spyNames": [
@@ -284,7 +284,7 @@
             "[+100]% Yield from pillaging tiles"
         ],
         "cities": [
-            "Kiev","Chernihiv","Poltava","Niezhin","Starodub","Czihirin","Baturin","Braclau","Hluchou","Krasnodar","Jejsk","Taman","Kropotkin"
+            "Kiev","Poltava","Niezhin","Starodub","Czihirin","Baturin","Braclau","Hluchou","Krasnodar","Jejsk","Taman","Kropotkin"
         ],
         "spyNames": [
             "Alexei","Lena","Dmitry","Anastasia","Tatiana","Boris","Doktor Seriy","Mikhail","Natacha","Zmeya"
@@ -466,6 +466,7 @@
         "innerColor": [240,231,180],
         "uniqueName": "Viking Fury",
         "uniques": [
+            "Enables [Northern seafarers] units to enter ocean tiles",
             "[+1 Production] from every [Fish]",
             "[+1] Movement <for [Embarked] units>",
             "[1] Movement point cost to disembark <for [All] units>",
@@ -480,6 +481,71 @@
         ],
         "spyNames": [
             "Jørgen","Mette","Henrik","Niels","Helle","Frederik","Ida","Thea","Freja","Morten"
+        ]
+    },
+    {
+        "name": "Japan",
+        "leaderName": "Oda Nobunaga",
+        "adjective": ["Japanese"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Blessings upon you, noble Oda Nobunaga, ruler of Japan, the land of the Rising Sun! May you long walk among its flowering blossoms. The Japanese are an island people, proud and pious with a rich culture of arts and letters. Your civilization stretches back thousands of years, years of bloody warfare, expansion and isolation, great wealth and great poverty. In addition to their prowess on the field of battle, your people are also immensely industrious, and their technological innovation and mighty factories are the envy of lesser people everywhere.",
+        "startIntroPart2": "Legendary damiyo, will you grab the reins of destiny? Will you bring your family and people the honor and glory they deserve? Will you once again pick up the sword and march to triumph? Will you build a civilization that stands the test of time?",
+        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+        "attacked": "Pitiful fool! Now we shall destroy you!",
+        "defeated": "You were much wiser than I thought.",
+        "introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
+        "neutralHello": "Hello.",
+        "hateHello": "Oh, it's you...",
+        "tradeRequest": "I would be grateful if you agreed on the following proposal.",
+        "outerColor": [255,255,255],
+        "innerColor": [184,0,0],
+        "uniqueName": "Bushido",
+        "uniques": [
+            "No damage penalty for wounded units <for [All] units>",
+            "[+1 Culture] from every [Fishing Boats]",
+            "[+2 Culture] from every [Atoll]"
+        ],
+        "cities": [
+            "Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+            "Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
+            "Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
+            "Kamakura","Kochi","Naha"
+        ],
+        "spyNames": [
+            "Akaishi","Oki","Hattori","Morozumi","Momochi","Kawashima","Orin","Sakanishi","Kaede","Mochizuki"
+        ]
+    },
+    {
+        "name": "Korea",
+        "leaderName": "Sejong",
+        "adjective": ["Korean"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Scientific",
+        "startIntroPart1": "Greetings to you, exalted King Sejong the Great, servant to the people and protector of the Choson Dynasty! Your glorious vision of prosperity and overwhelming benevolence towards the common man made you the most beloved of all Korean kings. From the earliest days of your reign, the effort you took to provide a fair and just society for all was surpassed only by the technological advances spurred onwards by your unquenched thirst for knowledge. Guided by your wisdom, the scholars of the Jade Hall developed Korea's first written language, Hangul, bringing the light of literature and science to the masses after centuries of literary darkness.",
+        "startIntroPart2": "Honorable Sejong, once more the people look to your for guidance. Will you rise to the occasion, bringing harmony and understanding to the people? Can you once again advance your kingdom's standing to such wondrous heights? Can you build a civilization that stands the test of time?",
+        "declaringWar": "Jip-hyun-jun (Hall of Worthies) will no longer tolerate your irksome behavior. We will liberate the citizens under your oppression even with force, and enlighten them!",
+        "attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
+        "defeated": "Now the question is who will protect my people. A dark age has come.",
+        "introduction": "Welcome to the palace of Choson, stranger. I am the learned King Sejong, who looks after his great people.",
+        "neutralHello": "Hello.",
+        "hateHello": "Oh, it's you",
+        "tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+        "outerColor": [26,32,96],
+        "innerColor": [255,0,0],
+        "uniqueName": "Scholars of the Jade Hall",
+        "uniques": [
+            "[+1 Science] from every specialist [in all cities]",
+            "[+1 Science] [in capital]",
+            "[+2 Science] from every [Great Improvement]"
+        ],
+        "cities": [
+            "Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
+            "Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
+            "Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"
+        ],
+        "spyNames": [
+            "Kim","Park","Han","Na","Kong","Yu","Ahn","Na","Da","Eun"
         ]
     },
     {
@@ -558,7 +624,7 @@
         "outerColor": [255, 255, 255],
         "innerColor": [255, 0, 0],
         "uniques": [
-            "[+1 Production] from every [Coast]",
+            "[+1 Production, +3 Food] from every [Coast]",
             "[+300]% Production when constructing [Water] units [in all cities]",
             "Provides [10] [Iron] <hidden from users>",
             "Provides [10] [Human Resourses] <hidden from users>"
