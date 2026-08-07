@@ -25,7 +25,22 @@
             "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Gold] from [Fresh water] tiles <after discovering [Civil Service]>",
             "Pillaging this improvement yields approximately [+30 Gold]",
-            "Provides [2] [Human Resourses]"
+            "Provides [1] [Human Resourses]"
+        ],
+        "shortcutKey": "F"
+    },
+    {
+        "name": "Town Streets",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains","Hill","Tundra"],
+        "turnsToBuild": 9,
+        "techRequired": "Metal Casting",
+        "uniques": [
+            "Comment [[+1 Gold] to [City center] when adjusted]",
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
+            "[+1 Gold] from [Fresh water] tiles <after discovering [Civil Service]>",
+            "Pillaging this improvement yields approximately [+30 Gold]",
+            "Provides [2] [Human Resourses]",
+            "Provides [1] [Human Resourses] <in tiles adjacent to [City center] tiles> <after adopting [Total Urbanization]>"
         ],
         "shortcutKey": "F"
     },
@@ -33,9 +48,28 @@
         "name": "Czornoliesh Streets",
         "terrainsCanBeBuiltOn": ["Forest"],
         "uniqueTo": "Czornoliessie",
+        "replaces": "Streets",
         "turnsToBuild": 7,
+        "food": 1,
         "techRequired": "Woodworking",
         "uniques": [
+            "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
+            "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Provides [1] [Human Resourses]"
+        ],
+        "shortcutKey": "F"
+    },
+    {
+        "name": "Helenic Streets",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains","Hill","Tundra"],
+        "uniqueTo": "Ellada",
+        "replaces": "Streets",
+        "turnsToBuild": 7,
+        "food": 1,
+        "techRequired": "Stoneworking",
+        "uniques": [
+            "Can only be built on [Coastal] tiles",
             "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
             "Pillaging this improvement yields approximately [+20 Gold]",
@@ -48,6 +82,7 @@
         "terrainsCanBeBuiltOn": ["Snow","Ice"],
         "food": 1,
         "uniqueTo": "Sapmi",
+        "replaces": "Streets",
         "turnsToBuild": 5,
         "techRequired": "Woodworking",
         "uniques": [

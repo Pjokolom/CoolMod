@@ -115,7 +115,7 @@
         "innerColor": [142,4,1],
         "uniqueName": "Vieczies Bell",
         "uniques": [
-            "[+3 Faith, +2 Culture] [in all cities connected to capital]",
+            "[+3 Faith, +2 Culture] [in all cities connected to capital] <in [non-[Capital]] cities>",
             "Free [Cargo Ship] appears <upon discovering [Compass] technology>",
             "[+1 Food, +1 Gold] from every [Tundra]"
         ],

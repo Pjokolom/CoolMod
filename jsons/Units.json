@@ -1923,7 +1923,7 @@
     {
         "name": "Crusader",
         "replaces": "Longswordsman",
-        "uniqueTo": "Jerusalem",
+        "uniqueTo": "Teutonic Order",
         "unitType": "Sword",
         "movement": 2,
         "strength": 17,
@@ -2255,7 +2255,7 @@
 
         ],
         "obsoleteTech": "Electronics",
-        "upgradesTo": "Battleship",
+        "upgradesTo": "Steam frigate",
         "hurryCostModifier": 20,
         "attackSound": "cannon"
     },
@@ -2820,6 +2820,26 @@
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shipguns"
+    },
+    {
+        "name": "Steam frigate",
+        "unitType": "Ranged Water",
+        "movement": 5,
+        "strength": 38,
+        "rangedStrength": 50,
+        "cost": 250,
+        "requiredResource": "Coal",
+        "requiredTech": "Steam Power",
+        "uniques": [
+            "[+85]% Strength <vs cities> <when attacking>",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [2] [Iron]"
+
+        ],
+        "obsoleteTech": "Electronics",
+        "upgradesTo": "Battleship",
+        "hurryCostModifier": 20,
+        "attackSound": "cannon"
     },
     {
         "name": "Steam Landship",
@@ -4030,7 +4050,6 @@
         "uniques": [
             "Consumes [3] [Human Resourses]",
             "Consumes [5] [Iron]",
-            "Can move after attacking",
             "[+20]% Strength <vs [Person] units>",
             "[+70]% Strength <vs [Light Tank] units>",
             "[+80]% Strength <vs [Medium Tank] units>",
@@ -4051,9 +4070,28 @@
         "uniques": [
             "Consumes [3] [Human Resourses]",
             "Consumes [5] [Iron]",
-            "Can move after attacking",
             "[+35]% Strength <vs [Person] units>",
             "[+110]% Strength <vs [Light Tank] units>",
+            "[+80]% Strength <vs [Medium Tank] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Paskudis-Paulus I",
+        "unitType": "Heavy Tank",
+        "movement": 3,
+        "strength": 135,
+        "uniqueTo": "Teutonic Order",
+        "replaces": "Heavy Tank",
+        "cost": 650,
+        "requiredTech": "Heavy Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [5] [Iron]",
+            "[+110]% Strength <vs [Person] units>",
+            "[+20]% Strength <vs [Light Tank] units>",
             "[+80]% Strength <vs [Medium Tank] units>",
             "Never appears as a Barbarian unit"
         ],

@@ -2469,7 +2469,8 @@
         "isNationalWonder": true,
         "uniques": [
             "[+1 Production] from [Mine] tiles [in this city]",
-            "[+1 Production] from [Streets] tiles [in this city]",
+            "[+1 Production] from [Town Streets] tiles [in this city]",
+            "[+1 Production] from [Czornoliesh Streets] tiles [in this city] <hidden from users>",
             "Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
         ],
@@ -3225,7 +3226,8 @@
         "hurryCostModifier": 0,
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
-            "[+1 Science] from [Streets] tiles [in this city]"
+            "[+1 Science] from [Streets] tiles [in this city]",
+            "[+2 Science] from [Town Streets] tiles [in this city]"
         ],
         "requiredTech": "Scientific Theory"
     },
@@ -3257,7 +3259,7 @@
         "hurryCostModifier": 0,
         "requiredResource": "Coal",
         "uniques": [
-            "[+2 Production] from [Streets] tiles [in this city]",
+            "[+2 Production] from [Town Streets] tiles [in this city]",
             "[+2 Production] from [Mine] tiles [in this city]",
             "Provides [1] [Factories]",
             "Adopt [Ideology] <when above [2] [Factories]>",

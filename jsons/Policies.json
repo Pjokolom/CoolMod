@@ -286,6 +286,18 @@
                 ]
             },
             {
+                "name": "Total Urbanization",
+                "uniques": [
+                    "Comment [[+1 Human Resourses] from [Town Streets] with neighboring [City Center]]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 1,
+                "requires": [
+                    "Centralization II"
+                ]
+            },
+            {
                 "name": "Centralization Complete",
                 "uniques": [
                     
