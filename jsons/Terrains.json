@@ -21,6 +21,17 @@
         ]
     },
     {
+        "name": "Bridge",
+        "type": "Land",
+        "food": 1,
+        "movementCost": 1,
+        "RGB": [200,200,0],
+        "uniques": [
+            "Fresh water",
+            "Doesn't generate naturally"
+        ]
+    },
+    {
         "name": "Grassland",
         "type": "Land",
         "food": 2,
@@ -167,6 +178,7 @@
             "[-2] to Fertility for Map Generation",
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
+            "Becomes [Grassland] when adjacent to [Desert]",
             "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>"
         ]

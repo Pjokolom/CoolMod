@@ -242,6 +242,12 @@
                 "quote": "'Theese things existed in the Classical era but I have no space heree soo.' - Mickle Slivengstone"
             },
             {
+                "name": "Advanced Engineering",
+                "row": 8,
+                "prerequisites": ["Mills"],
+                "quote": "'Czmczsznggmng!' - Trtkk lblandlzyn"
+            },
+            {
                 "name": "Civil Service",
                 "row": 5,
                 "prerequisites": ["Philosophy","Siege"],

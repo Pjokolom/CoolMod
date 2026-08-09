@@ -2884,6 +2884,7 @@
         {
         "name": "Skybarge",
         "unitType": "Helicopter",
+        "replaces": "Airship",
         "movement": 4,
         "strength": 15,
         "uniqueTo": "Sapmi",

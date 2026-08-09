@@ -15,6 +15,26 @@
         "shortcutKey": "F"
     },
     {
+		"name": "Canal",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra", "Snow"],
+        "techRequired": "Advanced Engineering",
+		"uniques": [
+			"Turn this tile into a [Bridge] tile",
+			"Cannot be built on [Hill] tiles", "Cannot be built on [Resource] tiles",
+			"Can only be built on [Coastal] tiles",
+			"Cannot be built on [Land] tiles <with [2] to [6] neighboring [Canal] tiles>"
+		]
+	},
+        {
+		"name": "Build brigde",
+		"terrainsCanBeBuiltOn": ["Coast"],
+        "techRequired": "Advanced Engineering",
+		"uniques": [
+			"Turn this tile into a [Bridge] tile",
+			"Cannot be built on [Water] tiles <with [2] to [6] neighboring [Bridge] tiles>"
+		]
+	},
+    {
         "name": "Streets",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains","Hill","Tundra"],
         "food": 1,
@@ -43,6 +63,23 @@
             "Provides [1] [Human Resourses] <in tiles adjacent to [City center] tiles> <after adopting [Total Urbanization]>"
         ],
         "shortcutKey": "F"
+    },
+        {
+        "name": "Super-City",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains","Hill","Tundra","Snow"],
+        "food": 1,
+        "science": 2,
+        "production": 3,
+        "culture": 2,
+        "gold": 3,
+        "uniques": [
+            "Can only be built <with [1] to [6] neighboring [City center] tiles>",
+            "Great Improvement",
+            "Pillaging this improvement yields approximately [+100 Gold]",
+            "Provides [3] [Human Resourses]",
+            "Provides [1] [Human Resourses] <in tiles adjacent to [City center] tiles> <after adopting [Total Urbanization]>",
+            "Gives a defensive bonus of [25]%"
+        ]
     },
     {
         "name": "Czornoliesh Streets",

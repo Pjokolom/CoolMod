@@ -3139,6 +3139,77 @@
         ]
     },
     {
+        "name": "Super-City Project",
+        "maintenance": 3,
+        "isWonder": true,
+        "cost": 600,
+        "requiredTech": "Materials Science",
+        "uniques": [
+            "Only available <after adopting [Centralization]>",
+            "Comment [Allows to build [Super-City] improvements in this town]"
+        ]
+    },
+    {
+        "name": "Build a Super-City improvement1",
+        "cost": 600,
+        "uniques": [
+            "Comment [DONT PUT THAT BUILDING IN QUEUE THAT WOULD NOT WORK]",
+            "Only available <in cities with a [Super-City Project]>",
+            "Will not be displayed in Civilopedia",
+            "Creates a [Super-City] improvement on a specific tile"
+        ]
+    },
+    {
+        "name": "Build a Super-City improvement2",
+        "cost": 600,
+        "uniques": [
+            "Comment [DONT PUT THAT BUILDING IN QUEUE THAT WOULD NOT WORK]",
+            "Only available <in cities with a [Super-City Project]>",
+            "Will not be displayed in Civilopedia",
+            "Creates a [Super-City] improvement on a specific tile"
+        ]
+    },
+    {
+        "name": "Build a Super-City improvement3",
+        "cost": 600,
+        "uniques": [
+            "Comment [DONT PUT THAT BUILDING IN QUEUE THAT WOULD NOT WORK]",
+            "Only available <in cities with a [Super-City Project]>",
+            "Will not be displayed in Civilopedia",
+            "Creates a [Super-City] improvement on a specific tile"
+        ]
+    },
+    {
+        "name": "Build a Super-City improvement4",
+        "cost": 600,
+        "uniques": [
+            "Comment [DONT PUT THAT BUILDING IN QUEUE THAT WOULD NOT WORK]",
+            "Only available <in cities with a [Super-City Project]>",
+            "Will not be displayed in Civilopedia",
+            "Creates a [Super-City] improvement on a specific tile"
+        ]
+    },
+    {
+        "name": "Build a Super-City improvement5",
+        "cost": 600,
+        "uniques": [
+            "Comment [DONT PUT THAT BUILDING IN QUEUE THAT WOULD NOT WORK]",
+            "Only available <in cities with a [Super-City Project]>",
+            "Will not be displayed in Civilopedia",
+            "Creates a [Super-City] improvement on a specific tile"
+        ]
+    },
+    {
+        "name": "Build a Super-City improvement6",
+        "cost": 600,
+        "uniques": [
+            "Comment [DONT PUT THAT BUILDING IN QUEUE THAT WOULD NOT WORK]",
+            "Only available <in cities with a [Super-City Project]>",
+            "Will not be displayed in Civilopedia",
+            "Creates a [Super-City] improvement on a specific tile"
+        ]
+    },
+    {
         "name": "Spomenik",
         "replaces": "Museum",
         "uniqueTo": "Yugoslavia",
