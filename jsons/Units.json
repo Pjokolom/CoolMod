@@ -156,7 +156,7 @@
         "movement": 2,
         "strength": 5,
         "cost": 25,
-        "obsoleteTech": "Chemistry",
+        "obsoleteTech": "Metallurgy",
         "upgradesTo": "Airship",
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -175,7 +175,7 @@
         "uniqueTo": "Sapmi",
         "strength": 5,
         "cost": 25,
-        "obsoleteTech": "Chemistry",
+        "obsoleteTech": "Metallurgy",
         "upgradesTo": "Airship",
         "uniques": [
             "Unbuildable",
@@ -200,7 +200,7 @@
         "movement": 3,
         "strength": 5,
         "cost": 25,
-        "obsoleteTech": "Chemistry",
+        "obsoleteTech": "Metallurgy",
         "requiredTech": "Advanced Shipping",
         "upgradesTo": "Airship",
         "uniques": [
@@ -222,7 +222,7 @@
         "movement": 3,
         "strength": 5,
         "cost": 25,
-        "obsoleteTech": "Chemistry",
+        "obsoleteTech": "Metallurgy",
         "upgradesTo": "Airship",
         "uniques": [
 			"Cannot attack",
@@ -243,7 +243,7 @@
         "rangedStrength": 5,
         "range": 3,
         "cost": 25,
-        "obsoleteTech": "Steam Power",
+        "obsoleteTech": "Metallurgy",
         "upgradesTo": "Airship",
         "uniques":["Does not upgrade from ruins-like effects"],
         "promotions": ["Ignore terrain cost"],
@@ -257,7 +257,7 @@
         "movement": 2,
         "strength": 8,
         "cost": 40,
-        "obsoleteTech": "Steam Power",
+        "obsoleteTech": "Metallurgy",
         "upgradesTo": "Airship",
         "uniques": [
             "May upgrade to [Composite Bowman] through ruins-like effects"
@@ -528,7 +528,8 @@
         "uniques": [
             "Cannot enter ocean tiles",
             "Can move after attacking",
-            "[-33]% Strength <vs cities> <when attacking>"
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Consumes [1] [Human Resourses]"
         ],
         "upgradesTo": "Galleon",
         "obsoleteTech": "Galleons",
@@ -1304,7 +1305,7 @@
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "[+50]% Strength <vs [Mounted] units>",
-            "[+40]% Strength <vs [Siege] units>",
+            "[+75]% Strength <vs [Siege] units>",
             "Can move after attacking",
             "No defensive terrain bonus"
         ],
@@ -1458,6 +1459,7 @@
         "upgradesTo": "Cavalry",
         "requiredResource": "Horses",
         "uniques": [
+            "Consumes [1] [Iron]",
             "Consumes [1] [Human Resourses]",
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -1479,6 +1481,7 @@
 		"upgradesTo": "Lancer",
 		"requiredResource": "Horses",
 		"uniques": [
+            "Consumes [1] [Human Resourses]",
             "Earn [100]% of the damage done to [City] units as [Faith]",
             "Can move after attacking","No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>", 
@@ -1687,7 +1690,7 @@
         "name": "Crossbowman",
         "unitType": "Archery",
         "movement": 2,
-        "strength": 13,
+        "strength": 14,
         "rangedStrength": 18,
         "cost": 120,
         "requiredTech": "Machinery",
@@ -1708,6 +1711,9 @@
         "rangedStrength": 14,
         "cost": 120,
         "requiredTech": "Machinery",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "upgradesTo": "Gatling Gun",
         "obsoleteTech": "Rifling",
         "promotions": ["[Chu-Ko-Nu] ability"],
@@ -1722,9 +1728,12 @@
         "movement": 2,
         "strength": 12,
         "rangedStrength": 18,
-        "cost": 120,
+        "cost": 130,
         "requiredTech": "Machinery",
         "upgradesTo": "Gatling Gun",
+        "uniques": [
+            "Consumes [1] [Human Resourses]"
+        ],
         "obsoleteTech": "Rifling",
         "promotions": ["Extended Range"],
         "attackSound": "arrow"
@@ -1802,6 +1811,7 @@
         "upgradesTo": "Cannon",
         "promotions": ["Indirect Fire"],
         "uniques": [
+            "[+50]% Strength <vs [Unarmored] units>",
             "No defensive terrain bonus",
             "Must set up to ranged attack"
         ],
@@ -1871,6 +1881,10 @@
         "upgradesTo": "Musketman",
         "obsoleteTech": "Gunpowder",
         "requiredResource": "Iron",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[+100]% Strength <when attacking>"
+        ],
         "promotions": ["Amphibious"],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
@@ -1931,11 +1945,33 @@
         "requiredTech": "Theology",
         "promotions": ["Foreign Land Bonus", "Can Enter Rival Territory"],
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Earn [200]% of killed [Military] unit's [Strength] as [Faith]"
         ],
         "upgradesTo": "Musketman",
         "obsoleteTech": "Gunpowder",
         "requiredResource": "Iron",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Knights Templar",
+        "replaces": "Knight",
+        "uniqueTo": "England",
+        "unitType": "Armored Man Mounted",
+        "movement": 4,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Chivalry",
+        "promotions": ["Foreign Land Bonus", "Can Enter Rival Territory"],
+        "uniques": [
+            "Consumes [1] [Iron]",
+            "Consumes [1] [Human Resourses]",
+            "Can Spread Religion <for [4] movement> <[4] times> <after which this unit is consumed>",
+            "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
+        ],
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Military Science",
+        "requiredResource": "Horses",
         "attackSound": "metalhit"
     },
     {
@@ -1980,7 +2016,7 @@
         "upgradesTo": "Ironclad",
         "obsoleteTech": "Steam Power",
         "uniques": [
-            "[+1] Sight",
+            "[+2] Sight",
             "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking",
             "Consumes [3] [Human Resourses]",
@@ -1999,7 +2035,6 @@
         "upgradesTo": "Ironclad",
         "obsoleteTech": "Steam Power",
         "uniques": [
-            "[+2] Sight",
             "Withdraws before melee combat <with [30]% chance>",
             "Can move after attacking",
             "Consumes [3] [Human Resourses]",
@@ -2047,7 +2082,7 @@
     {
         "name": "Turtle Ship",
         "unitType": "Melee Water",
-        "replaces": "Galleon",
+        "replaces": "Caravel",
         "uniqueTo": "Korea",
         "movement": 4,
         "strength": 36,
@@ -2056,7 +2091,6 @@
         "upgradesTo": "Ironclad",
         "obsoleteTech": "Steam Power",
         "uniques": [
-            "Cannot enter ocean tiles",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -2124,7 +2158,9 @@
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
         "uniques": [
-
+            
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
             "Earn [33]% of the damage done to [All] units as [Culture]"
             
         ],
@@ -2249,7 +2285,7 @@
         "requiredResource": "Iron",
         "requiredTech": "Navigation",
         "uniques": [
-            "[+85]% Strength <vs cities> <when attacking>",
+            "[+50]% Strength <vs cities> <when attacking>",
             "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]"
 
@@ -2264,14 +2300,20 @@
         "unitType": "Ranged Water",
         "replaces": "Frigate",
         "uniqueTo": "England",
-        "movement": 5,
-        "strength": 25,
+        "movement": 4,
+        "strength": 28,
         "rangedStrength": 30,
-        "cost": 185,
+        "cost": 200,
         "requiredResource": "Iron",
         "requiredTech": "Navigation",
         "obsoleteTech": "Electronics",
-        "upgradesTo": "Battleship",
+        "uniques": [
+            "[+100]% Strength <vs cities> <when attacking>",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]"
+
+        ],
+        "upgradesTo": "Steam frigate",
         "promotions": ["Extra Sight"],
         "hurryCostModifier": 20,
         "attackSound": "cannon"
@@ -2312,7 +2354,7 @@
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-10]% Strength <vs cities> <when attacking>",
-            "[+20]% Strength <vs [Unarmored] units>",
+            "[+45]% Strength <vs [Unarmored] units>",
             "Never appears as a Barbarian unit",
             "Consumes [3] [Human Resourses]"
         ],
@@ -2331,6 +2373,7 @@
         "requiredTech": "Metallurgy",
         "requiredResource": "Horses",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
@@ -2554,7 +2597,12 @@
         "rangedStrength": 30,
         "cost": 225,
         "requiredTech": "Natural Resourses",
-        "uniques": ["No defensive terrain bonus"],
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Horses]"
+        ],
         "upgradesTo": "Machine Gun",
         "obsoleteTech": "Ballistics",
         "attackSound": "machinegun"
@@ -2836,7 +2884,7 @@
             "Consumes [2] [Iron]"
 
         ],
-        "obsoleteTech": "Electronics",
+        "obsoleteTech": "Very Heavy fleet",
         "upgradesTo": "Battleship",
         "hurryCostModifier": 20,
         "attackSound": "cannon"
@@ -3464,8 +3512,6 @@
         "requiredResource": "Iron",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-
-            "Provides [3] [Faith] <upon turn end>",
             "All adjacent units heal [+5] HP when healing",
             "Unable to capture cities",
             "Unable to pillage tiles",

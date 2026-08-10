@@ -26,7 +26,7 @@
 		]
 	},
         {
-		"name": "Build brigde",
+		"name": "Build bridge",
 		"terrainsCanBeBuiltOn": ["Coast"],
         "techRequired": "Advanced Engineering",
 		"uniques": [
@@ -73,7 +73,6 @@
         "culture": 2,
         "gold": 3,
         "uniques": [
-            "Can only be built <with [1] to [6] neighboring [City center] tiles>",
             "Great Improvement",
             "Pillaging this improvement yields approximately [+100 Gold]",
             "Provides [3] [Human Resourses]",
