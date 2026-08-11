@@ -2895,7 +2895,7 @@
         "name": "Steam frigate",
         "unitType": "Ranged Water",
         "movement": 5,
-        "strength": 38,
+        "strength": 35,
         "rangedStrength": 50,
         "cost": 250,
         "requiredResource": "Coal",
@@ -3361,15 +3361,18 @@
         "attackSound": "shot"
     },
     {
-        "name": "Pracinha",
+        "name": "Sogki",
         "replaces": "Infantry",
         "unitType": "Gunpowder",
-        "uniqueTo": "Brazil",
+        "uniqueTo": "Sapmi",
         "movement": 2,
-        "strength": 80,
+        "strength": 70,
         "cost": 410,
         "requiredTech": "Electronics",
-        "promotions": ["Can Move After Attacking", "Foreign Land Bonus"],
+        "uniques": [
+            "Invisible to non-adjacent units <in [Snow] tiles>",
+            "Invisible to non-adjacent units <in [Tundra] tiles>"
+        ],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
@@ -3610,7 +3613,7 @@
         "unitType": "Siege",
         "movement": 2,
         "strength": 70,
-        "rangedStrength": 28,
+        "rangedStrength": 35,
         "range": 3,
         "cost": 380,
         "requiredTech": "Armoured trains",
