@@ -2279,7 +2279,7 @@
         "name": "Frigate",
         "unitType": "Ranged Water",
         "movement": 6,
-        "strength": 28,
+        "strength": 25,
         "rangedStrength": 27,
         "cost": 185,
         "requiredResource": "Iron",
@@ -2287,7 +2287,7 @@
         "uniques": [
             "[+50]% Strength <vs cities> <when attacking>",
             "Consumes [3] [Human Resourses]",
-            "Consumes [3] [Iron]"
+            "Consumes [2] [Iron]"
 
         ],
         "obsoleteTech": "Electronics",
@@ -2298,23 +2298,45 @@
     {
         "name": "Ship of the Line",
         "unitType": "Ranged Water",
-        "replaces": "Frigate",
-        "uniqueTo": "England",
         "movement": 4,
-        "strength": 28,
-        "rangedStrength": 30,
-        "cost": 200,
+        "strength": 30,
+        "rangedStrength": 33,
+        "cost": 300,
         "requiredResource": "Iron",
         "requiredTech": "Navigation",
         "obsoleteTech": "Electronics",
         "uniques": [
-            "[+100]% Strength <vs cities> <when attacking>",
+            "[+70]% Strength <vs cities> <when attacking>",
+            "[+45]% Strength <vs [Water] units> <when attacking>",
             "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]"
 
         ],
         "upgradesTo": "Steam frigate",
-        "promotions": ["Extra Sight"],
+        "hurryCostModifier": 20,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "First-Rate Ship of the Line",
+        "unitType": "Ranged Water",
+        "replaces": "Ship of the Line",
+        "uniqueTo": "England",
+        "movement": 3,
+        "strength": 34,
+        "range": 3,
+        "rangedStrength": 36,
+        "cost": 425,
+        "requiredResource": "Iron",
+        "requiredTech": "Navigation",
+        "obsoleteTech": "Electronics",
+        "uniques": [
+            "[+100]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs [Water] units> <when attacking>",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [4] [Iron]"
+
+        ],
+        "upgradesTo": "Steam frigate",
         "hurryCostModifier": 20,
         "attackSound": "cannon"
     },
@@ -3380,7 +3402,7 @@
         "movement": 2,
         "strength": 150,
         "requiredTech": "Biology",
-        "cost": 900,
+        "cost": 1500,
         "uniques": [
             "Consumes [5] [Human Resourses]",
             "Can Move After Attacking",
