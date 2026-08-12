@@ -935,7 +935,7 @@
     {
         "name": "Plaza de Toros",
         "replaces": "Circus",
-        "uniqueTo": "Spain",
+        "uniqueTo": "Iberica",
         "requiredNearbyImprovedResources": ["Ivory","Truffles","Furs","Horses","Cattle"],
         "happiness": 2,
         "culture": 2,
@@ -1621,7 +1621,7 @@
     {
         "name": "Painted Monastery",
         "replaces": "Garden",
-        "uniqueTo": "Romania",
+        "uniqueTo": "Walachia",
         "cost": 100,
         "production": 1,
         "faith": 2,
@@ -2278,7 +2278,7 @@
     },
     {
         "name": "Feitoria",
-        "uniqueTo": "Portugal",
+        "uniqueTo": "Iberica",
         "replaces": "Harbor",
         "cost": 100,
         "hurryCostModifier": 25,

@@ -663,6 +663,7 @@
                 "name": "Mercenary Army",
                 "uniques": [
                     "Comment [Allows purchasing [Landsknecht] at [Civil Service]]",
+                    "Comment [Allows purchasing [Cuman] at [Chivalry]]",
                     "Comment [Allows purchasing [Foreign Legion] at [Replaceable Parts]]",
                     "[+100]% Production when constructing [Privateer] units [in this city]",
                     "[+100]% Production when constructing [Uszkuj] units [in this city] <hidden from users>",

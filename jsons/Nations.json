@@ -8,7 +8,7 @@
     {
         "name": "Turkestan",
         "leaderName": "Bumin Qaghan",
-        "adjective": ["Turkestananian"],
+        "adjective": ["Turkic"],
         "startBias": ["Plains"],
         "preferredVictoryType": "Domination",
         "startIntroPart1": "wip",
@@ -190,6 +190,74 @@
         "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
     },
     {
+        "name": "Iberica",
+        "leaderName": "Manuel I",
+        "adjective": ["Iberian"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Blessed Manuel I, servant of God, holy king of Iberica United! Your people greet and welcome you. You are the ruler of our beautiful and ancient country at the crossroads of the world between Europe and Africa, one shor on the Mediterranean and the other on the mighty Atlantic Ocean.",
+        "startIntroPart2": "O fair and virtuous Manuel! Will you build the Iberian empire and show the world again the greatness of your people? Will your take up the mantle of the holy monarchy, and vanquish your foes under heaven's watchful eyes? Your adoring subjects await your command! Will you build a civilization that stands the test of time?",
+        "declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+        "attacked": "Repugnant spawn of the devil! You will pay!",
+        "defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
+        "introduction": "God blesses those who deserve it. I am Manuel de Iberica.",
+        "neutralHello": "Greetings.",
+        "hateHello": "Well?",
+        "tradeRequest": "I hope this deal will receive your blessing.",
+        "outerColor": [160,0,0],
+        "innerColor": [255,240,60],
+        "uniqueName": "Seven Cities of Gold",
+        "uniques": [
+            "Gain [100] [Gold] <(modified by game speed)> <upon discovering a Natural Wonder>",
+            "[+1 Happiness] for every known Natural Wonder",
+            "[+3 Gold] from every [Sea Trade Route (Gold)]",
+            "[+50]% Production when constructing [Cargo Ship] units [in all cities]"
+        ],
+        "cities": [
+            "Madrid","Barcelona","Lisbon","Cordoba","Porto","Santiago","Braga","Murcia","Coimbra","Funchal","Salamanca",
+            "Vitoria","Goa","Asturias","Vila Nova de Gaia","Logrono","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
+            "Lugo","Alicante","Cadiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruna","Oviedo","Bilbao",
+            "San Sebastian","Granada","Merida","Huelva","Ibiza","Las Palmas","Tenerife"
+        ],
+        "spyNames": [
+            "Rodrigo","Francisco","Leon","Gaspar","Ramona","Alvaro","Topolino","Serpiente","Garcia","El Lobo"
+        ]
+    },
+    {
+        "name": "Walachia",
+        "leaderName": "Carol I",
+        "adjective": ["Romanian"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Welcome Carol I, founding monarch of modern Walachia. Under your steady rule, you carved independence, built railways, and forged unity from principality to proud kingdom.",
+        "startIntroPart2": "Will you guide Walachia once again, O wise sovereign, and lift her to new glories? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "Walachia will not bow to foreign threats. You leave us no choice.",
+        "attacked": "We have weathered greater storms. You will not find easy conquest here.",
+        "defeated": "Though the crown may fall, the heart of Walachia beats on.",
+        "introduction": "A good day, don't you think? I am Carol I, the ruler of Walachia.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "From the Carpathians to the Danube, we offer strength in goods. Shall we build bonds in trade?",
+        "outerColor": [2,2,69],
+        "innerColor": [197,196,72],
+        "uniqueName": "Nihil Sine Deo",
+        "uniques": [
+            "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
+            "[+25]% [Culture] [in all cities] <during a Golden Age>",
+            "Instantly gain [150] [Golden Age points] <(modified by game speed)> <upon conquering a city>"
+            //need new uniq for liberating cities too
+        ],
+        "cities": [
+            "Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti",
+            "Suceava","Buzau","Piatra Neamt","Focsani","Giurgiu","Targoviste","Vaslui","Campulung","Roman","Tulcea",
+            "Barlad","Slatina","Curtea de Arges","Alexandria","Husi","Medgidia","Targu Jiu","Onesti","Falticeni","Oltenita",
+            "Caracal","Slobozia","Fetesti","Tecuci","Rusii de Vede","Ramnicu Sarat","Carachioi","Turnu Magurele","Campina"
+        ],
+        "spyNames": [
+            "Atanase","Cezar","Ciprian","Emilian","Matei","Camelia","Brandusa","Constanta","Doina","Ilinica"
+        ]
+    },
+    {
         "name": "England",
         "leaderName": "Richard the Lionheart",
         "adjective": ["English"],
@@ -227,7 +295,7 @@
     {
         "name": "Ellada",
         "leaderName": "Basil II Porphyrogenitus",
-        "adjective": ["Elladish"],
+        "adjective": ["Helenic"],
         "startBias": ["Forest"],
         "preferredVictoryType": "Domination",
         "startIntroPart1": "Miau.",
@@ -565,8 +633,8 @@
         "neutralHello": "Hello.",
         "hateHello": "Oh, it's you",
         "tradeRequest": "We have many things to discuss and have much to benefit from each other.",
-        "outerColor": [26,32,96],
-        "innerColor": [255,0,0],
+        "outerColor": [255,255,255],
+        "innerColor": [0,45,220],
         "uniqueName": "Scholars of the Jade Hall",
         "uniques": [
             "[+1 Science] from every specialist [in all cities]",

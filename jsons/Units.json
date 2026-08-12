@@ -508,27 +508,9 @@
         "cost": 45,
         "requiredTech": "Optics",
         "uniques": [
+
             "Cannot enter ocean tiles",
             "Can move after attacking",
-            "Consumes [1] [Human Resourses]"
-        ],
-        "upgradesTo": "Galleon",
-        "obsoleteTech": "Galleons",
-        "attackSound": "nonmetalhit"
-    },
-    {
-        "name": "Longship",
-        "replaces": "Trireme",
-        "uniqueTo": "Denmark",
-        "unitType": "Melee Water",
-        "movement": 6,
-        "strength": 10,
-        "cost": 45,
-        "requiredTech": "Economics",
-        "uniques": [
-            "Cannot enter ocean tiles",
-            "Can move after attacking",
-            "[-33]% Strength <vs cities> <when attacking>",
             "Consumes [1] [Human Resourses]"
         ],
         "upgradesTo": "Galleon",
@@ -550,6 +532,28 @@
             "[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Galleon",
+        "obsoleteTech": "Galleons",
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Snekkar",
+        "replaces": "Trireme",
+        "uniqueTo": "Denmark",
+        "unitType": "Melee Water",
+        "movement": 4,
+        "strength": 10,
+        "cost": 38,
+        "requiredTech": "Economics",
+        "uniques": [
+            "[This Unit] loses [2] movement <upon entering a [Ocean]>",
+            "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Earn [100]% of the damage done to [Embarked] units as [Gold]"
+        ],
+        "upgradesTo": "Privateer",
+        "promotions": [
+            "Coastal Raider I"
+        ],
         "obsoleteTech": "Galleons",
         "attackSound": "nonmetalhit"
     },
@@ -1183,6 +1187,27 @@
         "obsoleteTech": "Navigation",
         "attackSound": "throw"
     },
+        {
+        "name": "Drakkar",
+        "uniqueTo": "Denmark",
+        "replaces": "Dromon",
+        "unitType": "Ranged Water",
+        "movement": 5,
+        "strength": 16,
+        "cost": 83,
+        "requiredTech": "Siege-Ship",
+        "uniques": [
+            "[This Unit] loses [1] movement <upon entering a [Ocean]>",
+            "[+50]% Strength <vs [Water] units> <when attacking>",
+            "Earn [100]% of the damage done to [Embarked] units as [Gold]"
+        ],
+        "upgradesTo": "Privateer",
+        "promotions": [
+            "Coastal Raider I"
+        ],
+        "obsoleteTech": "Navigation",
+        "attackSound": "throw"
+    },
     {
         "name": "Greek Fire",
         "unitType": "Ranged Water",
@@ -1215,6 +1240,23 @@
         "upgradesTo": "Galleass",
         "uniques": ["Cannot enter ocean tiles"],
         "attackSound": "arrow"
+    },
+    {
+        "name": "Skeid",
+        "unitType": "Ranged Water",
+        "movement": 4,
+        "uniqueTo": "Denmark",
+        "replaces": "Galley",
+        "strength": 14,
+        "cost": 60,
+        "requiredTech": "Optics",
+        "obsoleteTech": "Compass",
+        "upgradesTo": "Galleass",
+        "uniques": [
+            "Can move after attacking",
+            "Earn [50]% of the damage done to [Embarked] units as [Gold]"
+        ],
+        "attackSound": "nonmetalhit"
     },
     {
         "name": "Baghlah",
@@ -1367,12 +1409,31 @@
         "cost": 45,
         "requiredTech": "Civil Service",
         "uniques": [
-            "Consumes [1] [Human Resourses]",
             "[+50]% Strength <vs [Mounted] units>",
             "No movement cost to pillage",
             "Can be purchased with [Gold] [in all cities]",
             "Only available <after adopting [Mercenary Army]>",
-            "Mercenary", // temp fix for now
+            "Mercenary", 
+            "Unbuildable"
+        ],
+        "upgradesTo": "Lancer",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Cuman",
+        "unitType": "Sword",
+        "movement": 4,
+        "strength": 18,
+        "cost": 52,
+        "requiredTech": "Chivalry",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "No movement cost to pillage",
+            "Can be purchased with [Gold] [in all cities]",
+            "Only available <after adopting [Mercenary Army]>",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Mercenary",
             "Unbuildable"
         ],
         "upgradesTo": "Lancer",
@@ -1931,7 +1992,11 @@
         "obsoleteTech": "Rifling",
         "requiredResource": "Iron",
         "promotions": ["Shock I", "Great Generals II"],
-        "uniques": ["Can build [Fishing Boats] improvements on tiles"],
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Can build [Fishing Boats] improvements on tiles"
+            
+        ],
         "attackSound": "metalhit"
     },
     {
@@ -2026,11 +2091,29 @@
         "attackSound": "cannon"
     },
     {
+        "name": "Atakebune",
+        "unitType": "Melee Water",
+        "replaces": "Caravel",
+        "uniqueTo": "Japan",
+        "movement": 3,
+        "strength": 38,
+        "cost": 190,
+        "requiredTech": "Astronomy",
+        "upgradesTo": "Ironclad",
+        "obsoleteTech": "Steam Power",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [2] [Iron]"
+        ],
+        "hurryCostModifier": 30,
+        "attackSound": "cannon"
+    },
+    {
         "name": "Galleon",
         "unitType": "Melee Water",
         "movement": 5,
         "strength": 35,
-        "cost": 120,
+        "cost": 140,
         "requiredTech": "Galleons",
         "upgradesTo": "Ironclad",
         "obsoleteTech": "Steam Power",
@@ -2098,8 +2181,8 @@
     },
     {
         "name": "Nau",
-        "uniqueTo": "Portugal",
-        "replaces": "Galleon",
+        "uniqueTo": "Iberica",
+        "replaces": "Caravel",
         "unitType": "Melee Water",
         "movement": 6,
         "strength": 20,
@@ -2205,7 +2288,7 @@
         "name": "Tercio",
         "unitType": "Sword",
         "replaces": "Musketman",
-        "uniqueTo": "Spain",
+        "uniqueTo": "Iberica",
         "movement": 2,
         "strength": 26,
         "cost": 160,
@@ -2288,6 +2371,31 @@
             "[+50]% Strength <vs cities> <when attacking>",
             "Consumes [3] [Human Resourses]",
             "Consumes [2] [Iron]"
+
+        ],
+        "obsoleteTech": "Electronics",
+        "upgradesTo": "Steam frigate",
+        "hurryCostModifier": 20,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Giant Atakebune",
+        "unitType": "Ranged Water",
+        "uniqueTo": "Japan",
+        "movement": 6,
+        "strength": 42,
+        "rangedStrength": 38,
+        "range": 1,
+        "cost": 267,
+        "requiredResource": "Iron",
+        "requiredTech": "Astronomy",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Limited to [1] per Civilization",
+            "[+50]% Strength <vs cities> <when attacking>",
+            "[+45]% Strength <vs [Water] units> <when attacking>",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]"
 
         ],
         "obsoleteTech": "Electronics",
@@ -3370,6 +3478,7 @@
         "cost": 410,
         "requiredTech": "Electronics",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Invisible to non-adjacent units <in [Snow] tiles>",
             "Invisible to non-adjacent units <in [Tundra] tiles>"
         ],
@@ -3405,7 +3514,7 @@
         "movement": 2,
         "strength": 150,
         "requiredTech": "Biology",
-        "cost": 1500,
+        "cost": 1545,
         "uniques": [
             "Consumes [5] [Human Resourses]",
             "Can Move After Attacking",

@@ -256,14 +256,14 @@
             {
                 "name": "Guilds",
                 "row": 9,
-                "prerequisites": ["Currency"],
+                "prerequisites": ["Currency","Mills"],
                 "uniques": ["Enables conversion of city production to [Gold]"],
                 "quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
             },
             {
                 "name": "Metal Casting",
                 "row": 7,
-                "prerequisites": ["Mills","Currency"],
+                "prerequisites": ["Mills","Currency","Siege"],
                 "quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
             }
         ]
@@ -290,7 +290,7 @@
             {
                 "name": "Education",
                 "row": 3,
-                "prerequisites": ["Theology"],
+                "prerequisites": ["Theology","Civil Service"],
                 "uniques": ["Enables conversion of city production to [Science]"],
                 "quote": "'Education is the best provision for old age.' - Aristotle"
             },

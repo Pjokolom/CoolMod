@@ -18,6 +18,7 @@
 		"name": "Build Canal",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra", "Snow"],
         "techRequired": "Advanced Engineering",
+        "turnsToBuild": 5,
 		"uniques": [
 			"Turn this tile into a [Canal] tile",
 			"Cannot be built on [Hill] tiles", "Cannot be built on [Resource] tiles",
@@ -29,6 +30,7 @@
 		"name": "Build bridge",
 		"terrainsCanBeBuiltOn": ["Coast","Canal"],
         "techRequired": "Advanced Engineering",
+        "turnsToBuild": 5,
 		"uniques": [
 			"Turn this tile into a [Bridge] tile",
 			"Cannot be built on [Water] tiles <with [2] to [6] neighboring [Bridge] tiles>"
@@ -38,6 +40,7 @@
 		"name": "Siege bridge",
 		"terrainsCanBeBuiltOn": ["Bridge"],
         "techRequired": "Advanced Engineering",
+        "turnsToBuild": 5,
 		"uniques": [
 			"Turn this tile into a [Coast] tile"
 		]
