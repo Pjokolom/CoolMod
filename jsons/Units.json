@@ -3736,7 +3736,7 @@
         "name": "Ansaldo MIAS",
         "unitType": "Armored",
         "movement": 4,
-        "uniqueTo": "Czornoliessie",
+        "uniqueTo": "Italy",
         "strength": 40,
         "rangedStrength": 50,
         "cost": 385,
