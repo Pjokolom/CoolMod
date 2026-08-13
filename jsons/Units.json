@@ -193,7 +193,6 @@
             }
         ]
     },
-    
     {
         "name": "Explorer",
         "unitType": "Scout",
@@ -1525,6 +1524,22 @@
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "horse"
+    },
+        {
+        "name": "Vlad Tepes",
+        "unitType": "Armored Man Mounted",
+        "uniqueTo": "Walahia",
+        "movement": 4,
+        "strength": 24,
+        "upgradesTo": "Cavalry",
+        "requiredResource": "Horses",
+        "uniques": [
+            "Unbuildable",
+            "Can move after attacking",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "horse"
@@ -3703,6 +3718,26 @@
         "movement": 3,
         "uniqueTo": "Czornoliessie",
         "strength": 50,
+        "rangedStrength": 50,
+        "cost": 385,
+        "requiredTech": "Landships",
+        "requiredResource": "Oil",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
+            "No defensive terrain bonus",
+            "[+60]% Strength <vs [Land] units> <when defending>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+        {
+        "name": "Ansaldo MIAS",
+        "unitType": "Armored",
+        "movement": 4,
+        "uniqueTo": "Czornoliessie",
+        "strength": 40,
         "rangedStrength": 50,
         "cost": 385,
         "requiredTech": "Landships",
