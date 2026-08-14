@@ -214,21 +214,21 @@
         "attackSound": "nonmetalhit"
     },
 	{
-        "name": "Zabonah",
-		"replaces": "Scout",
-        "uniqueTo": "Nabataea",
+        "name": "MerchantK",
+		"replaces": "Explorer",
+        "uniqueTo": "Novgorod",
         "unitType": "Scout",
         "movement": 3,
-        "strength": 5,
         "cost": 25,
         "obsoleteTech": "Metallurgy",
         "upgradesTo": "Airship",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
 			"Cannot attack",
-			"Gain [10] [Gold] <upon discovering a [{City-State} {City center}] tile>",
-			"Gain [10] [Gold] <upon discovering a [{non-[Known]} {Major} {City center}] tile>",
+			"Gain [100] [Gold] <upon discovering a [{City-State} {City center}] tile>",
+			"Gain [80] [Gold] <upon discovering a [{non-[Known]} {Major} {City center}] tile>",
 			"Does not upgrade from ruins-like effects"
-             ],//May discover Cities from an additional +3 tiles away, but still needs to be in regular sight to meet them
+             ],
         "promotions": ["Ignore terrain cost"],
         "attackSound": "nonmetalhit"
     },
@@ -544,6 +544,7 @@
         "cost": 38,
         "requiredTech": "Economics",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "[This Unit] loses [2] movement <upon entering a [Ocean]>",
             "Can move after attacking",
             "[-33]% Strength <vs cities> <when attacking>",
@@ -553,7 +554,7 @@
         "promotions": [
             "Coastal Raider I"
         ],
-        "obsoleteTech": "Galleons",
+        "obsoleteTech": "Navigation",
         "attackSound": "nonmetalhit"
     },
     {
@@ -964,6 +965,24 @@
         "attackSound": "arrow"
     },
     {
+        "name": "Carpathian Archer",
+        "unitType": "Archery",
+        "uniqueTo": "Walachia",
+        "replaces": "Composite Bowman",
+        "movement": 2,
+        "strength": 7,
+        "rangedStrength": 11,
+        "cost": 75,
+        "requiredTech": "Engineering",
+        "obsoleteTech": "Machinery",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[+35]% Strength <when fighting in [Hill] tiles> <when attacking>"
+        ],
+        "upgradesTo": "Crossbowman",
+        "attackSound": "arrow"
+    },
+    {
         "name": "Skier Spearthrower",
         "unitType": "Archery",
         "movement": 3,
@@ -1070,6 +1089,25 @@
         "attackSound": "metalhit"
     },
     {
+        "name": "Planson",
+        "unitType": "Sword",
+        "replaces": "Swordsman",
+        "uniqueTo": "Walachia",
+        "movement": 2,
+        "strength": 13,
+        "cost": 75,
+        "requiredTech": "Iron Working",
+        "obsoleteTech": "Steel",
+        "requiredResource": "Iron",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[+15]% Strength <when fighting in [Hill] tiles>",
+            "Double movement in [Hill]"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit"
+    },
+    {
         "name": "Broadsword",
         "unitType": "Sword",
         "replaces": "Swordsman",
@@ -1085,67 +1123,6 @@
             "Consumes [1] [Human Resourses]",
             "[+15]% Strength <when fighting in [Plains] tiles> <when attacking>"
         ],
-        "hurryCostModifier": 20,
-        "attackSound": "metalhit"
-    },
-    {
-        "name": "Kris Swordsman",
-        "uniqueTo": "Indonesia",
-        "replaces": "Swordsman",
-        "unitType": "Sword",
-        "movement": 2,
-        "strength": 15,
-        "cost": 75,
-        "requiredTech": "Iron Working",
-        "upgradesTo": "Longswordsman",
-        "obsoleteTech": "Steel",
-        "requiredResource": "Iron",
-        "hurryCostModifier": 20,
-        "promotions": ["Mystic Blade"],
-        "attackSound": "metalhit"
-    },
-    {
-        "name": "Mohawk Warrior",
-        "unitType": "Sword",
-        "uniqueTo": "Iroquois",
-        "replaces": "Swordsman",
-        "movement": 2,
-        "strength": 15,
-        "cost": 75,
-        "requiredTech": "Iron Working",
-        "upgradesTo": "Longswordsman",
-        "obsoleteTech": "Gunpowder",
-        "hurryCostModifier": 20,
-        "promotions": ["[Mohawk Warrior] ability"],
-        "attackSound": "metalhit"
-    },
-    {
-        "name": "Maccabee",
-        "replaces": "Swordsman",
-        "uniqueTo": "Israel",
-        "unitType": "Sword",
-        "movement": 2,
-        "strength": 14,
-        "cost": 60,
-        "requiredTech": "Iron Working",
-        "upgradesTo": "Longswordsman",
-        "obsoleteTech": "Steel",
-        "hurryCostModifier": 20,
-        "uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
-        "attackSound": "metalhit"
-    },
-    {
-        "name": "Ngao Mbeba",
-        "uniqueTo": "Kongo",
-        "replaces": "Swordsman",
-        "unitType": "Sword",
-        "movement": 2,
-        "strength": 15,
-        "cost": 75,
-        "requiredTech": "Iron Working",
-        "upgradesTo": "Longswordsman",
-        "obsoleteTech": "Steel",
-        "promotions": ["Range Defence", "May Not Melee Attack"],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
     },
@@ -1531,7 +1508,7 @@
         {
         "name": "Vlad Tepes",
         "unitType": "Armored Man Mounted",
-        "uniqueTo": "Walahia",
+        "uniqueTo": "Walachia",
         "movement": 4,
         "strength": 24,
         "upgradesTo": "Cavalry",
@@ -2052,22 +2029,6 @@
         "upgradesTo": "Cavalry",
         "obsoleteTech": "Military Science",
         "requiredResource": "Horses",
-        "attackSound": "metalhit"
-    },
-    {
-        "name": "Pedite",
-        "replaces": "Longswordsman",
-        "uniqueTo": "Normandy",
-        "unitType": "Sword",
-        "movement": 2,
-        "strength": 20,
-        "cost": 115,
-        "requiredTech": "Metal Casting",
-        "upgradesTo": "Musketman",
-        "obsoleteTech": "Gunpowder",
-        "requiredResource": "Iron",
-        "promotions": ["Shock I"],
-        "uniques": ["Can build [Motte and Bailey] improvements on tiles"],
         "attackSound": "metalhit"
     },
     {
@@ -3145,7 +3106,75 @@
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-1] Sight",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "[+100]% Strength <vs [Light Tank] units>",
+            "[+110]% Strength <vs [Duopod Unit] units>",
+            "[+70]% Strength <vs [Medium Tank] units>",
+            "[+150]% Strength <vs [Tripod Unit] units>",
+            "[+35]% Strength <vs [Heavy Tank] units>"
+        ],
+        "promotions": ["Indirect Fire"],
+        "attackSound": "artillery"
+    },
+    {
+        "name": "Artilerie de munte",
+        "unitType": "Siege",
+        "uniqueTo": "Walachia",
+        "replaces": "Artillery",
+        "movement": 2,
+        "strength": 21,
+        "rangedStrength": 28,
+        "range": 2,
+        "cost": 320,
+        "requiredTech": "Dynamite",
+        "upgradesTo": "Rocket Artillery",
+        "obsoleteTech": "Rocketry",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "[2] Range <in [Hill] tiles>",
+            "[-1] Sight <in [non-[Hill]] tiles>",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "Never appears as a Barbarian unit",
+            "[+100]% Strength <vs [Light Tank] units>",
+            "[+110]% Strength <vs [Duopod Unit] units>",
+            "[+70]% Strength <vs [Medium Tank] units>",
+            "[+150]% Strength <vs [Tripod Unit] units>",
+            "[+35]% Strength <vs [Heavy Tank] units>"
+        ],
+        "promotions": ["Indirect Fire"],
+        "attackSound": "artillery"
+    },
+    {
+        "name": "Mountain rocket artillery",
+        "unitType": "Siege",
+        "uniqueTo": "Novgorod",
+        "replaces": "Artillery",
+        "movement": 2,
+        "strength": 21,
+        "rangedStrength": 28,
+        "range": 2,
+        "cost": 320,
+        "requiredTech": "Dynamite",
+        "upgradesTo": "Rocket Artillery",
+        "obsoleteTech": "Rocketry",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "[1] Range <in [Hill] tiles>",
+            "[-1] Sight <in [non-[Hill]] tiles>",
+            "[+100]% Strength <vs cities> <when attacking>",
+            "[+200]% Strength <vs [Person] units> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "Never appears as a Barbarian unit",
+            "[+100]% Strength <vs [Light Tank] units>",
+            "[+110]% Strength <vs [Duopod Unit] units>",
+            "[+70]% Strength <vs [Medium Tank] units>",
+            "[+150]% Strength <vs [Tripod Unit] units>",
+            "[+35]% Strength <vs [Heavy Tank] units>"
         ],
         "promotions": ["Indirect Fire"],
         "attackSound": "artillery"
@@ -3164,7 +3193,7 @@
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "Consumes [1] [Iron]",
-            "[+100]% Strength <vs [Person] units> <when attacking>",
+            "[+170]% Strength <vs [Person] units> <when attacking>",
             "[+20]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
@@ -3174,27 +3203,6 @@
         "promotions": ["Indirect Fire"],
         "attackSound": "artillery"
     },
-    {
-        "name": "Rocket Corps",
-        "uniqueTo": "Mysore",
-        "replaces": "Artillery",
-        "unitType": "Siege",
-        "movement": 2,
-        "strength": 23,
-        "rangedStrength": 28,
-        "range": 3,
-        "cost": 320,
-        "requiredTech": "Dynamite",
-        "upgradesTo": "Rocket Artillery",
-        "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus",
-            "[-1] Sight"
-        ],
-        "promotions": ["Indirect Fire"],
-        "attackSound": "artillery"
-    },
-
     // Modern era
     {
         "name": "Submarine",
@@ -3248,6 +3256,11 @@
             "Consumes [1] [Iron]",
             "Consumes [1] [Human Resourses]",
             "[+200]% Strength <vs [Armored] units>",
+            "[+200]% Strength <vs [Light Tank] units>",
+            "[+100]% Strength <vs [Duopod Unit] units>",
+            "[+160]% Strength <vs [Medium Tank] units>",
+            "[+70]% Strength <vs [Tripod Unit] units>",
+            "[+110]% Strength <vs [Heavy Tank] units>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "machinegun"
@@ -3484,6 +3497,28 @@
         "attackSound": "shot"
     },
     {
+        "name": "Lunge Mine",
+        "uniqueTo": "Japan",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 70,
+        "cost": 410,
+        "requiredTech": "Electronics",
+        "upgradesTo": "Mechanized Infantry",
+        "uniques": [
+            "[+100]% Strength <vs [Duopod Unit] units>",
+            "[+70]% Strength <vs [Tripod Unit] units>",
+            "[+200]% Strength <vs [Light Tank] units> <when attacking>",
+            "[+150]% Strength <vs [Medium Tank] units> <when attacking>",
+            "[+100]% Strength <vs [Heavy Tank] units> <when attacking>",
+            "Self-destructs when attacking",
+            "Consumes [1] [Iron]",
+            "Consumes [1] [Human Resourses]"
+        ],
+        "obsoleteTech": "Mobile Tactics",
+        "attackSound": "shot"
+    },
+    {
         "name": "Sogki",
         "replaces": "Infantry",
         "unitType": "Gunpowder",
@@ -3531,7 +3566,8 @@
         "requiredTech": "Biology",
         "cost": 1545,
         "uniques": [
-            "Consumes [5] [Human Resourses]",
+            "No defensive terrain bonus",
+            "Consumes [6] [Human Resourses]",
             "Can Move After Attacking",
             "Only available <if [Abyss Gates] is constructed>",
             "Will not be displayed in Civilopedia"
@@ -3844,6 +3880,26 @@
         "attackSound": "machinegun"
     },
     {
+        "name": "Landsverk Motorcycle",
+        "unitType": "Armored",
+        "uniqueTo": "Denmark",
+        "movement": 6,
+        "strength": 60,
+        "rangedStrength": 50,
+        "cost": 385,
+        "requiredTech": "Combat vehicles",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+20]% Strength <vs [Land] units> <when defending>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
         "name": "Symo",
         "unitType": "Armored",
         "uniqueTo": "Turkestan",
@@ -4012,7 +4068,7 @@
             "Consumes [2] [Human Resourses]",
             "Consumes [2] [Iron]",
             "Can move after attacking",
-            "[+100]% Strength <vs [Person] units>",
+            "[+200]% Strength <vs [Person] units> <when attacking>",
             "Never appears as a Barbarian unit"
         ],
         "obsoleteTech": "Light Tanks",
@@ -4114,6 +4170,26 @@
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+20]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "obsoleteTech": "Heavy Tanks",
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Infantry tank 'Nelson'",
+        "unitType": "Heavy Tank",
+        "uniqueTo": "England",
+        "replaces": "Early Heavy Tank",
+        "movement": 2,
+        "strength": 95,
+        "cost": 520,
+        "requiredTech": "Early Heavy Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [5] [Human Resourses]",
+            "Consumes [4] [Iron]",
+            "Can move after attacking",
+            "[+145]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
         "obsoleteTech": "Heavy Tanks",

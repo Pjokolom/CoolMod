@@ -246,7 +246,6 @@
             "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
             "[+25]% [Culture] [in all cities] <during a Golden Age>",
             "Instantly gain [150] [Golden Age points] <(modified by game speed)> <upon conquering a city>"
-            //need new uniq for liberating cities too
         ],
         "cities": [
             "Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti",
@@ -793,7 +792,7 @@
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [65, 75, 176],
-        "innerColor": [30, 0, 100],
+        "innerColor": [15, 0, 80],
         "uniques": [
             "[+3 Production] from every [Forest]"
         ],
