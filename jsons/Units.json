@@ -3068,6 +3068,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Metallurgy",
         "uniques": [
+            "May upgrade to [Combat Airship] through ruins-like effects",
             "Consumes [1] [Human Resourses]",
             "No defensive terrain bonus",
             "Can move after attacking",
@@ -3092,6 +3093,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Chemistry",
         "uniques": [
+            "May upgrade to [Combat Airship] through ruins-like effects",
             "Consumes [1] [Human Resourses]",
             "Consumes [1] [Coal]",
             "No defensive terrain bonus",
@@ -3117,6 +3119,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Steam Power",
         "uniques": [
+            "May upgrade to [Vurdalak] through ruins-like effects <hidden from users>",
             "Consumes [3] [Human Resourses]",
             "Consumes [1] [Aluminum]",
             "No defensive terrain bonus",
