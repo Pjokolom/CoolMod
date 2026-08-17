@@ -6,6 +6,7 @@
         "turnsToBuild": 7,
         "techRequired": "Agriculture",
         "uniques": [
+            "Cannot be built on [Bridge] tiles",
             "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
             "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
@@ -52,6 +53,7 @@
         "turnsToBuild": 7,
         "techRequired": "Woodworking",
         "uniques": [
+            "Cannot be built on [Bridge] tiles",
             "Comment [[+1 Gold] to [City center] when adjusted]",
             "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Gold] from [Fresh water] tiles <after discovering [Civil Service]>",
@@ -66,6 +68,7 @@
         "turnsToBuild": 9,
         "techRequired": "Metal Casting",
         "uniques": [
+            "Cannot be built on [Bridge] tiles",
             "Comment [[+1 Gold] to [City center] when adjusted]",
             "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Gold] from [Fresh water] tiles <after discovering [Civil Service]>",

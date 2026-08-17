@@ -162,6 +162,14 @@
         "[+50]% Strength <vs [Archery] units> <when defending>","Person"]
     },
     {
+        "name": "Undead",
+        "movementType": "Land",
+        "uniques": [
+            "Will not be displayed in Civilopedia"
+
+        ]
+    },
+    {
         "name": "Armored Man Mounted",
         "movementType": "Land",
         "uniques": ["[+50]% Strength <vs [Sword] units> <when defending>", 

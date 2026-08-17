@@ -186,7 +186,7 @@
         ],
 		"cities": ["Marienburg","Konigsberg","Danzig","Memel","Heilsberg","Kulm","Tuchel","Soldin","Ortelsburg","Osterode",
 			"Allenstein","Angerburg","Neidenburg","Rosenberck","Thorn","Kruschwitz","Johannisburg","Hasenpoth","Schwanenburg","Dondangen",
-			"Ass","Borkholm","Taplaken","Wolmar","Kokenhusen","Reval","Riga","Lennewarden"],
+			"Ass","Borkholm","Taplaken","Marienwerder","Kokenhusen","Reval","Riga","Lennewarden"],
         "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
     },
     {
@@ -354,7 +354,7 @@
             "Can build [Lumber mill] improvements at a [+200]% rate <in [Forest] tiles>"
         ],
         "cities": [
-            "Mcensk","Kursk","Belharad","Chernihiv","Briansk","Varoniezh","Staryj Askou","Hubkin","Smalensk","Barisohliebsk",
+            "Mcensk","Kursk","Vszczyzh","Belharad","Chernihiv","Briansk","Varoniezh","Staryj Askou","Hubkin","Smalensk","Barisohliebsk",
             "Rossosh","Novazybkau","Kharkau"
         ],
         "spyNames": [

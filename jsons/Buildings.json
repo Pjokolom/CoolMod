@@ -1606,17 +1606,16 @@
         "requiredTech": "Gunpowder"
     },
     {
-        "name": "Baray",
+        "name": "Tea room",
         "replaces": "Garden",
-        "uniqueTo": "Khmer",
+        "uniqueTo": "Japan",
         "uniques": [
-            "[10]% Food is carried over after population increases [in this city]",
-            "[+2 Food, +2 Faith] <after discovering [Gunpowder]>",
+            "[15]% Food is carried over after population increases [in this city]",
             "[+20]% Great Person generation [in this city]"
         ],
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "requiredTech": "Gunpowder"
+        "requiredTech": "Philosophy"
     },
     {
         "name": "Painted Monastery",

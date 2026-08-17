@@ -1505,9 +1505,9 @@
         ],
         "attackSound": "horse"
     },
-        {
+    {
         "name": "Vlad Tepes",
-        "unitType": "Armored Man Mounted",
+        "unitType": "Armored Man",
         "uniqueTo": "Walachia",
         "movement": 4,
         "strength": 24,
@@ -1515,6 +1515,25 @@
         "requiredResource": "Horses",
         "uniques": [
             "Unbuildable",
+            "Can move after attacking",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "horse"
+    },
+    {
+        "name": "Count Dracula",
+        "unitType": "Armored Man",
+        "uniqueTo": "Walachia",
+        "movement": 4,
+        "strength": 30,
+        "upgradesTo": "Cavalry",
+        "requiredResource": "Horses",
+        "uniques": [
+            "Unbuildable",
+            "Will not be displayed in Civilopedia",
+            "[+50]% Strength <vs [Sword] units> <when defending>", 
+            "[+50]% Strength <vs [Archery] units> <when defending>",
             "Can move after attacking",
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Never appears as a Barbarian unit"
@@ -2606,6 +2625,31 @@
         ],
         "attackSound": "cannon"
     },
+        {
+        "name": "Marienwerder Bombard",
+        "unitType": "Siege",
+        "movement": 2,
+        "uniqueTo": "Teutonic Order",
+        "replaces": "Ribadequin",
+        "strength": 15,
+        "rangedStrength": 24,
+        "cost": 185,
+        "requiredTech": "Advansed Cannons",
+        "promotions": ["Indirect Fire"],
+        "upgradesTo": "Artillery",
+        "obsoleteTech": "Dynamite",
+        "uniques": [
+            "[2] Range <in [City center] tiles>",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "[+300]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "cannon"
+    },
     {
         "name": "Organ Cannon",
         "unitType": "Siege",
@@ -3562,7 +3606,7 @@
         "name": "Behemoth",
         "unitType": "Abyssborn",
         "movement": 2,
-        "strength": 150,
+        "strength": 100,
         "requiredTech": "Biology",
         "cost": 1545,
         "uniques": [
@@ -3596,14 +3640,14 @@
         "name": "Carrier",
         "unitType": "Aircraft Carrier",
         "movement": 5,
-        "strength": 145,
+        "strength": 110,
         "cost": 410,
         "requiredResource": "Oil",
         "requiredTech": "Very Heavy fleet",
         "uniques": [
             "Cannot attack",
-            "Consumes [5] [Human Resourses]",
-            "Consumes [7] [Iron]",
+            "Consumes [4] [Human Resourses]",
+            "Consumes [5] [Iron]",
             "Can carry [5] [Aircraft] units",
             "[+2] Sight"
         ]
