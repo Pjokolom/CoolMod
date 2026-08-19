@@ -704,21 +704,30 @@
                 "quote": "'Trees.' - Troos"
             },
             {
+                "name": "Advanced engines",
+                "row": 7,
+                "prerequisites": ["Electronics","Combined Arms"],
+                "uniques": [
+                    "Comment [Unlocks [Advanced engine] promotion for [Armored]]",
+                ],
+                "quote": "'Wroom.' - Vspysz i czudo maszinki"
+            },
+            {
                 "name": "Light Tanks",
                 "row": 8,
-                "prerequisites": ["Early Light Tanks"],
+                "prerequisites": ["Electronics","Early Light Tanks"],
                 "quote": "'My tank 's ridinn 30 km/s. Soft attack 1,6.' - Mickle Slivengstone"
             },
             {
                 "name": "Medium Tanks",
                 "row": 9,
-                "prerequisites": ["Early Medium Tanks"],
+                "prerequisites": ["Electronics","Early Medium Tanks"],
                 "quote": "'I'm gonn brown. I'm shitsing??' - Brownman"
             },
             {
                 "name": "Heavy Tanks",
                 "row": 10,
-                "prerequisites": ["Early Heavy Tanks"],
+                "prerequisites": ["Electronics","Early Heavy Tanks"],
                 "quote": "'Heavy as your mom.' - Your dad"
             },
             {
@@ -762,9 +771,15 @@
                 "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
             },
             {
+                "name": "City Infrastructure",
+                "row": 8,
+                "prerequisites": ["Materials Science"],
+                "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+            },
+            {
                 "name": "Radar",
                 "row": 6,
-                "prerequisites": ["Electronics"],
+                "prerequisites": ["Advanced engines"],
                 "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
             },
             
@@ -798,7 +813,7 @@
             {
                 "name": "Computers",
                 "row": 8,
-                "prerequisites": ["Combined Arms","Radar"],
+                "prerequisites": ["City Infrastructure","Radar"],
                 "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
             }
         ]

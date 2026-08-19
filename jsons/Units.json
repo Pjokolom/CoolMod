@@ -692,6 +692,23 @@
         "attackSound": "metalhit"
     },
     {
+        "name": "Raider",
+        "replaces": "Spearman",
+        "uniqueTo": "Denmark",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 11,
+        "cost": 56,
+        "requiredTech": "Bronze",
+        "obsoleteTech": "Civil Service",
+        "upgradesTo": "Pikeman",
+        "uniques": [
+            "[+200]% Yield from pillaging tiles",
+            "[+50]% Strength <vs [Mounted] units>"
+        ],
+        "attackSound": "metalhit"
+    },
+    {
         "name": "Laputtu",
         "replaces": "Spearman",
         "uniqueTo": "Akkad",
@@ -1005,11 +1022,14 @@
 		"name": "Militiaman",
 		"unitType": "Sword",
 		"movement": 3,
+        "upgradesTo": "Armed Militiaman",
 		"strength": 10,
 		"cost": 20,
-		"uniques": [ "Never appears as a Barbarian unit", 
+		"uniques": [ 
+            "Limited to [5] per Civilization",
+            "Never appears as a Barbarian unit", 
             "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
-            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% Strength <when fighting in [Foreign Land] tiles>", 
             "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>",
             "Requires at least [2] population","[-1] population [in this city]",
             "[1] population in a random city <for all movement> <by consuming this unit> <when above [70] HP>"
@@ -1156,6 +1176,7 @@
         "cost": 83,
         "requiredTech": "Siege-Ship",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Cannot enter ocean tiles",
             "[+200]% Strength <vs cities> <when attacking>"
         ],
@@ -1173,6 +1194,7 @@
         "cost": 83,
         "requiredTech": "Siege-Ship",
         "uniques": [
+            "Consumes [2] [Human Resourses]",
             "[This Unit] loses [1] movement <upon entering a [Ocean]>",
             "[+50]% Strength <vs [Water] units> <when attacking>",
             "Earn [100]% of the damage done to [Embarked] units as [Gold]"
@@ -1196,6 +1218,7 @@
         "cost": 83,
         "requiredTech": "Siege-Ship",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "Cannot enter ocean tiles",
             "[+200]% Strength <vs cities> <when attacking>",
             "[Target Unit] gains the [Burning] status for [3] turn(s) <upon damaging a [All] unit>"
@@ -1214,7 +1237,10 @@
         "requiredTech": "Optics",
         "obsoleteTech": "Compass",
         "upgradesTo": "Galleass",
-        "uniques": ["Cannot enter ocean tiles"],
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Cannot enter ocean tiles"
+    ],
         "attackSound": "arrow"
     },
     {
@@ -1229,6 +1255,7 @@
         "obsoleteTech": "Compass",
         "upgradesTo": "Galleass",
         "uniques": [
+            "Consumes [2] [Human Resourses]",
             "Can move after attacking",
             "Earn [50]% of the damage done to [Embarked] units as [Gold]"
         ],
@@ -1263,7 +1290,10 @@
         "strength": 16,
         "cost": 90,
         "requiredTech": "Civil Service",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>","Consumes [1] [Human Resourses]"],
+        "uniques": [
+            "[+50]% Strength <vs [Mounted] units>",
+            "Consumes [1] [Human Resourses]"
+        ],
         "upgradesTo": "Lancer",
         "obsoleteTech": "Metallurgy",
         "attackSound": "metalhit"
@@ -1467,7 +1497,9 @@
         "requiredTech": "Compass",
         "obsoleteTech": "Navigation",
         "upgradesTo": "Frigate",
-        "uniques": ["Cannot enter ocean tiles","Consumes [1] [Human Resourses]"],
+        "uniques": [
+            "Cannot enter ocean tiles",
+            "Consumes [1] [Human Resourses]"],
         "attackSound": "arrow"
     },
     {
@@ -2070,7 +2102,7 @@
         "name": "Caravel",
         "unitType": "Melee Water",
         "movement": 6,
-        "strength": 27,
+        "strength": 25,
         "cost": 120,
         "requiredTech": "Astronomy",
         "upgradesTo": "Ironclad",
@@ -2083,6 +2115,28 @@
             "Consumes [1] [Iron]"
         ],
         "hurryCostModifier": 30,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Carraca",
+        "unitType": "Ranged Water",
+        "movement": 6,
+        "uniqueTo": "Iberica",
+        "strength": 24,
+        "rangedStrength": 25,
+        "cost": 185,
+        "range": 1,
+        "requiredResource": "Iron",
+        "requiredTech": "Astronomy",
+        "uniques": [
+            "[+40]% Strength <vs cities> <when attacking>",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [1] [Iron]"
+
+        ],
+        "obsoleteTech": "Steam Power",
+        "upgradesTo": "Steam frigate",
+        "hurryCostModifier": 20,
         "attackSound": "cannon"
     },
     {
@@ -2107,7 +2161,7 @@
         "name": "Galleon",
         "unitType": "Melee Water",
         "movement": 5,
-        "strength": 35,
+        "strength": 30,
         "cost": 140,
         "requiredTech": "Galleons",
         "upgradesTo": "Ironclad",
@@ -2357,18 +2411,18 @@
         "name": "Frigate",
         "unitType": "Ranged Water",
         "movement": 6,
-        "strength": 25,
-        "rangedStrength": 27,
+        "strength": 32,
+        "rangedStrength": 30,
         "cost": 185,
         "requiredResource": "Iron",
         "requiredTech": "Navigation",
         "uniques": [
-            "[+50]% Strength <vs cities> <when attacking>",
+            "[+60]% Strength <vs cities> <when attacking>",
             "Consumes [3] [Human Resourses]",
             "Consumes [2] [Iron]"
 
         ],
-        "obsoleteTech": "Electronics",
+        "obsoleteTech": "Steam Power",
         "upgradesTo": "Steam frigate",
         "hurryCostModifier": 20,
         "attackSound": "cannon"
@@ -2402,14 +2456,14 @@
         "name": "Ship of the Line",
         "unitType": "Ranged Water",
         "movement": 4,
-        "strength": 30,
-        "rangedStrength": 33,
+        "strength": 35,
+        "rangedStrength": 36,
         "cost": 300,
         "requiredResource": "Iron",
         "requiredTech": "Navigation",
-        "obsoleteTech": "Electronics",
+        "obsoleteTech": "Steam Power",
         "uniques": [
-            "[+70]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs cities> <when attacking>",
             "[+45]% Strength <vs [Water] units> <when attacking>",
             "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]"
@@ -2425,15 +2479,15 @@
         "replaces": "Ship of the Line",
         "uniqueTo": "England",
         "movement": 3,
-        "strength": 34,
+        "strength": 38,
         "range": 3,
         "rangedStrength": 36,
         "cost": 425,
         "requiredResource": "Iron",
         "requiredTech": "Navigation",
-        "obsoleteTech": "Electronics",
+        "obsoleteTech": "Steam Power",
         "uniques": [
-            "[+100]% Strength <vs cities> <when attacking>",
+            "[+135]% Strength <vs cities> <when attacking>",
             "[+100]% Strength <vs [Water] units> <when attacking>",
             "Consumes [3] [Human Resourses]",
             "Consumes [4] [Iron]"
@@ -2464,6 +2518,25 @@
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
     },
+    {
+		"name": "Armed Militiaman",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 20,
+		"cost": 150,
+		"uniques": [ 
+            "Limited to [5] per Civilization",
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-75]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>",
+            "Requires at least [2] population","[-1] population [in this city]",
+            "[1] population in a random city <for all movement> <by consuming this unit> <when above [70] HP>"
+        ],
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
     {
         "name": "Battle Wagon",
         "unitType": "Siege",
@@ -3296,7 +3369,7 @@
         "movement": 2,
         "strength": 30,
         "cost": 300,
-        "requiredTech": "Railroads",
+        "requiredTech": "Trench Mortars",
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
         "uniques": [
@@ -3794,6 +3867,27 @@
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shipguns"
+    },
+    {
+        "name": "flying elephant",
+        "unitType": "Armored",
+        "movement": 1,
+        "strength": 86,
+        "cost": 385,
+        "uniqueTo": "England",
+        "requiredTech": "Landships",
+        "requiredResource": "Oil",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+            "Consumes [4] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units> <when defending>",
+            "[+50]% Strength <vs [Armored] units> <when attacking>",
+            "[-17]% Strength <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
     },
     {
         "name": "Sztitonoska",

@@ -39,7 +39,7 @@
     {
         "name": "Gunpowder",
         "movementType": "Land",
-        "uniques": ["[+20]% Strength <vs [Unarmored] units> <when attacking>","Person"]
+        "uniques": ["[+60]% Strength <vs [Unarmored] units> <when attacking>","Person"]
     },
     {
         "name": "Paratrooping",

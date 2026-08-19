@@ -1447,6 +1447,11 @@
         ],
         "unitTypes": ["Armored","Light Tank","Medium Tank","Heavy Tank"]
     },
+    {
+        "name": "Advanced engine",
+        "uniques": ["[+1] Movement"],
+        "unitTypes": ["Armored","Light Tank","Medium Tank","Heavy Tank"]
+    },
     // DEBUFFFFSSSS
     {
         "name": "Burning",

@@ -3748,6 +3748,16 @@
         ]
     },
     {
+        "name": "Hypermarket",
+        "gold": 6,
+        "specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
+        ],
+        "requiredTech": "City Infrastructure"
+    },
+    {
         "name": "Manhattan Project",
         "cost": 750,
         "isNationalWonder": true,
