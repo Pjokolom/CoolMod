@@ -158,8 +158,11 @@
     {
         "name": "Armored Man",
         "movementType": "Land",
-        "uniques": ["[+50]% Strength <vs [Sword] units> <when defending>", 
-        "[+50]% Strength <vs [Archery] units> <when defending>","Person"]
+        "uniques": [
+            "[+50]% Strength <vs [Sword] units> <when defending>", 
+            "[+50]% Strength <vs [Archery] units> <when defending>",
+            "Person"
+    ]
     },
     {
         "name": "Undead",
@@ -236,6 +239,7 @@
             "[+300]% Strength <vs [Armored Man] units> <when defending>",
             "[+300]% Strength <vs [Armored Man Mounted] units> <when defending>",
             "[+200]% Strength <vs [Gunpowder] units> <when defending>",
+            "[+300]% Strength <vs [Submarine] units> <when defending>",
             "[+300]% Strength <vs [Archery] units> <when defending>"
         ]
     },

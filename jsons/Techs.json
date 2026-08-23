@@ -700,7 +700,7 @@
             {
                 "name": "Materials Science",
                 "row": 3,
-                "prerequisites": ["Refrigeration","Electronics"],
+                "prerequisites": ["Refrigeration","Electronics","Plastics"],
                 "quote": "'Trees.' - Troos"
             },
             {
@@ -765,9 +765,27 @@
                 "uniques": ["Provides [1] [Trade Route]"]
             },
             {
+                "name": "Advanced Light Tanks",
+                "row": 9,
+                "prerequisites": ["Advanced engines","Light Tanks"],
+                "quote": "'My tank 's ridinn 30 km/s. Soft attack 1,6.' - Mickle Slivengstone"
+            },
+            {
+                "name": "Advanced Medium Tanks",
+                "row": 10,
+                "prerequisites": ["Advanced engines","Medium Tanks"],
+                "quote": "'I'm gonn brown. I'm shitsing??' - Brownman"
+            },
+            {
+                "name": "Duopods II",
+                "row": 12,
+                "prerequisites": ["Advanced engines","Duopods I"],
+                "quote": "'Metal humans are marching out of their metal homes.' - Kazimir vi Poland"
+            },
+            {
                 "name": "Atomic Theory",
                 "row": 4,
-                "prerequisites": ["Plastics","Electronics"],
+                "prerequisites": ["Materials Science"],
                 "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
             },
             {
@@ -803,6 +821,12 @@
                 "row": 4,
                 "prerequisites": ["Atomic Theory","Radar"],
                 "quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+            },
+            {
+                "name": "Gen-I Mechs",
+                "row": 12,
+                "prerequisites": ["Radar","Duopods II"],
+                "quote": "'Death and war upon those and them who was not prepared.' - Stradivari"
             },
             {
                 "name": "Rocketry",

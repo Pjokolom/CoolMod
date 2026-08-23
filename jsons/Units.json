@@ -67,7 +67,7 @@
         "unitType": "Civilian",
         "uniqueTo": "Denmark",
         "movement": 2,
-        "techRequired": "Advanced Shipping",
+        "requiredTech": "Advanced Shipping",
         "cost": 106,
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -545,7 +545,7 @@
         "requiredTech": "Economics",
         "uniques": [
             "Consumes [1] [Human Resourses]",
-            "[This Unit] loses [2] movement <upon entering a [Ocean]>",
+            "[This Unit] loses [2] movement <upon entering a [Ocean]> tile",
             "Can move after attacking",
             "[-33]% Strength <vs cities> <when attacking>",
             "Earn [100]% of the damage done to [Embarked] units as [Gold]"
@@ -931,6 +931,7 @@
         "name": "Siege Tower",
         "unitType": "Siege",
         "movement": 2,
+        "obsoleteTech": "Chemistry",
         "strength": 12,
         "cost": 75,
         "requiredTech": "Siege Towers",
@@ -953,6 +954,7 @@
         "movement": 1,
         "uniqueTo": "Ellada",
         "replaces": "Siege Tower",
+        "obsoleteTech": "Chemistry",
         "strength": 35,
         "cost": 130,
         "requiredTech": "Siege Towers",
@@ -1195,7 +1197,7 @@
         "requiredTech": "Siege-Ship",
         "uniques": [
             "Consumes [2] [Human Resourses]",
-            "[This Unit] loses [1] movement <upon entering a [Ocean]>",
+            "[This Unit] loses [1] movement <upon entering a [Ocean]> tile",
             "[+50]% Strength <vs [Water] units> <when attacking>",
             "Earn [100]% of the damage done to [Embarked] units as [Gold]"
         ],
@@ -1362,15 +1364,18 @@
         "attackSound": "metalhit"
     },
     {
-        "name": "Pestininkas",
-        "uniqueTo": "Lithuania",
+        "name": "Dangpasu",
+        "uniqueTo": "Korea",
         "replaces": "Pikeman",
         "unitType": "Sword",
         "movement": 2,
         "strength": 16,
-        "cost": 60,
+        "cost": 90,
         "requiredTech": "Civil Service",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+        "uniques": [
+            "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Sword] units> <when defending>"
+        ],
         "upgradesTo": "Lancer",
         "obsoleteTech": "Metallurgy",
         "attackSound": "metalhit"
@@ -1411,14 +1416,14 @@
         "name": "Landsknecht",
         "unitType": "Sword",
         "movement": 3,
+        "obsoleteTech": "Replaceable Parts",
         "strength": 16,
-        "cost": 45,
+        "cost": 59,
         "requiredTech": "Civil Service",
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
             "No movement cost to pillage",
             "Can be purchased with [Gold] [in all cities]",
-            "Only available <after adopting [Mercenary Army]>",
             "Mercenary", 
             "Unbuildable"
         ],
@@ -1427,17 +1432,17 @@
     },
     {
         "name": "Cuman",
-        "unitType": "Sword",
+        "unitType": "Mounted",
         "movement": 4,
         "strength": 18,
-        "cost": 52,
+        "cost": 70,
+        "obsoleteTech": "Replaceable Parts",
         "requiredTech": "Chivalry",
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
             "No movement cost to pillage",
             "Can be purchased with [Gold] [in all cities]",
-            "Only available <after adopting [Mercenary Army]>",
             "[-33]% Strength <vs cities> <when attacking>",
             "Mercenary",
             "Unbuildable"
@@ -1543,9 +1548,8 @@
         "uniqueTo": "Walachia",
         "movement": 4,
         "strength": 24,
-        "upgradesTo": "Cavalry",
-        "requiredResource": "Horses",
         "uniques": [
+            "Free [Count Dracula] appears <upon being defeated> <hidden from users>",
             "Unbuildable",
             "Can move after attacking",
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
@@ -1559,15 +1563,29 @@
         "uniqueTo": "Walachia",
         "movement": 4,
         "strength": 30,
-        "upgradesTo": "Cavalry",
-        "requiredResource": "Horses",
         "uniques": [
+            "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
             "Unbuildable",
             "Will not be displayed in Civilopedia",
             "[+50]% Strength <vs [Sword] units> <when defending>", 
             "[+50]% Strength <vs [Archery] units> <when defending>",
             "Can move after attacking",
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "horse"
+    },
+    {
+        "name": "Ghoul",
+        "unitType": "Undead",
+        "uniqueTo": "Walachia",
+        "movement": 2,
+        "strength": 18,
+        "cost": 15,
+        "uniques": [
+            "Only available <with [Corpse]>",
+            "Instantly consumes [1] [Corpse]",
+            "Will not be displayed in Civilopedia",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "horse"
@@ -1915,11 +1933,11 @@
         "upgradesTo": "Cannon",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "[+50]% Strength <vs [Unarmored] units>",
+            "[+100]% Strength <vs [Unarmored] units>",
             "No defensive terrain bonus",
             "Must set up to ranged attack"
         ],
-        "attackSound": "throw"
+        "attackSound": "hwacha"
     },
     {
         "name": "Reislaufer",
@@ -3209,6 +3227,34 @@
         "attackSound": "machinegun"
     },
     {
+        "name": "Monitor",
+        "unitType": "Helicopter",
+        "movement": 6,
+        "uniqueTo": "Denmark",
+        "replaces": "Combat Airship",
+        "rangedStrength": 30,
+        "range": 2,
+        "strength": 25,
+        "cost": 210,
+        "upgradesTo": "Helicopter Gunship",
+        "requiredTech": "Steam Power",
+        "uniques": [
+            "May upgrade to [Vurdalak] through ruins-like effects <hidden from users>",
+            "Consumes [3] [Human Resourses]",
+            "Consumes [1] [Aluminum]",
+            "No defensive terrain bonus",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "[+40]% Strength <vs [Armored] units> <when attacking>",
+            "Can move after attacking",
+            "Unable to capture cities",
+            "Unable to pillage tiles",
+            "Can see over obstacles",
+            "[+3] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "artillery"
+    },
+    {
         "name": "Artillery",
         "unitType": "Siege",
         "movement": 2,
@@ -3297,7 +3343,7 @@
             "[+35]% Strength <vs [Heavy Tank] units>"
         ],
         "promotions": ["Indirect Fire"],
-        "attackSound": "artillery"
+        "attackSound": "hwacha"
     },
     {
         "name": "Trench Mortar",
@@ -3418,6 +3464,23 @@
         "attackSound": "shot"
     },
     {
+        "name": "Legion Infantry",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "uniqueTo": "Poland",
+        "replaces": "Great War Infantry",
+        "strength": 50,
+        "cost": 330,
+        "requiredTech": "Replaceable Parts",
+        "upgradesTo": "Infantry",
+        "uniques": [
+            "May heal outside of friendly territory",
+            "Consumes [1] [Human Resourses]"
+        ],
+        "obsoleteTech": "Electronics",
+        "attackSound": "shot"
+    },
+    {
         "name": "Legie",
         "unitType": "Gunpowder",
         "movement": 2,
@@ -3474,7 +3537,7 @@
         "requiredTech": "Flamethrowers",
         "uniques": [
             "Consumes [1] [Human Resourses]",
-            "[Target Unit] gains the [Burning] status for [3] turn(s) <upon damaging a [All] unit>"
+            "[Target Unit] gains the [Burning II] status for [4] turn(s) <upon damaging a [Person] unit>"
         ],
         "attackSound": "shot"
     },
@@ -3695,6 +3758,26 @@
         "attackSound": "nonmetalhit"
     },
     {
+        "name": "Bloodsea",
+        "unitType": "Abyssborn",
+        "uniqueTo": "Walachia",
+        "replaces": "Behemoth",
+        "movement": 3,
+        "strength": 100,
+        "requiredTech": "Biology",
+        "cost": 1545,
+        "uniques": [
+            "All tiles cost 1 movement",
+            "[+25]% Strength <vs [Person] units> <when attacking>",
+            "No defensive terrain bonus",
+            "Consumes [6] [Human Resourses]",
+            "Can Move After Attacking",
+            "Only available <if [Abyss Gates] is constructed>",
+            "Will not be displayed in Civilopedia"
+        ],
+        "attackSound": "nonmetalhit"
+    },
+    {
         "name": "Viet Cong",
         "replaces": "Infantry",
         "uniqueTo": "Vietnam",
@@ -3746,7 +3829,7 @@
             "Never appears as a Barbarian unit"
         ],
         "promotions": ["Indirect Fire"],
-        "attackSound": "shipguns"
+        "attackSound": "hshipguns"
     },
     {
         "name": "Machine Gun",
@@ -4174,7 +4257,7 @@
             "[+120]% Strength <vs [Submarine] units>"
         ],
         "promotions": ["Indirect Fire"],
-        "attackSound": "shipguns"
+        "attackSound": "hshipguns"
     },
     {
         "name": "Early Light Tank",
@@ -4552,6 +4635,26 @@
     },
 
     // Atomic Era
+    {
+        "name": "Warknight",
+        "unitType": "Duopod Unit",
+        "movement": 4,
+        "range": 1,
+        "strength": 110,
+        "rangedStrength": 110,
+        "cost": 1000,
+        "requiredTech": "Gen-I Mechs",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot",
+        "promotions": ["Ignore terrain cost"]
+    },
     {
         "name": "Marine",
         "unitType": "Gunpowder",

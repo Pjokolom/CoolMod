@@ -988,6 +988,7 @@
         "name": "Trade Route", 
         "resourceType": "Strategic",
         "uniques": [
+            "Not shown on world screen <when number of [Trade Route] is less than [1]>",
             "Cannot be traded",
 			"Excluded from map editor",
 			"Doesn't generate naturally"
@@ -1003,11 +1004,22 @@
 			"Doesn't generate naturally"
         ]
     },
+        {
+        "name": "Corpse", 
+        "resourceType": "Strategic",
+        "uniques": [
+            "Not shown on world screen <when number of [Corpse] is less than [1]>",
+            "Will not be displayed in Civilopedia",
+			"Cannot be traded",
+			"Stockpiled"
+        ]
+    },
     {
         "name": "Policies", 
         "resourceType": "Strategic",
         "uniques": [
             "Cannot be traded",
+            "Not shown on world screen <when number of [Policies] is less than [1]>",
 			"Excluded from map editor",
 			"Doesn't generate naturally"
         ]
@@ -1036,6 +1048,7 @@
         "name": "Great Work of Writing", 
         "resourceType": "Strategic",
         "uniques": [
+            "Not shown on world screen <when number of [Great Work of Writing] is less than [1]>",
             "Cannot be traded",
 			"Stockpiled",
 			"Excluded from map editor",
@@ -1046,6 +1059,7 @@
         "name": "Great Work of Art", 
         "resourceType": "Strategic",
         "uniques": [
+            "Not shown on world screen <when number of [Great Work of Art] is less than [1]>",
             "Cannot be traded",
 			"Stockpiled",
 			"Excluded from map editor",
@@ -1056,6 +1070,7 @@
         "name": "Great Work of Music", 
         "resourceType": "Strategic",
         "uniques": [
+            "Not shown on world screen <when number of [Great Work of Music] is less than [1]>",
             "Cannot be traded <hidden from users>",
 			"Stockpiled",
 			"Excluded from map editor",

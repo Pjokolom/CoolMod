@@ -242,6 +242,7 @@
         "innerColor": [197,196,72],
         "uniqueName": "Nihil Sine Deo",
         "uniques": [
+            "[-100]% maintenance costs <for [Undead] units> <hidden from users>",
             "Free [Vlad Tepes] appears <upon entering the [Medieval era]> <hidden from users>",
             "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
             "[+25]% [Culture] [in all cities] <during a Golden Age>",
