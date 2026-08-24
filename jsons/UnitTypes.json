@@ -180,8 +180,7 @@
     },
     {
         "name": "Siege",
-        "movementType": "Land",
-        "uniques": ["Person"]
+        "movementType": "Land"
     },
     {
         "name": "Civilian Water",

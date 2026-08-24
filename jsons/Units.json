@@ -4552,7 +4552,7 @@
             "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
-        "attackSound": "tankshot",
+        "attackSound": "mech",
         "promotions": ["Ignore terrain cost"]
     },
     {
@@ -4630,11 +4630,55 @@
             "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
-        "attackSound": "tankshot",
+        "attackSound": "mech",
         "promotions": ["Ignore terrain cost"]
     },
 
     // Atomic Era
+    {
+        "name": "Medium Assault Duopod",
+        "unitType": "Duopod Unit",
+        "movement": 4,
+        "range": 1,
+        "strength": 95,
+        "rangedStrength": 85,
+        "cost": 1000,
+        "requiredTech": "Duopods II",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Iron]",
+            "Can move after attacking",
+            "[+200]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "mech",
+        "promotions": ["Ignore terrain cost"]
+    },
+    {
+        "name": "Percival MAD",
+        "unitType": "Duopod Unit",
+        "uniqueTo": "England",
+        "replaces": "Medium Assault Duopod",
+        "movement": 4,
+        "range": 1,
+        "strength": 93,
+        "rangedStrength": 87,
+        "cost": 1000,
+        "requiredTech": "Duopods II",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Iron]",
+            "Can move after attacking",
+            "[+75]% Strength <vs [Armored] units> <when attacking>",
+            "[+80]% Strength <vs cities> <when attacking>",
+            "[+140]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "mech",
+        "promotions": ["Ignore terrain cost"]
+    },
     {
         "name": "Warknight",
         "unitType": "Duopod Unit",
@@ -4642,7 +4686,7 @@
         "range": 1,
         "strength": 110,
         "rangedStrength": 110,
-        "cost": 1000,
+        "cost": 1200,
         "requiredTech": "Gen-I Mechs",
         "requiredResource": "Oil",
         "uniques": [
@@ -4652,7 +4696,7 @@
             "[+50]% Strength <vs [Person] units>",
             "Never appears as a Barbarian unit"
         ],
-        "attackSound": "tankshot",
+        "attackSound": "mech",
         "promotions": ["Ignore terrain cost"]
     },
     {

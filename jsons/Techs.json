@@ -733,19 +733,19 @@
             {
                 "name": "Duopods I",
                 "row": 12,
-                "prerequisites": ["Electronics"],
+                "prerequisites": ["Tank Modifications","Electronics"],
                 "quote": "'Metal humans are marching out of their metal homes.' - Kazimir vi Poland"
             },
             {
                 "name": "Tripods I",
                 "row": 13,
-                "prerequisites": ["Electronics"],
+                "prerequisites": ["Tank Modifications","Electronics"],
                 "quote": "'Now that's a chair!' - Cheir guy"
             },
             {
                 "name": "Tetropods I",
                 "row": 14,
-                "prerequisites": ["Electronics"],
+                "prerequisites": ["Tank Modifications","Electronics"],
                 "quote": "'Would you like a cat like this?' - Pyk Myk"
             }
         ]
@@ -759,7 +759,7 @@
         "techs": [
             {
                 "name": "Pharmaceuticals",
-                "row": 2,
+                "row": 1,
                 "prerequisites": ["Materials Science"],
                 "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero",
                 "uniques": ["Provides [1] [Trade Route]"]
@@ -770,11 +770,18 @@
                 "prerequisites": ["Advanced engines","Light Tanks"],
                 "quote": "'My tank 's ridinn 30 km/s. Soft attack 1,6.' - Mickle Slivengstone"
             },
+            
             {
                 "name": "Advanced Medium Tanks",
                 "row": 10,
                 "prerequisites": ["Advanced engines","Medium Tanks"],
                 "quote": "'I'm gonn brown. I'm shitsing??' - Brownman"
+            },
+            {
+                "name": "Super Heavy Tanks",
+                "row": 11,
+                "prerequisites": ["Advanced engines","Heavy Tanks"],
+                "quote": "'Heavy as your mom.' - Your dad"
             },
             {
                 "name": "Duopods II",
@@ -784,19 +791,19 @@
             },
             {
                 "name": "Atomic Theory",
-                "row": 4,
+                "row": 3,
                 "prerequisites": ["Materials Science"],
                 "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
             },
             {
                 "name": "City Infrastructure",
-                "row": 8,
+                "row": 7,
                 "prerequisites": ["Materials Science"],
                 "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
             },
             {
                 "name": "Radar",
-                "row": 6,
+                "row": 5,
                 "prerequisites": ["Advanced engines"],
                 "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
             },
@@ -891,7 +898,7 @@
     {
         "columnNumber": 19,
         "era": "Information era",
-        "techCost": 8800,
+        "techCost": 66666,
         "buildingCost": 750,
         "wonderCost": 1250,
         "techs": [
