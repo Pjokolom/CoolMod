@@ -688,7 +688,10 @@
         "requiredTech": "Bronze",
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>","Consumes [1] [Human Resourses]"],
+        "uniques": [
+            "[+50]% Strength <vs [Mounted] units>",
+            "Consumes [1] [Human Resourses]"
+        ],
         "attackSound": "metalhit"
     },
     {
@@ -703,6 +706,7 @@
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "[+200]% Yield from pillaging tiles",
             "[+50]% Strength <vs [Mounted] units>"
         ],
@@ -753,7 +757,10 @@
         "requiredTech": "Bronze",
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[+50]% Strength <vs [Mounted] units>"
+        ],
         "attackSound": "metalhit"
     },
     {
@@ -835,7 +842,7 @@
     },
     {
         "name": "Cataphract",
-        "unitType": "Mounted",
+        "unitType": "Armored Man Mounted",
         "uniqueTo": "Ellada",
         "replaces": "Horseman",
         "movement": 3,
@@ -846,6 +853,8 @@
         "obsoleteTech": "Chivalry",
         "requiredResource": "Horses",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
             "Can move after attacking",
             "[-25]% Strength <vs cities> <when attacking>"
         ],
@@ -865,6 +874,7 @@
         "obsoleteTech": "Chivalry",
         "promotions": ["Great Generals II","Heavy Charge"],
         "uniques": [
+            "Consumes [2] [Human Resourses]",
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
@@ -2241,6 +2251,8 @@
         "upgradesTo": "Ironclad",
         "obsoleteTech": "Steam Power",
         "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [2] [Iron]",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -2259,6 +2271,8 @@
         "obsoleteTech": "Steam Power",
         "promotions": ["Boarding Party I"],
         "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [1] [Iron]",
             "[+1] Sight",
             "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking",
@@ -2362,7 +2376,10 @@
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]",
+            "[+50]% Strength <vs [Mounted] units>"],
         "attackSound": "shot"
     },
     {
@@ -4448,6 +4465,26 @@
         "requiredTech": "Light Tanks",
         "requiredResource": "Oil",
         "uniques": [
+            "Free [Possessed Tank] appears <upon being defeated> <hidden from users> <with [30]% chance> <if [Abyss Gates] is constructed>",
+            "Consumes [2] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Possessed Tank",
+        "unitType": "Abyssborn",
+        "movement": 5,
+        "strength": 60,
+        "cost": 450,
+        "requiredTech": "Light Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Unbuildable",
+            "Will not be displayed in Civilopedia",
             "Consumes [2] [Human Resourses]",
             "Consumes [2] [Iron]",
             "Can move after attacking",
