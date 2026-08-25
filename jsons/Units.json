@@ -398,6 +398,21 @@
         "attackSound": "nonmetalhit"
     },
     {
+        "name": "Bear",
+        "unitType": "Beast",
+        "uniqueTo": "Barbarians",
+        "movement": 2,
+        "strength": 15,
+        "cost": 20,
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Unable to pillage tiles",
+            "Unable to capture cities",
+            "Does not appear in the Civilopedia"
+        ],
+        "attackSound": "nonmetalhit"
+    },
+    {
         "name": "Archer",
         "unitType": "Archery",
         "movement": 2,
@@ -2683,6 +2698,27 @@
         "attackSound": "cannon"
     },
     {
+        "name": "Ozutsu",
+        "unitType": "Ranged Gunpowder",
+        "movement": 2,
+        "strength": 16,
+        "range": 1,
+        "rangedStrength": 20,
+        "cost": 185,
+        "requiredTech": "Chemistry",
+        "upgradesTo": "Artillery",
+        "obsoleteTech": "Dynamite",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "[+75]% Strength <vs cities> <when attacking>",
+            "[+100]% Strength <vs [Person] units> <when attacking>",
+            "No defensive terrain bonus",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "cannonh"
+    },
+    {
         "name": "Nartov's Battery",
         "unitType": "Siege",
         "movement": 3,
@@ -4725,12 +4761,33 @@
         "rangedStrength": 110,
         "cost": 1200,
         "requiredTech": "Gen-I Mechs",
-        "requiredResource": "Oil",
+        "requiredResource": "Uranium",
         "uniques": [
             "Consumes [2] [Human Resourses]",
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+50]% Strength <vs [Person] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "mech",
+        "promotions": ["Ignore terrain cost"]
+    },
+    {
+        "name": "Onryo",
+        "unitType": "Duopod Unit",
+        "movement": 4,
+        "range": 1,
+        "strength": 105,
+        "rangedStrength": 110,
+        "cost": 1200,
+        "requiredTech": "Gen-I Mechs",
+        "requiredResource": "Uranium",
+        "uniques": [
+            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Iron]",
+            "Can move after attacking",
+            "[+50]% Strength <vs [Person] units>",
+            "[+100]% Strength <vs [Person] units> <when attacking>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "mech",

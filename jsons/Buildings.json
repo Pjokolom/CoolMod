@@ -1448,7 +1448,7 @@
     {
         "name": "Stave Church",
         "replaces": "Temple",
-        "uniqueTo": "Norway",
+        "uniqueTo": "Denmark",
         "cost": 55,
         "faith": 2,
         "requiredBuilding": "Shrine",
@@ -1460,7 +1460,7 @@
         ]
     },
     {
-        "name": "Mud Pyramid Mosque",
+        "name": "Shinto Shrine",
         "replaces": "Temple",
         "uniqueTo": "Songhai",
         "hurryCostModifier": 25,
