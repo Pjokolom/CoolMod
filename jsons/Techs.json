@@ -576,7 +576,7 @@
             {
                 "name": "Plastics",
                 "row": 2,
-                "prerequisites": ["Electricity","Biology"],
+                "prerequisites": ["Biology"],
                 "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
             },
             {
@@ -699,7 +699,7 @@
         "techs": [
             {
                 "name": "Materials Science",
-                "row": 3,
+                "row": 2,
                 "prerequisites": ["Refrigeration","Electronics","Plastics"],
                 "quote": "'Trees.' - Troos"
             },
@@ -788,6 +788,12 @@
                 "row": 12,
                 "prerequisites": ["Advanced engines","Duopods I"],
                 "quote": "'Metal humans are marching out of their metal homes.' - Kazimir vi Poland"
+            },
+            {
+                "name": "Tripods II",
+                "row": 13,
+                "prerequisites": ["Advanced engines","Tripods I"],
+                "quote": "'Now that's a shmeek!' - Shmeek guy"
             },
             {
                 "name": "Atomic Theory",
