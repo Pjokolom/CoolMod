@@ -150,10 +150,7 @@
         "name": "Mystic Rituals",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture, +1 Food] from every [Silk]",
-            "[+1 Culture, +1 Food] from every [Dyes]",
-            "[+1 Culture, +1 Food] from every [Perfume]",
-            "[+1 Culture, +1 Food] from every [Tobacco]"
+            "[+10]% Production when constructing [Military] units [in capital]"
         ]
     },
     {
@@ -398,6 +395,14 @@
         "name": "Cathedrals",
         "type": "Follower",
         "uniques": ["Comment [Unlocks [Cathedral] [in cities following this religion]]"]
+    },
+    {
+        "name": "Dark Altars",
+        "type": "Follower",
+        "uniques": [
+            "Comment [Unlocks [Altar] [in cities following this religion]]",
+            "Only available <after adopting [Mystic Rituals]>"
+        ]
     },
     {
         "name": "Choral Music",

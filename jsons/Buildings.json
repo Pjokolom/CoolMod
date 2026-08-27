@@ -175,6 +175,28 @@
         ]
     },
     {
+        "name": "Monastery",
+        "faith": 9,
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Unbuildable","Unsellable",
+            "Can be purchased for [200] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Divine Judgement] religion>"
+        ]
+    },
+    {
+        "name": "Altar",
+        "faith": 5,
+        "production": 5,
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Can be purchased for [150] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Dark Altars] religion>"
+        ]
+    },
+    {
         "name": "Mosque",
         "culture": 1,
         "faith": 3,
@@ -884,19 +906,6 @@
         "hurryCostModifier": 25,
         "requiredTech": "Philosophy"
     },
-    {
-        "name": "Burial Tomb",
-        "replaces": "Temple",
-        "uniqueTo": "Egypt",
-        "uniques": ["[+100]% Gold given to enemy if city is captured <in this city>"],
-        "faith": 2,
-        "happiness": 2,
-        "requiredBuilding": "Shrine",
-        "cost": 75,
-        "hurryCostModifier": 25,
-        "requiredTech": "Gunpowder"
-    },
-
     {
         "name": "Stave Church",
         "replaces": "Temple",

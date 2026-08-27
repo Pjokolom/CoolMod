@@ -997,6 +997,27 @@
         "attackSound": "metalhit"
     },
     {
+        "name": "Bloodspawn",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 16,
+        "cost": 90,
+        "requiredTech": "Civil Service",
+        "uniques": [
+            "[+33]% Strength <vs [Wounded] units>",
+            "Only available <in cities with a [Mystic Rituals] religion>",
+            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit",
+            "Will not be displayed in Civilopedia",
+            "Monster"
+        ],
+        "upgradesTo": "Lancer",
+        "obsoleteTech": "Metallurgy",
+        "attackSound": "metalhit"
+    },
+    {
         "name": "Mantelet",
         "unitType": "Sword",
         "movement": 1,
@@ -1083,7 +1104,7 @@
         "movement": 3,
         "obsoleteTech": "Replaceable Parts",
         "strength": 16,
-        "cost": 59,
+        "cost": 60,
         "requiredTech": "Civil Service",
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
@@ -1100,7 +1121,7 @@
         "unitType": "Mounted",
         "movement": 4,
         "strength": 18,
-        "cost": 70,
+        "cost": 77,
         "obsoleteTech": "Replaceable Parts",
         "requiredTech": "Chivalry",
         "uniques": [
@@ -1166,6 +1187,31 @@
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "horse"
+    },
+    {
+        "name": "Saint",
+        "unitType": "Armored Man",
+        "movement": 4,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Acoustics",
+        "obsoleteTech": "Scientific Theory",
+        "uniques": [
+            "[+100]% Strength bonus for [Knight] units within [2] tiles",
+            "[+100]% Strength bonus for [Ritterbruder] units within [2] tiles",
+            "[+100]% Strength bonus for [Knights Templar] units within [2] tiles",
+            "Limited to [3] per Civilization",
+            "Only available <in cities with a [Divine Judgement] religion>",
+            "Can be purchased for [650] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit",
+            "Consumes [1] [Human Resourses]",
+            "Can move after attacking",
+            "No defensive terrain bonus",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "horse"
@@ -1249,7 +1295,7 @@
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "Only available <in cities with a [Divine Judgement] religion>",
-            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Can be purchased for [200] [Faith]",
             "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit"
@@ -1735,7 +1781,27 @@
             "[+50]% Strength <vs [Mounted] units>"],
         "attackSound": "shot"
     },
-
+    {
+        "name": "Bloodthug",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 26,
+        "cost": 160,
+        "requiredTech": "Gunpowder",
+        "obsoleteTech": "Rifling",
+        "uniques": [
+            "[+60]% Strength <vs [Wounded] units>",
+            "[+50]% Strength <vs [Person] units> <when attacking>",
+            "Only available <in cities with a [Mystic Rituals] religion>",
+            "Can be purchased for [359] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit",
+            "Will not be displayed in Civilopedia",
+            "Monster"
+        ],
+        "attackSound": "shot"
+    },
     {
         "name": "Privateer",
         "unitType": "Melee Water",
@@ -2112,11 +2178,33 @@
         "rangedStrength": 30,
         "cost": 225,
         "requiredTech": "Rifling",
-        "upgradesTo": "Trench Mortar",
+        "upgradesTo": "Machine Gun",
         "uniques": [
             "Consumes [1] [Human Resourses]"
         ],
-        "obsoleteTech": "Trench Mortars",
+        "obsoleteTech": "Ballistics",
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "Bloodbelcher",
+        "unitType": "Ranged Gunpowder",
+        "range": 2,
+        "movement": 2,
+        "strength": 34,
+        "rangedStrength": 27,
+        "cost": 225,
+        "requiredTech": "Rifling",
+        "uniques": [
+            "[+60]% Strength <vs [Wounded] units>",
+            "Only available <in cities with a [Mystic Rituals] religion>",
+            "Can be purchased for [430] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit",
+            "Will not be displayed in Civilopedia",
+            "Monster"
+        ],
+        "obsoleteTech": "Ballistics",
         "attackSound": "machinegun"
     },
     {
@@ -2658,7 +2746,6 @@
         "movement": 2,
         "cost": 200,
         "requiredTech": "Replaceable Parts",
-        "upgradesTo": "Infantry",
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "[-18]% Strength for enemy [Land] units in adjacent [All] tiles",
@@ -2869,7 +2956,8 @@
             "Consumes [6] [Human Resourses]",
             "Can Move After Attacking",
             "Only available <if [Abyss Gates] is constructed>",
-            "Will not be displayed in Civilopedia"
+            "Will not be displayed in Civilopedia",
+            "Monster"
         ],
         "attackSound": "nonmetalhit"
     },
@@ -2889,7 +2977,8 @@
             "Consumes [6] [Human Resourses]",
             "Can Move After Attacking",
             "Only available <if [Abyss Gates] is constructed>",
-            "Will not be displayed in Civilopedia"
+            "Will not be displayed in Civilopedia",
+            "Monster"
         ],
         "attackSound": "nonmetalhit"
     },

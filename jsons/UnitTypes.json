@@ -189,13 +189,11 @@
     },
     {
         "name": "Melee Water",
-        "movementType": "Water",
-        "uniques": ["Person"]
+        "movementType": "Water"
     },
     {
         "name": "Ranged Water",
-        "movementType": "Water",
-        "uniques": ["Person"]
+        "movementType": "Water"
     },
     {
         "name": "Submarine",
@@ -204,8 +202,7 @@
     },
     {
         "name": "Aircraft Carrier",
-        "movementType": "Water",
-        "uniques": ["Person"]
+        "movementType": "Water"
     },
     {
         "name": "Fighter",
