@@ -2487,6 +2487,59 @@
         "attackSound": "machinegun"
     },
     {
+        "name": "Aircruiser",
+        "unitType": "Helicopter",
+        "movement": 6,
+        "rangedStrength": 45,
+        "range": 1,
+        "strength": 58,
+        "cost": 340,
+        "upgradesTo": "Helicopter Gunship",
+        "requiredTech": "Flight",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [1] [Aluminum]",
+            "Consumes [1] [Iron]",
+            "No defensive terrain bonus",
+            "[+110]% Strength <vs cities> <when attacking>",
+            "[+80]% Strength <vs [Person] units> <when attacking>",
+            "Can move after attacking",
+            "Unable to capture cities",
+            "Unable to pillage tiles",
+            "Can see over obstacles",
+            "[+3] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
+        "name": "Flagship",
+        "unitType": "Helicopter",
+        "movement": 5,
+        "rangedStrength": 70,
+        "range": 1,
+        "strength": 70,
+        "cost": 500,
+        "upgradesTo": "Helicopter Gunship",
+        "requiredTech": "Flight",
+        "uniques": [
+            "Can carry [3] [Aircraft] units",
+            "Consumes [4] [Human Resourses]",
+            "Consumes [1] [Aluminum]",
+            "Consumes [2] [Iron]",
+            "No defensive terrain bonus",
+            "[+110]% Strength <vs cities> <when attacking>",
+            "[+80]% Strength <vs [Person] units> <when attacking>",
+            "Can move after attacking",
+            "Unable to capture cities",
+            "Unable to pillage tiles",
+            "Can see over obstacles",
+            "[+3] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
+    {
         "name": "Monitor",
         "unitType": "Helicopter",
         "movement": 6,
@@ -3212,10 +3265,9 @@
         "upgradesTo": "Rocket Artillery",
         "obsoleteTech": "Rocketry",
         "uniques": [
-            "[This Unit] loses [3] movement <upon entering a [non-[Railroad]] tile>",
+            
             "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]",
-            "[-100]% Strength <when fighting in [non-[Railroad]] tiles>",
             "[+200]% Strength <vs cities> <when attacking>",
             "[+50]% Strength <vs [Land] units> <when defending>",
             "[+150]% Strength <vs [Person] units> <when attacking>",
@@ -3225,7 +3277,38 @@
             "[-1] Sight",
             "Never appears as a Barbarian unit"
         ],
-        "promotions": ["Indirect Fire"],
+        "promotions": ["Indirect Fire","Train"],
+        "attackSound": "artillery"
+    },
+    {
+        "name": "A-Train 'Pavel'",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 70,
+        "uniqueTo": "Poland",
+        "replaces": "Armoured Train",
+        "rangedStrength": 35,
+        "range": 3,
+        "cost": 380,
+        "requiredTech": "Armoured trains",
+        "upgradesTo": "Rocket Artillery",
+        "obsoleteTech": "Rocketry",
+        "uniques": [
+            
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "[+50]% Strength <vs [Land] units> <when defending>",
+            "[+50]% Strength <vs [Aircraft] units>",
+            "[+150]% Strength <vs [Person] units> <when attacking>",
+            "[+67]% Strength <vs [Armored] units> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "Can move after attacking",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions": ["Indirect Fire","Train"],
         "attackSound": "artillery"
     },
     {

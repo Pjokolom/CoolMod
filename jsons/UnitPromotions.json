@@ -1459,10 +1459,33 @@
             "[This Unit] takes [10] damage <upon turn end>"
         ]
     },
-        {
+    {
         "name": "RqInaccuracy",
         "uniques": [
             "[+110]% Strength <vs [Ribadequin] units> <when defending>"
+        ]
+    },
+    {
+        "name": "Train",
+        "uniques": [
+
+            "[This Unit] gains the [On Rails] promotion <upon entering a [Railroad] tile>",
+            "[This Unit] loses the [Not on rails] promotion <upon entering a [Railroad] tile>",
+            "[This Unit] loses the [On Rails] promotion <upon entering a [non-[Railroad]] tile>",
+            "[This Unit] gains the [Not on rails] promotion <upon entering a [non-[Railroad]] tile>"
+        ]
+    },
+    {
+        "name": "On Rails",
+        "uniques": [
+            "[This Unit] loses the [Not on rails] promotion"
+        ]
+    },
+    {
+        "name": "Not on rails",
+        "uniques": [
+            "[-3] Movement",
+            "[-200]% Strength"
         ]
     },
     {
@@ -1477,6 +1500,7 @@
             "[This Unit] takes [25] damage <upon turn end>"
         ]
     },
+
     //CRUTCH FOR SAAMI
         {
         "name": "Saami Scout",
