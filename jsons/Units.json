@@ -2805,7 +2805,6 @@
             "Only available <in cities with a [Secret Cult] religion>",
             "Can be purchased with [Faith] [in all cities]"
         ],
-        "obsoleteTech": "Electronics",
         "attackSound": "shot"
     },
     {
