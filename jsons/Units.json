@@ -263,7 +263,7 @@
         "uniqueTo": "Barbarians",
         "movement": 2,
         "strength": 15,
-        "cost": 20,
+        "cost": 50,
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "Unable to pillage tiles",
@@ -564,6 +564,8 @@
         {
         "name": "Vuoddji",
         "unitType": "Mounted",
+        "uniqueTo": "Sapmi",
+        "replaces": "Horseman",
         "movement": 4,
         "strength": 12,
         "cost": 75,
@@ -1214,7 +1216,7 @@
             "No defensive terrain bonus",
             "Never appears as a Barbarian unit"
         ],
-        "attackSound": "horse"
+        "attackSound": "metalhit"
     },
     {
         "name": "Vlad Tepes",
@@ -1229,7 +1231,7 @@
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Never appears as a Barbarian unit"
         ],
-        "attackSound": "horse"
+        "attackSound": "metalhit"
     },
     {
         "name": "Count Dracula",
@@ -1237,6 +1239,28 @@
         "uniqueTo": "Walachia",
         "movement": 4,
         "strength": 30,
+        "upgradesTo": "Count Dracula II",
+        "uniques": [
+            
+            "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
+            "Unbuildable",
+            "Will not be displayed in Civilopedia",
+            "[+50]% Strength <vs [Sword] units> <when defending>", 
+            "[+50]% Strength <vs [Archery] units> <when defending>",
+            "Can move after attacking",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Never appears as a Barbarian unit",
+            "Monster"
+        ],
+        "attackSound": "shot"
+    },
+    {
+        "name": "Count Dracula II",
+        "unitType": "Armored Man",
+        "uniqueTo": "Walachia",
+        "movement": 4,
+        "requiredTech": "Metallurgy",
+        "strength": 35,
         "uniques": [
             "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
             "Unbuildable",
@@ -1245,7 +1269,8 @@
             "[+50]% Strength <vs [Archery] units> <when defending>",
             "Can move after attacking",
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "Monster"
         ],
         "attackSound": "horse"
     },
@@ -1257,10 +1282,12 @@
         "strength": 18,
         "cost": 15,
         "uniques": [
+            "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
             "Only available <with [Corpse]>",
             "Instantly consumes [1] [Corpse]",
             "Will not be displayed in Civilopedia",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "Monster"
         ],
         "attackSound": "horse"
     },
@@ -1724,7 +1751,22 @@
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
     },
-
+    {
+        "name": "Auror",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 23,
+        "uniques": [
+            "Comment [Effective versus unnatural beings]",
+            "[+75]% Strength <vs [Monster] units> <when attacking>",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]"
+        ],
+        "cost": 150,
+        "requiredTech": "Metallurgy",
+        "obsoleteTech": "Rifling",
+        "attackSound": "shot"
+    },
     {
         "name": "Serdiuk",
         "unitType": "Gunpowder",
@@ -2992,7 +3034,8 @@
             "Consumes [2] [Human Resourses]",
             "Can Move After Attacking",
             "Only available <if [Abyss Gates] is constructed>",
-            "Will not be displayed in Civilopedia"
+            "Will not be displayed in Civilopedia",
+            "Monster"
         ],
         "attackSound": "nonmetalhit"
     },
@@ -3023,6 +3066,7 @@
         "requiredTech": "Biology",
         "cost": 1545,
         "uniques": [
+            "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
             "All tiles cost 1 movement",
             "[+25]% Strength <vs [Person] units> <when attacking>",
             "No defensive terrain bonus",
