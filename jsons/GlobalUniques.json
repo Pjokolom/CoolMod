@@ -61,9 +61,7 @@
         "[+1 Food] from every [Town Streets] <with [1] to [6] neighboring [Czornoliesh Streets] tiles>",
         "[+1 Food] from every [Town Streets] <with [2] to [6] neighboring [Czornoliesh Streets] tiles>",
 
-        "[+1 Science] from every [Helenic Streets] <with [2] to [6] neighboring [Coast] tiles> <after discovering [Advanced Shipping]>",
-        "[+1 Science] from every [Helenic Streets] <with [2] to [6] neighboring [Coast] tiles> <after discovering [Siege-Ship]>",
-        "[+1 Science] from every [Helenic Streets] <with [3] to [6] neighboring [Coast] tiles> <after discovering [Archaeology]>",
+        "[+1 Science] from every [Helenic Streets] <with [2] to [6] neighboring [Coast] tiles> <before the [Medieval era]>",
 
         // something something unit supply
         "[+1 Food] from every [Mill] <with [1] to [6] neighboring [Farm] tiles>",
