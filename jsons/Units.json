@@ -1702,6 +1702,9 @@
             "Withdraws before melee combat <with [30]% chance>",
             "Can move after attacking",
             "Only available <with [Corpse]>",
+            "Will not be displayed in Civilopedia",
+            "Never appears as a Barbarian unit",
+            "Monster",
             "Instantly consumes [3] [Corpse]",
             "Consumes [1] [Iron]"
         ],
