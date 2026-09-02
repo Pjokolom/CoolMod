@@ -1482,6 +1482,27 @@
         ]
     },
     {
+        "name": "Crane",
+        "uniques": [
+            "[This Unit] gains the [BP] promotion <upon building a [Heavy Artillery Fortification] improvement>"
+            
+        ]
+    },
+    {
+        "name": "Heavy Artillery Promotion",
+        "uniques": [
+            "[This Unit] is destroyed <upon entering a [non-[Heavy Artillery Fortification]] tile>"
+        ]
+    },
+    {
+        "name": "BP",
+        "uniques": [
+            "[This Unit] is destroyed",
+            "Free [Heavy Artillery] appears"
+            
+        ]
+    },
+    {
         "name": "Not on rails",
         "uniques": [
             "[-3] Movement",

@@ -340,7 +340,6 @@
         "requiredTech": "Shipping",
         "uniques": [
             "Cannot enter ocean tiles <before discovering [Astronomy]>",
-            "Can instantly construct a [Kampong Ayer] improvement <by consuming this unit>",
             "May create improvements on water resources",
             "Uncapturable",
             "Automation is a primary action"
@@ -1242,7 +1241,7 @@
         "upgradesTo": "Count Dracula II",
         "uniques": [
             
-            "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
+            "Instantly provides [1] [Corpse] <upon defeating a [Person] unit>",
             "Unbuildable",
             "Will not be displayed in Civilopedia",
             "[+50]% Strength <vs [Sword] units> <when defending>", 
@@ -1262,7 +1261,7 @@
         "requiredTech": "Metallurgy",
         "strength": 35,
         "uniques": [
-            "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
+            "Instantly provides [1] [Corpse] <upon defeating a [Person] unit>",
             "Unbuildable",
             "Will not be displayed in Civilopedia",
             "[+50]% Strength <vs [Sword] units> <when defending>", 
@@ -1282,7 +1281,7 @@
         "strength": 18,
         "cost": 15,
         "uniques": [
-            "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
+            "Instantly provides [1] [Corpse] <upon defeating a [Person] unit>",
             "Only available <with [Corpse]>",
             "Instantly consumes [1] [Corpse]",
             "Will not be displayed in Civilopedia",
@@ -1329,7 +1328,20 @@
         ],
         "cost": 48
     },
-
+    {
+        "name": "Shogun",
+        "unitType": "Armored Man",
+        "uniqueTo": "Japan",
+        "movement": 4,
+        "strength": 23,
+        "uniques": [
+            "Unbuildable",
+            "Can move after attacking",
+            "[+65]% Strength bonus for [Samurai] units within [2] tiles",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "metalhit"
+    },
     {
         "name": "Armored Cavalry",
         "unitType": "Armored Man Mounted",
@@ -1673,6 +1685,24 @@
             "Withdraws before melee combat <with [30]% chance>",
             "Can move after attacking",
             "Consumes [3] [Human Resourses]",
+            "Consumes [1] [Iron]"
+        ],
+        "hurryCostModifier": 30,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Ghostship",
+        "unitType": "Melee Water",
+        "movement": 5,
+        "strength": 28,
+        "cost": 70,
+        "requiredTech": "Galleons",
+        "uniques": [
+            "Instantly provides [1] [Corpse] <upon defeating a [Person] unit>",
+            "Withdraws before melee combat <with [30]% chance>",
+            "Can move after attacking",
+            "Only available <with [Corpse]>",
+            "Instantly consumes [3] [Corpse]",
             "Consumes [1] [Iron]"
         ],
         "hurryCostModifier": 30,
@@ -3066,7 +3096,7 @@
         "requiredTech": "Biology",
         "cost": 1545,
         "uniques": [
-            "Instantly provides [1] [Corpse] <upon defeating a [Warrior] unit>",
+            "Instantly provides [1] [Corpse] <upon defeating a [Person] unit>",
             "All tiles cost 1 movement",
             "[+25]% Strength <vs [Person] units> <when attacking>",
             "No defensive terrain bonus",
@@ -3590,6 +3620,54 @@
         ],
         "obsoleteTech": "Light Tanks",
         "attackSound": "tankshot"
+    },
+    {
+        "name": "Millitary crane",
+        "unitType": "Light Tank",
+        "movement": 3,
+        "strength": 50,
+        "cost": 380,
+        "requiredTech": "Superior firepower",
+        "requiredResource": "Oil",
+        "promotions": ["Crane"],
+        "uniques": [
+            "Comment [Can build [Heavy Artillery] unit.]",
+            "Can build [Heavy Artillery Fortification] improvements on tiles <hidden from users>",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "Cannot attack",
+            "Never appears as a Barbarian unit"
+        ],
+        "obsoleteTech": "Light Tanks",
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Heavy Artillery",
+        "unitType": "Siege",
+        "movement": 1,
+        "strength": 34,
+        "rangedStrength": 70,
+        "range": 4,
+        "requiredTech": "Superior firepower",
+        "upgradesTo": "Rocket Artillery",
+        "uniques": [
+            "Comment [IMMOVABLE, DO NOT TRY TO MOVE THIS UNIT, IT WILL DIE INSTANTLY.]",
+            "Unavailable <hidden from users>",
+            "Consumes [1] [Human Resourses] <hidden from users>",
+            "Consumes [3] [Iron] <hidden from users>",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus <hidden from users>",
+            "Must set up to ranged attack",
+            "[-1] Sight <hidden from users>",
+            "Never appears as a Barbarian unit <hidden from users>",
+            "[+100]% Strength <vs [Light Tank] units> <hidden from users>",
+            "[+110]% Strength <vs [Duopod Unit] units> <hidden from users>",
+            "[+70]% Strength <vs [Medium Tank] units> <hidden from users>",
+            "[+150]% Strength <vs [Tripod Unit] units> <hidden from users>",
+            "[+35]% Strength <vs [Heavy Tank] units> <hidden from users>"
+        ],
+        "promotions": ["Indirect Fire","Heavy Artillery Promotion"],
+        "attackSound": "artillery"
     },
     //RASIARASIA
     {
@@ -4157,6 +4235,33 @@
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "machinegun"
+    },
+    {
+        "name": "Advanced Artillery",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 34,
+        "rangedStrength": 40,
+        "range": 3,
+        "cost": 320,
+        "requiredTech": "Combined Arms",
+        "upgradesTo": "Rocket Artillery",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit",
+            "[+100]% Strength <vs [Light Tank] units>",
+            "[+110]% Strength <vs [Duopod Unit] units>",
+            "[+70]% Strength <vs [Medium Tank] units>",
+            "[+150]% Strength <vs [Tripod Unit] units>",
+            "[+35]% Strength <vs [Heavy Tank] units>"
+        ],
+        "promotions": ["Indirect Fire"],
+        "attackSound": "artillery"
     },
     // {
     //     "name": "Panzer",

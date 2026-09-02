@@ -502,6 +502,18 @@
         ],
         "shortcutKey": "O"
     },
+    {
+        "name": "Heavy Artillery Fortification",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+        "turnsToBuild": 4,
+        "uniques": [
+            "Comment [Spawns a Heavy Artillery]",
+            "Only available <for [Millitary crane] units>",
+            "Can be built outside your borders",
+            "Gives a defensive bonus of [15]%"
+        ],
+        "shortcutKey": "O"
+    },
 
     // Transportation
     {

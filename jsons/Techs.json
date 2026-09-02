@@ -704,6 +704,12 @@
                 "quote": "'Trees.' - Troos"
             },
             {
+                "name": "Superior firepower",
+                "row": 5,
+                "prerequisites": ["Combined Arms","Early Tank destroyers"],
+                "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+            },
+            {
                 "name": "Advanced engines",
                 "row": 7,
                 "prerequisites": ["Electronics","Combined Arms"],

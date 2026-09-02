@@ -461,7 +461,7 @@
     {
         "name": "Holy Warriors",
         "type": "Follower",
-        "uniques": ["May buy [{Military} {Land} {non-[Mercenary]} {non-[Monster]}] units with [Faith] for [2] times their normal Production cost <in this city>"]
+        "uniques": ["May buy [{Military} {Land} {non-[Mercenary]} {non-[Monster]} {non-[Vlad Tepes]}] units with [Faith] for [2] times their normal Production cost <in this city>"]
     },
     {
         "name": "Liturgical Drama",
