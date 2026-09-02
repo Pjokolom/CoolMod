@@ -30,10 +30,9 @@
         "name": "Ancestors Worship",
         "type": "Pantheon",
         "uniques": [
-            "Comment [Worship of Ancestors]",
-            "[+1 Faith] from every [Forest] [in capital]",
-            "[+1 Food] from every [Fish] [in capital]",
-            "[+1 Food, +1 Culture] from every [Wheat] [in capital]"
+            "[+1 Production, +1 Faith] from every [Wine]",
+            "[+1 Production, +1 Faith] from every [Sugar]",
+            "[+1 Production, +1 Faith] from every [Spices]"
     ]
     },
     {
@@ -100,9 +99,10 @@
         "name": "Goddess of Festivals",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Production, +1 Faith] from every [Wine]",
-            "[+1 Production, +1 Faith] from every [Sugar]",
-            "[+1 Production, +1 Faith] from every [Spices]"
+            "Comment [Worship of Ancestors]",
+            "[+1 Faith] from every [Forest] [in capital]",
+            "[+1 Food] from every [Fish] [in capital]",
+            "[+1 Food, +1 Culture] from every [Wheat] [in capital]"
         ]
     },
     {

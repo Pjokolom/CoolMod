@@ -133,7 +133,7 @@
         "barbarianBonus": 0.3,
         "barbarianSpawnDelay": 0,
         "playerBonusStartingUnits": [],
-        "aiDifficultyLevel": "AI",
+        "aiDifficultyLevel": "King",
         "aiCityGrowthModifier": 0.9,
         "aiUnitCostModifier": 0.85,
         "aiBuildingCostModifier": 0.85,

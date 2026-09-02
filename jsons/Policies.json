@@ -1057,7 +1057,8 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-50]% Food consumption by [Specialists] [in all cities]",
+                    "[-15]% [Happiness] [in all cities]",
+                    "[+15]% [Gold] [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1104,7 +1105,7 @@
             {
                 "name": "Economic Union",
                 "uniques": [
-                    "[+25]% [Gold] [in all cities]",
+                    "[+25]% [Gold] [in all cities connected to capital]",
                     "Provides [2] [Trade Route]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -1328,7 +1329,8 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "[+12 Happiness]",
+                    "[+10 Happiness]",
+                    "[-25]% [Food] [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1360,6 +1362,7 @@
                     "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[+50]% Production when constructing [Police Station] buildings [in all cities]",
                     "[+50]% Production when constructing [Constabulary] buildings [in all cities]",
+                    "Provides [-10] [Human Resourses]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -1371,10 +1374,12 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "[+100]% XP gained from combat <for [All] units> <in [Friendly Land] tiles>",
+                    "[+50]% XP gained from combat <for [All] units> <in [Friendly Land] tiles>",
                     "[+5]% [Culture] <in cities with a [Barracks]>",
                     "[+5]% [Culture] <in cities with a [Armory]>",
                     "[+5]% [Culture] <in cities with a [Military Academy]>",
+                    "[+5 Happiness] [in all non-occupied cities]",
+                    "[-70]% [Food] [in annexed cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -1405,7 +1410,8 @@
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] XP [in all cities]",
+                    "[-5 Happiness]",
+                    "Comment [Provides +5 [Human Resourses] in every town]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",

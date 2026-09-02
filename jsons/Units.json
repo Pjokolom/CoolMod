@@ -1206,7 +1206,7 @@
             "[+100]% Strength bonus for [Knights Templar] units within [2] tiles",
             "Limited to [3] per Civilization",
             "Only available <in cities with a [Divine Judgement] religion>",
-            "Can be purchased for [650] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Can be purchased for [650] [Faith] [in all cities]",
             "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit",
@@ -1321,7 +1321,7 @@
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "Only available <in cities with a [Divine Judgement] religion>",
-            "Can be purchased for [200] [Faith]",
+            "Can be purchased for [200] [Faith] [in all cities]",
             "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit"
@@ -1868,7 +1868,7 @@
             "[+60]% Strength <vs [Wounded] units>",
             "[+50]% Strength <vs [Person] units> <when attacking>",
             "Only available <in cities with a [Mystic Rituals] religion>",
-            "Can be purchased for [359] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Can be purchased for [359] [Faith] [in all cities]",
             "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit",
@@ -2829,7 +2829,7 @@
         "requiredTech": "Replaceable Parts",
         "upgradesTo": "Infantry",
         "uniques": [
-            "Consumes [1] [Human Resourses]"
+            "Consumes [2] [Human Resourses]"
         ],
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2846,7 +2846,7 @@
         "upgradesTo": "Infantry",
         "uniques": [
             "May heal outside of friendly territory",
-            "Consumes [1] [Human Resourses]"
+            "Consumes [2] [Human Resourses]"
         ],
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2863,7 +2863,7 @@
         "upgradesTo": "Infantry",
         "uniques": [
             "May heal outside of friendly territory",
-            "Consumes [1] [Human Resourses]"
+            "Consumes [2] [Human Resourses]"
         ],
         "obsoleteTech": "Electronics",
         "attackSound": "shot"
@@ -2905,7 +2905,7 @@
         "range": 3,
         "requiredTech": "Flamethrowers",
         "uniques": [
-            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Human Resourses]",
             "[Target Unit] gains the [Burning II] status for [4] turn(s) <upon damaging a [Person] unit>"
         ],
         "attackSound": "shot"
@@ -2923,7 +2923,7 @@
         "obsoleteTech": "Electronics",
         "upgradesTo": "Infantry",
         "uniques": [
-            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Human Resourses]",
         ],
         "promotions": [
             "Drill I",
@@ -3004,7 +3004,7 @@
         "requiredTech": "Electronics",
         "upgradesTo": "Mechanized Infantry",
         "uniques": [
-            "Consumes [1] [Human Resourses]"
+            "Consumes [2] [Human Resourses]"
         ],
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
@@ -3041,7 +3041,7 @@
         "cost": 410,
         "requiredTech": "Electronics",
         "uniques": [
-            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Human Resourses]",
             "Invisible to non-adjacent units <in [Snow] tiles>",
             "Invisible to non-adjacent units <in [Tundra] tiles>"
         ],
@@ -3902,7 +3902,7 @@
         "requiredTech": "Duopods I",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [2] [Human Resourses]",
+            "Consumes [3] [Human Resourses]",
             "Consumes [2] [Iron]",
             "Can move after attacking",
             "[+50]% Strength <vs [Person] units>",
@@ -3940,7 +3940,7 @@
             "Consumes [3] [Human Resourses]",
             "Consumes [3] [Iron]",
             "Only available <in cities with a [Divine Judgement] religion>",
-            "Can be purchased for [1200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Can be purchased for [1200] [Faith] [in all cities]",
             "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit",
@@ -3961,7 +3961,7 @@
         "requiredTech": "Tripods I",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [3] [Iron]",
             "Can move after attacking",
             "[+50]% Strength <vs [Person] units>",
@@ -3979,7 +3979,7 @@
         "requiredTech": "Heavy Tanks",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [3] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [5] [Iron]",
             "[+20]% Strength <vs [Person] units>",
             "[+70]% Strength <vs [Light Tank] units>",
@@ -3999,7 +3999,7 @@
         "requiredTech": "Heavy Tanks",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [3] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [5] [Iron]",
             "[+35]% Strength <vs [Person] units>",
             "[+110]% Strength <vs [Light Tank] units>",
@@ -4019,7 +4019,7 @@
         "requiredTech": "Heavy Tanks",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [3] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [5] [Iron]",
             "[+110]% Strength <vs [Person] units>",
             "[+20]% Strength <vs [Light Tank] units>",
@@ -4039,7 +4039,7 @@
         "requiredTech": "Tetropods I",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [2] [Human Resourses]",
+            "Consumes [5] [Human Resourses]",
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+50]% Strength <vs [Person] units>",
@@ -4061,7 +4061,7 @@
         "requiredTech": "Duopods II",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [2] [Human Resourses]",
+            "Consumes [3] [Human Resourses]",
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+200]% Strength <vs [Person] units>",
@@ -4081,7 +4081,7 @@
         "requiredTech": "Tripods II",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+35]% Strength <when defending>",
@@ -4103,7 +4103,7 @@
         "requiredTech": "Duopods II",
         "requiredResource": "Oil",
         "uniques": [
-            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+75]% Strength <vs [Armored] units> <when attacking>",
@@ -4125,7 +4125,7 @@
         "requiredTech": "Gen-I Mechs",
         "requiredResource": "Uranium",
         "uniques": [
-            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+50]% Strength <vs [Person] units>",
@@ -4147,7 +4147,7 @@
         "requiredResource": "Uranium",
         "uniques": [
             "Before engaging in combat performs an extra ranged attack with [50]% of melee combat strength",
-            "Consumes [2] [Human Resourses]",
+            "Consumes [4] [Human Resourses]",
             "Consumes [4] [Iron]",
             "Can move after attacking",
             "[+50]% Strength <vs [Person] units>",
@@ -4736,6 +4736,23 @@
 			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "[+1] Sight",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit"
+        ],
+        "movement": 3
+    },
+    {
+        "name": "Volchv",
+        "unitType": "Civilian",
+        "requiredTech": "Library",
+        "promotions": ["Medic","Medic II"],
+        "cost": 100,
+        "uniques": [
+            "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Only available <in cities with a [Goddess of Festivals] religion>",
+            "Can be purchased for [200] [Faith] [in all cities]",
             "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit"
