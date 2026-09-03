@@ -1863,7 +1863,6 @@
         "strength": 26,
         "cost": 160,
         "requiredTech": "Gunpowder",
-        "obsoleteTech": "Rifling",
         "uniques": [
             "[+60]% Strength <vs [Wounded] units>",
             "[+50]% Strength <vs [Person] units> <when attacking>",
@@ -2279,7 +2278,6 @@
             "Will not be displayed in Civilopedia",
             "Monster"
         ],
-        "obsoleteTech": "Ballistics",
         "attackSound": "machinegun"
     },
     {
@@ -2651,7 +2649,7 @@
         "range": 3,
         "cost": 320,
         "requiredTech": "Dynamite",
-        "upgradesTo": "Rocket Artillery",
+        "upgradesTo": "Advanced Artillery",
         "obsoleteTech": "Rocketry",
         "uniques": [
             "Consumes [1] [Human Resourses]",
