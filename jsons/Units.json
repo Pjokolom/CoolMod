@@ -4244,7 +4244,7 @@
         "strength": 34,
         "rangedStrength": 40,
         "range": 3,
-        "cost": 320,
+        "cost": 420,
         "requiredTech": "Combined Arms",
         "upgradesTo": "Rocket Artillery",
         "uniques": [
