@@ -173,6 +173,17 @@
         ]
     },
     {
+        "name": "Water Abyss GatesT",
+        "type": "Water",
+        "impassable": true,
+        "defenceBonus": 0,
+        "RGB": [0, 0, 0],
+        "uniques": [
+            "Nullifies all other stats this tile provides",
+            "Doesn't generate naturally"
+        ]
+    },
+    {
         "name": "Snow",
         "type": "Land",
         "movementCost": 2,

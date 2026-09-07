@@ -1691,6 +1691,25 @@
         "attackSound": "cannon"
     },
     {
+        "name": "Lophius",
+        "unitType": "Melee Water",
+        "movement": 5,
+        "strength": 40,
+        "cost": 250,
+        "requiredTech": "Galleons",
+        "uniques": [
+            "Limited to [1] per Civilization",
+            "No defensive terrain bonus",
+            "Consumes [6] [Human Resourses]",
+            "Can Move After Attacking",
+            "Only available <if [Water Abyss Gates] is constructed>",
+            "Will not be displayed in Civilopedia",
+            "Monster"
+        ],
+        "hurryCostModifier": 30,
+        "attackSound": "nonmetalhit"
+    },
+    {
         "name": "Ghostship",
         "unitType": "Melee Water",
         "movement": 5,
@@ -1925,7 +1944,7 @@
         "requiredTech": "Astronomy",
         "uniques": [
             "Will not be displayed in Civilopedia",
-            "Limited to [1] per Civilization",
+            "Limited to [2] per Civilization",
             "[+50]% Strength <vs cities> <when attacking>",
             "[+45]% Strength <vs [Water] units> <when attacking>",
             "Consumes [3] [Human Resourses]",

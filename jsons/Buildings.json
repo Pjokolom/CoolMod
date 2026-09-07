@@ -2236,6 +2236,17 @@
         ]
     },
     {
+        "name": "Water Abyss Gates",
+        "maintenance": 3,
+        "isWonder": true,
+        "cost": 1000,
+        "requiredTech": "Galleons",
+        "uniques": [
+            "Creates a [Water Abyss GatesB] improvement on a specific tile",
+            "Only available <in cities with a [Secret Cult] religion>"
+        ]
+    },
+    {
         "name": "Super-City Project",
         "maintenance": 3,
         "isWonder": true,
