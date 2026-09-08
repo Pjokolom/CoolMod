@@ -353,7 +353,7 @@
         "cost": 45,
         "requiredTech": "Optics",
         "uniques": [
-
+            "[+25]% Strength <vs [Water] units> <when attacking>",
             "Cannot enter ocean tiles",
             "Can move after attacking",
             "Consumes [1] [Human Resourses]"
@@ -895,9 +895,10 @@
         "cost": 83,
         "requiredTech": "Siege-Ship",
         "uniques": [
-            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Human Resourses]",
             "Cannot enter ocean tiles",
-            "[+200]% Strength <vs cities> <when attacking>"
+            "[+200]% Strength <vs cities> <when attacking>",
+            "[+10]% Strength <vs [Water] units> <when attacking>"
         ],
         "upgradesTo": "Frigate",
         "obsoleteTech": "Navigation",
@@ -951,7 +952,7 @@
         "unitType": "Ranged Water",
         "movement": 3,
         "strength": 8,
-        "rangedStrength": 10,
+        "rangedStrength": 12,
         "cost": 60,
         "requiredTech": "Optics",
         "obsoleteTech": "Compass",
@@ -1169,7 +1170,7 @@
         "upgradesTo": "Frigate",
         "uniques": [
             "Cannot enter ocean tiles",
-            "Consumes [1] [Human Resourses]"],
+            "Consumes [2] [Human Resourses]"],
         "attackSound": "arrow"
     },
     {

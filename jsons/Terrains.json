@@ -167,7 +167,7 @@
         "impassable": true,
         "defenceBonus": 0,
         "RGB": [0, 0, 0],
-        "uniques": [
+        "uniques": [S
             "Nullifies all other stats this tile provides",
             "Doesn't generate naturally"
         ]
