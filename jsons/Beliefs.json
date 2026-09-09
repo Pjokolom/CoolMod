@@ -214,8 +214,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+2 Culture, +1 Gold] from every [Ivory]",
-            "[+2 Culture, +1 Gold] from every [Furs]",
-            "[+2 Culture, +1 Gold] from every [Truffles]"
+            "[+2 Faith] from every [Stone]"
         ]
     },
     {
@@ -353,6 +352,11 @@
         "name": "Mithraea",
         "type": "Founder",
         "uniques": ["[+1]% [Gold] from every follower, up to [20]%"]
+    },
+    {
+        "name": "Unity",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] from every [4] global followers [in cities following this religion]"]
     },
     {
         "name": "Religious Unity",
@@ -515,6 +519,14 @@
         "uniques": [
             "[+2 Faith, +1 Food] from every [Garden]",
             "[+1 Happiness] [in cities following this religion] <in [River] tiles>"
+        ]
+    },
+    {
+        "name": "Animism",
+        "type": "Follower",
+        "uniques": [
+            "[+3 Faith] [in cities following this religion] <in [Hardwood] tiles>",
+            "[+3 Faith] [in cities following this religion] <in [Truffles] tiles>"
         ]
     },
     {
