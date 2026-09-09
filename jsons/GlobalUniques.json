@@ -12,7 +12,7 @@
         "Enables Defensive Pacts",
         "[-50]% [Science] <while researching [Medieval era]> <before turn number [105]> <if starting in the [Ancient era]>",
         "[-90]% [Science] <while researching [Medieval era]> <before turn number [40]> <if starting in the [Ancient era]>",
-        "[-50]% [Science] <while researching [Renaissance era]> <before turn number [140]> <if starting in the [Ancient era]>",
+        "[-70]% [Science] <while researching [Renaissance era]> <before turn number [150]> <if starting in the [Ancient era]>",
         "[-40]% [Science] <while researching [Industrial era]> <before turn number [165]> <if starting in the [Ancient era]>",
         "[-40]% [Science] <while researching [Modern era]> <before turn number [195]> <if starting in the [Ancient era]>",
         
