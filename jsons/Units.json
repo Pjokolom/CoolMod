@@ -1333,10 +1333,11 @@
         "name": "Shogun",
         "unitType": "Armored Man",
         "uniqueTo": "Japan",
+        "cost":1,
         "movement": 4,
         "strength": 23,
         "uniques": [
-            "Unbuildable",
+//            "Unbuildable",
             "Can move after attacking",
             "[+65]% Strength bonus for [Samurai] units within [2] tiles",
             "Never appears as a Barbarian unit"
