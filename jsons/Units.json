@@ -1987,8 +1987,7 @@
         "strength": 38,
         "range": 3,
         "rangedStrength": 36,
-        "cost": 425,
-        "requiredResource": "Iron",
+        "cost": 400,
         "requiredTech": "Navigation",
         "obsoleteTech": "Steam Power",
         "uniques": [
