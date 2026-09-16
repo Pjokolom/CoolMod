@@ -1281,6 +1281,7 @@
         "movement": 2,
         "strength": 18,
         "cost": 15,
+        "obsoleteTech": "Gunpowder",
         "uniques": [
             "Instantly provides [1] [Corpse] <upon defeating a [Person] unit>",
             "Only available <with [Corpse]>",
@@ -1289,6 +1290,48 @@
             "Never appears as a Barbarian unit",
             "Monster"
         ],
+        "attackSound": "metalhit",
+        "upgradesTo": "Servant"
+    },
+    {
+        "name": "Servant",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 23,
+        "uniques": [
+            "Instantly provides [1] [Corpse] <upon defeating a [Person] unit>",
+            "Only available <with [Corpse]>",
+            "Instantly consumes [1] [Corpse]",
+            "Will not be displayed in Civilopedia",
+            "Never appears as a Barbarian unit",
+            "Monster"
+        ],
+        "cost": 150,
+        "requiredTech": "Gunpowder",
+        "attackSound": "shot"
+    },
+        {
+        "name": "ServantH",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 23,
+        "cost": 185,
+        "requiredTech": "Metallurgy",
+        "uniques": [
+            "Instantly provides [1] [Corpse] <upon defeating a [Person] unit>",
+            "Only available <with [Corpse]>",
+            "Instantly consumes [1] [Corpse]",
+            "Will not be displayed in Civilopedia",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "[+33]% Strength <vs [Mounted] units>",
+            "Never appears as a Barbarian unit",
+            "Never appears as a Barbarian unit",
+            "Monster"
+        ],
+        "upgradesTo": "Anti-Tank Rifle",
+        "obsoleteTech": "Railroads",
         "attackSound": "horse"
     },
     {
