@@ -1491,6 +1491,7 @@
         "upgradesTo": "Cannon",
         "promotions": ["Indirect Fire"],
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "[+100]% Strength <vs [Unarmored] units>",
             "No defensive terrain bonus",
             "Must set up to ranged attack"
