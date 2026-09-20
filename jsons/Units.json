@@ -1327,7 +1327,6 @@
             "[-33]% Strength <vs cities> <when attacking>",
             "[+33]% Strength <vs [Mounted] units>",
             "Never appears as a Barbarian unit",
-            "Never appears as a Barbarian unit",
             "Monster"
         ],
         "upgradesTo": "Anti-Tank Rifle",
@@ -2486,10 +2485,32 @@
         "promotions": ["Amphibious", "Embarkation with Defence"],
         "attackSound": "shot"
     },
-      {
+    {
         "name": "Ironclad",
         "unitType": "Melee Water",
         "movement": 3,
+        "strength": 45,
+        "cost": 250,
+        "requiredTech": "Steam Power",
+        "requiredResource": "Coal",
+        "upgradesTo": "Destroyer",
+        "obsoleteTech": "Combustion",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [2] [Iron]",
+            "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
+            "Double movement in [Coast]",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "shipguns"
+    },
+    {
+        "name": "Monitor 'Niezhin'",
+        "unitType": "Melee Water",
+        "movement": 3,
+        "uniqueTo": "Hetmanate",
+        "replaces": "Ironclad",
         "strength": 45,
         "cost": 250,
         "requiredTech": "Steam Power",
@@ -2742,7 +2763,7 @@
         "range": 2,
         "cost": 320,
         "requiredTech": "Dynamite",
-        "upgradesTo": "Rocket Artillery",
+
         "obsoleteTech": "Rocketry",
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -2773,7 +2794,7 @@
         "range": 2,
         "cost": 320,
         "requiredTech": "Dynamite",
-        "upgradesTo": "Rocket Artillery",
+
         "obsoleteTech": "Rocketry",
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -2803,7 +2824,7 @@
         "range": 3,
         "cost": 270,
         "requiredTech": "Trench Mortars",
-        "upgradesTo": "Rocket Artillery",
+
         "obsoleteTech": "Rocketry",
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -3399,7 +3420,7 @@
         "range": 3,
         "cost": 380,
         "requiredTech": "Armoured trains",
-        "upgradesTo": "Rocket Artillery",
+
         "obsoleteTech": "Rocketry",
         "uniques": [
             
@@ -3428,7 +3449,7 @@
         "range": 3,
         "cost": 380,
         "requiredTech": "Armoured trains",
-        "upgradesTo": "Rocket Artillery",
+
         "obsoleteTech": "Rocketry",
         "uniques": [
             
@@ -3689,7 +3710,7 @@
         "name": "Millitary crane",
         "unitType": "Light Tank",
         "movement": 3,
-        "strength": 50,
+        "strength": 44,
         "cost": 380,
         "requiredTech": "Superior firepower",
         "requiredResource": "Oil",
@@ -3713,7 +3734,7 @@
         "rangedStrength": 70,
         "range": 4,
         "requiredTech": "Superior firepower",
-        "upgradesTo": "Rocket Artillery",
+
         "uniques": [
             "Comment [IMMOVABLE, DO NOT TRY TO MOVE THIS UNIT, IT WILL DIE INSTANTLY.]",
             "Unavailable <hidden from users>",
@@ -4309,7 +4330,7 @@
         "range": 3,
         "cost": 420,
         "requiredTech": "Combined Arms",
-        "upgradesTo": "Rocket Artillery",
+
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "Consumes [2] [Iron]",
@@ -4366,15 +4387,15 @@
     //     "attackSound": "tankshot"
     // },
     {
-        "name": "Rocket Artillery",
+        "name": "MRL",
         "unitType": "Siege",
         "movement": 2,
-        "strength": 45,
-        "rangedStrength": 60,
+        "strength": 44,
         "range": 3,
         "cost": 510,
-        "requiredTech": "Rocketry",
+        "requiredTech": "Superior firepower",
         "uniques": [
+            "Cannot attack",
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "[-1] Sight",

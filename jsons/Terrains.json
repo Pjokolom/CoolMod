@@ -573,10 +573,9 @@
     },
     // G&K Wonders
     {
-        "name": "Mount Kailash",
+        "name": "Dragon Mountain",
         "type": "NaturalWonder",
-        "faith": 6,
-        "happiness": 2,
+        "faith": 2,
         "occursOn": ["Plains","Grassland"],
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",

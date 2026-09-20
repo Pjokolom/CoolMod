@@ -801,6 +801,21 @@
         "cities": ["Shiribetsu"]
     },
     {
+        "name": "Inuit",
+        "adjective": ["Inuit"],
+        "cityStateType": "Snowy",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [200, 200, 255],
+        "innerColor": [70, 70, 90],
+        "uniques": [
+            "[+3 Production] from every [Snow]",
+            "[+3 Food] from every [Snow]"
+        ],
+        "cities": ["Ivvavik"]
+    },
+    {
         "name": "Courland",
         "adjective": ["Courland"],
         "startBias": ["Coast"],
@@ -810,6 +825,24 @@
         "defeated": "This isn't how it is supposed to be!",
         "outerColor": [255, 255, 255],
         "innerColor": [255, 0, 0],
+        "uniques": [
+            "[+1 Production, +3 Food] from every [Coast]",
+            "[+300]% Production when constructing [Water] units [in all cities]",
+            "Provides [10] [Iron] <hidden from users>",
+            "Provides [10] [Human Resourses] <hidden from users>"
+        ],
+        "cities": ["Mitau"]
+    },
+    {
+        "name": "Venice",
+        "adjective": ["Venice"],
+        "startBias": ["Coast"],
+        "cityStateType": "Mercantile",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [255, 255, 255],
+        "innerColor": [255, 0, 255],
         "uniques": [
             "[+1 Production, +3 Food] from every [Coast]",
             "[+300]% Production when constructing [Water] units [in all cities]",

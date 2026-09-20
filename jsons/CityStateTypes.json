@@ -53,6 +53,17 @@
         "color": [56,255,112]
     }, 
     {
+        "name": "Snowy",
+        "friendBonusUniques": [
+            "[+2 Food] [in capital]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Food] [in capital]",
+            "[+1 Food] [in all cities]"
+        ],
+        "color": [56,255,112]
+    }, 
+    {
         "name": "Seaside City",
         "friendBonusUniques": [
             "[+50]% Production when constructing [Water] units [in capital]"
