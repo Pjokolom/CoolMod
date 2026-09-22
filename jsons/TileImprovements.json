@@ -163,7 +163,7 @@
         "terrainsCanBeBuiltOn": ["Plains","Grassland"],
         "food": 1,
         "replaces": "Streets",
-        "uniqueTo": "Turkestan",
+        "uniqueTo": "Sentinelese",
         "turnsToBuild": 7,
         "techRequired": "Woodworking",
         "uniques": [
