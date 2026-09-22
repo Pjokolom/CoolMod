@@ -154,7 +154,7 @@
             "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
             "[+1 Gold] from [Fresh water] tiles <after discovering [Civil Service]>",
             "Pillaging this improvement yields approximately [+30 Gold]",
-            "Provides [2] [Human Resourses]"
+            "Provides [1] [Human Resourses]"
         ],
         "shortcutKey": "F"
     },
@@ -163,7 +163,7 @@
         "terrainsCanBeBuiltOn": ["Plains","Grassland"],
         "food": 1,
         "replaces": "Streets",
-        "uniqueTo": "Turkestan",
+        "uniqueTo": "Sentinelese",
         "turnsToBuild": 7,
         "techRequired": "Woodworking",
         "uniques": [
