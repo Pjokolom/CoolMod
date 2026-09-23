@@ -684,6 +684,7 @@
 		"rangedStrength": 9,
 		"range": 2,
 		"uniques": [
+			"Consumes [1] [Human Resourses]",
 			"[+50]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs [Unarmored] units> <when attacking>",
 			"No defensive terrain bonus",
