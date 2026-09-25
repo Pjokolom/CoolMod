@@ -451,7 +451,7 @@
         "requiredTech": "The Wheel",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "uniques": ["No defensive terrain bonus"],
+        "uniques": ["No defensive terrain bonus","Consumes [2] [Human Resourses]"],
         "promotions": ["Swift Charge"],
         "attackSound": "elephant"
     },
