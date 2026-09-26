@@ -385,7 +385,10 @@
         "cost": 40,
         "hurryCostModifier": 40,
         "maintenance": 1,
-        "uniques": ["Destroyed when the city is captured"]
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Unavailable <for [Sentinelese] Civilizations> <hidden from users>"
+        ]
     },
     // Column 1
     {

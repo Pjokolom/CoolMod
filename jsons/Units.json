@@ -481,6 +481,7 @@
         "upgradesTo": "Pikeman",
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Beast] units>",
             "Consumes [1] [Human Resourses]"
         ],
         "attackSound": "metalhit"
@@ -499,7 +500,8 @@
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "[+200]% Yield from pillaging tiles",
-            "[+50]% Strength <vs [Mounted] units>"
+            "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Beast] units>"
         ],
         "attackSound": "metalhit"
     },
@@ -517,12 +519,14 @@
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Beast] units>",
             "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
         ],
         "promotions": ["Pictish Courage"],
         "attackSound": "metalhit"
     },
     {
+        "name": "Carnyx",
         "name": "Carnyx",
         "unitType": "Sword",
         "movement": 2,
@@ -548,7 +552,8 @@
         "upgradesTo": "Pikeman",
         "uniques": [
             "Consumes [1] [Human Resourses]",
-            "[+50]% Strength <vs [Mounted] units>"
+            "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Beast] units>"
         ],
         "attackSound": "metalhit"
     },
@@ -1027,6 +1032,7 @@
         "requiredTech": "Civil Service",
         "uniques": [
             "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Beast] units>",
             "Consumes [1] [Human Resourses]"
         ],
         "upgradesTo": "Lancer",
@@ -1109,6 +1115,7 @@
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Beast] units>",
             "[+75]% Strength <vs [Siege] units>",
             "Can move after attacking",
             "No defensive terrain bonus"

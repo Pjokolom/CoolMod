@@ -6,7 +6,7 @@
         [
             "Consumes [1] [Human Resourses]",
             "[This Unit] takes [25] damage <upon turn end> <when adjacent to a [Behemoth] unit> <hidden from users>"
-        ],
+        ]
     },
     {
         "name": "Civilian",
@@ -20,7 +20,10 @@
     {
         "name": "Sword",
         "movementType": "Land",
-        "uniques": ["Unarmored","Person"]
+        "uniques": [
+            "Unarmored",
+            "Person"
+        ]
     },
     {
         "name": "Beast",
