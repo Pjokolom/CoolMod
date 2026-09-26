@@ -370,11 +370,12 @@
         "movement": 4,
         "strength": 10,
         "cost": 38,
-        "requiredTech": "Economics",
+        "requiredTech": "Optics",
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "[This Unit] loses [2] movement <upon entering a [Ocean] tile>",
             "Can move after attacking",
+            "[+75]% Strength <vs [Unarmored] units> <when attacking>",
             "[-33]% Strength <vs cities> <when attacking>",
             "Earn [100]% of the damage done to [Embarked] units as [Gold]"
         ],
@@ -445,13 +446,16 @@
         "uniqueTo": "India",
         "replaces": "Chariot Archer",
         "movement": 3,
-        "strength": 8,
+        "strength": 10,
         "rangedStrength": 11,
         "cost": 70,
         "requiredTech": "The Wheel",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "uniques": ["No defensive terrain bonus","Consumes [2] [Human Resourses]"],
+        "uniques": [
+            "No defensive terrain bonus",
+            "Consumes [2] [Human Resourses]"
+    ],
         "promotions": ["Swift Charge"],
         "attackSound": "elephant"
     },
@@ -957,7 +961,7 @@
         "uniques": [
             "Consumes [2] [Human Resourses]",
             "[This Unit] loses [1] movement <upon entering a [Ocean] tile>",
-            "[+50]% Strength <vs [Water] units> <when attacking>",
+            "[+75]% Strength <vs [Unarmored] units> <when attacking>",
             "Earn [100]% of the damage done to [Embarked] units as [Gold]"
         ],
         "upgradesTo": "Privateer",
@@ -1010,12 +1014,14 @@
         "movement": 4,
         "uniqueTo": "Denmark",
         "replaces": "Galley",
-        "strength": 14,
+        "strength": 10,
+        "rangedStrength": 12,
         "cost": 60,
-        "requiredTech": "Optics",
+        "requiredTech": "Siege-Ship",
         "obsoleteTech": "Compass",
         "upgradesTo": "Galleass",
         "uniques": [
+            "[+75]% Strength <vs [Unarmored] units> <when attacking>",
             "Consumes [2] [Human Resourses]",
             "Can move after attacking",
             "Earn [50]% of the damage done to [Embarked] units as [Gold]"
