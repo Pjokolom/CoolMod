@@ -451,7 +451,7 @@
         "requiredTech": "The Wheel",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "uniques": ["No defensive terrain bonus"],
+        "uniques": ["No defensive terrain bonus","Consumes [2] [Human Resourses]"],
         "promotions": ["Swift Charge"],
         "attackSound": "elephant"
     },
@@ -689,6 +689,7 @@
 		"rangedStrength": 9,
 		"range": 2,
 		"uniques": [
+			"Consumes [1] [Human Resourses]",
 			"[+50]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs [Unarmored] units> <when attacking>",
 			"No defensive terrain bonus",
