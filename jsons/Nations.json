@@ -19,7 +19,7 @@
         "neutralHello": "Greetings.",
         "hateHello": "What do you want, puny one?",
         "tradeRequest": "Behold! For I am about to share the wealth of my empire!",
-        "outerColor": [90, 165, 195],
+        "outerColor": [70, 145, 175],
         "innerColor": [255, 255, 255],
         "uniqueName": "The Great Unification",
         "uniques": [
@@ -32,6 +32,37 @@
         ],
         "spyNames": [
             "Naram-Sin","Mulagunnuna","Telel","Nabua","Adini","Enheduanna","Tashlultum","Astarte","Inanna","Nin-Marki"
+        ]
+    },
+    {
+        "name": "Egypt",
+        "leaderName": "Ramesses II",
+        "adjective": ["Egyptian"],
+        "startBias": ["Avoid [Coast]","Desert"],
+        "preferredVictoryType": "Cultural",
+        "startIntroPart1": "We greet thee, oh great Ramesses, Pharaoh of Egypt, who causes the sun to rise and the Nile to flow, and who blesses his fortunate people with all the good things of life! Oh great lord, from time immemorial your people lived on the banks of the Nile river, where they brought writing to the world, and advanced mathematics, sculpture, and architecture. Thousands of years ago they created the great monuments which still stand tall and proud.",
+        "startIntroPart2": "Oh, Ramesses, for uncounted years your people endured, as other petty nations around them have risen and then fallen into dust. They look to you to lead them once more into greatness. Can you honor the gods and bring Egypt back to her rightful place at the very center of the world? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+        "attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+        "defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+        "introduction": "Greetings, I am Ramesses the god. I am the living embodiment of Egypt, mother and father of all civilizations.",
+        "neutralHello": "Good day.",
+        "hateHello": "Oh, it's you.",
+        "tradeRequest": "Generous Egypt makes you this offer.",
+        "outerColor": [ 231, 213, 0],
+        "innerColor": [98,10,210],
+        "uniqueName": "Monument Builders",
+        "uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"],
+        "cities": [
+            "Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Akhetaten","Hieraconpolis","Abydos",
+            "Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis","Mendes",
+            "Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+            "Balat","Ellahun","Kom Medinet Ghurab","Hawara","Dashur","Raqote","Damanhur","Merimde","Abusir","Herakleopolis",
+            "Akoris","Benihasan","Tasa","Badari","Hermopolis","Amrah","Negade","Koptos","Hermonthis","Ombos",
+            "Aniba","Soleb","Semna","Amara"
+        ],
+        "spyNames": [
+            "Refaat","Heba","Salah","Ahmed","Zakaria","Bastet","Ma'at","Nebhet","Tefenet","Neuth"
         ]
     },
     {
@@ -736,8 +767,8 @@
         "neutralHello": "What is your business with me?",
         "hateHello": "Step forward, worthy enemy!",
         "tradeRequest": "Let us trade.",
-        "outerColor": [65, 58, 21],
-        "innerColor": [157, 201, 107],
+        "outerColor": [30, 30, 21],
+        "innerColor": [255, 100, 0],
         "uniqueName": "Druidic Lore",
         "uniques": [
             "[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
@@ -823,8 +854,8 @@
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
-        "outerColor": [255, 255, 255],
-        "innerColor": [255, 0, 0],
+        "outerColor": [255, 220, 220],
+        "innerColor": [100, 0, 0],
         "uniques": [
             "[+1 Production, +3 Food] from every [Coast]",
             "[+300]% Production when constructing [Water] units [in all cities]",
@@ -841,15 +872,15 @@
         "declaringWar": "We have wanted this for a LONG time. War it shall be.",
         "attacked": "Very well, we will kick you back to the ancient era!",
         "defeated": "This isn't how it is supposed to be!",
-        "outerColor": [255, 255, 255],
-        "innerColor": [255, 0, 255],
+        "outerColor": [255, 200, 255],
+        "innerColor": [150, 40, 20],
         "uniques": [
             "[+1 Production, +3 Food] from every [Coast]",
             "[+300]% Production when constructing [Water] units [in all cities]",
             "Provides [10] [Iron] <hidden from users>",
             "Provides [10] [Human Resourses] <hidden from users>"
         ],
-        "cities": ["Mitau"]
+        "cities": ["Venice"]
     },
     // {
     //     "name": "Arabia",

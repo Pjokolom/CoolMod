@@ -804,7 +804,7 @@
             {
                 "name": "Atomic Theory",
                 "row": 3,
-                "prerequisites": ["Materials Science"],
+                "prerequisites": ["Superior firepower","Materials Science"],
                 "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
             },
             {

@@ -26,6 +26,7 @@
         "movementCost": 2,
         "RGB": [107,167,193],
         "uniques": [
+            "Coastal Water",
             "Doesn't generate naturally"
         ]
     },

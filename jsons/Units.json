@@ -7,6 +7,7 @@
         "unitType": "Civilian",
         "movement": 2,
         "uniques": [
+            "Unavailable <for [Sentinelese] Civilizations> <hidden from users>",
             "Can build [All] improvements on tiles",
             "Can build [Land] improvements on tiles",
             "Automation is a primary action"
@@ -84,6 +85,7 @@
         "obsoleteTech": "Metallurgy",
         "upgradesTo": "Airship",
         "uniques": [
+            "Unavailable <for [Sentinelese] Civilizations> <hidden from users>",
             "Consumes [1] [Human Resourses]",
             "May upgrade to [Archer] through ruins-like effects",
             "Never appears as a Barbarian unit",
@@ -201,7 +203,7 @@
 		"uniques": [ 
             "Never appears as a Barbarian unit", 
             "Can build [Sentinelese Houses] improvements on tiles",
-            "[-75]% maintenance costs",
+            "[-100]% maintenance costs",
             "Requires at least [2] population",
             "[-1] population [in this city]",
             "[1] population in a random city <for all movement> <by consuming this unit> <when above [70] HP>",
@@ -530,7 +532,6 @@
         "attackSound": "metalhit"
     },
     {
-        "name": "Carnyx",
         "name": "Carnyx",
         "unitType": "Sword",
         "movement": 2,
@@ -1028,6 +1029,26 @@
         ],
         "attackSound": "nonmetalhit"
     },
+        {
+        "name": "Gaul Langskip",
+        "unitType": "Ranged Water",
+        "movement": 4,
+        "uniqueTo": "Gaul",
+        "replaces": "Galley",
+        "strength": 10,
+        "rangedStrength": 12,
+        "cost": 60,
+        "requiredTech": "Siege-Ship",
+        "obsoleteTech": "Compass",
+        "upgradesTo": "Galleass",
+        "uniques": [
+            "[+75]% Strength <vs [Unarmored] units> <when attacking>",
+            "Consumes [2] [Human Resourses]",
+            "Can move after attacking",
+            "Earn [50]% of the damage done to [Embarked] units as [Gold]"
+        ],
+        "attackSound": "nonmetalhit"
+    },
 
     // Medieval Era
     {
@@ -1165,6 +1186,29 @@
             "Unbuildable"
         ],
         "upgradesTo": "Lancer",
+        "attackSound": "metalhit"
+    },
+        {
+        "name": "Galloglach",
+        "uniqueTo": "Gaul",
+        "replaces": "Landsknecht",
+        "unitType": "Sword",
+        "movement": 3,
+        "strength": 17,
+        "cost": 62,
+        "requiredTech": "Civil Service",
+        "uniques": [
+            "No movement cost to pillage",
+            "Can be purchased with [Gold] [in all cities]",
+            "Mercenary", 
+            "Unbuildable"
+        ],
+        "promotions": [
+            "Volley",
+            "Altitude Training"
+        ],
+        "upgradesTo": "Lancer",
+        "obsoleteTech": "Replaceable Parts",
         "attackSound": "metalhit"
     },
     {
@@ -1778,7 +1822,7 @@
             "Withdraws before melee combat <with [30]% chance>",
             "Can move after attacking",
             "Consumes [3] [Human Resourses]",
-            "Consumes [1] [Iron]"
+            "Consumes [2] [Iron]"
         ],
         "hurryCostModifier": 30,
         "attackSound": "cannon"
@@ -1998,6 +2042,7 @@
         "upgradesTo": "Destroyer",
         "promotions": ["Coastal Raider I"],
         "uniques": [
+            "Consumes [1] [Iron]",
             "Consumes [2] [Human Resourses]",
             "Can move after attacking"
         ],
@@ -2017,6 +2062,26 @@
             "[+60]% Strength <vs cities> <when attacking>",
             "Consumes [3] [Human Resourses]",
             "Consumes [2] [Iron]"
+
+        ],
+        "obsoleteTech": "Steam Power",
+        "upgradesTo": "Steam frigate",
+        "hurryCostModifier": 20,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Pram",
+        "unitType": "Ranged Water",
+        "movement": 2,
+        "strength": 20,
+        "rangedStrength": 30,
+        "cost": 185,
+        "requiredResource": "Iron",
+        "requiredTech": "Navigation",
+        "uniques": [
+            "[-50]% Strength <when fighting in [Ocean] tiles>",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]"
 
         ],
         "obsoleteTech": "Steam Power",
@@ -2060,6 +2125,7 @@
         "requiredTech": "Navigation",
         "obsoleteTech": "Steam Power",
         "uniques": [
+            "[+70]% maintenance costs",
             "[+100]% Strength <vs cities> <when attacking>",
             "[+45]% Strength <vs [Water] units> <when attacking>",
             "Consumes [3] [Human Resourses]",
@@ -2459,27 +2525,7 @@
         "upgradesTo": "Great War Infantry",
         "attackSound": "shot"
     },
-    {
-        "name": "Gallowglass",
-        "uniqueTo": "Gaul",
-        "replaces": "Rifleman",
-        "unitType": "Gunpowder",
-        "movement": 2,
-        "strength": 32,
-        "cost": 180,
-        "requiredResource": "Iron",
-        "requiredTech": "Metallurgy",
-        "uniques": [
-            "Consumes [1] [Human Resourses]"
-        ],
-        "promotions": [
-            "Volley",
-            "Altitude Training"
-        ],
-        "obsoleteTech": "Replaceable Parts",
-        "upgradesTo": "Great War Infantry",
-        "attackSound": "shot"
-    },
+
     {
         "name": "Cavalry",
         "unitType": "Mounted",
@@ -2812,7 +2858,6 @@
         "range": 2,
         "cost": 320,
         "requiredTech": "Dynamite",
-
         "obsoleteTech": "Rocketry",
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -2843,7 +2888,6 @@
         "range": 2,
         "cost": 320,
         "requiredTech": "Dynamite",
-
         "obsoleteTech": "Rocketry",
         "uniques": [
             "Consumes [1] [Human Resourses]",
@@ -3266,7 +3310,7 @@
         "strength": 110,
         "rangedStrength": 70,
         "range": 3,
-        "cost": 410,
+        "cost": 500,
         "requiredResource": "Oil",
         "requiredTech": "Very Heavy fleet",
         "upgradesTo": "Missile Cruiser",
@@ -4440,9 +4484,10 @@
         "movement": 2,
         "strength": 44,
         "range": 3,
-        "cost": 510,
+        "cost": 310,
         "requiredTech": "Superior firepower",
         "uniques": [
+            "Can carry [4] [MRL-Rocket] units",
             "Cannot attack",
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
@@ -4451,6 +4496,24 @@
         ],
         "promotions": [ "Indirect Fire"],
         "attackSound": "artillery"
+    },
+        {
+        "name": "MRL-Rocket",
+        "unitType": "Missile",
+        "movement": 2,
+        "strength": 50,
+        "rangedStrength": 75,
+        "range": 3,
+        "cost": 120,
+        "requiredTech": "Superior firepower",
+        "uniques": [
+            "[-2] Range <when not stacked with a [MRL] unit>",
+            "[-150]% Strength <when not stacked with a [MRL] unit>",
+            "[-100]% maintenance costs",
+            "[+110]% Strength <vs [Gunpowder] units>",
+            "[+150]% Strength <vs [Siege] units>"
+    ],
+        "attackSound": "missile"
     },
     {
         "name": "Mobile SAM",
