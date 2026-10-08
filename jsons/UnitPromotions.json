@@ -661,7 +661,7 @@
     {
         "name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
         "uniques": [
-            "Withdraws before melee combat <with [80]% chance>"
+            "Withdraws before melee combat <with [45]% chance>"
         ]
     },
     {

@@ -288,6 +288,24 @@
         "attackSound": "arrow"
     },
     {
+        "name": "Lawoi",
+        "unitType": "Archery",
+        "replaces": "Archer",
+        "uniqueTo": "Egypt",
+        "movement": 2,
+        "strength": 3,
+        "rangedStrength": 7,
+        "cost": 30,
+        "requiredTech": "Archery",
+        "obsoleteTech": "Engineering",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "[1] Range <in [Hill] tiles>"
+        ],
+        "upgradesTo": "Composite Bowman",
+        "attackSound": "arrow"
+    },
+    {
         "name": "Slinger",
         "unitType": "Archery",
         "movement": 2,
@@ -360,7 +378,47 @@
             "Can move after attacking",
             "Consumes [1] [Human Resourses]"
         ],
-        "upgradesTo": "Galleon",
+        "upgradesTo": "Caravel",
+        "obsoleteTech": "Galleons",
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Chinese junk",
+        "unitType": "Melee Water",
+        "replaces": "Trireme",
+        "uniqueTo": "China",
+        "movement": 3,
+        "strength": 11,
+        "cost": 40,
+        "requiredTech": "Optics",
+        "uniques": [
+            "[+25]% Strength <vs [Water] units> <when attacking>",
+            "[+25]% Strength <vs [Unarmored] units> <when attacking>",
+            "Cannot enter ocean tiles",
+            "Can move after attacking",
+            "Consumes [1] [Human Resourses]"
+        ],
+        "upgradesTo": "Caravel",
+        "obsoleteTech": "Galleons",
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Korean junk",
+        "unitType": "Melee Water",
+        "replaces": "Trireme",
+        "uniqueTo": "Korea",
+        "movement": 3,
+        "strength": 11,
+        "cost": 40,
+        "requiredTech": "Optics",
+        "uniques": [
+            "[+25]% Strength <vs [Water] units> <when attacking>",
+            "[+25]% Strength <vs [Unarmored] units> <when attacking>",
+            "Cannot enter ocean tiles",
+            "Can move after attacking",
+            "Consumes [1] [Human Resourses]"
+        ],
+        "upgradesTo": "Caravel",
         "obsoleteTech": "Galleons",
         "attackSound": "nonmetalhit"
     },
@@ -441,7 +499,24 @@
         ],
         "attackSound": "arrow"
     },
-
+    {
+        "name": "War Chariot",
+        "unitType": "Mounted Ranged",
+        "uniqueTo": "Egypt",
+        "replaces": "Chariot Archer",
+        "movement": 5,
+        "strength": 6,
+        "rangedStrength": 10,
+        "cost": 56,
+        "requiredTech": "The Wheel",
+        "upgradesTo": "Knight",
+        "obsoleteTech": "Chivalry",
+        "uniques": [
+            "No defensive terrain bonus",
+            "Rough terrain penalty"
+        ],
+        "attackSound": "arrow"
+    },
     {
         "name": "War Elephant",
         "unitType": "Mounted Ranged",
@@ -1469,8 +1544,10 @@
         "unitType": "Armored Man",
         "uniqueTo": "Japan",
         "movement": 4,
+        "cost": 1000,
         "strength": 23,
         "uniques": [
+            "Limited to [1] per Civilization",
             "Unbuildable",
             "Can move after attacking",
             "[+65]% Strength bonus for [Samurai] units within [2] tiles",
@@ -3212,6 +3289,23 @@
         "attackSound": "shot"
     },
     {
+        "name": "Whampoa soldier",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "uniqueTo": "China",
+        "replaces": "Infantry",
+        "strength": 70,
+        "cost": 410,
+        "requiredTech": "Electronics",
+        "upgradesTo": "Mechanized Infantry",
+        "uniques": [
+            "Earn [40]% of the damage done to [Person] units as [Culture]",
+            "Consumes [2] [Human Resourses]"
+        ],
+        "obsoleteTech": "Mobile Tactics",
+        "attackSound": "shot"
+    },
+    {
         "name": "Lunge Mine",
         "uniqueTo": "Japan",
         "unitType": "Gunpowder",
@@ -4130,6 +4224,26 @@
         "attackSound": "tankshot"
     },
     {
+        "name": "Type 32 Qinglong",
+        "unitType": "Medium Tank",
+        "uniqueTo": "China",
+        "replaces": "Medium Tank",
+        "movement": 4,
+        "strength": 100,
+        "cost": 575,
+        "requiredTech": "Medium Tanks",
+        "requiredResource": "Oil",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "Consumes [3] [Iron]",
+            "Can move after attacking",
+            "[+40]% Strength <vs [Armored] units> <when attacking>",
+            "[+40]% Strength <vs [Person] units> <when defending>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
         "name": "Retribution",
         "unitType": "Medium Tank",
         "movement": 4,
@@ -4640,12 +4754,27 @@
     },
     {
         "name": "Mechanized Infantry",
-        "unitType": "Gunpowder",
-        "movement": 3,
+        "unitType": "Armored",
+        "movement": 4,
         "strength": 110,
         "cost": 450,
         "requiredTech": "Mobile Tactics",
-        "uniques": ["Never appears as a Barbarian unit"],
+        "uniques": [
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "Supersoldier",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 120,
+        "cost": 450,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "[+30]% Strength <vs [Armored] units> <when defending>",
+            "Never appears as a Barbarian unit"
+        ],
         "attackSound": "tankshot"
     },
     {
