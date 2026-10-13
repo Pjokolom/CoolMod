@@ -661,8 +661,7 @@
             {
                 "name": "Mercenary Army",
                 "uniques": [
-                    "[Gold] cost of purchasing [Cuman] units [-50]%",
-                    "[Gold] cost of purchasing [Landsknecht] units [-50]%",
+                    "[Gold] cost of purchasing [Mercenary] units [-50]%",
                     // "Comment [Allows purchasing [Landsknecht] at [Civil Service]]",
                     // "Comment [Allows purchasing [Cuman] at [Chivalry]]",
                     // "Comment [Allows purchasing [Foreign Legion] at [Replaceable Parts]]",

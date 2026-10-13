@@ -1361,6 +1361,27 @@
         ],
         "attackSound": "horse"
     },
+        {
+        "name": "Szlachcic",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 20,
+        "uniqueTo": "Poland",
+        "replaces": "Knight",
+        "cost": 80,
+        "requiredTech": "Chivalry",
+        "obsoleteTech": "Military Science",
+        "upgradesTo": "Cavalry",
+        "requiredResource": "Horses",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "horse"
+    },
     {
         "name": "Saint",
         "unitType": "Armored Man",
@@ -2110,6 +2131,27 @@
         "attackSound": "shot"
     },
     {
+        "name": "Sea Dog",
+        "unitType": "Melee Water",
+        "movement": 5,
+        "strength": 26,
+        "uniqueTo": "England",
+        "replaces": "Privateer",
+        "cost": 150,
+        "requiredTech": "Navigation",
+        "upgradesTo": "Destroyer",
+        "promotions": ["Coastal Raider I"],
+        "uniques": [
+            "Can be purchased with [Gold] [in all cities]",
+            "[-20]% Strength <vs cities> <when attacking>",
+            "Mercenary",
+            "Unbuildable",
+            "Invisible to non-adjacent units",
+            "Can move after attacking"
+        ],
+        "attackSound": "cannon"
+    },
+    {
         "name": "Privateer",
         "unitType": "Melee Water",
         "movement": 5,
@@ -2119,13 +2161,14 @@
         "upgradesTo": "Destroyer",
         "promotions": ["Coastal Raider I"],
         "uniques": [
-            "Consumes [1] [Iron]",
-            "Consumes [2] [Human Resourses]",
+            "Can be purchased with [Gold] [in all cities]",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Mercenary",
+            "Unbuildable",
             "Can move after attacking"
         ],
         "attackSound": "cannon"
     },
-
     {
         "name": "Frigate",
         "unitType": "Ranged Water",
