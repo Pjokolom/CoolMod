@@ -797,7 +797,7 @@
             "Can only be built on [Coastal] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ],
-        "techRequired": "Gunpowder",
+        "techRequired": "Writing",
         "shortcutKey": "M"
     },
     {

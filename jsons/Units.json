@@ -1171,7 +1171,8 @@
         "cost": 90,
         "requiredTech": "Civil Service",
         "uniques": ["[+70]% Strength <vs cities> <when defending>","[+60]% Strength <vs [Archery] units> <when defending>","Consumes [1] [Human Resourses]"],
-        "obsoleteTech": "Metallurgy",
+        "upgradesTo": "Mantelet_G",
+        "obsoleteTech": "Gunpowder",
         "attackSound": "metalhit"
     },
     {
@@ -1188,8 +1189,25 @@
             "[+60]% Strength <vs [Archery] units> <when defending>",
             "Consumes [1] [Human Resourses]"
         ],
-        "obsoleteTech": "Metallurgy",
+        "upgradesTo": "Mantelet_G",
+        "obsoleteTech": "Gunpowder",
         "attackSound": "metalhit"
+    },
+        {
+        "name": "Mantelet_G",
+        "unitType": "Gunpowder",
+        "movement": 1,
+        "strength": 22,
+        "cost": 150,
+        "requiredTech": "Gunpowder",
+        "uniques": [
+            "[+80]% Strength <vs cities> <when defending>",
+            "[+60]% Strength <vs [Ranged] units> <when defending>",
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]"
+        ],
+        "obsoleteTech": "Rifling",
+        "attackSound": "shot"
     },
     {
         "name": "Kropach",
