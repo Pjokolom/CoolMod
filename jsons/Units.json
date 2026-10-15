@@ -699,7 +699,7 @@
             "[-25]% Strength <vs cities> <when attacking>"
         ],
         "hurryCostModifier": 20,
-        "attackSound": "horse"
+        "attackSound": "pferd"
     },
 
     {
@@ -1377,7 +1377,7 @@
             "[-33]% Strength <vs cities> <when attacking>",
             "Never appears as a Barbarian unit"
         ],
-        "attackSound": "horse"
+        "attackSound": "pferd"
     },
         {
         "name": "Szlachcic",
@@ -1613,7 +1613,7 @@
             "No defensive terrain bonus"
         ],
         "promotions": ["Quick Study"],
-        "attackSound": "horse"
+        "attackSound": "pferd"
     },
 
 
@@ -1687,6 +1687,25 @@
         ],
         "obsoleteTech": "Rifling",
         "promotions": ["Extended Range"],
+        "attackSound": "arrow"
+    },
+        {
+        "name": "Parpachy",
+        "unitType": "Archery",
+        "replaces": "Crossbowman",
+        "uniqueTo": "Finokarelia",
+        "range": 2,
+        "movement": 2,
+        "strength": 13,
+        "rangedStrength": 18,
+        "cost": 120,
+        "requiredTech": "Machinery",
+        "upgradesTo": "Gatling Gun",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Double movement in [Forest]"
+        ],
+        "obsoleteTech": "Rifling",
         "attackSound": "arrow"
     },
     {
@@ -1862,7 +1881,7 @@
         "upgradesTo": "Cavalry",
         "obsoleteTech": "Military Science",
         "requiredResource": "Horses",
-        "attackSound": "metalhit"
+        "attackSound": "pferd"
     },
 
     // Rennaisance Era
@@ -2300,7 +2319,7 @@
     },
     {
         "name": "Lancer",
-        "unitType": "Mounted",
+        "unitType": "Armored Man Mounted",
         "movement": 4,
         "strength": 25,
         "cost": 185,
@@ -2342,17 +2361,19 @@
         "name": "Battle Wagon",
         "unitType": "Siege",
         "movement": 3,
-        "replaces": "Lancer",
+        "replaces": "Mantelet_G",
         "uniqueTo": "Czechia",
-        "strength": 25,
+        "strength": 23,
         "rangedStrength": 30,
         "cost": 300,
         "requiredTech": "Metallurgy",
         "requiredResource": "Horses",
         "uniques": [
+            "[+80]% Strength <vs cities> <when defending>",
+            "[+60]% Strength <vs [Ranged] units> <when defending>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
-            "[-10]% Strength <vs cities> <when attacking>",
+            "[-20]% Strength <vs cities> <when attacking>",
             "[+45]% Strength <vs [Unarmored] units>",
             "Never appears as a Barbarian unit",
             "Consumes [3] [Human Resourses]"
@@ -2365,9 +2386,9 @@
         "name": "Winged Hussar",
         "replaces": "Lancer",
         "uniqueTo": "Poland",
-        "unitType": "Mounted",
+        "unitType": "Armored Man Mounted",
         "movement": 5,
-        "strength": 28,
+        "strength": 27,
         "cost": 185,
         "requiredTech": "Metallurgy",
         "requiredResource": "Horses",
@@ -2384,7 +2405,28 @@
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
     },
-
+{
+        "name": "Cuirassier",
+        "replaces": "Lancer",
+        "uniqueTo": "Czechia",
+        "unitType": "Armored Man Mounted",
+        "movement": 4,
+        "strength": 26,
+        "cost": 185,
+        "requiredTech": "Metallurgy",
+        "requiredResource": "Horses",
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+33]% Strength <vs [Armored] units>",
+            "[+33]% Strength <vs [Mounted] units>"
+        ],
+        "promotions": ["Heavy Charge"],
+        "upgradesTo": "Anti-Tank Rifle",
+        "obsoleteTech": "Railroads",
+        "attackSound": "horse"
+    },
     {
         "name": "Cannon",
         "unitType": "Siege",
@@ -3012,6 +3054,35 @@
         "promotions": ["Indirect Fire"],
         "attackSound": "artillery"
     },
+        {
+        "name": "Extractor",
+        "unitType": "Abyssborn",
+        "movement": 2,
+        "strength": 21,
+        "rangedStrength": 28,
+        "range": 2,
+        "cost": 320,
+        "requiredTech": "Dynamite",
+        "obsoleteTech": "Rocketry",
+        "uniques": [
+            "Consumes [3] [Human Resourses]",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Only available <in cities with a [Secret Cult] religion>",
+            "Can be purchased for [500] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit",
+            "Will not be displayed in Civilopedia",
+            "Never appears as a Barbarian unit",
+            "[+100]% Strength <vs [Light Tank] units>",
+            "[+110]% Strength <vs [Duopod Unit] units>",
+            "[+70]% Strength <vs [Medium Tank] units>",
+            "[+150]% Strength <vs [Tripod Unit] units>",
+            "[+35]% Strength <vs [Heavy Tank] units>"
+        ],
+        "attackSound": "spell"
+    },
     {
         "name": "Artilerie de munte",
         "unitType": "Siege",
@@ -3441,10 +3512,15 @@
             "Consumes [6] [Human Resourses]",
             "Can Move After Attacking",
             "Only available <if [Abyss Gates] is constructed>",
+            "Only available <in cities with a [Secret Cult] religion>",
+            "Can be purchased for [1000] [Faith] [in all cities in which the majority religion is an enhanced religion]",
+            "Only available <when religion is enabled>",
+            "Unbuildable",
+            "Religious Unit",
             "Will not be displayed in Civilopedia",
             "Monster"
         ],
-        "attackSound": "nonmetalhit"
+        "attackSound": "topp"
     },
     {
         "name": "Bloodsea",
