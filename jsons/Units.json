@@ -2075,6 +2075,21 @@
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
     },
+        {
+        "name": "MusketmanA",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 28,
+        "uniques": [
+            "Consumes [1] [Human Resourses]",
+            "Consumes [1] [Iron]"
+        ],
+        "cost": 160,
+        "requiredTech": "Advansed Cannons",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Rifling",
+        "attackSound": "shot"
+    },
     {
         "name": "Auror",
         "unitType": "Gunpowder",
