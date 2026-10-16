@@ -2116,7 +2116,7 @@
         "strength": 24,
         "cost": 150,
         "requiredTech": "Gunpowder",
-        "upgradesTo": "Rifleman",
+        "upgradesTo": "MusketmanA",
         "obsoleteTech": "Rifling",
         "uniques": [
             
@@ -2137,7 +2137,7 @@
         "strength": 24,
         "cost": 135,
         "requiredTech": "Gunpowder",
-        "upgradesTo": "Rifleman",
+        "upgradesTo": "MusketmanA",
         "uniques": [
             "Consumes [1] [Human Resourses]",
             "Consumes [1] [Iron]"
@@ -2149,10 +2149,10 @@
     {
         "name": "Tercio",
         "unitType": "Sword",
-        "replaces": "Musketman",
+        "replaces": "MusketmanA",
         "uniqueTo": "Iberica",
         "movement": 2,
-        "strength": 26,
+        "strength": 29,
         "cost": 160,
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
