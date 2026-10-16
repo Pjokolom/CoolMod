@@ -442,7 +442,7 @@
             {
                 "name": "Rifling",
                 "row": 7,
-                "prerequisites": ["Metallurgy"],
+                "prerequisites": ["Advansed Cannons","Metallurgy"],
                 "quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
             },
             {
