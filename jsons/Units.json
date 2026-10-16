@@ -2072,7 +2072,7 @@
         ],
         "cost": 150,
         "requiredTech": "Gunpowder",
-        "upgradesTo": "Rifleman",
+        "upgradesTo": "MusketmanA",
         "obsoleteTech": "Rifling",
         "attackSound": "shot"
     },
