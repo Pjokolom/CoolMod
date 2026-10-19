@@ -908,10 +908,6 @@
         "resourceType": "Luxury",
         "uniques": ["Doesn't generate naturally"]
     },
-        {
-        "name": "Dragon Egg", 
-        "resourceType": "Strategic"
-    },
     {
         "name": "High quality vase", 
         "gold": 1,
