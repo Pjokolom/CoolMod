@@ -791,6 +791,7 @@
     {
         "name": "Sentinelese",
         "adjective": ["Sentinelese"],
+        "style": "Sentinelese",
         "cityStateType": "Sentinelese",
         "declaringWar": "...",
         "attacked": "...",

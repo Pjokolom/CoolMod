@@ -201,7 +201,12 @@
     {
         "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Person","Can enter ice tiles","Invisible to non-adjacent units","Can see invisible [Submarine] units"]
+        "uniques": [
+            "Person",
+            "Can enter ice tiles",
+            "Invisible to non-adjacent units",
+            "Can see invisible [Submarine] units"
+        ]
     },
     {
         "name": "Aircraft Carrier",

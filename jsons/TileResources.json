@@ -17,7 +17,7 @@
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": ["Grassland","Plains"],
         "food": 1,
-        "improvedBy": ["Camp", "Tipi"],
+        "improvedBy": ["Camp"],
         "improvementStats": {"production": 1},
         "uniques": [
             "Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
@@ -38,7 +38,7 @@
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": ["Forest","Tundra"],
         "food": 1,
-        "improvedBy": ["Camp", "Tipi"],
+        "improvedBy": ["Camp"],
         "improvementStats": {"production": 1},
         "uniques": [
             "Generated on every [8] tiles <in [{Featureless} {Tundra}] tiles>",
@@ -907,6 +907,10 @@
         "gold": 2,
         "resourceType": "Luxury",
         "uniques": ["Doesn't generate naturally"]
+    },
+        {
+        "name": "Dragon Egg", 
+        "resourceType": "Strategic"
     },
     {
         "name": "High quality vase", 

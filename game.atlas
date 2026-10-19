@@ -7643,6 +7643,13 @@ TileSets/HexaRealm/Tiles/City center-Sentinelese
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/City center-Sentinelese-Ancient era
+  rotate: false
+  xy: 580, 1988
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/City ruins
   rotate: false
   xy: 4, 1075
