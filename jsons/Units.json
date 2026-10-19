@@ -1255,6 +1255,7 @@
         "cost": 90,
         "requiredTech": "Civil Service",
         "uniques": [
+            "Consumes [1] [Human Resourses]",
             "[+50]% Strength <vs [Mounted] units>",
             "[+50]% Strength <vs [Sword] units> <when defending>"
         ],
@@ -1737,7 +1738,7 @@
         "upgradesTo": "Cannon",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Human Resourses]",
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
@@ -1761,7 +1762,7 @@
         "upgradesTo": "Cannon",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "Consumes [1] [Human Resourses]",
+            "Consumes [2] [Human Resourses]",
             "[+200]% Strength <vs [Unarmored] units> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack"
