@@ -71,6 +71,7 @@
     {
         "name": "China",
         "leaderName": "Wu Zetian",
+        "style": "ass",
         "adjective": ["Chinese"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Scientific",
@@ -692,6 +693,7 @@
     {
         "name": "Japan",
         "leaderName": "Oda Nobunaga",
+        "style": "ass",
         "adjective": ["Japanese"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Domination",
@@ -738,8 +740,8 @@
         "neutralHello": "Hello.",
         "hateHello": "Oh, it's you",
         "tradeRequest": "We have many things to discuss and have much to benefit from each other.",
-        "outerColor": [255,255,255],
-        "innerColor": [0,45,220],
+        "outerColor": [230,210,210],
+        "innerColor": [0,0,225],
         "uniqueName": "Scholars of the Jade Hall",
         "uniques": [
             "[+1 Science] from every specialist [in all cities]",

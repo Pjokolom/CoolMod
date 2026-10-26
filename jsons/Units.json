@@ -2172,7 +2172,7 @@
         "cost": 160,
         "requiredTech": "Gunpowder",
         "uniques": [
-            "[+60]% Strength <vs [Wounded] units>",
+            "[+40]% Strength <vs [Wounded] units>",
             "[+50]% Strength <vs [Person] units> <when attacking>",
             "Only available <in cities with a [Mystic Rituals] religion>",
             "Can be purchased for [359] [Faith] [in all cities]",
@@ -2672,7 +2672,7 @@
         "cost": 225,
         "requiredTech": "Rifling",
         "uniques": [
-            "[+60]% Strength <vs [Wounded] units>",
+            "[+40]% Strength <vs [Wounded] units>",
             "Only available <in cities with a [Mystic Rituals] religion>",
             "Can be purchased for [430] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "Only available <when religion is enabled>",
