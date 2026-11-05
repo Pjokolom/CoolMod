@@ -3001,6 +3001,7 @@
         "upgradesTo": "Helicopter Gunship",
         "requiredTech": "Flight",
         "uniques": [
+            "Limited to [2] per Civilization",
             "Can carry [3] [Aircraft] units",
             "Consumes [4] [Human Resourses]",
             "Consumes [1] [Aluminum]",
