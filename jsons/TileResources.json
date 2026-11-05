@@ -63,7 +63,7 @@
         "name": "Wheat",
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
-        "food": 1,
+        "food": 3,
         "improvement": "Farm",
         "uniques": [
             "Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",

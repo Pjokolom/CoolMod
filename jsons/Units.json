@@ -1777,7 +1777,7 @@
         "strength": 21,
         "cost": 120,
         "requiredTech": "Steel",
-        "upgradesTo": "Musketman",
+        "upgradesTo": "MusketmanU",
         "obsoleteTech": "Gunpowder",
         "uniques": [
             "Consumes [1] [Human Resourses]"
@@ -1812,7 +1812,7 @@
         "strength": 21,
         "cost": 120,
         "requiredTech": "Metal Casting",
-        "upgradesTo": "Musketman",
+        "upgradesTo": "MusketmanU",
         "obsoleteTech": "Gunpowder",
         "requiredResource": "Iron",
         "uniques": [
@@ -1858,7 +1858,7 @@
             "Consumes [1] [Human Resourses]",
             "Earn [200]% of killed [Military] unit's [Strength] as [Faith]"
         ],
-        "upgradesTo": "Musketman",
+        "upgradesTo": "MusketmanU",
         "obsoleteTech": "Gunpowder",
         "requiredResource": "Iron",
         "attackSound": "metalhit"
@@ -2062,7 +2062,7 @@
         "attackSound": "cannon"
     },
     {
-        "name": "Musketman",
+        "name": "MusketmanU",
         "unitType": "Gunpowder",
         "movement": 2,
         "strength": 24,
@@ -2111,7 +2111,7 @@
     {
         "name": "Serdiuk",
         "unitType": "Gunpowder",
-        "replaces": "Musketman",
+        "replaces": "MusketmanU",
         "uniqueTo": "Hetmanate",
         "movement": 2,
         "strength": 24,
@@ -2132,7 +2132,7 @@
     { // Note for downstream forks: and longswordman image is provided for a "Black Legion varient of this unit
         "name": "Hussit",
         "unitType": "Gunpowder",
-        "replaces": "Musketman",
+        "replaces": "MusketmanU",
         "uniqueTo": "Czechia",
         "movement": 2,
         "strength": 24,
@@ -2595,7 +2595,7 @@
     {
         "name": "Organ Cannon",
         "unitType": "Siege",
-        "movement": 2,
+        "movement": 3,
         "uniqueTo": "Finokarelia",
         "replaces": "Ribadequin",
         "strength": 14,

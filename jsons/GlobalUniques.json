@@ -67,8 +67,8 @@
 
 
         // something something unit supply
-        "[+1 Food] from every [Mill] <with [1] to [6] neighboring [Farm] tiles>",
-        "[+1 Food] from every [Mill] <with [2] to [6] neighboring [Farm] tiles>",
+        "[+2 Food] from every [Mill] <with [1] to [6] neighboring [Farm] tiles>",
+        "[+2 Food] from every [Mill] <with [2] to [6] neighboring [Farm] tiles>",
         "[+2 Food] from every [Mill] <with [3] to [6] neighboring [Farm] tiles>",
         "[+2 Food] from every [Mill] <with [4] to [6] neighboring [Farm] tiles>",
         "[+2 Food] from every [Mill] <with [5] to [6] neighboring [Farm] tiles>",

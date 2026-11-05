@@ -821,7 +821,7 @@
         ]
     },
     {
-        "name": "Sauna",
+        "name": "Sauna", 
         "uniques": [
             "[+10] HP when healing <in [Friendly] tiles>"
         ]

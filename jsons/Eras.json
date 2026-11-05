@@ -83,7 +83,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Musketman",
+        "startingMilitaryUnit": "MusketmanU",
         "startingGold": 100,
         "startingCulture": 400,
         "settlerPopulation": 3,

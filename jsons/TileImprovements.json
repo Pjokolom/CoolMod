@@ -204,7 +204,7 @@
         ],
             "civilopediaText": [
     {
-        "text": "+1 food for every neighboring farm tile."
+        "text": "+2 food for every neighboring farm tile."
     }
         ],
         "shortcutKey": "F"
@@ -212,11 +212,11 @@
     {
         "name": "Lumber mill",
         "terrainsCanBeBuiltOn": ["Forest"],
-        "production": 1,
+        "production": 2,
         "turnsToBuild": 7,
         "techRequired": "Bronze",
         "uniques": [
-            "[+1 Production] <after discovering [Steel]>",
+            "[+2 Production] <after discovering [Steel]>",
             "[+1 Science] <after discovering [Materials Science]>",
             "Can only be built to improve a resource <in [resource] tiles>",
             "Pillaging this improvement yields approximately [+10 Gold]"
