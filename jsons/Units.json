@@ -1817,7 +1817,7 @@
         "requiredResource": "Iron",
         "uniques": [
             "Consumes [1] [Human Resourses]",
-            "[+100]% Strength <when attacking>"
+            "[+100]% Strength <vs [Unarmored] units> <when attacking>"
         ],
         "promotions": ["Amphibious"],
         "hurryCostModifier": 20,
